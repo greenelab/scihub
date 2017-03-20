@@ -451,7 +451,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.3835	The Plant Genome	59	330	0.1788
 10.2136	Soil Science Society of America	1.179e+04	24123	0.4888
 10.2137	MTT Agrifood Research Finland	0	239	0
-10.2139	Social Science Electronic Publishing	143	270809	0.000528
 10.1575	MBLWHOI Library	0	1902	0
 10.2141	Japan Poultry Science Association	0	2485	0
 10.2142	Biophysical Society of Japan	116	3634	0.03192
@@ -585,7 +584,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.1662	BioOne (National Association of Biology Teachers)	1160	1	1160
 10.1664	BioOne (New York Entomological Society)	303	305	0.9934
 10.1665	BioOne (Orthopterist's Society)	408	468	0.8718
-10.1666	BioOne (Paleontological Society)	2285	94	24.31
 10.1667	BioOne (Radiation Research Society)	3062	3269	0.9367
 10.1668	BioOne (Society for Integrative and Comparative Biology)	216	218	0.9908
 10.1670	BioOne (Society for the Study of Amphibians & Reptiles)	1473	1496	0.9846
@@ -604,7 +602,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.2179	BioOne (Castanea)	569	598	0.9515
 10.2181	BioOne (JANAS)	121	132	0.9167
 10.2192	BioOne (Ursus)	281	297	0.9461
-10.2193	BioOne (Wildlife Society Bulletin)	2137	20	106.8
 10.2457	The Japan Section of the Regional Science Association International	0	1636	0
 10.2460	American Veterinary Medical Association	1.048e+04	11072	0.9467
 10.2466	Ammons Scientific	2.932e+04	56	523.7
@@ -713,7 +710,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.2971	European Optical Society	2	545	0.00367
 10.2991	Atlantis Press	1734	58378	0.0297
 10.1148	Radiological Society of North America	3.852e+04	61180	0.6296
-10.2986	Theological Research Exchange Network	0	8367	0
 10.2995	Japanese Association for Chest Surgery	0	3418	0
 10.2992	BioOne (Carnegie Museum of Natural History)	203	213	0.9531
 10.2993	BioOne (Society of Ethnobiology)	301	305	0.9869
@@ -924,7 +920,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.3731	21st Century COE Program (Toplogical Science and Technology)	0	40	0
 10.3738	Fundacao Educational de Ituverava	12	640	0.01875
 10.3736	Journal of Chinese Integrative Medicine Press	46	1884	0.02442
-10.3737	The e-Crystals Federation	0	617	0
 10.3733	University of California Agriculture and Natural Resources (UC ANR)e	64	1817	0.03522
 10.3740	The Materials Research Society of Korea	4	1959	0.002042
 10.3741	Korea Water Resources Association	0	1429	0
@@ -1149,10 +1144,8 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.4011	Japan Society of Colour Material	4464	4930	0.9055
 10.4012	Japanese Society for Dental Materials and Devices	397	2141	0.1854
 10.4013	Universidade do Vale do Rio Dos Sinos - UNISINOS	2	3340	0.0005988
-10.13003		0	1	0
 10.4018	IGI Global	278	132249	0.002102
 10.4017	International Society for Gerontechnology	0	2476	0
-10.4016	SciVee, Inc.	0	16578	0
 10.4015	National Taiwan University	858	951	0.9022
 10.4014	Korean Society for Microbiology and Biotechnology	29	2130	0.01362
 10.4019	Japan Society of Coordination Chemistry	0	103	0
@@ -1182,7 +1175,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.4048	Korean Breast Cancer Society (KAMJE)	5	934	0.005353
 10.4049	The American Association of Immunologists	2.858e+04	28475	1.004
 10.4050	American Helicopter Society	1577	1620	0.9735
-10.4053	National Nanomanufacturing Network	1	638	0.001567
 10.4052	Forum: Carbohydrates Coming of Age	0	1168	0
 10.4051	Korean Society for Bioinformatics and Systems Biology	54	115	0.4696
 10.4054	Max Planck Institute for Demographic Research	11	1070	0.01028
@@ -1318,10 +1310,8 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.4237	Programa de Pos Graduacao em Arquitetura e Urbanismo	8	228	0.03509
 10.4238	Genetics and Molecular Research	200	6915	0.02892
 10.4241	The Association for Plant Protection of Kyushu	0	2860	0
-10.4246	moved to DataCite	0	2	0
 10.4247	Society of Adaptive Science in Taiwan	0	145	0
 10.4250	Korean Society of Echocardiography (KAMJE)	3	407	0.007371
-10.4242	Mulberry Technologies, Inc.	0	355	0
 10.4243	The Hebrew University Magnes Press	0	14	0
 10.4244	Europa Digital and Publishing	7	2505	0.002794
 10.4245	Spontaneous Generations	0	154	0
@@ -1539,7 +1529,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5197	British Society for Plant Pathology	3	410	0.007317
 10.5176	Global Science and Technology Forum	305	4957	0.06153
 10.5214	Indian Academy of Neurosciences	186	561	0.3316
-10.5133	Egyptian Journal of Surgery	0	1	0
 10.5199	Association of Sport Tourism and Recreation	2	91	0.02198
 10.5200	Association of Lithuaninan Serials	0	775	0
 10.5216	Universidade Federal de Goias	9	8170	0.001102
@@ -1617,7 +1606,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5300	CSTUG	0	392	0
 10.5269	Sociedade Paranaense de Matematica	3	398	0.007538
 10.5307	Korean Society for Agricultural Machinery	2	815	0.002454
-10.5301	Wichtig Publishing, SRL	946	6718	0.1408
 10.5311	Journal of Spatial Information Science 	1	80	0.0125
 10.5322	The Korean Environmental Science Society	0	2352	0
 10.5323	Association for the Study of African American Life and History	553	679	0.8144
@@ -1790,7 +1778,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5550	Faculty of Physical Education and Sport	0	315	0
 10.5418	ANPEGE - Revista	0	280	0
 10.5540	Brazilian Society for Computational and Applied Mathematics	1	2133	0.0004688
-10.5542	International Health Academy	0	10	0
 10.5548	National Institute of Practical Analytical Meditation	0	1	0
 10.5571	The Editorial Committee of Synthesiology	0	643	0
 10.5570	European Defendology Center	0	75	0
@@ -1886,7 +1873,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5666	Department of Mathematics, Kyungpook National University	133	565	0.2354
 10.5667	Association of Genuine Traditional Korean Medicine	0	155	0
 10.5668	Korean Society of Environmental Health	1	566	0.001767
-10.5602	Journal of Orofacial and Health Science	0	1	0
 10.5674	Japanese Society for Physiological Psychology and Psychophysiology	0	448	0
 10.5685	The Japanese Society of Plant Morphology	0	287	0
 10.5686	Japanese Society of Zoo and Wildlife Medicine	0	69	0
@@ -1925,7 +1911,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5711	Military Operations Research Society	0	640	0
 10.5723	Korean Association of Child Studies	0	438	0
 10.5721	Associazione Italiana di Telerilevamento	6	381	0.01575
-10.5717	Korean Society for Exercise Nutrition	4	1	4
 10.5700	Business Department, School of Economics, Business & Accounting	46	496	0.09274
 10.5728	Cornell SEAP	137	165	0.8303
 10.5737	Pappin Communications	1	532	0.00188
@@ -1937,7 +1922,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5698	American Epilepsy Society	2	1271	0.001574
 10.5643	Momentum Press	1	34	0.02941
 10.5696	Blacksmith Institute	0	92	0
-10.5705	Institute of Statistical Science, Academia Sinica	34	585	0.05812
 10.5732	Editorial Office of Chinese Journal of Cancer	8	658	0.01216
 10.5735	BioOne (Finnish Zoological and Botanical Publishing Board)	962	969	0.9928
 10.5734	Korean Society of Medical Genetics	0	143	0
@@ -2046,7 +2030,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.5845	Research Society of Buddhism and Cultural Heritage	0	202	0
 10.5849	Society of American Foresters	809	1089	0.7429
 10.5821	Iniciativa Digital Politecnica	0	361	0
-10.5832	Radiomatix	0	1922	0
 10.5850	The Korean Society of Clothing and Textiles	0	1240	0
 10.5837	Medinews (Cardiology), Ltd.	0	229	0
 10.5847	World Journal of Emergency Medicine	1	356	0.002809
@@ -2270,7 +2253,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.7137	KEDGE	0	5	0
 10.7192	Japan Society of Sport Anthropology	0	48	0
 10.7191	University of Massachusetts Medical School	1	161	0.006211
-10.7174	Wyzsza Szkola Handlu I Uslug	0	1	0
 10.7202	Consortium Erudit	5.538e+04	93020	0.5953
 10.7199	Pediatric Oncall	0	251	0
 10.7185	European Association of Geochemistry	1	59	0.01695
@@ -2357,7 +2339,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.7320	Fondazione Pro Herbario Mediterraneo	1	153	0.006536
 10.7332	Immediate Science Ecology	0	5	0
 10.7448	International AIDS Society	125	1515	0.08251
-10.7435	Centro Universitario Italo Brasileiro	0	2	0
 10.7238	Fundacio per la Universitat Oberta de Catalunya	156	892	0.1749
 10.15440	Problemata: International Journal of Philosophy	0	44	0
 10.7443	Problemata: International Journal of Philosophy	0	247	0
@@ -2459,7 +2440,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.7578	Fundacion Ciencia Joven	0	10	0
 10.7718	International Association of Multidisciplinary Research	1	894	0.001119
 10.7707	Hamdan Medical Journal	2	443	0.004515
-10.7711	Fondazione Eni Enrico Mattei	0	103	0
 10.7719	Philippine Association of Institutions for Research 	0	424	0
 10.7709	Journal of Negro Education	216	297	0.7273
 10.7726	Columbia International Publishing	6	426	0.01408
@@ -2661,7 +2641,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.9759	Japan Society of Health Promotion and Physical Therapy	0	153	0
 10.9761	Journal of Academic Social Science Studies	0	1936	0
 10.9755	Faculty of Food and Agriculture, United Arab Emerites University	286	860	0.3326
-10.9754	Webmed Limited	0	1560	0
 10.9740	College of Psychiatric and Neurologic Pharmacists	0	521	0
 10.9738	International College of Surgeons	456	789	0.5779
 10.9756	Bonfring	1	495	0.00202
@@ -2708,7 +2687,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.9790	IOSR Journals	38	27407	0.001387
 10.11113	Penerbit UTM Press	0	4791	0
 10.11114	Redfame Publishing	2	1543	0.001296
-10.11115	Caspian Journal of Applied Sciences Research	0	1	0
 10.11116	Leuven University Press	53	89	0.5955
 10.11117	Instituto Brasiliense de Direito Publico	0	832	0
 10.11118	Mendel University Press	4	2782	0.001438
@@ -2948,7 +2926,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.12928	Universitas Ahmad Dahlan 	25	1801	0.01388
 10.12930	National Academic Advising Association NACADA	0	669	0
 10.12945	Science International Corporation	0	510	0
-10.12947	EarthSpace	0	45	0
 10.12949	Japan Association of Real Options and Strategy	0	56	0
 10.12950	Japanese Society of Radiation Safety Management	0	58	0
 10.12951	Japan Veterinary Cancer Society	0	85	0
@@ -2958,7 +2935,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.12932	Allergy, Asthma, and Immunology Association of Thailand	0	176	0
 10.12699	French-Vietnamese Association of Pulmonology	0	55	0
 10.12953	Revista de Ciencia da Madeira	0	125	0
-10.12954	Asian Pacific Prostate Society	32	1	32
 10.12955	Central Bohemia University	0	764	0
 10.12807	University of Western Sydney SOHACA	1	44	0.02273
 10.12948	ECO-INFOSOC Research Center	0	171	0
@@ -2991,7 +2967,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.12990	Marmara Dental Journal	0	12	0
 10.12991	Marmara Pharmaceutical Journal	44	244	0.1803
 10.12738	Egitim Danismanligi ve Arastirmalari Merkezi - EDAM	218	448	0.4866
-10.12979	Revista de Contabilidade do Mestrado em Ciencias Contabeis da UERJ	0	1	0
 10.12986	Infomesr	0	21	0
 10.12970	Synergy Publishers	0	538	0
 10.12800	UCAM CCD	0	273	0
@@ -3110,7 +3085,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.13171	Mediterranean Journal of Chemistry	3	221	0.01357
 10.13184	Fundacion de Ciencias de al Salud	0	123	0
 10.13173	Harrassowitz Publishing House	455	232	1.961
-10.13051	Electronic Enlightenment Project	0	78961	0
 10.13165	Mykolas Romeris University	149	659	0.2261
 10.14193	Korean Foot and Ankle Society (KAMJE)	0	123	0
 10.14203	Indonesian Institute of Sciences	0	366	0
@@ -3239,7 +3213,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.14356	Hosokawa Powder Technology Foundation	0	972	0
 10.14314	Industrial Chemisty Research Institute	0	490	0
 10.14315	Gutersloher Verlaghaus	1.13e+04	12730	0.8874
-10.14344	World Bird Names International Ornithologists Union 	0	23	0
 10.14355	Science and Engineering Publishing, Co.	4	966	0.004141
 10.14358	American Society for Photogrammetry and Remote Sensing	1150	1207	0.9528
 10.14361	Transcript Verlag	7600	59218	0.1283
@@ -3514,7 +3487,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.15186	Institute of Korean Cultural Studies Yeungnam University	0	55	0
 10.15187	Korea Society of Design Science	0	273	0
 10.15188	Korean Society of Oriental Pathology	0	351	0
-10.15189	Turan-Sam 	0	1	0
 10.15194	Instituto Brasileiro de Inovacao Financeira - IBRIF	0	13	0
 10.15176	Institute of Ethnology and Folkkore Research	0	75	0
 10.15183	Spirituality, Leadership and Management, Inc.	0	21	0
@@ -3545,7 +3517,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.14810	Wireilla Scientific Publications	4	364	0.01099
 10.15173	Escarpment Press	0	2133	0
 10.15221	Hometrica Consulting	0	350	0
-10.14747	McMaster Undergraduate Research Journal	0	1	0
 10.14809	University of Texas at San Antonio	0	119	0
 10.15193	Polskie Towarzystwo Technologow Zywnosci Wydawnictwo Naukowe PTTZ	0	623	0
 10.15200	The Winnower, LLC	1	1191	0.0008396
@@ -3560,7 +3531,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.14255	Chornomorski Botanical Journal	1	21	0.04762
 10.15235	The East Asian Association of International Studies	0	119	0
 10.15211	Institute of Europe, Russian Academy of Sciences IERAS	1	211	0.004739
-10.15234	Pan-American Association of Ophthalmology	0	25	0
 10.15243	International Research Centre for the Management of Degraded and Mining Lands	0	185	0
 10.15245	Japanese Association of Cardiovascular Intervention and Therapeutics	0	72	0
 10.15246	Hunkar Alevilik Bektasilik Akademik Arastimalar Dergisi	0	12	0
@@ -3588,7 +3558,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.15229	TAPAC: Theatre and Performance Across Cultures	0	45	0
 10.14735	Ambit Media, a.s.	1	579	0.001727
 10.14713	Rutgers University Libraries	0	1104	0
-10.15251	Virtual Company of Physics	0	1	0
 10.15258	International Seed Testing Association	949	1121	0.8466
 10.15240	Technical University of Liberac	2	227	0.008811
 10.15266	Korean Resource Economics Association	0	100	0
@@ -3702,7 +3671,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.15367	Temple University Press	0	91	0
 10.15302	Editorial Department of Engineering Sciences	52	313	0.1661
 10.15395	Majalah Kedokteran Bandung (MKB)	0	320	0
-10.15387	Child Mind Institute	0	49	0
 10.14306	Fundacion Espanola de Dietistas-Nutricionistas (FEDN)	1	167	0.005988
 10.15410	Indira Institute of Managment, Pune	0	99	0
 10.15418	Centro de Estudios Superiores de Baja California S.C.	0	59	0
@@ -3927,7 +3895,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.15751	Contemporary Film Research Institute	0	223	0
 10.15738	Korean Association for the Study of English Language and Linguistics, KASELL	0	344	0
 10.15695	Vanderbilt University Library	0	811	0
-10.15650	Hebrew Union College Press	10	10	1
 10.15679	Visio Mundi Academic Media Group	0	27	0
 10.15758	Korean Academy of Kinesiology	0	204	0
 10.15733	Institute of Japanese Studies	0	241	0
@@ -4088,7 +4055,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17123	Anatolia: Turizm Arastirmalri Dergisi	0	47	0
 10.15765	Institucion Universitaria Politecnico Grancolombiano	0	625	0
 10.17002	The Joongwon Linguistic Society of Korea	1	445	0.002247
-10.17002	The Joongwon Linguistic Society of Korea	1	445	0.002247
 10.17147	Alfons W. Gentner Verlag	0	53	0
 10.16970	Turkish Journal of Entomology	1	99	0.0101
 10.17105	National Association of School Psychologists	0	81	0
@@ -4127,7 +4093,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.16966	Sci Forschen, Inc.	0	884	0
 10.17141	Facultad Latinoamericana de Ciencias Sociales (FLACSO)	0	1362	0
 10.15849	Alzaytoonah University of Jordan	2	121	0.01653
-10.17142	Insan Akademika Publications	0	1	0
 10.17050	Kafkas University Faculty of Divinity Review	0	83	0
 10.17102	College of Natural Resources (Royal University of Bhutan)	0	25	0
 10.17096	Journal of Istanbul University Faculty of Dentistry	0	80	0
@@ -4152,7 +4117,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17164	Erdeszettudomanyi Kozlemenyek	0	24	0
 10.17109	Acta Zoologica Hungarica	0	40	0
 10.17049	Journal of Anatolia Nursing and Health Sciences	0	69	0
-10.17153	Eskisehir Osmangazi University Journal of Economics and Administrative Sciences	0	9	0
 10.17107	Kaleidoscope History	0	129	0
 10.17220	Kiperonline Academic	0	44	0
 10.16984	Sakarya University Journal of Science	0	202	0
@@ -4168,7 +4132,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17115	LinkSciencePlace	0	129	0
 10.17211	Turkish Geographical Review	0	41	0
 10.17122	Ufa State Petroleum Technological University	0	512	0
-10.17108	Acta Agronomica Ovariensis	0	7	0
 10.17017	Journal of Fisheries	0	72	0
 10.15846	KYEESHA, Ltd.	0	5	0
 10.16976	Studies on History Education	0	184	0
@@ -4258,7 +4221,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.16895	The Korean Association of Catholic Philosophers	0	41	0
 10.16918	Balkan Libraries Union	0	31	0
 10.17135	The Korean Society of Dental Hygiene Science	0	226	0
-10.17064	Istanbul Universitesi Iletisim Fakultesi Dergisi	0	8	0
 10.16886	Agricultural University of Iceland	0	14	0
 10.17055	The Society of Korean Practical Arts Education	0	151	0
 10.17084	Komsomolsk-na-Amure State Techical Unversity	0	861	0
@@ -4336,7 +4298,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17268	Scientia Agropecuaria	0	306	0
 10.17330	Korea Environment Institute	0	204	0
 10.17310	National Tax Association	0	858	0
-10.17243	Magyar Aprovad Kozlemenyek	0	13	0
 10.17231	Centro de Estudos de Comunicacao e Sociedade, Universidade Minho	0	584	0
 10.17331	Institute for Far Eastern Studies	0	243	0
 10.17248	Law Research Institute of KNU	0	459	0
@@ -4373,7 +4334,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17321	Institute for the Study of North Korean Life	0	81	0
 10.17264	Marianna University Society of Medical Science	0	50	0
 10.17261	Pressacademia	0	361	0
-10.17335	Sakarya Universitesi Ilahiyat Fakultesi Dergisi	0	98	0
 10.17236	Gesellschaft Schweizer Tierarztinnen und Tierarzte	0	1723	0
 10.17251	Legal Research Institute Kookmin University	0	202	0
 10.17278	International Journal of Educational Studies in Mathematics (IJESIM)	0	37	0
@@ -4393,7 +4353,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17312	Harrington Park Press	0	78	0
 10.17301	Theological Forum	0	289	0
 10.17235	Sociedad Espanola de Patologia Digestiva (SEPD)	1	335	0.002985
-10.17329	Associatio for Korea Culture Studies	0	234	0
 10.17291	The Society of Korean Langage and Literature	0	422	0
 10.15284	The Korean Association of Human Development	0	80	0
 10.17269	Canadian Public Health Association	0	411	0
@@ -4463,7 +4422,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17552	Boletim Amazonico de Geografia	0	62	0
 10.17350	Hittite Journal of Science and Engineering	0	42	0
 10.17536	Asia Pacific Association for Gambling Studies	0	9	0
-10.17343	Medical Journal of Suleyman Demirel University	0	13	0
 10.17511	Academy of Medical and Health Sciences Research	0	19	0
 10.17641	The Korean Association for Play Therapy	0	41	0
 10.17272	Subsea Diving Contractor di Stefano Di Cagno Publisher	0	12	0
@@ -4553,7 +4511,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17553	Revista do Instituto Historico e Geografico do Para	0	44	0
 10.17476	Korean Society for Metabolic and Bariatric Surgery	0	15	0
 10.17541	Optimum Journal of Economics and Management Sciences	0	54	0
-10.17517	Kahramanmaras Sutcu Imam Universitesi Tip Fakultesi Dergisi	0	2	0
 10.17573	Faculty of Administration, University of Ljubljana	0	106	0
 10.17677	P2M Invest	0	37	0
 10.17515	MIM Research Group	1	44	0.02273
@@ -4564,7 +4521,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17653	ScienceScript, LLC	0	19	0
 10.17583	Hipatia Press	0	462	0
 10.17678	Bitlis Eren University Journal of Science and Technology	0	72	0
-10.17504	ZappyLab, Inc.	0	253	0
 10.17477	World Association for Triple Helix and Future Strategy Studies	0	107	0
 10.17309	LLC OVS	0	127	0
 10.17505	Lundh Research Foundation	0	35	0
@@ -4608,7 +4564,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17715	The Korean Society for the Study of Moral Education	0	411	0
 10.17533	Universidad de Antioquia	0	1031	0
 10.17693	Yunus Arastirma Bulteni	0	219	0
-10.17692	Laboratorio de Anatomia Comparada dos Vertebrados	0	1	0
 10.17702	The Society of Adhesion and Interface, Korea	0	91	0
 10.17709	QUASAR, LLC	0	161	0
 10.17700	Journal of Agricultural Informatics	0	151	0
@@ -4718,7 +4673,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17858	Journal of Military and Information Scicence	0	49	0
 10.17800	Amazonia, Organizacoes e Sustentabilidade	0	91	0
 10.17687	Faculty of Entrepeneurship and Business, Universiti Malaysia Kelantan	0	27	0
-10.17799	Termeszetfoldrajzi Kozlemenyek Journal	0	7	0
 10.17735	AEQUA & SEG	0	25	0
 10.17838	Korean Classical Literature Association	0	204	0
 10.17822	Osmanli Mirasi Arastirmalari Dergisi	0	50	0
@@ -4728,10 +4682,8 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17851	Faculdade de Letras da UFMG	0	5978	0
 10.17856	The Society of Asian Historical Studies	0	149	0
 10.17820	Korean Society of Ecology and Infrastructure Engineering	0	81	0
-10.17817	Korean Society for Neurotherapy	0	135	0
 10.17831	Enquiry: The ARCC Journal of Arch Research	0	85	0
 10.17796	The Journal of Clinical Pediatric Dentistry	1128	1150	0.9809
-10.17774	Considering Disability Journal	0	14	0
 10.17816	ECO-Vector	0	2767	0
 10.17770	Rezekne Academy of Technologies	0	1838	0
 10.17781	The Society of Digital Information and Wireless Communications (SDIWC)	0	263	0
@@ -4755,7 +4707,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18006	Journal of Experimental Biology and Agricultural Sciences	0	186	0
 10.17966	Korean Society for Medical Mycology	0	114	0
 10.17848	W.E. Upjohn Institute for Employment Research	0	1585	0
-10.17975	STEM Fellowship	1	28	0.03571
 10.18005	Bowen Publishing Company	1	242	0.004132
 10.17936	Pan-Korea English Teachers Association	0	379	0
 10.17958	Korean Society of Mechanical Technology	0	897	0
@@ -4890,7 +4841,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.15202	Sociedade Unificada de Ensino Augusto Motta -UNISUAM	0	104	0
 10.18109	Institute for EU Studies	0	190	0
 10.18047	Faculty of Agriculture in Osijek	0	116	0
-10.18051	Universa Medicina	1	74	0.01351
 10.18042	Centro de Estudios Politicos y Constitucionales	0	367	0
 10.18046	Universidad Icesi	0	804	0
 10.18045	University of Rijeka, Faculty of Economics	0	33	0
@@ -4916,7 +4866,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18182	Turkish Journal of Forestry	0	100	0
 10.18198	Institute of Low Temperature Energy Technology	0	92	0
 10.15331	American Academy of Sleep Medicine	1	98	0.0102
-10.17657	Korea Distribution Association	0	1	0
 10.18201	International Journal of Intelligent Systems and Applications in Engineering	0	97	0
 10.18188	Revista Scientia Agraria Paranaensis	0	265	0
 10.18176	Esmon Publicidad, SA	0	138	0
@@ -4999,9 +4948,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18217	Institute of Hispanic Studies	0	110	0
 10.18264	Fundacao CECIERJ	0	133	0
 10.18258	Experiment	0	511	0
-10.18242	Centro de Investigaciones Biologicas del Noroeste (CIBNOR)	0	1	0
-10.18846	Centro de Investigaciones Biologicas del Noroeste (CIBNOR)	0	7	0
-10.18260	American Society for Engineering Education	0	3613	0
 10.18259	Universidad Continental	0	193	0
 10.18053	Journal of Clinical and Translational Research	0	86	0
 10.18180	Universidad ECCI	0	117	0
@@ -5017,7 +4963,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18379	Universidade Veiga de Almeida	0	38	0
 10.1484	Brepols Publishers, NV	2.723e+04	51003	0.5339
 10.18380	Columella	0	46	0
-10.1036	McGraw-Hill Education	3	8946	0.0003353
 10.18041	Universidad Libre	0	74	0
 10.22525	Universidad Libre - Cartagena	0	85	0
 10.18393	Eurasian Journal of Soil Science	0	130	0
@@ -5054,7 +4999,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18303	Trofimuk Institute of Petroleum Geology and Geophysics (SB RAS)	0	98	0
 10.18278	Policy Studies Organization	0	356	0
 10.18306	Progress in Geography	0	233	0
-10.18297	University of Louisville	0	2625	0
 10.18307	Journal of Lake Sciences	0	2187	0
 10.18305	Revista Scripta Uniandrade	0	231	0
 10.17562	Centro de Innovacion y Desarrollo Tecnologico en Computo	0	452	0
@@ -5104,7 +5048,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18083	Ivanovo State University	0	63	0
 10.18349	Magyar Nyelv	0	104	0
 10.18345	Turkiyat Mecmuasi	0	79	0
-10.18344	Institute for International Studies in Education	0	1	0
 10.18351	Revista Genero & Direito	0	84	0
 10.18350	Institute for Poverty Alleviation and International Development	0	19	0
 10.18352	Uopen Journals	0	9868	0
@@ -5179,7 +5122,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18502	Knowledge E	0	513	0
 10.18505	Cumhuriyet Universitesi Ilahiyat Fakultesi Dergisi	0	107	0
 10.18271	Universidad Nacional Del Altiplano Puno Peru 	0	179	0
-10.18513	Tarih Incelemeleri Dergisi	0	1	0
 10.18515	Szent Istvan University Faculty of Economics and Social Sciences	0	97	0
 10.18514	Mathematical Notes	0	101	0
 10.18511	Revista Brasileira de Ciencia e Mobimento	0	320	0
@@ -5277,7 +5219,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18623	Editora Dom Helder	0	91	0
 10.18584	International Indigenous policy Journal	0	191	0
 10.18641	Society of Biocontrol Advancement	0	65	0
-10.18640	International Journal of Information Security Engineering	0	5	0
 10.18649	The Korean English Education Society	0	245	0
 10.18359	Universidad Militar Nueva Granada	0	1064	0
 10.18547	Kernel Press UG	0	25	0
@@ -5385,15 +5326,12 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.18650	Enliven Archive	0	184	0
 10.18567	Sociedad Espanola de Bioquimica y Biologia Molecular (SEBBM)	0	206	0
 10.18681	Pakistan Society of Nematologists	0	35	0
-10.18798	Peace, Conflict and Development: An Interdisciplinary Journal	0	36	0
 10.18565	Bionika Media	0	845	0
 10.18546	Institute of Education Press	4	1236	0.003236
 10.18781	Revista Mexicana de Fitopatologia, Mexican journal of Phytopathology	0	22	0
 10.18801	Journal BiNET	0	109	0
-10.18812	Societe d'Etudes Franco-Coreennes	0	76	0
 10.18811	International Society of Environmental Botanists	0	20	0
 10.18813	Pierson Memorial Bible Institute	0	53	0
-10.18790	Sociedad Espanola de Paleontologia	0	1	0
 10.18814	International Union of Geological Sciences	0	68	0
 10.18816	Revista Brasileira de Inovacao Tecnologica em Saude (R-BITS)	0	86	0
 10.18815	Faculdade Antonio Meneguetti	0	120	0
@@ -5469,8 +5407,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.19029	Applied mathematics & Computation Center	0	19	0
 10.19042	The Korean Society for Thinking and Communication	0	103	0
 10.19039	Studies of the Ottoman Domain	0	46	0
-10.19037	Association of Global Studies Education	0	25	0
-10.19038	Space Applications Centre	0	135	0
 10.19043	Foundation of Nursing Studies	0	32	0
 10.19045	Bolan Society for Pure and Applied Biology (BSPAB)	0	375	0
 10.18848	Common Ground Research Networks	0	15865	0
@@ -5487,7 +5423,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.19060	Gazi Academic View	0	68	0
 10.19057	Journal of Special Education and Rehabilitation	0	93	0
 10.18865	ISHIB (Ethnicity & Disease)	0	120	0
-10.19061	Institute of Chemical Research of Catalonia	0	42	0
 10.19062	"""Henri Coanda"" Air Force Academy"	0	178	0
 10.18867	Sociedad Mexicana de Ingenieria Sismica A.C.	0	5	0
 10.18833	Council on Undergraduate Research	0	63	0
@@ -5497,7 +5432,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.19082	Mehr Publishing Group	0	381	0
 10.19066	The Korean Society for Cognitive Science	0	222	0
 10.19067	Institute of Governmental Studies	0	60	0
-10.19058	Institute of Iberoamerican Studies	0	10	0
 10.19083	Universidad Peruana de Ciencias Aplicadas	0	92	0
 10.18875	Scholarena, LLC	0	34	0
 10.19076	Maden Tetkik ve Arama Dergisi	0	76	0
@@ -5532,7 +5466,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.19104	Elyns Group LLC	0	231	0
 10.18868	Saint Michael College of Caraga	0	30	0
 10.19106	Journal of the Medical Sciences (Berkala Ilmu Kedokteran)	0	115	0
-10.19103	Burleigh Dodds Science Publishing Limited	0	62	0
 10.18832	Research Institute of Brewing and Malting, Plc. (Vyzkumny Ustav Pivovarsky a Sladarsky)	0	362	0
 10.18740	University of Alberta - Journal of Socialist Studies	0	312	0
 10.18741	University of Alberta - Journal of Professional Continuing and Online Education	0	14	0
@@ -5556,7 +5489,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.19119	Cineforum	0	71	0
 10.19116	The Criticism and Theory Society of Korea	0	30	0
 10.19111	Bulletin of the Mineral Research and Exploration	0	73	0
-10.19122	GEDIIB	0	11	0
 10.19112	RUSTEM (Russian Society for Trace Elements in Medicine)	0	71	0
 10.19114	ACTS Theology Institute	0	86	0
 10.19121	Wildlife Conservation Society	0	8	0
@@ -5606,7 +5538,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.19176	Revista de Cultura Teologica	0	951	0
 10.19174	Revista Esferas Interprogramas de Pos-graduacao em Comunicacao do Centro-Oeste	0	16	0
 10.19172	Korea Real Estate Analysts Association	0	38	0
-10.19184	FMIPA, Universitas Jember	0	79	0
 10.19185	Sciencematters	0	71	0
 10.19183	Asociacion Colombiana de Profesores de Ingles - ASOCOPI	0	67	0
 10.20288	Institute of Chinese Study Pusan National University	0	28	0
@@ -5616,7 +5547,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20291	Ural State University of Railway Transport (USURT)	0	205	0
 10.20292	Central Institute of Cultural Heritage	0	14	0
 10.20297	The Korean Academy of Scientific Criminal Investigation	0	16	0
-10.20296	Turkiye Sosyal Arastirmalar Dergisi	0	1	0
 10.20294	International Academy of Global Business and Trade	0	7	0
 10.20293	Korean Philosophical Society	0	13	0
 10.20287	Universidade da Beira Interior	0	105	0
@@ -5633,7 +5563,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20312	Dimenziok: matematikai kozlemenyek	0	18	0
 10.20314	Australian Literary Studies	0	1641	0
 10.20311	Statisztikai Szemle	0	43	0
-10.20298	Neva Electromagnetics, LLC	0	4	0
 10.20326	Korea Evangelical Missiological Society	0	15	0
 10.20324	Botanical Survey of India	0	27	0
 10.20322	Littera Turca Journal of Turkish Language and Literature	0	81	0
@@ -5655,7 +5584,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20398	Journal of Surgical and Clinical Research	0	64	0
 10.20402	Korea Institute for Skin and Clinical Sciences	0	48	0
 10.20396	Universidade Estadual de Campinas	0	2375	0
-10.20397	Fundacao Pedro Leopoldo - Revista Gestao and Tecnologia	0	46	0
 10.20395	Instituto Nacional de Educacao de Surdos	0	4	0
 10.20400	Revista de Teologia e Ciencias da Religiao da UNICAP	0	67	0
 10.20403	Siberian Research Institute of Geology, Geophysics and Mineral Resources	0	52	0
@@ -5675,9 +5603,7 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20343	International Society for the Scholarship of Teaching and Learning	0	158	0
 10.20413	International Study of Religion in Eastern and Central Europe Association	0	8	0
 10.20320	Facultad de Ciencias de la Salud, UDES	0	79	0
-10.20340	Journal Morfologiceskie vedomosti - Morphological Newsletter	0	22	0
 10.20414	Institut Agama Islam Negeri (IAIN) Mataram	0	232	0
-10.19078	Korean Society for Science of Eastern Art	0	29	0
 10.18733	CPI Journal	0	132	0
 10.18732	HSSA Journal	0	12	0
 10.20421	Weil Cornell Medicine-Qatar	0	13	0
@@ -5713,7 +5639,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20496	The Association of Korea Counseling Psychology Education Welfare	0	9	0
 10.20503	Revista Carreiras e Pessoas (RECAPE)	0	36	0
 10.20493	Birey ve Toplum Sosyal Bilimler Dergisi	0	33	0
-10.20498	East Asia Business Economics Association	0	6	0
 10.20504	OPUS	0	51	0
 10.20502	Revista Brasileira de Geomorfologia	0	1979	0
 10.20499	Biblioteca da Presidencia da Republica	0	236	0
@@ -5773,7 +5698,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20543	Balai Besar Kulit, Karet dan Plastik (Center for Leather, Rubber and Plastics)	0	394	0
 10.20344	Ordem dos Medicos	0	513	0
 10.20875	Mehmet Akif Ersoy Universitesi Sosyal Bilimler Enstitusu Dergisi	0	72	0
-10.20881	Institute of Korean Literature Studies	0	155	0
 10.20446	Mattersburger Kreis	0	3	0
 10.20879	Korean Society for Journalism and Communication Studies	0	106	0
 10.20452	Towarzystwo Internistow Polskich/Polish Society of Internal Medicine	0	256	0
@@ -5811,7 +5735,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20932	Asociacion Castellano-Manchega de Sociologia (ACMS)	0	366	0
 10.20943	SoftwareFirst, Ltd.	0	120	0
 10.20896	ACCB Publishing	0	120	0
-10.20529	Forum for Medical Ethics Society	0	2	0
 10.20933	University of Dundee	0	6	0
 10.20939	SOLAR, Revista de Filosofia Iberoamericana	0	18	0
 10.20946	Revista Administracao em Dialogo	0	27	0
@@ -5827,14 +5750,12 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.20948	Keldysh Institute of Applied Mathematics	0	201	0
 10.20957	Strategic Studies and Agriculture Policy	0	81	0
 10.20898	International Association for Shell and Spatial Structures	0	28	0
-10.20936	Lawarence Press	0	1	0
 10.20904	Institute of Theoretical and Applied Informatics, Polish Academy of Sciences	0	70	0
 10.20867	University of Rijeka, Faculty of Tourism and Hospitality Management	0	26	0
 10.20972	Elementary Education Research Institute	0	508	0
 10.20977	Korean Society of Education Through Art	0	134	0
 10.20975	The Korean Association for the Western Ancient History and Culture	0	225	0
 10.20958	Island Dynamics	0	19	0
-10.20970	Korean Academy of Social Welfare	0	516	0
 10.20989	International Journal of Business, Economics, and Management Perspectives	0	24	0
 10.20971	Korean Council of Physical Multiple and Health Disabilities	0	491	0
 10.20976	Korean National Research Center for the Arts	0	37	0
@@ -5879,7 +5800,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21024	Pusan National University Educational Development Institute	0	37	0
 10.21027	The Society of Korean Historical Manuscripts	0	162	0
 10.20993	The Korean Society of School Social Work	0	40	0
-10.20994	Gwalior Management Academy	0	12	0
 10.21032	The Korean Society of Health Informatics and Statistics	0	62	0
 10.21023	Korea Money and Finance Association	0	16	0
 10.20992	KeiMyung University Institute for Women's Studies	0	26	0
@@ -5898,11 +5818,8 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.1246	The Chemical Society of Japan	6.282e+04	105797	0.5937
 10.21015	VFAST	0	52	0
 10.20996	Stolichnaya Izdatelskaya Kompaniyaizdat	0	873	0
-10.21020	Hacettepe University Faculty of Health Sciences Journal	0	2	0
 10.20997	The Korean Association for Survey Research	0	27	0
-10.20991	All Azimuth Journal of Foreign Policy and Peace	0	18	0
 10.21009	Department of Physics, Universitas Negeri Jakarta	0	205	0
-10.20995	The Institute for Culture, Media and Entertainment Laws	0	13	0
 10.20998	National Technical University Kharkiv Polytechnic Institute	0	499	0
 10.20990	Journal of Academic Researches and Studies	0	46	0
 10.21014	IMEKO International Measurement Confederation	0	226	0
@@ -5933,8 +5850,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21048	Avinashilingam Institute for Home Science and Higher Education for Women	0	44	0
 10.21066	HIDK (CARCL)	0	98	0
 10.21060	Communications in Inorganic Synthesis	0	33	0
-10.21036	Latest Thinking, GmbH	0	106	0
-10.21054	Dokuz Eylul University Review of the Faculty of Divinity	0	14	0
 10.21056	Revista de Direito Administrativo and Constitucional	0	283	0
 10.21086	The Korean Society of Living Environmental System	0	277	0
 10.21028	Ilustre Colegio de Geologos (ICOG)	0	8	0
@@ -5955,7 +5870,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21097	The Korea Society for Wellness	0	105	0
 10.20937	Centro de Ciencias de la Atmosfera	1	172	0.005814
 10.21062	Jan Evangelista Purkyne University in Usti nad Labem	0	33	0
-10.21079	U.S. Army Engineer Research and Development Center	0	21	0
 10.21067	University of Kanjuruhan Malang	0	146	0
 10.21088	Red Flower Publication Private, Ltd.	0	1816	0
 10.21016	Sons and Daughters Publishing House	0	20	0
@@ -6002,7 +5916,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21135	New York Botanical Garden	0	37	0
 10.21132	The Association of Theory and Practice of Private Law	0	13	0
 10.21141	Philippine Journal of Pathology	0	11	0
-10.21089	NIBD Journal of Health Sciences	0	23	0
 10.21114	Asociacion Espanola de Economia del Trabajo	0	81	0
 10.21108	School of Computing, Telkom University	0	85	0
 10.21105	The Open Journal	0	86	0
@@ -6021,7 +5934,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21168	Associacao Brasileira de Recursos Hidricos - ABRH	0	1184	0
 10.21167	C.Q.D.- Revista Eletronica Paulista de Matematica	0	84	0
 10.21159	The Japan Foundation, Sydney	0	71	0
-10.21181	Korean Association of Public Safety and Criminal Justice 	0	11	0
 10.21187	Korea Music Therapy Education Association	0	5	0
 10.21186	Industrial Promotion Institute	0	39	0
 10.21184	Korea Entertainment Industry Association	0	1004	0
@@ -6048,10 +5960,8 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21214	Korean Journal of Early Childhood Special Education	0	26	0
 10.21207	Faculdade de Direita de Franca	0	68	0
 10.17506	Institute of Philosophy and Law, Ural Branch of the RAS	0	17	0
-10.21192	The Society for Chinese Language and Literature	0	375	0
 10.21204	Revista Latino-americana de Jornalismo - ANCORA	0	29	0
 10.21208	Institute of Korean Literature and Arts	0	120	0
-10.21213	The Korean Society for Child Education and Care	0	43	0
 10.21206	Revista Brasileira de Agropecuaria Sustentavel	0	74	0
 10.21205	Deu Muhendislik Fakultesi Fen ve Muhendislik	0	83	0
 10.21215	The Korean Academy of Family Medicine	0	142	0
@@ -6059,7 +5969,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21195	Design Institute, Inje University	0	254	0
 10.21202	Tatar Educational Centre Taglimat	0	96	0
 10.21209	Transbaikal State University	0	167	0
-10.21297	The British and American Language and Literature Association of Korea	0	47	0
 10.21295	Belgorod University of Cooperation, Economics and Law	0	153	0
 10.21283	E-JournALL	0	48	0
 10.21288	Rehabilitation Engineering And Assistive Technology Society of Korea	0	10	0
@@ -6086,9 +5995,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21003	Institute of Society Transformation	0	176	0
 10.21301	Faculty of Philosophy, University of Belgrade	0	196	0
 10.21281	Associacao Portuguesa de Terapeutas da Fala (Portuguese Association of Speech Therapists)	0	42	0
-10.21173	Kresge Library, Oakland University	0	10	0
-10.21317	The Korean Society of Dance	0	13	0
-10.21330	Korean Music Therapy Association	0	104	0
 10.21316	The Journal of International Management Research	0	47	0
 10.21325	Journal of Tourism and Gastronomy Studies	0	55	0
 10.21333	Korean Local Government Law Association	0	446	0
@@ -6124,7 +6030,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22434	Wageningen Academic Publishers	0	27	0
 10.3920	Wageningen Academic Publishers	552	4763	0.1159
 10.21313	University of Hawaii Press	9	3761	0.002393
-10.21063	ITP Press	0	119	0
 10.21276	Marwah Infotech	0	1719	0
 10.21436	Instituut voor Natuur- en Bosonderzoek (INBO)	0	27	0
 10.21277	Siauliai University	0	66	0
@@ -6139,7 +6044,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21442	Dongguk University Institute of Japan Studies	0	28	0
 10.21452	ABEC Publicacoes	0	15	0
 10.21450	RAHIS - Revista de Administracao Hospitalar e Inovacao em Saude	0	196	0
-10.21447	The Korean Association of Urban Policies	0	19	0
 10.21448	International Journal of Secondary Metabolite	0	15	0
 10.21449	International Journal of Assessment Tools in Education	0	9	0
 10.21455	The Schmidt Institute of Physics of the Earth of the Russian Academy of Sciences (IPE RAS)	0	42	0
@@ -6164,15 +6068,12 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21176	Orissa Journal of Otolaryngology and Head and Neck Surgery	0	20	0
 10.21151	E.T.S. de Ingenieria Agronomica	0	64	0
 10.21468	Stichting SciPost	0	30	0
-10.21470	Sociedade Brasileira de Cirurgia Cardiovascular	0	597	0
 10.21471	American Portuguese Studies Association	0	21	0
 10.21472	Brazilian Journal of Biological Sciences	0	135	0
 10.21477	Sierra Journals	0	22	0
 10.21474	International Journal Of Advanced Research	0	3338	0
-10.21479	Korean Association of Family Therapy	0	189	0
 10.21476	Performance Philosophy	0	51	0
 10.21475	Southern Cross Publishing	0	252	0
-10.21481	The Japanese Culture Association of Korea	0	517	0
 10.21485	Center for Southeast Asian Studies, HUFS	0	320	0
 10.21484	Korean Review of Organizational Studies	0	168	0
 10.21482	Korean Society for Buddhist Studies	0	341	0
@@ -6189,8 +6090,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21153	Deakin University	0	382	0
 10.21495	Ustav Teoreticke a Aplikovane Mechaniky AC CR	0	31	0
 10.20342	Engineering Faculty of Hasanuddin University	0	40	0
-10.21494	ISTE OpenScience	0	26	0
-10.21498	Ukrainian Institute for Plant Variety Examination	0	500	0
 10.21497	Selcuk Universitesi Edebiyat Fakultesi Dergisi	0	95	0
 10.21503	Universidad Alas Peruanas S.A.	0	251	0
 10.21504	Rhodes University	0	950	0
@@ -6222,16 +6121,13 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21528	Associacao Brasileira de Inteligencia Computacional - ABRICOM	0	1384	0
 10.21535	UNSYS Digital	0	13	0
 10.21538	Krasovskii Institute of Mathematics and Mechanics UB RAS	0	120	0
-10.21539	Korean Society of Dance Science	0	213	0
 10.21536	Deagu Gyeongbuk Society of Physical Education	0	7	0
-10.21532	ACFE Indonesia Chapter	0	23	0
 10.18372	National Aviation University	0	3288	0
 10.21541	Academic Platform Journal of Engineering and Science	0	19	0
 10.21534	Indonesian Aquaculture Society	0	32	0
 10.21279	Mircea cel Batran Naval Academy	0	179	0
 10.21533	International University of Sarajevo	0	265	0
 10.21543	Hungarian Demographic Research Institute	0	18	0
-10.21542	Global Cardiology Science and Practice	0	37	0
 10.21544	Revista da Escola de Guerra Naval	0	27	0
 10.19198	Peperosso	0	20	0
 10.21547	Gaziantep University Journal of Social Sciences	0	156	0
@@ -6239,7 +6135,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21552	Lexxion Verlag	0	225	0
 10.21550	Uludag Universitesi Fen Edebiyat Fakultesi Sosyal Bilimler Dergisi	0	70	0
 10.21551	Journal of History and Future	0	27	0
-10.21554	Institute for Human Rehabilitation	0	1	0
 10.21553	The Radio and Electronics Association of Vietnam (REV)	0	89	0
 10.21565	Ankara Universitesi Egitim Bilimleri Fakultesi Ozel Egitim Dergisi	0	23	0
 10.21564	Yaroslav Mudryi National Law University	0	234	0
@@ -6247,7 +6142,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.17456	Associazione Laureati/E In Lingue All	0	27	0
 10.21560	Sosyal Politika Calismalari Dergisi	0	39	0
 10.21569	ANO NCR	0	49	0
-10.21556	Edutec	0	136	0
 10.21562	Korean Sociological Association	0	141	0
 10.21555	Topicos, Revista de Filosofia	0	674	0
 10.21567	School of Management Sciences, Lucknow	0	109	0
@@ -6267,18 +6161,15 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21576	Pensar Academico	0	16	0
 10.21571	International Center for Promotion of Enterprises	0	11	0
 10.21570	International Association for Vegetation Science (IAVS)	0	17	0
-10.21583	Revista Brasileria de Estudos Organizacionais - RBEO	0	34	0
 10.13021	Mason Publishing, George Mason University Libraries	0	354	0
 10.21581	Institute of Tourism Research, Hanyang University	0	26	0
 10.21586	London Centre for Social Studies	0	38	0
-10.21585	ICT in Practice	0	3	0
 10.21602	Art-E Sanat Dergisi	0	36	0
 10.21591	The Korean Society for Western Medieval History	0	20	0
 10.21587	nstitute of Indian Studies	0	134	0
 10.21598	Korea Proprioceptive Neuromuscular Facilitation Association	0	19	0
 10.21600	International Journal of Kurdish Studies	0	63	0
 10.21597	Journal of the Institute of Science and Technology	0	79	0
-10.21593	Korean Society for Head and Neck Oncology	0	33	0
 10.21599	Alternatives: Turkish Journal of International Relations	0	39	0
 10.21601	Ortadogu Medical Journal	0	42	0
 10.21595	JVE International Ltd.	0	397	0
@@ -6287,7 +6178,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21604	Revista Moringa - Artes do Espetaculo	0	35	0
 10.21607	Global Business Association	0	10	0
 10.21608	Egypts Presidential Specialized Council for Education and Scientific Research	0	102	0
-10.21610	Editorum	0	214	0
 10.21614	Celsius Publishing House	0	148	0
 10.21611	QIRT Council	0	1362	0
 10.21613	Mebas Medikal Basin Yayin	0	72	0
@@ -6302,22 +6192,18 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21622	Arab Academy for Science, Technology, and Maritime Transport (AASTMT)	0	14	0
 10.21621	Office of Research, Innovation and Commercialization, Iqra University	0	10	0
 10.21620	International Journal of Food and Allied Sciences	0	32	0
-10.21623	Literacy in Composition Studies	0	18	0
 10.21626	LLC MedTestInfo	0	87	0
-10.21625	IEREK Research Enrichment and Knowledge Exchange	0	15	0
 10.21628	Revista FLAMMAE	0	62	0
 10.21632	Ac Prasetiya Mulya Publishing	0	109	0
 10.21631	Sociedade Portuguesa de Psicologia	0	14	0
 10.21630	Sociedad de Ciencias Aranzadi	0	118	0
 10.21633	Augusta University	0	88	0
 10.21273	American Society for Horticultural Science	180	238	0.7563
-10.21634	Scinzer Scientific Publications	0	66	0
 10.21237	Cliodynamics: The Journal of Quantative History and Cultural Evolution	0	36	0
 10.21637	Gazdasag es tarsadalom	0	199	0
 10.21638	Saint Petersburg State University	0	260	0
 10.21113	ILIRIA International Review (IIR)	0	254	0
 10.21640	Universidad de LaSalle Bajio	0	308	0
-10.21652	Korean Association of Southeast Asian Studies	0	162	0
 10.21657	Soil Water Journal	0	51	0
 10.21651	Association D'Etudes De La Culture Francaise Et Des Arts En France	0	457	0
 10.21649	Annals of King Edward Medical University	0	423	0
@@ -6325,27 +6211,21 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21647	Grenze Scientific Society	0	226	0
 10.21648	Gokhale Institute of Politics and Economics	0	1101	0
 10.21642	Center for Global Trade Analysis	0	23	0
-10.21641	Greater Poland Cancer Centre	0	13	0
-10.21654	Dongnam Journal of Korean Language and Literature	0	13	0
 10.21656	Applied Mathematics and Mechanics	0	104	0
 10.21653	Turkish Journal of Physiotherapy and Rehabilitation	0	25	0
 10.21644	Turkish World Journal of Educational Research	0	7	0
 10.21659	Aesthetics Media Services	0	134	0
 10.21661	TSNS Interaktiv Plus, LLC	0	1958	0
 10.21660	International Journal of Geomate	0	530	0
-10.21662	Mavlutov Institute of Mechanics	0	21	0
 10.21667	Ryazan State Radio Engineering University RSREU	0	95	0
 10.21664	Fronteiras: Journal of Social, Technological and Environmental Science	0	205	0
 10.21668	Federal Scientific Center for Medical and Preventive Health Risk Management Technologies	0	390	0
 10.21673	Anadolu Klinigi Tip Bilimleri Dergisi	0	52	0
-10.21675	Conselho Federal de Enfermagem - Cofen	0	36	0
 10.21665	Revista Ambivalencias	0	97	0
 10.21671	Revista Direito UFMS	0	22	0
-10.21663	Association of Environmental and Engineering Geologists	0	15	0
 10.21670	Instituto de Investigaciones Sociales	0	16	0
 10.21669	Revista TOMO	0	12	0
 10.21666	Mugla Sitki Kocman University Journal of Education	0	37	0
-10.21672	FSBEI HE Astrakhan State University	0	32	0
 10.21674	Revista Eletronica Cientifica da UERGSâ	0	42	0
 10.21177	FSBEIHE North Caucasian Institute of Mining and Metallurgy (STU)	0	46	0
 10.21676	Universidad del Magdalena	0	243	0
@@ -6353,7 +6233,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21679	Universidad Maria Auxiliadora SC	0	54	0
 10.21678	Universidad del Pacifico	0	49	0
 10.21680	Universidade Federal do Rio Grande do Norte - UFRN	0	29	0
-10.21681	I.E. Makarenko GI	0	3	0
 10.21685	Penza State University	0	209	0
 10.21684	Tyumen State University	0	304	0
 10.21686	Plekhanov Russian University of Economics (PRUE)	0	190	0
@@ -6371,21 +6250,17 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21704	Universidad Nacional Agraria la Molina	0	388	0
 10.21708	Editora da Universidade Federal Rural do Semi-Arido - EdUFERSA	0	273	0
 10.21699	El-Med-Pub Publisher	0	118	0
-10.21701	Instituto Geologico y Minero de Espana	0	23	0
 10.21703	Universidad Catolica de la Santisima Concepcion	0	24	0
 10.21710	Revista Cientifica Hermes	0	182	0
 10.21693	Pulmonary Hypertension Association	0	24	0
 10.21709	CASA: Cadernos de Semiotica Aplicada	0	341	0
 10.21713	CAPES	0	202	0
-10.21696	El Colegio de San Luis	0	3	0
 10.21698	National Research and Development Institute for Industrial Ecology IND-ECOIND	0	93	0
 10.21690	American Geographical Society	0	11	0
 10.21706	Klett-Cotta Journals	0	151	0
-10.21705	Molecular and Cellular Biomedical Sciences (MCBS) Office	0	3	0
 10.21712	Latin American Journal of Energy Research	0	22	0
 10.21715	Geochimica Brasiliensis	0	49	0
 10.21714	ANPAD	0	205	0
-10.21721	P2P & INOVACAO	0	9	0
 10.21724	REVER	0	229	0
 10.21719	Korea Academic Society of Tourism Management	0	21	0
 10.21716	Institute of Language Research and Education	0	10	0
@@ -6399,7 +6274,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21733	Journal of International Scientific Researches	0	19	0
 10.21271	Salahaddin University - Erbil	0	13	0
 10.21739	Korean Academy of International Business Management	0	519	0
-10.21732	Korean Publishing Science Society	0	20	0
 10.21738	Institute of Anthropology	0	19	0
 10.21740	Korean Association of Southeast Asian Studies	0	11	0
 10.21743	National Centre of Excellence in Analytical Chemistry	0	26	0
@@ -6441,23 +6315,17 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21789	Universidad de Bogota Jorge Tadeo Lozano	0	58	0
 10.21788	Portucalense University	0	14	0
 10.21787	Research and Development Agency, Ministry of Home Affairs	0	144	0
-10.21795	The Korean Criminal Law Association	0	477	0
 10.21790	The Korean Balance Society	0	22	0
 10.21792	The Society of Japanese Language and Literature, Japanology Korea	0	802	0
 10.21796	Science Education Research Institute	0	281	0
-10.21794	Daedong Hanmun Association	0	23	0
 10.21798	Kadin ve Demokrasi Dernegi	0	11	0
 10.21801	Principles and Practice of Clinical Research	0	6	0
-10.21803	Corporacion Universitaria Americana	0	22	0
 10.21802	Ivano-Frankivsk National Medical University	0	94	0
-10.21805	BioOne - The Bulletin of Zoological Nomenclature 	135	559	0.2415
 10.21808	The Korea Association of Japanese Education	0	22	0
 10.21806	Mission and Society Research Institute	0	31	0
-10.21818	Journal of Behavior and Applied Management	0	1	0
 10.21809	Rilem Publications SARL	0	30	0
 10.21823	Vreden Russian Research Institute of Traumatology and Orthopedics	0	57	0
 10.21812	Korean Association of Sport Pedagogy	0	19	0
-10.21815	American Dental Education Association	0	1	0
 10.21817	ENGG Journals Publications	0	193	0
 10.21816	Poly-Hybrid Forensic Consult	0	22	0
 10.21822	FSB Educational Establishment of Higher Education Daghestan State Technical University	0	287	0
@@ -6471,7 +6339,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21834	e-IPH Ltd.	0	198	0
 10.21829	Instituto de Ecologia, A.C.	0	1135	0
 10.21832	Channel View Publications, Ltd.	0	3	0
-10.21830	Escuela Militar de Cadetes Jose Maria Cordova	0	1	0
 10.21828	TI Journals	0	34	0
 10.21831	Universitas Negeri Yogyakarta	0	882	0
 10.21827	University Library Groningen	0	2	0
@@ -6488,8 +6355,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21848	Korean Academy of Audiology	0	20	0
 10.21850	Korea Grammar Education Circle	0	20	0
 10.21842	PES University	0	5	0
-10.21839	Phoenix Research Publishers	0	37	0
-10.21849	Korean Academy of Speech-Language Pathologies	0	15	0
 10.21846	Testneveles, Sport, Tudomany	0	9	0
 10.21844	School of Management Sciences, Varanas	0	73	0
 10.21843	Kolyani Government Engineering College	0	65	0
@@ -6503,20 +6368,15 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21856	V.Danilevsky Institute for Endocrine Pathology Problems of NAMSU	0	74	0
 10.21855	Universidad Tecnologico ECOTEC	0	5	0
 10.21859	American Journal of Life Science Researches	0	465	0
-10.24029	LEJANA - Revista Critica de Narrativa Breve	0	17	0
 10.21861	University of Zagreb, Department of Geography	0	14	0
 10.21860	University of Rijeka, Faculty of Medicine	0	53	0
-10.21865	Associacao Iberoamericana de Diagnostico e Avaliacao Psicologica	0	30	0
 10.21864	British Global Travel Health Association (BGTHA)	0	12	0
-10.21866	Academy of East Asian Studies	0	1	0
 10.21871	Journal of Franchise Management	0	8	0
 10.21870	National Medical Research Radiological Centre	0	19	0
 10.21863	Publishing India Group	0	557	0
 10.21873	International Institute of Anticancer Research	0	510	0
 10.21878	Associacao Brasileira de Pesquisadores em Comunicacao e Politica (Compolitica)	0	106	0
 10.21877	Revista Brasileira de Analises Clinicas	0	68	0
-10.21875	Programa de Pos Graduacao em Direito da Universidade Federal do Rio de Janeiro	0	11	0
-10.21880	Revista IUS GENTIUM	0	4	0
 10.21882	Revista Uninter de Comunicacao	0	21	0
 10.21876	Revista Ciencias em Saude	0	246	0
 10.21881	Abril NEPA UFF	0	31	0
@@ -6526,34 +6386,27 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21886	Rostov State Medical University	0	39	0
 10.21885	West Virginia State Medical Association (WVSMA)	0	25	0
 10.21887	Society for Veterinary Science and Biotechnology	0	79	0
-10.21888	Korean Association of Government Studies	0	6	0
 10.21890	International Journal of Research in Education and Science	0	77	0
 10.21892	Corporacion Universitaria del Caribe - CECAR	0	151	0
 10.21891	Journal of Education in Science, Environment and Health	0	36	0
 10.21893	Scientific World Ltd.	0	28	0
-10.21894	Malaysian Palm Oil Board	0	62	0
 10.21896	The Korean Society of Maternal and Child Health	0	227	0
 10.21898	Dianoia Revista de Filosofia	0	425	0
 10.21897	Universidad de Cordoba	0	44	0
 10.21899	First Edition Design Publishing	0	8	0
 10.21901	Instituto Junguiano de Sao Paulo (IJUSP)	0	8	0
 10.21904	We Ken	0	29	0
-10.21900	University of Illinois Main Library	0	1	0
 10.21902	International Journal of Professional Business Review	0	285	0
 10.21910	Revista Brasileira de Sociologia do Direito	0	74	0
 10.21909	Institute of Experimental Psychology	0	26	0
 10.21908	SIRIM Industrial Research	0	35	0
 10.21911	Turkish National Society of Allergy and Clinical Immunology	0	33	0
 10.21906	Polskie Towarzystwo Teologiczne Sekcja Wydawnicza	0	235	0
-10.21913	University of South Australia Library	0	76	0
 10.21915	Institute of Mathematics, Academia Sinica	0	5	0
 10.21914	Australian Mathematical Publishing Association, Inc.	0	1167	0
-10.21916	Bureau of Labor Statistics	0	178	0
 10.21917	ICT Academy	0	703	0
-10.18130	University of Virginia	0	398	0
 10.21920	Revista Eletronica Cientifica Ensino Interdisciplinar	0	33	0
 10.21931	Clinical Biotec Y Centro Ecuatoriano de Biotecnologia y Ambiente	0	48	0
-10.21925	Minneapolis Heart Institute Foundation	0	19	0
 10.21926	Open BioMedical Publishing Corporation	0	21	0
 10.21923	Muhendislik Bilimleri ve Tasarim Dergisi	0	22	0
 10.21927	Alma Ata University Press	0	282	0
@@ -6564,22 +6417,17 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.21930	Corporacion Colombiana de Investigacion Agropecuaria (Corpoica)	0	363	0
 10.21929	Abanico Veterinario	0	7	0
 10.21924	Komunitas Ilmuwan dan Profesional Muslim Indonesia (KIPMI)	0	15	0
-10.21932	SACCoM - Sociedad Argentina para las Ciencias Cognitivas de la Musica	0	20	0
 10.22136	El Colegio Mexiquense	0	533	0
 10.22137	Central Luzon State University International Affairs Office	0	10	0
 10.22140	Rutgers University - Newark School of Public Affairs and Administration	0	416	0
 10.22143	Asia Culture Academy of Incorporated Association	0	231	0
-10.22139	The Journal of Business Science	0	8	0
 10.22141	Publishing House Zaslavsky	0	1139	0
-10.22142	Institute of International Trade	0	11	0
 10.22144	Can Tho University	0	195	0
-10.22148	CA: Journal of Cultural Analytics	0	12	0
 10.22138	Bulletin of the Ural Medical Academie Science	0	27	0
 10.22147	Ansari Education and Research Society	0	102	0
 10.22146	Universitas Gadjah Mada	1	1784	0.0005605
 10.22151	International Association for Political Science Students	0	67	0
 10.22149	EEEIC International Publishing	0	38	0
-10.22152	Aspect-Oriented Software Association (AOSA)	0	8	0
 10.22154	Korean Society of Children's Literature and Education	0	78	0
 10.22155	Association for Future Early Childhood Education	0	56	0
 10.22158	Scholink Co, Ltd.	0	459	0
@@ -6602,7 +6450,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22185	Papeles de Poblacon	0	22	0
 10.22183	Research Nebula	0	9	0
 10.22186	Journal of Young Investigators	0	17	0
-10.22190	University of Nis	0	61	0
 10.22188	Makadam	0	1	0
 10.22187	Revista de la Facultad de Derecho	0	33	0
 10.22194	Journal of Global Innovations in Agricultural and Social Sciences (JGIASS)	0	69	0
@@ -6610,7 +6457,6 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22195	Revista Educacao em Foco (UFJF)	0	85	0
 10.22196	Revista Pedagogica	0	344	0
 10.22197	Instituto Brasileiro de Direito Processual Penal	0	42	0
-10.22198	Region y Sociedad, Revista de el Colegio de Sonora	0	322	0
 10.22204	Russian Foundation for Basic Research	0	34	0
 10.22202	STKIP PGRI Sumatera Barat	0	363	0
 10.22200	Pakistan Journal of Pharmaceutical Research	0	37	0
@@ -6621,11 +6467,9 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22211	Institute of Industrial Organic Chemistry (IPO)	0	68	0
 10.22213	Kalashnikov Izhevsk State Technical University	0	126	0
 10.22208	Journal of Dentomaxillofacial Science	0	34	0
-10.22207	Journal of Pure and Applied Microbiology	0	107	0
 10.22214	International Journal for Research in Applied Science and Engineering Technology (IJRASET)	0	86	0
 10.22216	Kopertis Wilayah X	0	229	0
 10.22209	Corporacion Universitaria Remington	0	64	0
-10.22215	Carleton University, MacOdrum Library	0	13	0
 10.22217	Urban Planning International	0	83	0
 10.22226	Institute for Metals Superplasticity Problems of RAS	0	451	0
 10.22223	Faculty of Mechanical Engineering, VSB Technical University of Ostrava	0	203	0
@@ -6645,13 +6489,10 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22237	Wayne State University Library System	0	294	0
 10.22239	Vigilancia Sanitaria em Debate: Sociedade, Ciencia y Tecnologia	0	287	0
 10.22238	Revista Cerrados	0	24	0
-10.22246	The Society of Internal Korean Medicine	0	55	0
 10.22245	The Korean Academy of New Religions	0	179	0
 10.19256	Edra SpA	0	67	0
 10.22241	Revista Tocantinense de Geografia	0	14	0
 10.22247	EverScience Publications	0	11	0
-10.22252	Inonu Universitesi Kultur ve Sanat Dergisi/Inonu University Journal of Culture and Art	0	3	0
-10.22251	Korean Association For Learner-Centered Curriculum And Instruction	0	58	0
 10.22250	Amur State University	0	57	0
 10.22256	PUBVET	0	881	0
 10.22253	The Korean Society for Seon Studies	0	421	0
@@ -6667,63 +6508,40 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22269	Places Journal	0	419	0
 10.22268	Arab Society for Plant Protection	0	24	0
 10.22270	Society of Pharmaceutical Tecnocrats	0	564	0
-10.22281	Bryansk State University	0	13	0
 10.22275	Global English Teachers Association	0	22	0
 10.22280	Revinter	0	19	0
-10.22284	The Academy of Qualitative Research	0	67	0
-10.22286	Korean Association of Legal Philosophy	0	6	0
 10.22283	Institute of Natural Science	0	6	0
 10.22276	Ethnoscientia	0	8	0
-10.22279	Servico Nacional de Aprendizagem Comercial / SENAC SC	0	23	0
 10.22273	The Society of Modern Literary Theory	0	53	0
 10.22293	Faculdade Damas da Instrucao Crista	0	79	0
 10.22282	The Online Journal of Recreation and Sport	0	9	0
 10.22289	Psicologia e Saude em Debate	0	49	0
 10.22296	Revista Brasileira de Estudos Urbanos e Regionais (RBEUR)	0	460	0
-10.22288	Federacao Brasileira de Gastroenterologia	0	8	0
 10.22292	Revista Meio Ambiente e Sustentabilidade	0	28	0
 10.22287	Revistas Integradas Campos Salles	0	271	0
 10.22302	Riset Perkebunan Nusantara	0	203	0
-10.22303	University of Potensi Utama Medan	0	61	0
 10.22304	Padjadjaran Jurnal Ilmu Hukum	0	98	0
 10.22306	4S go, s.r.o.	0	74	0
 10.22310	Cadernos de Pos-Graduacao em Disturbios do Desenvolvimento	0	8	0
-10.22313	Residential Environment Institute Of Korea	0	24	0
 10.22311	Medina Publishing Ltd.	0	57	0
-10.22309	Pedagogiatorteneti Szemle	0	6	0
-10.22312	SDU Journal of Health Sciences	0	1	0
 10.22321	Korea Distribution and Logistics Policy Association	0	33	0
-10.22320	Universidad del Bio Bio	0	29	0
 10.22316	Philosophy of Coaching	0	14	0
 10.22324	The International Journal of Human Resource Development: Practice, Policy and Research	0	15	0
-10.22322	Center for Handicraft and Batik	0	17	0
-10.22318	International Society of the Learning Sciences	0	2	0
-10.22317	Naba'a Al-Hayat Foundation for Medical Sciences and Health Care	0	12	0
 10.22325	Federacion Espanola de Sociologia	0	36	0
 10.22333	Center for Civil Integration and Inter-Ethnic Relations	0	62	0
 10.22335	Policia Nacional de Colombia	0	35	0
 10.22330	International Society for Human Ethology (ISHE)	0	32	0
 10.22336	Fundatia Universitara Sanabuna	0	2	0
-10.22332	Center for the Study of Material and Visual Cultures of Religion	0	88	0
-10.22326	International Journal of Anatolia Sport Sciences	0	7	0
-10.22331	Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften	0	1	0
 10.22338	Andalas University	0	11	0
 10.22328	Baltic Medical Education Center	0	123	0
 10.22327	The Research Institute of Korean Education	0	28	0
 10.22329	University of Windsor Leddy Library	0	24	0
 10.22340	Chungbuk National University Social Science Institute	0	21	0
 10.22341	JACSOnline Group Publisher	0	7	0
-10.22334	JBHOST Journal of Business on Hospitality and Tourism	0	84	0
-10.22343	Gorodets	0	154	0
 10.22342	Indonesian Mathematical Society	0	227	0
-10.21112	R.W. Steen Library, SFASU	0	651	0
-10.22344	Hankuk University of Foreign Studies Literature Studies	0	10	0
 10.22348	Revista Internacional de Educacao Superior	0	50	0
 10.22347	Revista Meta - Avaliacao	0	79	0
-10.22345	Korean Society for Urban History	0	5	0
 10.22353	National University of Mongolia	0	180	0
-10.22354	Asociacion Colombiana de Infectologia - ACIN	0	357	0
-10.22356	Flinders University Library	0	9	0
 10.22358	The Kielanowski Institute of Animal Physiology and Nutrition, PAS	0	941	0
 10.22357	Rochester Cathedral Research Guild	0	5	0
 10.22359	Journal of Clinical Social Work and Health Intervention	0	50	0
@@ -6734,9 +6552,7 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22225	Universitas Warmadewa	0	71	0
 10.22369	The Shodor Education Foundation, Inc.	0	48	0
 10.22364	University of Latvia	0	85	0
-10.22363	Peoples' Friendship University of Russia	0	110	0
 10.22370	Universidad de Valparaiso Chile	0	66	0
-10.22368	The Korea Society of Energy and Climate Change Education	0	2	0
 10.22366	Nigerian Young Academy	0	13	0
 10.22373	Universitas Islam Negeri Ar-Raniry	0	188	0
 10.22372	Center for Korean History	0	57	0
@@ -6744,303 +6560,90 @@ prefix_id	prefix_name	n_works_scihub	n_works_prefix	coverage
 10.22365	Hellenic Psychiatric Association	0	26	0
 10.22374	Dougmar Publishing Group, Inc.	0	10	0
 10.22377	BRNSS Publication Hub	0	918	0
-10.22378	Sh.Marjani Institute of History of Tatarstan Academy of Sciences	0	21	0
 10.22376	International Journal of Pharma and Bio Sciences	0	376	0
 10.22379	Asociacion Colombiana de Neurologia	0	159	0
 10.22383	Universidad Catolica de Manizales	0	67	0
 10.22385	Journal of Communications Technology, Electronics and Computer Science (JCTECS)	0	63	0
 10.22386	Universidad Cientifica del Peru	0	118	0
-10.22380	Instituto Colombiano de Antropologia e Historia	0	181	0
-10.22387	Capacious: The Journal for Emerging Affect Inquiry	0	5	0
 10.22396	Marmara Universitesi Spor Bilimleri Dergisi	0	19	0
 10.22391	Family Practice and Palliative Care	0	19	0
-10.22295	Revista Grifos	0	119	0
-10.22394	The Russian Presidential Academy of National Economy and Public Administration	0	72	0
 10.21589	Legal Research Institute of Ajou University	0	302	0
-10.22305	Universidad Nacional de la Patagonia Austral	0	1	0
 10.22392	Suleyman Demirel Universitesi Egirdir Su Urunleri Fakultesi Dergisi	0	13	0
 10.22388	Departamento de Psicobiologia - UNIFESP	0	45	0
-10.22397	Wonkwang University Legal Research Institute	0	11	0
 10.22398	ESPM Rio de Janeiro	0	21	0
 10.22389	FSBI Center of Geodesy, Cartography, and SDI	0	267	0
 10.22395	Universidad de Medellin	0	192	0
-10.5004	Desalination Publications	1567	341	4.595
 10.22400	Consejo de la Juventud de Extremadura	0	13	0
-10.22401	Journal of Al-Nahrain University-Science	0	169	0
 10.22402	UNAM Facultad de Estudios Superiores Iztacala	0	34	0
-10.22403	Universidad de Quintana Roo	0	14	0
-10.22410	Editora Univates	0	106	0
-10.22411	REDE â Revista Eletronica do PRODEMA	0	14	0
-10.22409	Pro Reitoria de Pesquisa, Pos Graduacao e Inovacao - UFF	0	44	0
-10.22407	Instituto Federal de Educacao Ciencia e Tecnologia do Rio de Janeiro - IFRJ	0	19	0
-10.22422	Revista Temporalis	0	85	0
 10.22417	cThe Institute for Social Science Research, Kyungpook National University	0	11	0
 10.22416	Russian Gastroenterolgocial Society	0	42	0
-10.22415	The Korean-Chinese Society of Law	0	206	0
 10.22413	Vasundara Groups	0	15	0
-10.22412	Russian State University of Tourism and Service	0	153	0
-10.22418	Institute of Social Science, Gangwon University	0	48	0
-10.22421	Instituto de Estudos em Saude Coletiva - INESCO	0	54	0
 10.22414	Institute for Russian, East European, and Eurasian Studies	0	174	0
-10.22425	Sejong University Language Research Institute	0	170	0
 10.22426	Australian Counselling Association, Inc.	0	1	0
-10.22430	Instituto Tecnologico Metropolitano (ITM)	0	53	0
 10.22433	Canadian Journal of Nutrition	0	5	0
-10.22432	Fundacja Pedagogium	0	28	0
-10.22431	Escuela Superior de Administracion Publica	0	2	0
-10.22435	Badan Penelitian dan Pengembangan Kesehatan	0	592	0
-10.22436	International Scientific Research Publications MY SDN. BHD.	0	129	0
-10.22438	Triveni Enterprises	0	44	0
-10.22443	Royal Microscopical Society	0	13	0
 10.22439	Copenhagen Business School	0	519	0
 10.22442	Journal of Liaquat University of Medical and Health Sciences (JLUMHS)	0	58	0
 10.22440	WERI Education Research Development Printing Publication, Ltd.	0	13	0
-10.22441	Universitas Mercu Buana	0	171	0
 10.22445	BSNV College Lucknow	0	43	0
 10.22449	FSBSI MHI	0	181	0
 10.22444	Information Bulletin on Variable Stars (IBVS)	0	16	0
-10.22448	Amur State Medical Academy	0	77	0
-10.22446	Multiculture and Peace Institute	0	120	0
 10.22453	National Council for Scientific Research - Lebanon	0	20	0
-10.22451	Escuela de Postgrado Neumann	0	6	0
 10.22452	Univ. of Malaya	0	12	0
 10.22455	Ð. M. Gorky Institute of World Literature of the Russian Academy of Sciences	0	55	0
-10.21069	Acta Pediatrica Portuguesa	0	1	0
-10.22456	Universidade Federal do Rio Grande do Sul	0	22	0
 10.22460	STKIP Siliwangi Bandung	0	92	0
 10.22459	ANU Press	0	101	0
 10.22457	House of Scientific Research	0	4	0
-10.22458	Universidad Estatal a Distancia	0	272	0
 10.22465	Korean Urological Oncology Society	0	22	0
-10.22464	Diyalektolog - Ulusal Hakemlin Sosyal Arastirmalar Dergisi	0	14	0
 10.22466	Artvin Coruh Universitesi Uluslararasi Sosyal Bilimler Dergisi	0	6	0
 10.22480	Revista da Unifa	0	2	0
 10.22470	Korean Society of Pediatric Emergency Medicine	0	23	0
 10.22471	J-Institute	0	62	0
-10.22468	Asian Society of Cardiovascular Imaging	0	12	0
 10.22473	Korean Association of Thai Studies	0	151	0
 10.22479	Textura	0	26	0
-10.22476	Revista Critica	0	74	0
 10.22475	REBECA - Revista Brasileira de Estudos de Cinema e Audiovisual	0	188	0
-10.22469	Korean Society of Laryngology, Phoniatrics and Logopedics	0	16	0
-10.22484	Pos-Graduacao em Comunicacao e Cultura â PPGCC	0	1	0
 10.22485	The Association of Engineers, India	0	107	0
-10.22488	Oklahoma State University Library	0	44	0
-10.22487	Universitas Tadulako	0	24	0
-10.22490	Universidad Nacional Abierta y a Distancia	0	6	0
-10.22492	The International Academic Forum (IAFOR)	0	39	0
 10.22495	Virtus Interpress	0	3135	0
 10.22494	Institute of Cell Therapy	0	71	0
-10.22496	Archyworld Publishing, Ltd.	0	35	0
 10.22499	Bureau of Meteorology, Australia	0	323	0
 10.22497	Universidad Privada Antenor Orrego	0	17	0
 10.22498	Past Global Changes (PAGES)	0	91	0
 10.22500	Sodality: Jurnal Sosiologi Pedesaan	0	175	0
-10.22501	Society for Artistic Research	0	9	0
 10.22503	Informacios Tarsadalom	0	16	0
-10.22511	Korean Association of Women's History	0	165	0
 10.22507	Corporacion Universitaria Lasallista	0	199	0
 10.22502	Lumbini Medical College	0	72	0
 10.22510	Korean Financial Management Association	0	58	0
-10.22504	Gwangju Catholic University Institute for Theology	0	6	0
 10.22521	Universitepark	0	94	0
-10.22514	Pharmamed Mado Ltd	0	348	0
 10.22515	IAIN Surakarta	0	141	0
-10.22518	Universidad Sergio Arboleda	0	5	0
 10.22520	Parantez Teknologji Ltd	0	379	0
-10.22517	Universidad Tecnologica de Pereira - UTP	0	4	0
-10.22516	Asociacion Colombiana de Gastroenterologia	0	1	0
 10.22529	Universidad Catolica de Cordoba	0	12	0
-10.22532	Journal of Transportation and Logistics	0	9	0
 10.22533	Atena Editora	0	13	0
 10.22530	Grupo de Investigacion Arte y Ciudad, UCM	0	1	0
-10.22531	Mugla Journal of Science and Technology	0	71	0
-10.22540	Hylonome Publications	0	1	0
-10.22537	Korean Society of Clinical Toxicology	0	13	0
-10.22522	Edward Bernays College of Communication Management	0	15	0
 10.22539	Hanyang Peace Institute	0	12	0
 10.22538	The Japan Center	0	149	0
 10.19046	International Scientific Publishers	0	110	0
 10.15200	The Winnower, LLC	1	1191	0.0008396
 10.22541	Authorea, Inc.	0	15	0
 10.22548	Lajnah Pentashihan Mushaf Al-Qur'an	0	9	0
-10.22545	The Academy of Transdisciplinary Learning and Advanced Studies	0	23	0
 10.22547	Institute of Management Sciences	0	90	0
-10.22543	Valparaiso University	0	9	0
-10.22546	Sociedad Gallega de Medicina Interna	0	309	0
-10.22551	Grigore T. Popa University of Medicine and Pharmacy	0	97	0
-10.22549	Journal of Earth Energy Engineering	0	1	0
 10.22550	Universidad Internacional de la Rioja	0	2	0
 10.22556	The Convergence Tourism Contents Society	0	14	0
 10.22557	The Korean Language Society	0	447	0
 10.22552	Jaipuria Institute of Management, India	0	13	0
-10.22555	Institute of Business Management	0	34	0
 10.22559	Uluslararasi Kibris Universitesi Fen-Edebiyat Fakultesi	0	10	0
-10.22554	Irish Learning Technology Association (ILTA)	0	11	0
-10.22564	Sociedade Brasileira de Geofisica	0	195	0
 10.22568	Jornal de Estudos Espiritas	0	43	0
 10.22563	Jornal de Assistencia Farmaceutica e Farmacoeconomia	0	26	0
 10.22567	Revista Eniac Pesquisa	0	79	0
-10.22562	Cadernos do CEOM	0	11	0
-10.22571	Acta Brasiliensis	0	8	0
-10.22572	Media Research Publications	0	13	0
 10.22573	Skyfox Publishing	0	13	0
-10.22574	The Society for the Promotion of Mechanism and Institution Design	0	7	0
 10.22576	Society of Scientific Footprints	0	19	0
-10.22575	The Japanese Society of Interventional Radiology	0	18	0
 10.22580	Mondal I-Sciences	0	8	0
-10.22578	College of Medicine, Alnahrain University	0	30	0
-10.22585	Centro Internacional Virtual de Investigacion en Nutricion (CIVIN)	0	6	0
 10.22592	Revista Odontoestomatologia	0	2	0
-10.22583	Department of Arabic Studies and Islamic Civilization	0	6	0
-10.22591	Magyar Urologia	0	5	0
-10.22595	Atlanta University Center - Robert W. Woodruff Library	0	10	0
-10.22594	Defense Acquisition University Press	0	11	0
 10.22598	Faculty of Economics and Business, University of Zagreb	0	2	0
-10.22596	Faculty of Education, Harran University	0	8	0
 10.22600	Investigacoes em Ensino de Ciencias (IENCI)	0	62	0
-10.22601	Tallinn University Press	0	22	0
-10.22603	Japanese Society for Spine Surgery and Related Research	0	7	0
-10.22604	University of Colorado Denver	0	12	0
-10.22602	Books on Demand	0	1	0
 10.22606	Isaac Scientific Publishing Co., Ltd.	0	195	0
-10.22608	Asia Pacific Academy of Ophthalmology	0	460	0
-10.22610	AMH International Conferences and Seminars Organizing LLC	0	22	0
-10.22607	KROS Publications	0	2	0
-10.22609	Emertec Research and Development	0	7	0
 10.22613	Zeitschrift fur Praktische Philosophie	0	71	0
-10.21977	UCI School of Education	0	11	0
-10.22623	International Journal of Applied and Pure Science and Agriculture	0	3	0
-10.22614	Revista Saber Cientifico	0	11	0
-10.22616	Latvia University of Agriculture	0	35	0
 10.22615	Journal of Geospatial Modelling	0	13	0
-10.22619	Centre for Multidisciplinary Research, Innovation and Collaboration (C-MRiC)	0	13	0
-10.22620	Agricultural University	0	143	0
-10.22621	Ottawa Field-Naturalists' Club	0	1735	0
 10.22618	SJT Trivent SRL	0	133	0
 10.22617	Asian Development Bank	0	40	0
-10.22624	Creative Research Publishers	0	34	0
-10.22625	SPRIDA	0	16	0
-10.22628	Global Institute for Japanese Studies at Korea University	0	18	0
-10.22627	Journal of Childrens Infections	0	117	0
-10.23834	The Journal of International Scientific Researches	0	28	0
-10.22632	Computer Science Laboratory Press	0	15	0
 10.22631	Avicenna Publishing Corporation	0	26	0
-10.23840	The Korean Society for Agriculture Education and Human Resource Development	0	325	0
-10.23835	Tasarim and Kuram	0	28	0
-10.22633	Revista Eletronica Politica e Gestao Educacional	0	25	0
-10.22630	Warsaw University of Life Sciences â SGGW Press	0	3	0
-10.23839	Korea Association of Business Education	0	27	0
 10.23841	The Economic Geographical Society of Korea	0	382	0
-10.23837	Thiagarajar School of Management	0	5	0
-10.23838	Sungkyunkwan University School of Medicine	0	1	0
-10.23844	Korea Counseling Psychological Association	0	69	0
-10.23846	International Initiative for Impact Evaluation (3ie)	0	141	0
-10.23848	British Journal of Clinical Audit	0	4	0
-10.23849	North Pacific Anadromous Fish Commission	0	77	0
-10.23850	Servicio Nacional de Aprendizaje SENA - SENNOVA	0	2	0
-10.23851	Al-Mustansiriyah Journal of Science	0	25	0
-10.23852	Library of the Czech Academy of Sciences	0	8	0
-10.23857	Polo de Capacitacion, Investigacion y Publicacion (POCAIP)	0	4	0
-10.23855	Czech Botanical Society	0	4	0
-10.23854	Universidad Bernardo O'Higgins	0	12	0
-10.23858	Institute of Archaeology and Ethnology, Polish Academy of Sciences	0	51	0
-10.23856	Polonia University in Czestochowa	0	189	0
-10.23853	Sociedad Espanola de Hidrologia Medica	0	199	0
-10.23861	Albert Einstein College of Medicine	0	206	0
-10.23860	University of Rhode Island	0	48	0
-10.23863	Kalem Uluslararasi Egitim ve Insan Bilimleri Dergisi	0	72	0
-10.23865	Cappelen Damm AS - Cappelen Damm Akademisk	0	193	0
-10.23870	Middle Atlantic Review of Latin American Studies	0	2	0
-10.23871	Revista Dimensoes	0	14	0
-10.23876	The Korean Society of Nephrology	0	16	0
-10.22519	Corporacion Universitaria Rafael Nunez	0	198	0
-10.23874	Acharya Bangalore B School	0	17	0
-10.23872	A.J. Institute of Management	0	14	0
-10.23869	Journal of Biological Researches	0	242	0
-10.23877	Triacon	0	41	0
-10.23882	GREI - Grupo de Estudos Interdisciplinares	0	14	0
-10.23878	Universidad Catolica de Santiago de Guayaquil	0	72	0
-10.23881	Universidad Privada Boliviana	0	118	0
-10.23883	International Journal of Recent Trends in Engineering and Research	0	55	0
-10.23890	Sustainable Aviation Research Society	0	16	0
-10.23902	Trakya University Journal of Natural Sciences	0	2	0
-10.23893	Acta Pharmaceutica Sciencia	0	7	0
-10.23886	Faculty of Medicine Universitas Indonesia	0	133	0
-10.23899	Centro Latino-Americano de Estudos em Cultura - CLAEC	0	192	0
-10.23887	Universitas Pendidikan Ganesha	0	496	0
-10.23892	Marmara Business Review	0	5	0
-10.23900	Revista Politicas Publicas e Cidades	0	26	0
-10.23891	Yuzunci Yil Universitesi Egitim Fakultesi Dergisi	0	10	0
-10.23895	Korea Development Institute	0	190	0
-10.23888	Ryazan State Medical University	0	38	0
-10.23906	Instituto Portugues de Relacoes Internacionais, Universidade Nova de Lisboa	0	1	0
-10.23915	Distill Working Group	0	5	0
-10.23914	JAS Arqueologia S.L.U.	0	71	0
-10.23912	Goodfellow Publishers, Ltd.	0	95	0
-10.23917	Universitas Muhammadiyah Surakarta	0	431	0
-10.23916	Indonesian Counselor Association (IKI)	0	11	0
-10.23913	Centro de Estudios e Investigaciones para el Desarrollo Docente - CENID	0	551	0
-10.23918	Ishik University	0	10	0
-10.23920	Jurnal Bina Mulia Hukum	0	12	0
-10.23922	The Japan Society of Coloproctology	0	6	0
-10.23924	Centro de Investigacion Social Avanzada (CISAV)	0	36	0
-10.23923	Consejo General de Colegios Oficiales de Psicologos	0	44	0
-10.23932	Center for Crisis Society Studies	0	6	0
-10.23929	International Journal of Academic Value Studies (Javstudies JAVS)	0	66	0
-10.23926	Revista Pratica Docente	0	12	0
-10.23925	Portal de Revistas PUC SP	0	1	0
-10.23937	ClinMed International Library	0	1850	0
-10.23940	Totem Publisher, Inc.	0	8	0
-10.23938	Gobierno de Navarra	0	2	0
-10.23936	Saludesa	0	25	0
-10.23939	Lviv Polytechnic National University	0	94	0
-10.23935	Revista Invesigacion Cualitativa	0	11	0
-10.23951	Tomsk State Pedagogical University	0	104	0
-10.23950	JSC National Scientific Medical Research Center	0	30	0
-10.23949	Korean Alliance for Health, Physical Education, Recreation, and Dance	0	62	0
-10.23945	Korean Silhak Society	0	26	0
-10.23944	Special Education and Rehabilitation Science Research Center	0	264	0
-10.23955	Chemical Engineering Department, Syiah Kuala University	0	48	0
-10.23953	Cloud Publications	0	28	0
-10.23952	Mathematical Research Press	0	29	0
-10.23958	International Scientific Invention Journals	0	38	0
-10.23956	Advance Academic Publisher	0	17	0
-10.23960	Universitas Lampung	0	18	0
-10.7573	Just Medical Media, Ltd.	3	100	0.03
-10.23964	Research Consultants and Publisher	0	6	0
-10.23963	Colloquium - New Philologies	0	11	0
-10.23968	Saint Petersburg State University of Architecture and Civil Engineering (SPSUACE)	0	39	0
-10.23971	IAIN Palangka Raya	0	7	0
-10.23970	Agency for Healthcare Research and Quality	0	8	0
-10.23969	Universitas Pasundan	0	29	0
-10.23973	Associacao Brasileira de Medicina Preventia e Administracao em Saude - ABRAMPAS	0	12	0
-10.23972	PGDesign / Universidade Federal do Rio Grande do Sul	0	101	0
-10.23974	International Journal of Librarianship	0	8	0
-10.23976	Middle East Institute Singapore	0	136	0
-10.23977	Clausius Scientific Press, Inc.	0	103	0
-10.23975	Basrah Journal of Veterinary Research	0	1	0
-10.23987	Science and Technology Studies	0	5	0
-10.23997	Puhe ja kieli	0	3	0
-10.23990	Sosiaalilaaketieteellisen aikakauslehti	0	4	0
-10.23985	Etnomusikologian vuosikirja	0	11	0
-10.24011	Bartin Orman Fakultesi Dergisi	0	24	0
-10.24007	Physical Education Lab of Chung-Ang University	0	7	0
-10.24008	Center for Korean Literature and Language Education	0	24	0
-10.24002	Universitas Atma Jaya Yogyakarta	0	367	0
-10.24001	Infogain Publication	0	49	0
-10.24003	EMITTER International Journal of Engineering Technology	0	75	0
-10.24013	Journal of Management Economics Literature Islamic and Political Science	0	11	0
-10.24005	Korean Special Education Association for Curriculum and Instruction	0	21	0
-10.24014	Universitas Islam Negeri Sultan Syarif Kasim Riau	0	67	0
-10.24017	Sulaimani Polytechnic University	0	18	0
-10.24015	Evidence Based Communications	0	135	0
-10.24016	Instituto Peruano de Orientacion Psicologica - IPOPS	0	21	0
-10.24018	European Open Access Publishing (Europa Publishing)	0	12	0
-10.24026	Lancet XXI STORIChChYa, LLC	0	101	0
-10.24022	A.N. Bakoulev National Scientific and Practical Center for Cardiovascular Surgery	0	26	0
-10.24019	Fondazione Vasculab	0	14	0
-10.24021	Revista Acta Ambiental Catarinense	0	6	0
-10.24028	Institute of Geophysics of the National Academy of Sciences of Ukraine by S.I. Subbotin name	0	25	0
 10.24031	PH V. Ema	0	16	0
-10.24030	Essays on Conservatism	0	222	0
