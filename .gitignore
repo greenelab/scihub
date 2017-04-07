@@ -1,2 +1,5 @@
 # Jupyter
 .ipynb_checkpoints/
+
+# LibreOffice
+.~lock.*#
