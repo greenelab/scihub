@@ -1,4 +1,4 @@
-# External datasets
+# SciHub's DOI listing
 
 [`doi.log.xz`](doi.log.xz) was created by the following steps on 2017-03-22:
 
