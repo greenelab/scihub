@@ -6,7 +6,4 @@ dependencies:
 - pytest=3.0.7
 - python=3.6.0
 - requests=2.12.4
-- sqlite=3.13.0
-- pip:
-  - habanero==0.2.6
-  - ratelimit==1.2.0
+- xz=5.2.2
