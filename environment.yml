@@ -1,6 +1,7 @@
 name: scihub
 dependencies:
 - ipykernel=4.5.2
+- conda-forge::jq=1.5.3
 - nbconvert=5.1.1
 - pandas=0.19.2
 - pytest=3.0.7
