@@ -16,3 +16,15 @@ Below are several rows near the start of the table to give you an idea of the da
 | 2015-09-01 00:00:40 | 10.1007/s40111-013-0013-3       | 56ed2b025af9f | Romania  | Cluj-Napoca | 46.7712101 | 23.6236353  |
 | 2015-09-01 00:00:40 | 10.1016/j.marpolbul.2012.08.016 | 56ed2b70e91b5 | Taiwan   |             | 25.0378259 | 121.5212991 |
 | 2015-09-01 00:00:41 | 10.1007/s00595-014-1024-z       | 56ed2b0d6ed08 | Egypt    |             | 30.0777469 | 31.2941069  |
+
+Run [`2.summarize.ipynb`](2.summarize.ipynb) to aggregate visits by DOI.
+The DOI summaries are exported to [`scihub-logs-summary_2015-09_2016-02.tsv.xz`](scihub-logs-summary_2015-09_2016-02.tsv.xz).
+Below are several rows near the start of the table to give you an idea of the data's structure:
+
+| doi                                  | downloads | visitors | countries | days | months |
+|--------------------------------------|-----------|----------|-----------|------|--------|
+| 10.1001/archderm.1975.01630180068008 | 3         | 3        | 2         | 3    | 2      |
+| 10.1001/2013.jamadermatol.541        | 1         | 1        | 1         | 1    | 1      |
+| 10.1001/archinte.159.9.941           | 12        | 10       | 9         | 12   | 4      |
+| 10.1001/archpedi.1928.01920240011002 | 2         | 2        | 1         | 1    | 1      |
+| 10.1001/archotol.127.12.1499         | 1         | 1        | 0         | 1    | 1      |
