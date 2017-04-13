@@ -1,7 +1,10 @@
 # SciHub's DOI listing
 
-[`doi.log.xz`](doi.log.xz) was created by the following steps on 2017-03-22:
+On 2017-03-19, `@Sci_Hub` [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
 
-1. Download `doi.7z` (see [Tweet](https://twitter.com/Sci_Hub/status/843546352219017218)). e.g. `wget http://sci-hub.cc/downloads/doi.7z`.
-+ Extract `doi.7z`, e.g. `7z x doi.7z`
-+ xz compress `doi.log`, e.g. `xz --force doi.log`
+> If you like the list of all DOI collected on Sci-Hub, here it is: http://sci-hub.cc/downloads/doi.7z … 62,835,101 DOI in alphabetical order
+
+[`1.retrieve.sh`](1.retrieve.sh) downloads and lightly processes this dataset. The files created by this script are:
+
++ [`doi.7z`](doi.7z): the unmodified DOI list.
++ [`scihub-doi-list.txt.xz`](scihub-doi-list.txt.xz): a UTF-8 encoded and xz-compressed version of `doi.log` (the sole file in `doi.7z`).
