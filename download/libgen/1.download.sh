@@ -5,6 +5,8 @@ set -o errexit
 DATE=`jq '.date' configuration.json`
 echo "$DATE"
 
+mkdir --parents sql
+
 # Download LibGen science magazine metadata from libgen.io
 wget --timestamping \
   --directory-prefix=sql \
