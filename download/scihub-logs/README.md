@@ -1,4 +1,4 @@
-# Bohannon & Elbakyan SciHub visitor logs from 2015-09 to 2016-02
+# Bohannon & Elbakyan Sci-Hub visitor logs from 2015-09 to 2016-02
 
 This directory downloads the supplementary data from [Who's downloading pirated papers? Everyone](https://doi.org/10.1126/science.352.6285.508).
 The data is available at:

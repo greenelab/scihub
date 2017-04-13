@@ -1,4 +1,4 @@
-# SciHub's DOI listing
+# Sci-Hub's DOI listing
 
 On 2017-03-19, `@Sci_Hub` [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
 
