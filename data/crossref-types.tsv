@@ -1,0 +1,27 @@
+type_id	type_label	include
+book	Book	0
+book-chapter	Book Chapter	1
+book-part	Part	1
+book-section	Book Section	1
+book-series	Book Series	0
+book-set	Book Set	0
+book-track	Book Track	0
+component	Component	0
+dataset	Dataset	0
+dissertation	Dissertation	0
+edited-book	Edited Book	0
+journal	Journal	0
+journal-article	Journal Article	1
+journal-issue	Journal Issue	0
+journal-volume	Journal Volume	0
+monograph	Monograph	0
+other	Other	0
+posted-content	Posted Content	0
+proceedings	Proceedings	0
+proceedings-article	Proceedings Article	1
+reference-book	Reference Book	0
+reference-entry	Reference Entry	1
+report	Report	1
+report-series	Report Series	0
+standard	Standard	1
+standard-series	Standard Series	0
