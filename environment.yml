@@ -1,15 +1,15 @@
 name: scihub
 dependencies:
+- chardet=3.0.2
+- conda-forge::jq=1.5.3
+- conda-forge::libiconv=1.14
+- conda-forge::matplotlib-venn=0.11.5
 - ipykernel=4.5.2
 - ipywidgets=6.0.0
-- chardet=3.0.2
-- conda-forge::libiconv=1.14
-- conda-forge::jq=1.5.3
-- conda-forge::matplotlib-venn=0.11.5
-- mysql-connector-python=2.0.4
 - matplotlib=2.0.0
-- notebook=5.0.0
+- mysql-connector-python=2.0.4
 - nbconvert=5.1.1
+- notebook=5.0.0
 - pandas=0.19.2
 - pytest=3.0.7
 - python=3.6.0
