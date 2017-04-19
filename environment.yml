@@ -13,6 +13,13 @@ dependencies:
 - pandas=0.19.2
 - pytest=3.0.7
 - python=3.6.0
+- r::r-base=3.3.2
+- r::r-dplyr=0.5.0
+- r::r-ggplot2=2.2.0
+- r::r-irkernel=0.7.1
+- r::r-lubridate=1.6.0
+- r::r-readr=1.0.0
+- r::r-tidyr=0.6.0
 - requests=2.12.4
 - seaborn=0.7.1
 - tqdm=4.11.2
