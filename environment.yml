@@ -2,7 +2,6 @@ name: scihub
 dependencies:
 - chardet=3.0.2
 - conda-forge::jq=1.5.3
-- conda-forge::libiconv=1.14
 - conda-forge::matplotlib-venn=0.11.5
 - ipykernel=4.5.2
 - ipywidgets=6.0.0
