@@ -15,6 +15,8 @@ dependencies:
 - r::r-base=3.3.2
 - r::r-dplyr=0.5.0
 - r::r-ggplot2=2.2.0
+- r::r-hexbin=1.27.1
+- r::r-hmisc=4.0.0
 - r::r-irkernel=0.7.1
 - r::r-lubridate=1.6.0
 - r::r-readr=1.0.0
