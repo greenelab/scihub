@@ -14,6 +14,11 @@ import Journal from './Journal';
 import DataTable from './DataTable';
 
 
+function JournalTable({history}) {
+  return <DataTable journalSelected={(data) => history.push(`/journal/${data.scopus_id}`)} />
+}
+
+
 export default class Root extends React.Component {
   constructor(props) {
     super(props);
@@ -23,21 +28,16 @@ export default class Root extends React.Component {
     return <div className="container">
       <div className={styles.container}>
         <h2 className={styles.title}>SciHub</h2>
-        <DataTable journalSelected={(data) => this._journalSelected(data)} />
 
-        <Router ref={(router) => this.router = router}>
+        <Router>
           <Switch>
+            <Route exact path="/" component={JournalTable}/>
             <Route path="/journal/:journalId" component={Journal}/>
-            <Route path="/journal" component={()=><h2>Please select</h2>}/>
           </Switch>
         </Router>
       </div>
     </div>;
   }
-
-  _journalSelected(data) {
-    this.router.history.push(`/journal/${data.scopus_id}`);
-  }
-}
+};
 
 
