@@ -15,7 +15,7 @@ export default class DataTable extends React.Component {
 
     this.dataTable
       .on('select', (e, dt, type, indexes) => {
-        let rowData = this.dataTable.rows(indexes).data().toArray();
+        let rowData = this.dataTable.rows(indexes).data().toArray()[0];
         this._selectJournal(rowData);
       });
   }

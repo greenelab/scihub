@@ -10,6 +10,7 @@ import {
   Switch
 } from 'react-router-dom';
 
+import Journal from './Journal';
 import DataTable from './DataTable';
 
 
@@ -26,19 +27,16 @@ export default class Root extends React.Component {
     super(props);
   }
 
-  componentDidMount() {
-  }
-
   render () {
     return <Layout>
       <div>
         <h2 className={styles.title}>SciHub</h2>
-
         <DataTable journalSelected={(data) => this._journalSelected(data)} />
 
-        <Router>
+        <Router ref={(router) => this.router = router}>
           <Switch>
-            <Route path="/journal" component={()=><h2>COMPONENT</h2>}/>
+            <Route path="/journal/:journalId" component={Journal}/>
+            <Route path="/journal" component={()=><h2>Please select</h2>}/>
           </Switch>
         </Router>
       </div>
@@ -46,7 +44,7 @@ export default class Root extends React.Component {
   }
 
   _journalSelected(data) {
-    console.log(data);
+    this.router.history.push(`/journal/${data.scopus_id}`);
   }
 }
 
