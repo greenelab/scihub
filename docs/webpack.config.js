@@ -36,7 +36,7 @@ module.exports = {
       appMountId: 'app-container',
       links: ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'],
       mobile: true,
-      title: 'Sci-Hub',
+      title: 'SciHub',
       window: {
         env: env
       }

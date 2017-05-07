@@ -3,7 +3,6 @@
 import React from 'react';
 import styles from './root.scss';
 import 'babel-polyfill';
-import Loading from './Loading';
 
 import {
   HashRouter as Router,
@@ -35,16 +34,19 @@ export default class Root extends React.Component {
       <div>
         <h2 className={styles.title}>SciHub</h2>
 
-        <DataTable />
+        <DataTable journalSelected={(data) => this._journalSelected(data)} />
 
         <Router>
           <Switch>
-            <Route exact path="/" component={Loading}/>
             <Route path="/journal" component={()=><h2>COMPONENT</h2>}/>
           </Switch>
         </Router>
       </div>
     </Layout>;
+  }
+
+  _journalSelected(data) {
+    console.log(data);
   }
 }
 
