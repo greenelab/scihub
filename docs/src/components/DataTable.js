@@ -1,9 +1,10 @@
 
 import React from 'react';
 import $ from 'jquery';
-import dt from 'datatables.net';
 import {fetchJournalData} from "../utils/data";
 
+require('datatables.net');
+require('datatables.net-dt/css/jquery.dataTables.css');
 
 class DataTableBase extends React.Component {
   initTable (table) {
@@ -38,6 +39,7 @@ export default class DataTable extends DataTableBase {
         let rows = await fetchJournalData();
         callback({data: rows});
       },
+      "bInfo": true,
       "paging": true,
       aoColumns: [
         {bVisible: false, data: 'scopus_id'},
@@ -46,7 +48,7 @@ export default class DataTable extends DataTableBase {
         {sTitle: 'crossref', data: 'crossref'},
         {sTitle: 'coverage', data: 'coverage'},
       ],
-      order: [[2, "desc"]],
+      order: [[1, "asc"]],
       search: {regex: true}
     });
   }

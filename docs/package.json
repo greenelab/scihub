@@ -22,6 +22,7 @@
     "babel-preset-react": "^6.23.0",
     "css-loader": "^0.27.3",
     "datatables.net": "^1.10.15",
+    "datatables.net-dt": "^1.10.15",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "jquery": "^3.2.1",

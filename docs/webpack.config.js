@@ -5,7 +5,7 @@ var BundleTracker = require('webpack-bundle-tracker');
 var StatsPlugin = require('stats-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const env = require('./env');
 
@@ -65,10 +65,19 @@ module.exports = {
       },
       {test: /\.(jpe?g|png|gif|svg|ico)$/, loader: 'url-loader?limit=10000&name=[hash].[ext]'},
       {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+      {
         test: /\.scss$/,
         loaders: ['style-loader', 'css-loader?sourceMap=1&modules=1&localIdentName=[name]__[local]--[hash:base64:3]', 'sass-loader?sourceMap=1'],
         exclude: ['node_modules'],
       },
+      { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+      { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/octet-stream" },
+      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader" },
+      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" },
     ]
   },
 
