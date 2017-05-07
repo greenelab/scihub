@@ -7,6 +7,8 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
+const env = require('./env');
+
 let devServerPort = 9001;
 
 module.exports = {
@@ -36,9 +38,7 @@ module.exports = {
       mobile: true,
       title: 'Sci-Hub',
       window: {
-        env: {
-          apiHost: 'http://myapi.com/api/v1'
-        }
+        env: env
       }
     }),
   ],

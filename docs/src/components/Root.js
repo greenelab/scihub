@@ -11,6 +11,10 @@ import {
   Switch
 } from 'react-router-dom';
 
+import DataTable from './DataTable';
+
+
+
 export function Layout({children}) {
   return <div className="container">
     <div className={styles.container}>
@@ -30,7 +34,9 @@ export default class Root extends React.Component {
   render () {
     return <Layout>
       <div>
-        <h2 className={styles.title}>Sci-Hub</h2>
+        <h2 className={styles.title}>SciHub</h2>
+
+        <DataTable />
 
         <Router>
           <Switch>
