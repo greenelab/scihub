@@ -14,22 +14,14 @@ import Journal from './Journal';
 import DataTable from './DataTable';
 
 
-export function Layout({children}) {
-  return <div className="container">
-    <div className={styles.container}>
-      {children}
-    </div>
-  </div>
-}
-
 export default class Root extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render () {
-    return <Layout>
-      <div>
+    return <div className="container">
+      <div className={styles.container}>
         <h2 className={styles.title}>SciHub</h2>
         <DataTable journalSelected={(data) => this._journalSelected(data)} />
 
@@ -40,7 +32,7 @@ export default class Root extends React.Component {
           </Switch>
         </Router>
       </div>
-    </Layout>;
+    </div>;
   }
 
   _journalSelected(data) {

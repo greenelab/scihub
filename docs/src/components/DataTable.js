@@ -7,7 +7,6 @@ require('datatables.net');
 require('datatables-select');
 require('datatables.net-dt/css/jquery.dataTables.css');
 
-
 export default class DataTable extends React.Component {
   initTable (table) {
     let options = this._tableOptions();
@@ -18,11 +17,6 @@ export default class DataTable extends React.Component {
         let rowData = this.dataTable.rows(indexes).data().toArray()[0];
         this._selectJournal(rowData);
       });
-  }
-
-  // redraws the data table, if it has ajax configuration it will make the request again
-  redraw () {
-    this.dataTable.draw();
   }
 
   // destroy the data table when the component is about to be unmounted
@@ -36,15 +30,16 @@ export default class DataTable extends React.Component {
 
   render() {
     return (
-      <div className="table-responsive" style={this.props.style}>
+      <div className="table-responsive">
         <table className="table table-bordered display" ref={ (table) => this.initTable(table) } width="100%">
-          <thead>
-          <tr>
-          </tr>
-          </thead>
         </table>
       </div>
     );
+  }
+
+  // redraws the data table, if it has ajax configuration it will make the request again
+  redraw () {
+    this.dataTable.draw();
   }
 
   _selectJournal(journal) {
