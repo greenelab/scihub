@@ -1,7 +1,7 @@
 
 import React from 'react';
 import $ from 'jquery';
-import {fetchJournalData} from "../utils/data";
+import {fetchJournalDataMemoized} from "../utils/data";
 
 require('datatables.net');
 require('datatables-select');
@@ -54,7 +54,7 @@ export default class DataTable extends React.Component {
       responsive: true,
       "bLengthChange": false, // hide page length select
       ajax: async (data, callback, settings) => {
-        let rows = await fetchJournalData();
+        let rows = await fetchJournalDataMemoized();
         callback({data: rows});
       },
       "bInfo": true,
@@ -69,6 +69,7 @@ export default class DataTable extends React.Component {
       order: [[1, "asc"]],
       search: {regex: true},
       select: true,
+      pageLength: 20,
     });
   }
 
