@@ -14,7 +14,6 @@ import {
 import DataTable from './DataTable';
 
 
-
 export function Layout({children}) {
   return <div className="container">
     <div className={styles.container}>
