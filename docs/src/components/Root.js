@@ -3,7 +3,13 @@
 import React from 'react';
 import styles from './root.scss';
 import 'babel-polyfill';
-import loading from './loading.gif';
+import Loading from './Loading';
+
+import {
+  HashRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
 
 export function Layout({children}) {
   return <div className="container">
@@ -25,17 +31,16 @@ export default class Root extends React.Component {
     return <Layout>
       <div>
         <h2 className={styles.title}>Sci-Hub</h2>
-        <Loading />
+
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Loading}/>
+            <Route path="/journal" component={()=><h2>COMPONENT</h2>}/>
+          </Switch>
+        </Router>
       </div>
     </Layout>;
   }
 }
 
-
-function Loading() {
-  return <div className={styles.loading}>
-    <h4>Loading...</h4>
-    <img src={loading}/>
-  </div>;
-}
 
