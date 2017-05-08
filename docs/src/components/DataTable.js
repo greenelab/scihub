@@ -2,6 +2,7 @@
 import React from 'react';
 import $ from 'jquery';
 import {fetchJournalDataMemoized} from "../utils/data";
+import {format} from '../utils/helpers';
 
 require('datatables.net');
 require('datatables-select');
@@ -66,7 +67,7 @@ export default class DataTable extends React.Component {
         {sTitle: 'crossref', data: 'crossref'},
         {sTitle: 'coverage', data: 'coverage'},
       ],
-      order: [[1, "asc"]],
+      order: [[3, "desc"]],
       search: {regex: true},
       select: true,
       pageLength: 20,
