@@ -21,7 +21,7 @@ npm install
 npm run start
 ```
 
-Open a browser in [http://localhost:9001]() to see the page.
+Open a browser in http://localhost:9001 to see the page.
 
 ## Building Production Assets
 
