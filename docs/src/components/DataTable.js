@@ -63,9 +63,9 @@ export default class DataTable extends React.Component {
       aoColumns: [
         {bVisible: false, data: 'scopus_id'},
         {sWidth: '50%', sTitle: 'Title', data: 'title_name'},
-        {sTitle: 'scihub', data: 'scihub'},
-        {sTitle: 'crossref', data: 'crossref'},
-        {sTitle: 'coverage', data: 'coverage'},
+        {sTitle: 'scihub', data: 'scihub', render: (data)=>format.number(data, 0)},
+        {sTitle: 'crossref', data: 'crossref', render: (data)=>format.number(data, 0)},
+        {sTitle: 'coverage', data: 'coverage', render: (data)=>format.percent(data)},
       ],
       order: [[3, "desc"]],
       search: {regex: true},
