@@ -12,7 +12,8 @@ export default ({}, {location}) => <div>
           <span className="icon-bar"/>
           <span className="icon-bar"/>
         </button>
-        <a href="#" className="navbar-brand">Scihub</a>
+        <a href="#" className="navbar-brand">Sci-Hub</a>
+        <span className="navbar-text text-uppercase">(Under Heavy Development and subject to change)</span>
       </div>
 
       <div className="collapse navbar-collapse navbar-right">
