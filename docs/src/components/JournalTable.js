@@ -56,10 +56,6 @@ export default class JournalTable extends React.Component {
     let data = await fetchJournalDataMemoized();
     this.setState({data});
   }
-
-  _journalClicked(data) {
-    this.props.journalClicked && this.props.journalClicked(data);
-  }
 }
 
 export const NumberCell = ({value}) => <span>{format.number(value, 0)}</span>;
@@ -81,6 +77,8 @@ const TableLayout = ({ Table, Pagination, Filter }) => (
 
 
 
+// enhance cells with row data
+// thanks to http://griddlegriddle.github.io/Griddle/examples/getDataFromRowIntoCell/
 const rowDataSelector = (state, { griddleKey }) => {
   return state
     .get('data')
@@ -88,20 +86,13 @@ const rowDataSelector = (state, { griddleKey }) => {
     .toJSON();
 };
 
-// enhance cells with row data
-// thanks to http://griddlegriddle.github.io/Griddle/examples/getDataFromRowIntoCell/
-const enhancedWithRowData = connect((state, props) => {
-  return {
-    // rowData will be available into MyCustomComponent
-    rowData: rowDataSelector(state, props)
-  };
-});
-
-
 let JournalCell = ({value, rowData})=><div>
   <Link to={`/journal/${rowData.scopus_id}`} className="btn-link">{value}</Link>
 </div>;
-JournalCell = enhancedWithRowData(JournalCell);
+JournalCell = connect((state, props) => ({
+  // rowData will be available into JournalCell
+  rowData: rowDataSelector(state, props)
+}))(JournalCell);
 
 
 
