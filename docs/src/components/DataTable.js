@@ -13,11 +13,11 @@ export default class DataTable extends React.Component {
     let options = this._tableOptions();
     this.dataTable = $(table).dataTable(options).api();
 
-    this.dataTable
-      .on('select', (e, dt, type, indexes) => {
-        let rowData = this.dataTable.rows(indexes).data().toArray()[0];
-        this._selectJournal(rowData);
-      });
+    // this.dataTable
+    //   .on('select', (e, dt, type, indexes) => {
+    //     let rowData = this.dataTable.rows(indexes).data().toArray()[0];
+    //     this._selectJournal(rowData);
+    //   });
   }
 
   // destroy the data table when the component is about to be unmounted
@@ -69,7 +69,7 @@ export default class DataTable extends React.Component {
       ],
       order: [[3, "desc"]],
       search: {regex: true},
-      select: true,
+      // select: true,
       pageLength: 20,
     });
   }
