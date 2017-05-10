@@ -62,7 +62,7 @@ export default class DataTable extends React.Component {
       "paging": true,
       aoColumns: [
         {bVisible: false, data: 'scopus_id'},
-        {sWidth: '50%', sTitle: 'Journal', data: 'title_name'},
+        {sWidth: '50%', sTitle: 'Journal', data: ''},
         {sTitle: 'Sci-Hub', data: 'scihub', render: (data)=>format.number(data, 0)},
         {sTitle: 'Crossref', data: 'crossref', render: (data)=>format.number(data, 0)},
         {sTitle: 'Coverage', data: 'coverage', render: (data)=>format.percent(data)},
