@@ -23,13 +23,15 @@ export default class Root extends React.Component {
 
   render () {
     return <Router>
-      <div className="container">
-        <Navbar />
+      <div className={styles.app}>
+        <div className="container">
+          <Navbar />
 
-        <Switch>
-          <Route exact path="/" component={JournalTable}/>
-          <Route path="/journal/:journalId" component={Journal}/>
-        </Switch>
+          <Switch>
+            <Route exact path="/" component={JournalTable}/>
+            <Route path="/journal/:journalId" component={Journal}/>
+          </Switch>
+        </div>
       </div>
     </Router>;
   }

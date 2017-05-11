@@ -40,6 +40,7 @@ export default class JournalTable extends React.Component {
                           PageDropdown: 'form-control ' + styles.select,
                           NextButton: 'btn btn-default',
                           PreviousButton: 'btn btn-default',
+                          TableHeadingCell: styles.heading,
                         }
                       }}>
         <RowDefinition>
