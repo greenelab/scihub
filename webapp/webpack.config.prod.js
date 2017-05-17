@@ -4,8 +4,6 @@ var webpack = require('webpack');
 var BundleTracker = require('webpack-bundle-tracker');
 var config = require('./webpack.config');
 
-var GhPagesWebpackPlugin = require('gh-pages-webpack-plugin');
-
 module.exports = {
   //the entry point we created earlier. Note that './' means
   //your current directory. You don't have to specify the extension  now,
@@ -14,7 +12,7 @@ module.exports = {
 
   output: {
     //where you want your compiled bundle to be stored
-    path: path.resolve('./build/'),
+    path: path.resolve('../docs/'),
     //naming convention webpack should use for your files
     filename: '[name]-[hash].js',
   },
@@ -27,12 +25,6 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       'process.env': {NODE_ENV: JSON.stringify('production')},
-    }),
-    new GhPagesWebpackPlugin({
-      path: './build',
-      options: {
-          message: 'Deploy Page',
-      }
     }),
   ]),
 
