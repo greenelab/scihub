@@ -29,15 +29,6 @@ Open a browser in http://localhost:9001 to see the page.
 npm run build
 ```
 
-This will generate production ready files inside the folder `/docs/build`
-
-## Deploying to Github Pages
-
-```bash
-npm run deploy
-```
-
-This will compile the project's assets and publish them to the `gh-pages` branch of the 
-`origin` repository.
-
+This will generate production ready files inside the folder `/docs`. The 
+project is configured to serve the files from this directory.
 
