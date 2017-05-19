@@ -22,7 +22,7 @@
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
-    "griddle-react": "^1.0.0",
+    "griddle-react": "~1.0.0",
     "jquery": "^3.2.1",
     "node-sass": "^4.5.1",
     "react": "^15.5.4",
