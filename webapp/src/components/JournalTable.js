@@ -7,6 +7,8 @@ import {format} from "../utils/helpers";
 import { connect } from 'react-redux';
 import {Link} from 'react-router-dom';
 
+import openAccessLogo from './open-access-logo.png';
+
 import styles from './journal-table.scss';
 
 export default class JournalTable extends React.Component {
@@ -44,7 +46,9 @@ export default class JournalTable extends React.Component {
                         }
                       }}>
         <RowDefinition>
+          <ColumnDefinition id="active" title=" " width="20px" customComponent={ActiveJournalCell} />
           <ColumnDefinition id="title_name" title="Journal" width="70%" customComponent={JournalCell} />
+          <ColumnDefinition id="open_access" title=" " width="20px" customComponent={OpenAccessJournalCell} />
           <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}  />
           <ColumnDefinition id="crossref" title="Crossref" customComponent={NumberCell} />
           <ColumnDefinition id="coverage" title="Coverage" customComponent={PercentCell} />
@@ -97,3 +101,12 @@ JournalCell = connect((state, props) => ({
 
 
 
+
+let ActiveJournalCell = ({value}) => <div className="text-center">{value
+  ? <i className="glyphicon glyphicon-ok text-success" title="This Journal still publishes articles."/>
+  : <i className="glyphicon glyphicon-remove text-danger" />}</div>;
+
+
+let OpenAccessJournalCell = ({value}) => <div className="text-center">
+  {value && <img src={openAccessLogo} className={styles.logo} title="The articles of this journal are free to read."/>}
+</div>;

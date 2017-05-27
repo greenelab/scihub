@@ -11,6 +11,9 @@ export function fetchJournalData() {
         journal.crossref = parseFloat(journal.crossref);
         journal.scihub = parseFloat(journal.scihub);
         journal.coverage = parseFloat(journal.coverage);
+
+        journal.open_access = journal.open_access === '1';
+        journal.active = journal.active === '1';
       }
       resolve(data);
     });
