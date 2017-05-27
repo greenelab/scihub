@@ -27,7 +27,7 @@ module.exports = {
   devtool: 'source-map',
 
   plugins: [
-    new CleanWebpackPlugin(['build'], {}),
+    new CleanWebpackPlugin(['docs'], {}),
     new HtmlWebpackPlugin({
       // Required
       inject: false,
