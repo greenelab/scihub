@@ -32,7 +32,10 @@ module.exports = {
       // Required
       inject: false,
       template: require('html-webpack-template'),
-
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      },
       appMountId: 'app-container',
       links: ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'],
       mobile: true,
