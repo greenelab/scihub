@@ -5,7 +5,7 @@ var config = require('./webpack.config');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const extractStyles = new ExtractTextPlugin({
-  filename: 'styles.css',
+  filename: 'styles-[hash].css',
   disable: false,
   allChunks: true
 });
