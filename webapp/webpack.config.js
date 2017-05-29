@@ -35,7 +35,8 @@ module.exports = {
       template: require('html-webpack-template'),
       minify: {
         removeComments: true,
-        collapseWhitespace: true
+        collapseWhitespace: true,
+        preserveLineBreaks: true
       },
       appMountId: 'app-container',
       links: ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'],
