@@ -101,8 +101,8 @@ JournalCell = connect((state, props) => ({
 
 
 let ActiveJournalCell = ({value}) => <div className="text-center">{value
-  ? <i className="glyphicon glyphicon-ok text-success" title="This Journal still publishes articles."/>
-  : <i className="glyphicon glyphicon-remove text-danger" />}</div>;
+  ? <i className="glyphicon glyphicon-ok text-success" title="Active: this journal still publishes articles."/>
+  : <i className="glyphicon glyphicon-remove text-danger" title="Inactive: this journal no longer publishes articles." />}</div>;
 
 
 let OpenAccessJournalCell = ({value}) => <div className="text-center">
