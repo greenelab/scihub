@@ -29,5 +29,6 @@ Open a browser in http://localhost:9001 to see the page.
 npm run build
 ```
 
-This will generate production ready files inside the folder `/docs`
+This will generate production ready files inside the folder `/docs`. The 
+project is configured to serve the files from this directory.
 

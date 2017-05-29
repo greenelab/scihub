@@ -7,6 +7,14 @@ import d3 from 'd3';
 export function fetchJournalData() {
   return new Promise((resolve, reject) => {
     d3.tsv(env.journals_data, function(data) {
+      for (let journal of data) {
+        journal.crossref = parseFloat(journal.crossref);
+        journal.scihub = parseFloat(journal.scihub);
+        journal.coverage = parseFloat(journal.coverage);
+
+        journal.open_access = journal.open_access === '1';
+        journal.active = journal.active === '1';
+      }
       resolve(data);
     });
   });

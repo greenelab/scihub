@@ -11,13 +11,9 @@ import {
 } from 'react-router-dom';
 
 import Journal from './Journal';
-import DataTable from './DataTable';
 
 import Navbar from './Navbar';
-
-function JournalTable({history}) {
-  return <DataTable journalSelected={(data) => history.push(`/journal/${data.scopus_id}`)} />
-}
+import JournalTable from './JournalTable';
 
 
 export default class Root extends React.Component {
@@ -27,13 +23,15 @@ export default class Root extends React.Component {
 
   render () {
     return <Router>
-      <div className="container">
-        <Navbar />
+      <div className={styles.app}>
+        <div className="container">
+          <Navbar />
 
-        <Switch>
-          <Route exact path="/" component={JournalTable}/>
-          <Route path="/journal/:journalId" component={Journal}/>
-        </Switch>
+          <Switch>
+            <Route exact path="/" component={JournalTable}/>
+            <Route path="/journal/:journalId" component={Journal}/>
+          </Switch>
+        </div>
       </div>
     </Router>;
   }

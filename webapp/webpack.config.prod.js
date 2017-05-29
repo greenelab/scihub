@@ -1,8 +1,14 @@
-//require our dependencies
 var path = require('path');
 var webpack = require('webpack');
-var BundleTracker = require('webpack-bundle-tracker');
 var config = require('./webpack.config');
+
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
+const extractStyles = new ExtractTextPlugin({
+  filename: 'styles-[hash].css',
+  disable: false,
+  allChunks: true
+});
 
 module.exports = {
   //the entry point we created earlier. Note that './' means
@@ -18,6 +24,8 @@ module.exports = {
   },
 
   plugins: config.plugins.concat([
+    // css files from the extract-text-plugin loader
+    extractStyles,
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {warnings: false},
@@ -28,5 +36,34 @@ module.exports = {
     }),
   ]),
 
-  module: config.module,
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /(node_modules)/,
+        query: {
+          presets: ['es2015', 'react'],
+          plugins: [
+            'transform-class-properties',
+            'transform-async-to-generator',
+            'transform-object-rest-spread',
+          ],
+        },
+      },
+      {test: /\.(jpe?g|png|gif|svg|ico)$/, loader: 'url-loader?limit=10000&name=[hash].[ext]'},
+      {
+        test: /\.scss$/,
+        use: extractStyles.extract({
+          fallback: 'style-loader',
+          use: ['css-loader?sourceMap=1&modules=1&localIdentName=[name]__[local]--[hash:base64:3]', 'sass-loader?sourceMap=1']
+        }),
+      },
+      { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+      { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
+      { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/octet-stream" },
+      { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader" },
+      { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" },
+    ]
+  },
 };

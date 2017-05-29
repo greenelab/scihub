@@ -4,7 +4,7 @@ var webpack = require('webpack');
 var BundleTracker = require('webpack-bundle-tracker');
 var StatsPlugin = require('stats-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-
+var AppCachePlugin = require('appcache-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const env = require('./env');
@@ -19,20 +19,25 @@ module.exports = {
 
   output: {
     //where you want your compiled bundle to be stored
-    path: path.resolve('../docs/'),
+    path: path.resolve('./docs/'),
     //naming convention webpack should use for your files
-    filename: '[name].js', //[name]-[hash].js',
+    filename: '[name].js',
   },
 
   devtool: 'source-map',
 
   plugins: [
-    new CleanWebpackPlugin(['build'], {}),
+    new CleanWebpackPlugin(['docs'], {root: path.resolve('..')}),
+    new AppCachePlugin({}),
     new HtmlWebpackPlugin({
       // Required
       inject: false,
       template: require('html-webpack-template'),
-
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        preserveLineBreaks: true
+      },
       appMountId: 'app-container',
       links: ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'],
       mobile: true,
