@@ -28,3 +28,9 @@ Below are several rows near the start of the table to give you an idea of the da
 | 10.1001/archinte.159.9.941           | 12        | 10       | 9         | 12   | 4      |
 | 10.1001/archpedi.1928.01920240011002 | 2         | 2        | 1         | 1    | 1      |
 | 10.1001/archotol.127.12.1499         | 1         | 1        | 0         | 1    | 1      |
+
+Run [`3.crossref-metadata.ipynb`](3.crossref-metadata.ipynb) to extract Crossref metadata for DOIs.
+The metadata is exported to [`crossref-metadata.tsv.xz`](crossref-metadata.tsv.xz).
+This notebook uses the [`greenelab/crossref`](https://github.com/greenelab/crossref/tree/dc4df4abcaf550ccc5a9a2757895238b22b46734) environment and requires the Crossref MongoDB instance be running.
+The data for the MongoDB instance is available [on figshare](https://doi.org/10.6084/m9.figshare.4816720.v1).
+
