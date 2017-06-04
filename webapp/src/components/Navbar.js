@@ -1,6 +1,9 @@
 
 import React from 'react';
 import {Link} from 'react-router-dom';
+import github from './github.png';
+
+import styles from './root.scss';
 
 export default ({}, {location}) => <div>
   <nav className="navbar navbar-default">
@@ -18,7 +21,11 @@ export default ({}, {location}) => <div>
 
       <div className="collapse navbar-collapse navbar-right">
         <ul className="nav navbar-nav">
-          <li><Link to="/">Home</Link></li>
+          <li>
+            <a href="https://github.com/greenelab/scihub" target="_blank">
+              <img className={styles.github} src={github} />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
