@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {Link} from 'react-router-dom';
-import github from './github.png';
+import github from './github.svg';
 
 import styles from './root.scss';
 
