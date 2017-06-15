@@ -60,7 +60,26 @@ See `3.scihub-access-rates.ipynb` and https://git.io/v9i5F.
 
 ## Methods
 
-### Crossref
+### Digital Object Identifiers
 
-[@doi:10.6084/m9.figshare.4816720.v1]
+We used DOIs (Digital Object Identifiers) to uniquely identify scientific articles.
+LibGen scimag and Sci-Hub also uniquely identify documents by their DOIs, making DOIs the natural primary key for our analyses.
+The DOI initiative began in 1997, and the first DOIs were registered in 2000 [@10.1000/182].
+Note that DOIs can be registered retroactively.
+For example, Antony van Leewenhoeck's discovery of protists and bacteria — published in 1677 by _Philosophical Transactions of the Royal Society of London_ — has a DOI [@doi:10.1098/rstl.1677.0003].
+While this letter was published long before the DOI system existed, the _Royal Society_ retroactively assigned a DOI in 2006.
 
+Not all scientific publications have DOIs.
+By evaluating the presence of DOIs in other databases of scientific literature (such as PubMed, Web of Science, and Scopus), researchers estimate around 90% of newly published articles in the sciences have DOIs [@doi:10.1016/j.joi.2015.11.008 @doi:10.1007/s11192-016-2225-6].
+The prevalence of DOIs varies by discipline and country of publication, with DOI assignment in newly published Arts & Humanities around 60% [@doi:10.1016/j.joi.2015.11.008].
+Indeed, DOI registration is almost entirely lacking for publishers from many Eastern European countries [@doi:10.1007/s11192-016-2225-6].
+In addition, the prevalence of DOI assignment is likely lower for older articles [@doi:10.1007/s11192-016-2225-6].
+The incomplete and non-random assignment of DOIs to scholarly publications is a limitation of this study.
+However, DOIs are presumably the least imperfect and most widespread identifier for scholarly content. 
+
+An often overlooked aspect of the DOI system is that DOIs are case-insensitive within the ASCII character range [@10.1000/182].
+In other words, `10.7717/peerj.705` refers to the same study as `10.7717/PeerJ.705`.
+Accordingly, DOIs make a poor standard identifier unless they're consistently cased.
+While the DOI handbook states that "all DOI names are converted to upper case upon registration" [@10.1000/182], we lowercased DOIs in accordance with Crossref's behavior.
+Given the danger of incongruous DOIs, we lowercased DOIs for each input resource at the earliest opportunity in its processing pipeline.
+Consistent casing [considerably influenced](https://github.com/greenelab/scihub/issues/9) our findings as different resources used different casings of the same DOI.
