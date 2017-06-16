@@ -64,7 +64,7 @@ See `3.scihub-access-rates.ipynb` and https://git.io/v9i5F.
 
 We used DOIs (Digital Object Identifiers) to uniquely identify scientific articles.
 LibGen scimag and Sci-Hub also uniquely identify documents by their DOIs, making DOIs the natural primary key for our analyses.
-The DOI initiative began in 1997, and the first DOIs were registered in 2000 [@10.1000/182].
+The DOI initiative began in 1997, and the first DOIs were registered in 2000 [@10.1000/182 @10.1016/j.serrev.2007.05.006].
 Note that DOIs can be registered retroactively.
 For example, Antony van Leewenhoeck's discovery of protists and bacteria — published in 1677 by _Philosophical Transactions of the Royal Society of London_ — has a DOI [@doi:10.1098/rstl.1677.0003].
 While this letter was published long before the DOI system existed, the _Royal Society_ retroactively assigned a DOI in 2006.
@@ -77,9 +77,25 @@ In addition, the prevalence of DOI assignment is likely lower for older articles
 The incomplete and non-random assignment of DOIs to scholarly publications is a limitation of this study.
 However, DOIs are presumably the least imperfect and most widespread identifier for scholarly content. 
 
-An often overlooked aspect of the DOI system is that DOIs are case-insensitive within the ASCII character range [@10.1000/182].
+An often overlooked aspect of the DOI system is that DOIs are case-insensitive within the ASCII character range [@10.1000/182 @10.3403/30177056].
 In other words, `10.7717/peerj.705` refers to the same study as `10.7717/PeerJ.705`.
 Accordingly, DOIs make a poor standard identifier unless they're consistently cased.
 While the DOI handbook states that "all DOI names are converted to upper case upon registration" [@10.1000/182], we lowercased DOIs in accordance with Crossref's behavior.
 Given the danger of incongruous DOIs, we lowercased DOIs for each input resource at the earliest opportunity in its processing pipeline.
 Consistent casing [considerably influenced](https://github.com/greenelab/scihub/issues/9) our findings as different resources used different casings of the same DOI.
+
+### Crossref
+
+To catalog all scholarly publications, we relied on the Crossref database.
+[Crossref](https://www.crossref.org/) is a DOI Registration Agency for scholarly publishing [@doi:10.6087/kcse.2014.1.13].
+There are presently 10 entities capable of assigning DOIs called DOI Registration Agencies.
+We [estimate](https://github.com/greenelab/crossref/issues/3) that Crossref has registered 67% of all DOIs.
+While several Registration Agencies assign DOIs to scholarly content, Crossref is the preeminent registrar amongst journal publications.
+In March 2015, of the 1,464,818 valid DOI links on the English Wikipedia, 99.9% were registered with Crossref [@doi:10.1007/978-3-319-49304-6_40].
+This percentage was slightly lower for other languages — 99.8% for the Chinese Wikipedia and 98.0% for the Japanese Wikipedia.
+Hence, the overwhelming majority of DOI-referenced scholarly content is registered with Crossref.
+Since Crossref has the most comprehensive and featureful programmatic access, there was a strong incentive to focus solely on Crossref-registered DOIs.
+Given Crossref's preeminence, the omission of other Registration Agencies is unlikely to severely influence our findings. 
+
+[`greenelab/crossref`](https://github.com/greenelab/crossref)
+[@doi:10.6084/m9.figshare.4816720.v1]
