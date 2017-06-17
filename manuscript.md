@@ -97,5 +97,23 @@ Hence, the overwhelming majority of DOI-referenced scholarly content is register
 Since Crossref has the most comprehensive and featureful programmatic access, there was a strong incentive to focus solely on Crossref-registered DOIs.
 Given Crossref's preeminence, the omission of other Registration Agencies is unlikely to severely influence our findings. 
 
-[`greenelab/crossref`](https://github.com/greenelab/crossref)
-[@doi:10.6084/m9.figshare.4816720.v1]
+We queried the `works` endpoint of the [Crossref API](https://api.crossref.org/) to retrieve the metadata for all DOIs, storing the responses in a MongoDB database.
+The queries began on March 21, 2017 and took 12 days to complete.
+In total, we retrieved metadata for 87,542,370 DOIs corresponding to all Crossref works as of March 21, 2017.
+The source code for this step is available on GitHub at [`greenelab/crossref`](https://github.com/greenelab/crossref).
+Due to its large file size (7.4 GB), the MongoDB database export of DOI metadata is not available on GitHub and instead hosted via figshare [@doi:10.6084/m9.figshare.4816720.v1].
+We created TSV files with the minimal information needed for this study.
+First, a DOI table with columns for work type and date issued.
+Date issued refers to the earliest known publication date, i.e. the date of print or online publication, whichever occurred first.
+Second, a mapping of DOI to ISSN for associating articles with their journal of publication.
+
+We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly publications.
+The following types were included: `book-chapter`, `book-part`, `book-section`, `journal-article`, `proceedings-article`, `reference-entry`, `report`, `standard`.
+Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded since they're generally containers for individual publications rather than scholarly publications themselves.
+Since we couldn't locate definitions for the Crossref types, we used our best judgement and evaluated sample works of a given type in the case of uncertainty.
+After filtering by type, 81,609,016 DOIs remained.
+For the purposes of this study, these DOIs represent the entirety of the scholarly literature.
+
+### Scopus
+
+
