@@ -87,12 +87,12 @@ Consistent casing [considerably influenced](https://github.com/greenelab/scihub/
 ### Crossref
 
 To catalog all scholarly publications, we relied on the Crossref database.
-[Crossref](https://www.crossref.org/) is a DOI Registration Agency for scholarly publishing [@doi:10.6087/kcse.2014.1.13].
-There are presently 10 entities capable of assigning DOIs called DOI Registration Agencies.
+[Crossref](https://www.crossref.org/) is a DOI Registration Agency (an entity capable of assigning DOIs) for scholarly publishing [@doi:10.6087/kcse.2014.1.13].
+There are presently 10 Registration Agencies.
 We [estimate](https://github.com/greenelab/crossref/issues/3) that Crossref has registered 67% of all DOIs.
 While several Registration Agencies assign DOIs to scholarly content, Crossref is the preeminent registrar amongst journal publications.
 In March 2015, of the 1,464,818 valid DOI links on the English Wikipedia, 99.9% were registered with Crossref [@doi:10.1007/978-3-319-49304-6_40].
-This percentage was slightly lower for other languages — 99.8% for the Chinese Wikipedia and 98.0% for the Japanese Wikipedia.
+This percentage was slightly lower for other languages — 99.8% on the Chinese Wikipedia and 98.0% on the Japanese Wikipedia.
 Hence, the overwhelming majority of DOI-referenced scholarly content is registered with Crossref.
 Since Crossref has the most comprehensive and featureful programmatic access, there was a strong incentive to focus solely on Crossref-registered DOIs.
 Given Crossref's preeminence, the omission of other Registration Agencies is unlikely to severely influence our findings. 
@@ -110,10 +110,18 @@ Second, a mapping of DOI to ISSN for associating articles with their journal of 
 We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly publications.
 The following types were included: `book-chapter`, `book-part`, `book-section`, `journal-article`, `proceedings-article`, `reference-entry`, `report`, `standard`.
 Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded since they're generally containers for individual publications rather than scholarly publications themselves.
-Since we couldn't locate definitions for the Crossref types, we used our best judgement and evaluated sample works of a given type in the case of uncertainty.
+Since we couldn't locate definitions for the Crossref types, we used our best judgment and evaluated sample works of a given type in the case of uncertainty.
 After filtering by type, 81,609,016 DOIs remained.
 For the purposes of this study, these DOIs represent the entirety of the scholarly literature.
 
 ### Scopus
 
-
+Prior to June 2017, the Crossref API had an [issue](https://github.com/CrossRef/rest-api-doc/issues/179) that prevented exhaustively downloading journal metadata.
+Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to catalog scholarly journals.
+Scopus uses "title" to refer to any of the following: peer-reviewed journals, trade publications, book series, and conference papers.
+For this study, we refer to all of these types as journals.
+From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including title name, ISSNs, subject areas, open access status, and active status.
+Furthermore, we tidied the Scopus Journal Metrics, which evaluate titles based on the number of citations their articles receive.
+Specifically, we extracted a 2015 CiteScore for 22,256 titles.
+Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
+See [`dhimmel/journalmetrics`](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
