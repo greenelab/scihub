@@ -145,13 +145,14 @@ Hence, the `DateAdded` value is effectively overwritten upon every update to a r
 Unfortunately, many research questions require the date first added.
 For example, lag-time analyses (the time from study publication to LibGen upload) may be unreliable.
 Therefore, we don't report on these findings in this manuscript.
-In addition, findings from some previous studies may need to be reconsidered.
-For example, Cabanac writes:
+In addition, findings from some previous studies may need additional scrutiny.
+For example, Cabanac writes [@doi:10.1002/asi.23445]:
 
-> The growth of LibGen suggests that it has benefited from a few isolated, but massive, additions of scientific articles to its cache. For instance, 71% of the article collection was uploaded in 13 days at a rate of 100,000+ articles a day. It is likely that such massive collections of articles result from biblioleaks [@doi:10.2196/jmir.3331], but one can only speculate about this because of the undocumented source of each file cached at LibGen.
+> The growth of LibGen suggests that it has benefited from a few isolated, but massive, additions of scientific articles to its cache.
+For instance, 71% of the article collection was uploaded in 13 days at a rate of 100,000+ articles a day.
+It is likely that such massive collections of articles result from biblioleaks [@doi:10.2196/jmir.3331], but one can only speculate about this because of the undocumented source of each file cached at LibGen.
 
-While we agree this is most likely the case, confirmation is needed to rule out the possibility that bulk metadata updates created the appearance of biblioleaks from previously incremental additions. 
-
+While we agree this is most likely the case, confirmation is needed that the bulk addition of articles does not just correspond to bulk updates rather than bulk initial uploads.
 
 ### Sci-Hub DOIs
 
