@@ -118,10 +118,43 @@ For the purposes of this study, these DOIs represent the entirety of the scholar
 
 Prior to June 2017, the Crossref API had an [issue](https://github.com/CrossRef/rest-api-doc/issues/179) that prevented exhaustively downloading journal metadata.
 Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to catalog scholarly journals.
-Scopus uses "title" to refer to any of the following: peer-reviewed journals, trade publications, book series, and conference papers.
+Scopus uses "title" to refer to all of the following: peer-reviewed journals, trade journals, book series, and conference proceedings.
 For this study, we refer to all of these types as journals.
 From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including title name, ISSNs, subject areas, open access status, and active status.
 Furthermore, we tidied the Scopus Journal Metrics, which evaluate titles based on the number of citations their articles receive.
 Specifically, we extracted a 2015 CiteScore for 22,256 titles.
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
 See [`dhimmel/journalmetrics`](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
+
+### LibGen scimag
+
+We downloaded the LibGen scimag metadata database from April 7, 2017 as a SQL dump.
+We [imported](https://github.com/greenelab/scihub/issues/2) the SQL dump into MySQL, and then exported the scimag table to a TSV file.
+Each row of this table corresponds to a publication in LibGen, as identified by its DOI.
+The `TimeAdded` field represents indicates when the publication was uploaded to LibGen.
+After removing records missing date added, 64,195,940 DOIs remained.
+56,205,763 (87.6%) of the DOIs were in our Crossref-derived catalog of scholarly literature.
+The 12.4% of LibGen scimag DOIs missing from our Crossref catalog, likely consist of incorrect DOIs, DOIs whose metadata availability postdates our Crossref export, DOIs from other Registration Agencies, and DOIs for excluded work types.
+
+Next, we explored the cumulative size of LibGen scimag over time according to the `TimeAdded` field.
+However, when we [compared](https://github.com/greenelab/scihub/issues/8#issuecomment-296710357) our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 [@doi:10.1002/asi.23445], we noticed a major discrepancy.
+The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs added on or before January 5, 2014.
+We hypothesize that the discrepancy arose since `DateAdded` may indicate the date modified rather than created.
+Specifically, when a document in the database is changed, the database record for that DOI is entirely replaced.
+Hence, the `DateAdded` value is effectively overwritten upon every update to a record.
+Unfortunately, many research questions require the date first added.
+For example, lag-time analyses (the time from study publication to LibGen upload) may be unreliable.
+Therefore, we don't report on these findings in this manuscript.
+In addition, findings from some previous studies may need to be reconsidered.
+For example, Cabanac writes:
+
+> The growth of LibGen suggests that it has benefited from a few isolated, but massive, additions of scientific articles to its cache. For instance, 71% of the article collection was uploaded in 13 days at a rate of 100,000+ articles a day. It is likely that such massive collections of articles result from biblioleaks [@doi:10.2196/jmir.3331], but one can only speculate about this because of the undocumented source of each file cached at LibGen.
+
+While we agree this is most likely the case, confirmation is needed to rule out the possibility that bulk metadata updates created the appearance of biblioleaks from previously incremental additions. 
+
+
+### Sci-Hub DOIs
+
+
+### Sci-Hub request logs
+
