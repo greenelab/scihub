@@ -156,6 +156,24 @@ While we agree this is most likely the case, confirmation is needed that the bul
 
 ### Sci-Hub DOIs
 
+On March 19, 2017, Sci-Hub [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
+
+> If you like the list of all DOI collected on Sci-Hub, here it is … 62,835,101 DOI in alphabetical order
+
+The Tweet included a download link for a file with the 62,835,101 DOIs that Sci-Hub claims to provide access to.
+Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly texts.
+99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag DOIs (after filtering).
+Based on existing descriptions of Sci-Hub's infrastructure, these corpuses should be identical.
+Essentially, Sci-Hub is a layer on top of the LibGen scimag database.
+On Twitter, the Sci-Hub account [commented](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
+Therefore, we proceeded under the assumption that the LibGen scimag and Sci-Hub corpurses are synonymous.
 
 ### Sci-Hub request logs
+
+The 2016 study titled "Who's downloading pirated papers? Everyone" analyzed a dataset of Sci-Hub request logs [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
+Alexandra Elbakyan worked with journalist John Bohannon to produce a dataset of download requests received by Sci-Hub from September 1, 2015 through February 29, 2016 [@doi:10.5061/dryad.q447c/1].
+In November 2015, Sci-Hub's domain name [was suspended](https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/) as the result legal action by Elsevier [@doi:10.1038/nature.2015.18876].
+According to Bohannon, this resulted in "an 18-day gap in the data starting November 4, 2015 when the domain sci-hub.org went down and the server logs were improperly configured."
+Of the 10,552,418 distinct DOIs in the request logs, 10,293,836 (97.5%) were part of the Crossref-derived catalog of scholarly texts.
+Bohannon notes [@doi:10.5061/dryad.q447c/2]: "some DOIs are invalid, due to typos from the Sci-Hub users or, in the case of `10.1182/asheducation-2015.1.8`, because a website listed the wrong DOI."
 
