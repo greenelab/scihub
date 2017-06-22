@@ -175,5 +175,13 @@ Alexandra Elbakyan worked with journalist John Bohannon to produce a dataset of 
 In November 2015, Sci-Hub's domain name [was suspended](https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/) as the result legal action by Elsevier [@doi:10.1038/nature.2015.18876].
 According to Bohannon, this resulted in "an 18-day gap in the data starting November 4, 2015 when the domain sci-hub.org went down and the server logs were improperly configured."
 Of the 10,552,418 distinct DOIs in the request logs, 10,293,836 (97.5%) were part of the Crossref-derived catalog of scholarly texts.
-Bohannon notes [@doi:10.5061/dryad.q447c/2]: "some DOIs are invalid, due to typos from the Sci-Hub users or, in the case of `10.1182/asheducation-2015.1.8`, because a website listed the wrong DOI."
+Bohannon notes [@doi:10.5061/dryad.q447c/2]: "some DOIs are invalid, due to typos from the Sci-Hub users or … because a website listed the wrong DOI."
+
+We summarized the requests for each text using the following metrics:
+
+1. downloads: total number of requests
+2. visitors: number of IP addresses that requested the text
+3. countries: number of countries (inferred from IP addresses) that requested the text
+4. days: number of days the text was requested
+5. months: number of months the text was requested
 
