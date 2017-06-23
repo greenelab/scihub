@@ -1,7 +1,23 @@
-# Sci-Hub's remarkable coverage of the scientific literature
+# Sci-Hub's remarkable coverage of the scholarly literature
 
 This is a working draft of the manuscript for this study.
 It's written in markdown and currently uses the [referencing format](https://github.com/greenelab/deep-review/blob/master/CONTRIBUTING.md#markdown) from the Deep Review.
+
+## Abstract
+
+The website Sci-Hub provides access to scholarly literature via full text PDF downloads.
+The site enables users to access scholarly articles that would otherwise be paywalled.
+Since its creation in 2011, Sci-Hub has grown rapidly in popularity.
+However, until now, the extent of Sci-Hub's coverage of scholarly literature was unclear.
+As of March 2017, we find that Sci-Hub provides access to 68.9% of all 81.6 million scholarly articles.
+If only considering articles in closed access journals, Sci-Hub's coverage increases to 85.2%.
+Furthermore, Sci-Hub provides access to 77.0% of the 5.2 million articles published by currently inactive journals.
+Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
+Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
+Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
+Finally, we estimate that over a six month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.
+Hence, the sustainability of the subscription publishing model is dubious.
+For the first time, the overwhelming majority of scholarly literature is available gratis for anyone to download.
 
 ## Introduction
 
@@ -14,6 +30,10 @@ Here are some relevant existing studies.
 + [@doi:10.15200/winn.146485.57797]
 
 Comment with additional references [here](https://github.com/greenelab/scihub/issues/3).
+
+## Results
+
+We created a catalog of 
 
 ## Coverage by article type
 
