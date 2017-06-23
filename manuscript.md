@@ -181,7 +181,10 @@ We summarized the requests for each text using the following metrics:
 
 1. downloads: total number of requests
 2. visitors: number of IP addresses that requested the text
-3. countries: number of countries (inferred from IP addresses) that requested the text
+3. countries: number of countries (geolocation by IP address) that requested the text
 4. days: number of days the text was requested
 5. months: number of months the text was requested
 
+Next, we calculated journal-level request metrics based on articles published from January 1, 2014 up until the start of the Sci-Hub request log records on September 1, 2015.
+For each journal, we calculated the average values for the five request log metrics described above.
+Interestingly, the journal [_Medicine - Programa de Formación Médica Continuada Acreditado_](http://www.sciencedirect.com/science/journal/03045412) received the most visitors per articles, averaging 33.4 visitors for each of its 326 articles.
