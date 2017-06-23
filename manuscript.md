@@ -21,6 +21,19 @@ For the first time, the overwhelming majority of scholarly literature is availab
 
 ## Introduction
 
+Historical problems related to access to scholarly literature.
+
+What is Sci-Hub?
+
+History of Sci-Hub. Paragraphs for the
+
++ mechanics of the service
++ history of LibGen
++ motivations of Alexandra Elbakyan
++ popular awareness and press coverage
++ legal proceedings
++ previous studies of Sci-Hub / LibGen coverage & usage
+
 Here are some relevant existing studies.
 
 + [@doi:10.1002/asi.23445]
@@ -28,6 +41,11 @@ Here are some relevant existing studies.
 + [@url:https://hdl.handle.net/10760/30981]
 + [@doi:10.12688/f1000research.11366.1]
 + [@doi:10.15200/winn.146485.57797]
+
+Media coverage:
+
++ [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science]
++ [@doi:10.1038/nature.2016.19841]
 
 Comment with additional references [here](https://github.com/greenelab/scihub/issues/3).
 
