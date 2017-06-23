@@ -20,6 +20,7 @@ dependencies:
 - r::r-hmisc=4.0.0
 - r::r-irkernel=0.7.1
 - r::r-lubridate=1.6.0
+- r::r-nlme=3.1
 - r::r-readr=1.0.0
 - r::r-tidyr=0.6.0
 - requests=2.12.4
