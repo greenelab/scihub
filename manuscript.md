@@ -51,19 +51,43 @@ Comment with additional references [here](https://github.com/greenelab/scihub/is
 
 ## Results
 
-We created a catalog of 
+To define the extent of the scholarly literature, we relied on DOIs from the Crossref database, as downloaded on March 21, 2017.
+We define the scholarly literature as 81,609,016 texts identified by their DOIs.
+We refer to these texts as "articles", although a diverse compilation of text types are encompassed, including for example book chapters, front matters, and standards.
 
-## Coverage by article type
+To assess the articles available from Sci-Hub, we relied on a list of DOIs released by Sci-Hub on March 19, 2017.
+Sci-Hub's offerings included 56,246,220 articles from the corpus of scholarly literature, equating to 68.9% of all articles.
+Each article in Crossref's database is assigned a type.
+Figure XX shows coverage by article type:
 
-![](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-type.svg)
+![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-type.svg)
 
-## Coverage over time
+The literature consists primarily of journal articles, for which Sci-Hub had 77.8% coverage.
+Sci-Hub's coverage was also strong for the 5 million proceedings articles at 79.7%.
+Overall coverage suffered from the 10 million book chapters where coverage was poor (14.2%).
+The remaining Crossref types were uncommon, and hence contributed little to overall coverage.
 
-![](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-year.svg)
+### Coverage by year
 
-## Coverage by Journal
+Next, we investigated coverage based on the year an article was published.
+For most years since 1850, annual coverage is between 60–80%.
+However, there's a dropoff in coverage, starting in 2010, for recently published articles.
+For example, coverage for 2016 articles was XX.
+One factor is likely that it takes some time for an article to be uploaded to LibGen following its publication.
+Another, albeit purely speculative, factor could be that some journals are just deploying anti-piracy measures, making recent articles less accessible.
 
-The following table shows Sci-Hub's coverage for the ten journals with the most articles.
+![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-year.svg)
+
+### Coverage by Journal
+
+We defined a comprehensive set of scholarly publishing venues, referred to as "journals", extracted from the Scopus database.
+In reality, these venues include conferences with proceedings as well as book series.
+For inclusion in this analysis, a venue required an ISSN and at least one article as part of the scholarly literature.
+Accordingly, our catalog of journals consisted of 22,193 publishing venues encompassing 57,074,208 articles.
+Of these journals, 4,345 were inactive (19.6%, no longer publishing articles), and 2,650 were open access (11.9%).
+Only two journals were inactive and also open access.
+
+We calculated Sci-Hub's coverage for each of the 22,193 journals. The following table shows coverage for the ten journals with the most articles.
 
 | Journal | Sci-Hub | Crossref | Coverage |
 |-------|--------|----------|----------|
@@ -78,23 +102,56 @@ The following table shows Sci-Hub's coverage for the ten journals with the most 
 | New England Journal of Medicine | 180,321 | 180,467 | 99.92% |
 | PLoS ONE | 4,731 | 177,260 | 2.67% |
 
-![](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage.svg)
+The complete journal coverage results are available in our [Sci-Hub Stats Browser](https://greenelab.github.io/scihub/#/).
+In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure XX).
+As a result, relatively few journals had coverage between 5–75%.
 
-## Coverage by Publisher
+![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-distributions.svg)
 
-![](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-publisher.svg)
+At the extremes, 2,342 journals had zero coverage, whereas 2,067 had perfect coverage.
+Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access.
+Of perfect-coverage journals, 80.3% were inactive, and 1.9% were open access.
+Hence, inactive subscription journals make up the bulk of perfect-coverage journals.
 
-### Journal/Publisher Coverage Distribution
+Next we explored article coverage according to journal attributes (Figure XX).
+Sci-Hub covered 83.4% of the 57,074,208 articles that were attributable to a journal.
+Articles from inactive journals had slightly lower coverage than active journals (77.0% versus 84.3%).
+Strikingly, coverage was substantially higher for articles from subscription journals than open access journals (85.2% versus 49.1%).
+Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%.
+Accordingly, no major disciplines were vastly uncovered.
 
-![](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-distributions.svg)
+![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/5f584eabe4ebc96845d6113c3b15a3878bb56077/figure/coverage.svg)
 
+### Coverage by Publisher
 
-## Sci-Hub request fulfillment rate
+Next, we evaluated coverage by publisher (Figure XX).
+The largest publisher was Elsevier, with 13,185,971 articles from 3,356 journals.
+Sci-Hub covered 97.3% of Elsevier articles.
+For the eight publishers who reached the million article milestone, the following coverage was observed:
+97.3% of Elsevier,
+89.4% of Springer Nature,
+94.8% of Wiley-Blackwell,
+96.2% of Taylor & Francis,
+79.2% of Wolters Kluwer,
+98.8% of American Chemical Society,
+95.3% of SAGE, and
+84.9% of Oxford University Press.
+In total, 4,879 publishers were represented in the journal catalog.
+The coverage distribution amongst publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure XX).
+Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 publishers.
 
-Sci-Hub fulfilled 99.26% of valid requests between 2015-09 and 2016-02.
+![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-publisher.svg)
+
+### Sci-Hub request fulfillment rate
+
+Sci-Hub released article request records from its server logs for the six months period from September 2015 through February 2016.
+We estimate that Sci-Hub fulfilled 99.26% of valid requests during this period.
 The fulfillment rates are near 100% for all article types besides book chapters.
 Users that requested book chapters received access 82% of the time.
 See `3.scihub-access-rates.ipynb` and https://git.io/v9i5F.
+
+## Discussion
+
 
 ## Methods
 
