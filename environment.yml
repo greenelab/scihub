@@ -4,6 +4,7 @@ dependencies:
 - conda-forge::jq=1.5
 - conda-forge::matplotlib-venn=0.11.5
 - conda-forge::nb_conda_kernels=2.1.0
+- conda-forge::r-cowplot=0.7.0
 - ipykernel=4.5.2
 - ipywidgets=6.0.0
 - matplotlib=2.0.0
