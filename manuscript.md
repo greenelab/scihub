@@ -150,6 +150,8 @@ The fulfillment rates are near 100% for all article types besides book chapters.
 Users that requested book chapters received access 82% of the time.
 See `3.scihub-access-rates.ipynb` and https://git.io/v9i5F.
 
+![Sci-Hub Coverage & Visitors versus 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/8d110c90cacf6a9bfbdc7ce6c3f3729e60f22c50/figure/citescore.svg)
+
 ## Discussion
 
 
