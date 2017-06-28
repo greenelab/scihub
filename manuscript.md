@@ -60,7 +60,7 @@ Sci-Hub's offerings included 56,246,220 articles from the corpus of scholarly li
 Each article in Crossref's database is assigned a type.
 Figure XX shows coverage by article type:
 
-![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-type.svg)
+![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/coverage-by-type.svg)
 
 The literature consists primarily of journal articles, for which Sci-Hub had 77.8% coverage.
 Sci-Hub's coverage was also strong for the 5 million proceedings articles at 79.7%.
@@ -76,7 +76,7 @@ For example, coverage for 2016 articles was XX.
 One factor is likely that it takes some time for an article to be uploaded to LibGen following its publication.
 Another, albeit purely speculative, factor could be that some journals are just deploying anti-piracy measures, making recent articles less accessible.
 
-![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-year.svg)
+![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/coverage-by-year.svg)
 
 ### Coverage by Journal
 
@@ -106,7 +106,7 @@ The complete journal coverage results are available in our [Sci-Hub Stats Browse
 In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure XX).
 As a result, relatively few journals had coverage between 5–75%.
 
-![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-distributions.svg)
+![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/coverage-distributions.svg)
 
 At the extremes, 2,342 journals had zero coverage, whereas 2,067 had perfect coverage.
 Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access.
@@ -120,7 +120,7 @@ Strikingly, coverage was substantially higher for articles from subscription jou
 Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%.
 Accordingly, no major disciplines were vastly uncovered.
 
-![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/5f584eabe4ebc96845d6113c3b15a3878bb56077/figure/coverage.svg)
+![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/coverage.svg)
 
 We evaluated whether journal coverage varied by journal impact.
 We assessed journal impact using the 2015 CiteScore, which measures the average number of citations articles published in 2012–2014 received during 2015.
@@ -145,7 +145,7 @@ In total, 4,879 publishers were represented in the journal catalog.
 The coverage distribution amongst publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure XX).
 Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 publishers.
 
-![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/5fafb048a8608bdeabd31c8ecbccac7f394e3244/figure/coverage-by-publisher.svg)
+![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/coverage-by-publisher.svg)
 
 ### Sci-Hub request fulfillment rate
 
@@ -155,7 +155,7 @@ The fulfillment rates are near 100% for all article types besides book chapters.
 Users that requested book chapters received access 82% of the time.
 See `3.scihub-access-rates.ipynb` and https://git.io/v9i5F.
 
-![Sci-Hub Coverage & Visitors versus 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/8d110c90cacf6a9bfbdc7ce6c3f3729e60f22c50/figure/citescore.svg)
+![Sci-Hub Coverage & Visitors versus 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/citescore.svg)
 
 ## Discussion
 
