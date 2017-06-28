@@ -147,18 +147,36 @@ Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 pub
 
 ![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/coverage-by-publisher.svg)
 
+### Sci-Hub Request Logs
+
+Sci-Hub released article request records from its server logs covering 165 days from September 2015 through February 2016 [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664 @doi:10.5061/dryad.q447c/1].
+We filtered for valid requests by restricting to DOIs in our literature catalog and omitting requests that occurred before the article's publication date.
+Accordingly, we identified 26,984,851 valid requests for 10,116,937 distinct articles.
+Hence on average, Sci-Hub received approximately 164,000 valid requests per day in late 2014 / early 2015.
+
 ### Sci-Hub request fulfillment rate
 
-Sci-Hub released article request records from its server logs for the six months period from September 2015 through February 2016.
-We estimate that Sci-Hub fulfilled 99.26% of valid requests during this period.
-The fulfillment rates are near 100% for all article types besides book chapters.
-Users that requested book chapters received access 82% of the time.
-See `3.scihub-access-rates.ipynb` and https://git.io/v9i5F.
+The logs do not indicate whether a request was fulfilled.
+However, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub's database were available in the past, at the time of request.
+Accordingly, we estimate that Sci-Hub fulfilled 99.3% of valid requests during this period.
+The estimated fulfillment rates were nearly 100% for all article types besides book chapters.
+Users that requested book chapters received access 82.1% of the time.
+In total, only 141,466 articles were requested that are not presently in Sci-Hub.
+Of these inaccessible articles, 14,154 [were](https://github.com/greenelab/scihub/issues/5#issuecomment-298952622) book chapters from _Lecture Notes in Computer Science_.
 
-![Sci-Hub Coverage & Visitors versus 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/citescore.svg)
+We computed journal-level metrics based on average article requests.
+The "visitors" metric assesses the average number of IP addresses that requested each article published by a journal during the 20 months proceeding September 2015 (the log's start date).
+In aggregate, articles from closed access journals average 1.30 visitors, whereas articles from open access journals averaged 0.27 visitors.
+Figure XXB shows that articles from highly cited journals were on average much more frequently visited.
+Articles in the least cited closed access journals averaged almost zero visitors compared to approximately 15 visitors for the most cited journals.
+In addition, Figure XXB shows that Sci-Hub visitors are many times more frequent for articles in closed versus open access journals, even after accounting for journal impact.
+
+![Sci-Hub Coverage & Visitors versus Journal's 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/8d81188368939b4636ba348b3af871559ab7685e/figure/citescore.svg)
 
 ## Discussion
 
+Sci-Hub provides access to nearly all requests.
+Sci-Hub used to circumvent paywalls.
 
 ## Methods
 
