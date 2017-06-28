@@ -224,7 +224,7 @@ Scopus uses "title" to refer to all of the following: peer-reviewed journals, tr
 For this study, we refer to all of these types as journals.
 From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including title name, ISSNs, subject areas, open access status, and active status.
 Furthermore, we tidied the Scopus Journal Metrics, which evaluate titles based on the number of citations their articles receive.
-Specifically, we extracted a 2015 CiteScore for 22,256 titles.
+Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,295 of which were included in our journal catalog.
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
 See [`dhimmel/journalmetrics`](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
 
