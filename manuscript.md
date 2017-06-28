@@ -175,8 +175,26 @@ In addition, Figure XXB shows that Sci-Hub visitors are many times more frequent
 
 ## Discussion
 
-Sci-Hub provides access to nearly all requests.
-Sci-Hub used to circumvent paywalls.
+Sci-Hub provides access to 69% of all scholarly literature.
+However, it delivers access to scholarly literature at a much higher rate.
+Coverage for the 50 million articles attributed to subscription journals — where other routes to access may not exist — was 85.2%.
+Furthermore, coverage of the most cited journals exceeded 90%.
+Journals with very low (including zero) coverage tended to be obscure, less cited venues.
+In terms of articles actually requested by users, we infer that access is provided 99% of the time.
+
+We find strong evidence that Sci-Hub is primarily used to circumvent paywalls.
+Particularly, users requested articles from closed access journals much more frequently than open access journals.
+Accordingly, many users likely only use Sci-Hub once other access methods have failed.
+
+The largest and most prominent publishers are highly covered by Sci-Hub.
+Publishers have taken note.
+Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
+The widespread gratis access to previously paywalled content calls into question the sustainability of the subscription publishing model.
+As distributed and censorship-resistant file storage protocols mature, Sci-Hub alternatives may evolve that no longer rely on a centralized service.
+As such, Sci-Hub's corpus of gratis scholarly literature will be extremely difficult to suppress.
+We can also expect biblioleaks to progress despite publisher's best efforts, as articles must only leak once to be perpetually available.
+In essence, scholarly publishers have already lost the access battle.
+Publishers will be forced to adapt, and adapt quickly, to open access publishing models.
 
 ## Methods
 
