@@ -122,6 +122,11 @@ Accordingly, no major disciplines were vastly uncovered.
 
 ![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/5f584eabe4ebc96845d6113c3b15a3878bb56077/figure/coverage.svg)
 
+We evaluated whether journal coverage varied by journal impact.
+We assessed journal impact using the 2015 CiteScore, which measures the average number of citations articles published in 2012–2014 received during 2015.
+Highly-cited journals tended to have higher coverage in Sci-Hub (Figure XXA).
+The 1,730 least cited journals (lowest decile) had 40.9% coverage on average, whereas the 1,729 most cited journals (top decile) averaged 90.3% coverage.
+
 ### Coverage by Publisher
 
 Next, we evaluated coverage by publisher (Figure XX).
