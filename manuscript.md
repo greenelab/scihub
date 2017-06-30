@@ -21,6 +21,29 @@ For the first time, the overwhelming majority of scholarly literature is availab
 
 ## Introduction
 
+As of 2014, an estimated 76% of scholarly literature on the web was paywalled [@doi:10.1371/journal.pone.0093949].
+The open access movement strives to increase the accessibility of scholarly literature [@doi:10.12688/f1000research.8460.3].
+After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], the gratis availability of recent articles is nearing 50% [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
+Nonetheless, a wealth of scholarly literature remains inaccessible.
+However, the website Sci-Hub, founded in 2011, appears to provide broad access to scholarly literature.
+
+Sci-Hub and Library Genesis (the underlying database of scholarly literature) do not restrict themselves to only openly licensed content.
+Instead, they distribute scholarly literature without regard to copyright regimes.
+While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
+Here we investigate the extent Sci-Hub provides access to scholarly literature.
+If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
+
+Past research sheds some light on Sci-Hub's reach.
+Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs.
+Accordingly, he estimated LibGen contained 36% of all scholarly articles [@doi:10.1002/asi.23445].
+Later, Bohannon analyzed six months of Sci-Hub's server request logs starting in September 2015 [@doi:10.1126/science.352.6285.508].
+He found a global pattern of usage.
+Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher to Sci-Hub downloads for several journals [@url:https://hdl.handle.net/10760/30981].
+They estimate this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
+
+
+https://scholarlykitchen.sspnet.org/2016/02/25/sci-hub-how-does-it-work/
+
 Historical problems related to access to scholarly literature.
 
 What is Sci-Hub?
