@@ -25,23 +25,39 @@ As of 2014, an estimated 76% of scholarly literature on the web was paywalled [@
 The open access movement strives to increase the accessibility of scholarly literature [@doi:10.12688/f1000research.8460.3].
 After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], the gratis availability of recent articles is nearing 50% [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
 Nonetheless, a wealth of scholarly literature remains inaccessible.
-However, the website Sci-Hub, founded in 2011, appears to provide broad access to scholarly literature.
+However, the website Sci-Hub, founded in September 2011, appears to provide broad access to scholarly literature.
 
-Sci-Hub and Library Genesis (the underlying database of scholarly literature) do not restrict themselves to only openly licensed content.
-Instead, they distribute scholarly literature without regard to copyright regimes.
+Sci-Hub does not restrict itself to only openly licensed content.
+Instead, it distributes scholarly literature without regard to copyright regimes.
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
 Here we investigate the extent Sci-Hub provides access to scholarly literature.
 If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
 
 Past research sheds some light on Sci-Hub's reach.
+From the Spring of 2013 to the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+Whenever a user requested an article, Sci-Hub would check LibGen for a copy.
+If not in LibGen, Sci-Hub would then fetch the article for the user and upload it to LibGen.
 Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs.
 Accordingly, he estimated LibGen contained 36% of all scholarly articles [@doi:10.1002/asi.23445].
+Coverage was higher for several prominent publishers: 77% for Elsevier, 73% for Wiley, and 53% for Springer (prior to its merger with Macmillan / Nature [@doi:10.1038/nature.2015.16731]).
+
 Later, Bohannon analyzed six months of Sci-Hub's server request logs starting in September 2015 [@doi:10.1126/science.352.6285.508].
 He found a global pattern of usage.
 Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher to Sci-Hub downloads for several journals [@url:https://hdl.handle.net/10760/30981].
-They estimate this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
+They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
+Greshake also analyzed the logs to identify per capita Sci-Hub usage by country [@doi:10.15200/winn.146485.57797].
+Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to the literature.
+In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of top 20 requested journals relating to Chemistry [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
 
+On March 19, 2017, Sci-Hub released the list of DOIs for articles in its database.
+Greshake retrieved metadata for 77% of Sci-Hub DOIs [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
+He found that 95% articles in Sci-Hub were published after 1950.
+Sci-Hub requests were even more skewed towards recent articles with only 5% targeting articles published before 1983.
+Greshake's study did not incorporate a catalog of all scholarly literature.
+This study analyzes Sci-Hub's catalog in the context of the all scholarly literature and thus assesses coverage.
+In other words, what percent of articles in a given domain does Sci-Hub possess?
 
+http://www.leafscience.org/alexandra-elbakyan/
 https://scholarlykitchen.sspnet.org/2016/02/25/sci-hub-how-does-it-work/
 
 Historical problems related to access to scholarly literature.
