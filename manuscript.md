@@ -44,13 +44,13 @@ The first pink dotted line represents the collection date of the LibGen metadata
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
 The enclosed letters refer to the following events:
 
-+ Ⓐ Certain LibGen domains go down, allegedly due to the death of a contributor [@url:https://redd.it/2raea8].
-+ Ⓑ TorrentFreak reports that Elsevier has filed a complaint against Sci-Hub and LibGen in New York District Court (Case `1:15-cv-04282-RWS` Document 1) [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
-@url:https://torrentfreak.com/images/elsevier-complaint.pdf]
-+ Ⓒ Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works (Document 53) [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://torrentfreak.com/images/sci-hub.pdf].
++ **Ⓐ** Certain LibGen domains go down, allegedly due to the death of a contributor [@url:https://redd.it/2raea8].
++ **Ⓑ** TorrentFreak reports that Elsevier has filed a complaint against Sci-Hub and LibGen in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
+@url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/]
++ **Ⓒ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
 Shortly after on November 21, 2015, TorrentFreak reports Sci-Hub and LibGen have resurfaced at alternative domains outside of U.S. court jurisdiction including a Tor Hidden Service for Sci-Hub (`scihub22266oqcxt.onion`) [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/].
-+ Ⓓ The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and its creator, Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science].
-+ Ⓔ The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
++ **Ⓓ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and its creator, Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science].
++ **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
 
 Past research sheds some light on Sci-Hub's reach.
 From the Spring of 2013 to the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
@@ -243,7 +243,7 @@ Accordingly, many users likely only use Sci-Hub once other access methods have f
 
 The largest and most prominent publishers are highly covered by Sci-Hub.
 Publishers have taken note.
-Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
+Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered, Docket Number `1:17-cv-00726-LMB-JFA`) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/].
 The widespread gratis access to previously paywalled content calls into question the sustainability of the subscription publishing model.
 As distributed and censorship-resistant file storage protocols mature, Sci-Hub alternatives may evolve that no longer rely on a centralized service.
 As such, Sci-Hub's corpus of gratis scholarly literature will be extremely difficult to suppress.
