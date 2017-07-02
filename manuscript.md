@@ -34,7 +34,7 @@ Since its inception, Sci-Hub has experienced sustained growth, with spikes in in
 Here we investigate the extent Sci-Hub provides access to scholarly literature.
 If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
 
-![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/explore/trends/google-trends.svg)
+![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/80d1829463bf33f84c3a6fdfa4e3ae9e2b7d0d11/explore/trends/google-trends.svg)
 
 **Figure 1: The history of Sci-Hub.**
 Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
@@ -45,12 +45,17 @@ The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used
 The enclosed letters refer to the following events:
 
 + **Ⓐ** Certain LibGen domains go down, allegedly due to the death of a contributor [@url:https://redd.it/2raea8].
-+ **Ⓑ** TorrentFreak reports that Elsevier has filed a complaint against Sci-Hub and LibGen in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
++ **Ⓑ** Elsevier files a complaint against Sci-Hub and LibGen in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
 @url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/]
 + **Ⓒ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
-Shortly after on November 21, 2015, TorrentFreak reports Sci-Hub and LibGen have resurfaced at alternative domains outside of U.S. court jurisdiction including a Tor Hidden Service for Sci-Hub (`scihub22266oqcxt.onion`) [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/].
+Shortly after, Sci-Hub and LibGen have resurface at alternative domains outside of U.S. court jurisdiction including a Tor Hidden Service for Sci-Hub (`scihub22266oqcxt.onion`) [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
 + **Ⓓ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and its creator, Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science].
 + **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
++ **Ⓕ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
+Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
++ **Ⓖ** The court finds that Alexandra Elbakyan Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
+The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
+The statutory damages, which defendants do not plan to pay, now bear interest.
 
 Past research sheds some light on Sci-Hub's reach.
 From the Spring of 2013 to the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
