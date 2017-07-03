@@ -25,10 +25,27 @@ As of 2014, an estimated 76% of scholarly literature on the web was paywalled [@
 The open access movement strives to increase the accessibility of scholarly literature [@doi:10.12688/f1000research.8460.3].
 After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], the gratis availability of recent articles is nearing 50% [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
 Nonetheless, a wealth of scholarly literature remains inaccessible.
-However, the website Sci-Hub, founded by Alexandra Elbakyan in September 2011, appears to provide broad access to scholarly literature.
+However starting in 2011, the website Sci-Hub appears to provide broad access to scholarly literature.
 
-Sci-Hub does not restrict itself to only openly licensed content.
-Instead, it distributes scholarly literature without regard to copyright regimes.
+Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
+The website began operating on September 5, 2011.
+The site was created and is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@doi:10.1126/science.aaf5675 @doi:10.1038/nature.2015.18876].
+Elbakyan is motivated by providing universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:http://www.leafscience.org/alexandra-elbakyan/].
+
+**Warning & disclaimer: use of Sci-Hub may constitute copyright infringement in many jurisdictions.
+Users of Sci-Hub do so at their own risk.
+This study is not an endorsement of using Sci-Hub and its authors and publishers accept no responsibility on behalf of Sci-Hub users.
+It is a strong possibility that Sci-Hub users — especially those not using privacy-protecting services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
+
+Sci-Hub is currently served at the domains `sci-hub.cc`, `sci-hub.io`, and `scihub22266oqcxt.onion` (a Tor Hidden Service [@url:http://www.dtic.mil/docs/citations/ADA465464]).
+Elbakyan recently described the technical scope of Sci-Hub [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/]:
+
+> Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository. But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.
+
+As noted, Sci-Hub does not restrict itself to only openly licensed content.
+Instead, it retrieves and distributes scholarly literature without regard to copyright regimes.
+One method Sci-Hub uses to bypass paywalls is through leaked authentication credentials for networks with institutional access to literature [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
 Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure 1).
 Here we investigate the extent Sci-Hub provides access to scholarly literature.
@@ -48,14 +65,14 @@ The enclosed letters refer to the following events:
 + **Ⓑ** Elsevier files a complaint against Sci-Hub and LibGen in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
 @url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/]
 + **Ⓒ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
-Shortly after, Sci-Hub and LibGen have resurface at alternative domains outside of U.S. court jurisdiction including a Tor Hidden Service for Sci-Hub (`scihub22266oqcxt.onion`) [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
+Shortly after, Sci-Hub and LibGen have resurface at alternative domains outside of U.S. court jurisdiction including Sci-Hub's Tor Hidden Service [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
 + **Ⓓ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and its creator, Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science].
-+ **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
++ **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664 @doi:10.1038/nature.2016.19841].
 + **Ⓕ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
 Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
 + **Ⓖ** The court finds that Alexandra Elbakyan Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
 The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
-The statutory damages, which defendants do not plan to pay, now bear interest.
+The statutory damages, which the defendants do not intend to pay, now bear interest.
 
 Past research sheds some light on Sci-Hub's reach.
 From the Spring of 2013 to the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
@@ -81,33 +98,15 @@ Greshake's study did not incorporate a catalog of all scholarly literature.
 This study analyzes Sci-Hub's catalog in the context of the all scholarly literature and thus assesses coverage.
 In other words, what percent of articles in a given domain does Sci-Hub possess?
 
-http://www.leafscience.org/alexandra-elbakyan/
+***
 
-Historical problems related to access to scholarly literature.
+Notes which will eventually be incorporated or removed:
 
-History of Sci-Hub. Paragraphs for the
++ Consider noting historical problems related to access to scholarly literature.
++ Consider adding history of LibGen
++ Comment with additional references [here](https://github.com/greenelab/scihub/issues/3).
 
-+ mechanics of the service
-+ history of LibGen
-+ motivations of Alexandra Elbakyan
-+ popular awareness and press coverage
-+ legal proceedings
-+ previous studies of Sci-Hub / LibGen coverage & usage
-
-Here are some relevant existing studies.
-
-+ [@doi:10.1002/asi.23445]
-+ [@doi:10.1126/science.352.6285.508]
-+ [@url:https://hdl.handle.net/10760/30981]
-+ [@doi:10.12688/f1000research.11366.1]
-+ [@doi:10.15200/winn.146485.57797]
-
-Media coverage:
-
-+ [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science]
-+ [@doi:10.1038/nature.2016.19841]
-
-Comment with additional references [here](https://github.com/greenelab/scihub/issues/3).
+***
 
 ## Results
 
@@ -255,6 +254,9 @@ As such, Sci-Hub's corpus of gratis scholarly literature will be extremely diffi
 We can also expect biblioleaks to progress despite publisher's best efforts, as articles must only leak once to be perpetually available.
 In essence, scholarly publishers have already lost the access battle.
 Publishers will be forced to adapt, and adapt quickly, to open access publishing models.
+In the words of Alexandra Elbakyan [@url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/]:
+
+> The effect of long-term operation of Sci-Hub will be that publishers change their publishing models to support Open Access, because closed access will make no sense anymore.
 
 ## Methods
 
@@ -365,6 +367,10 @@ Based on existing descriptions of Sci-Hub's infrastructure, these corpuses shoul
 Essentially, Sci-Hub is a layer on top of the LibGen scimag database.
 On Twitter, the Sci-Hub account [commented](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
 Therefore, we proceeded under the assumption that the LibGen scimag and Sci-Hub corpurses are synonymous.
+
+TODO: https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/
+
+> Sci-Hub stores papers in its own repository, and additionaly the papers downloaded by Sci-Hub are also stored in LibGen.
 
 ### Sci-Hub request logs
 
