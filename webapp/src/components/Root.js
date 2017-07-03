@@ -14,6 +14,7 @@ import Journal from './Journal';
 
 import Navbar from './Navbar';
 import JournalTable from './JournalTable';
+import PublishersTable from "./PublisherTable";
 
 
 export default class Root extends React.Component {
@@ -29,6 +30,7 @@ export default class Root extends React.Component {
 
           <Switch>
             <Route exact path="/" component={JournalTable}/>
+            <Route exact path="/publishers" component={PublishersTable}/>
             <Route path="/journal/:journalId" component={Journal}/>
           </Switch>
         </div>

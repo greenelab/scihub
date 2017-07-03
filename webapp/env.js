@@ -3,5 +3,6 @@
 
 module.exports = {
   journals_data: 'https://raw.githubusercontent.com/greenelab/scihub/master/data/journal-coverage.tsv',
+  publishers_data: 'https://raw.githubusercontent.com/greenelab/scihub/master/data/coverage-by-category.tsv',
 };
 
