@@ -10,15 +10,14 @@ The website Sci-Hub provides access to scholarly literature via full text PDF do
 The site enables users to access scholarly articles that would otherwise be paywalled.
 Since its creation in 2011, Sci-Hub has grown rapidly in popularity.
 However, until now, the extent of Sci-Hub's coverage of scholarly literature was unclear.
-As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles.
-If only considering articles in closed access journals, Sci-Hub's coverage increases to 85.2%.
+As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed-access journals.
 Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by currently inactive journals.
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
 Finally, we estimate that over a six month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.
-Hence, the sustainability of the subscription publishing model is dubious.
-For the first time, the overwhelming majority of scholarly literature is available gratis for anyone to download.
+Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable.
+For the first time, the overwhelming majority of scholarly literature is available gratis to anyone.
 
 ## Introduction
 
@@ -31,11 +30,11 @@ However starting in 2011, the website Sci-Hub appears to provide broad access to
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
 The website began operating on September 5, 2011.
 The site was created and is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@doi:10.1126/science.aaf5675 @doi:10.1038/nature.2015.18876].
-Elbakyan is motivated by providing universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/ @url:http://www.leafscience.org/alexandra-elbakyan/].
+Elbakyan describes herself as motivated to provide universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/ @url:http://www.leafscience.org/alexandra-elbakyan/].
 
-**Warning & disclaimer: use of Sci-Hub may constitute copyright infringement in many jurisdictions.
+**Readers should note that, in many jurisdictions, use of Sci-Hub may constitute copyright infringement.
 Users of Sci-Hub do so at their own risk.
-This study is not an endorsement of using Sci-Hub and its authors and publishers accept no responsibility on behalf of Sci-Hub users.
+This study is not an endorsement of using Sci-Hub, and its authors and publishers accept no responsibility on behalf of readers.
 It is a strong possibility that Sci-Hub users — especially those not using privacy-protecting services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
 
 Sci-Hub is currently served at the domains `sci-hub.cc`, `sci-hub.io`, and `scihub22266oqcxt.onion` (a Tor Hidden Service [@url:http://www.dtic.mil/docs/citations/ADA465464]).
@@ -142,11 +141,11 @@ Another factor could be that some journals are now deploying more aggressive ant
 
 ### Coverage by Journal
 
-We defined a comprehensive set of scholarly publishing venues, referred to as "journals", extracted from the Scopus database.
-In reality, these venues include conferences with proceedings as well as book series.
-For inclusion in this analysis, a venue required an ISSN and at least one article as part of the scholarly literature.
+We defined a comprehensive set of scholarly publishing venues, referred to as "journals", based on the Scopus database.
+In reality, these include conferences with proceedings as well as book series.
+For inclusion in this analysis, each required an ISSN and at least one article as part of the scholarly literature.
 Accordingly, our catalog of journals consisted of 22,193 publishing venues encompassing 57,074,208 articles.
-Of these journals, 4,345 were inactive (19.6%, no longer publishing articles), and 2,650 were open access (11.9%).
+Of these journals, 4,345 were inactive (19.6%, i.e. no longer publishing articles), and 2,650 were open access (11.9%).
 Only two journals were inactive and also open access.
 
 We calculated Sci-Hub's coverage for each of the 22,193 journals. The following table shows coverage for the ten journals with the most articles.
