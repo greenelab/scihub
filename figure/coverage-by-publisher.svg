@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 360.00 504.00'>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 360.00 288.00'>
 <defs>
   <style type='text/css'><![CDATA[
     line, polyline, path, rect, circle {
@@ -12,175 +12,127 @@
   ]]></style>
 </defs>
 <rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
-<rect x='0.00' y='0.00' width='360.00' height='504.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+<rect x='0.00' y='0.00' width='360.00' height='288.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
 <defs>
-  <clipPath id='cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw=='>
-    <rect x='7.72' y='1.99' width='333.14' height='473.37' />
+  <clipPath id='cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw=='>
+    <rect x='7.72' y='1.99' width='333.14' height='257.37' />
   </clipPath>
 </defs>
-<rect x='7.72' y='1.99' width='333.14' height='473.37' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='24.38,475.36 24.38,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='57.69,475.36 57.69,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='91.01,475.36 91.01,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='124.32,475.36 124.32,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='157.63,475.36 157.63,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='190.95,475.36 190.95,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='224.26,475.36 224.26,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='257.58,475.36 257.58,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='290.89,475.36 290.89,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='324.20,475.36 324.20,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='7.72,475.36 7.72,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='41.04,475.36 41.04,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='74.35,475.36 74.35,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='107.66,475.36 107.66,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='140.98,475.36 140.98,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='174.29,475.36 174.29,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='207.61,475.36 207.61,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='240.92,475.36 240.92,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='274.23,475.36 274.23,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='307.55,475.36 307.55,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<polyline points='340.86,475.36 340.86,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='465.65' width='198.56' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='456.41' width='121.68' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='447.16' width='232.31' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='437.92' width='326.35' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='428.67' width='228.03' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='419.43' width='327.11' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='410.18' width='243.22' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='400.94' width='319.37' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='391.69' width='325.57' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='382.44' width='161.33' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='373.20' width='326.57' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='363.95' width='313.88' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='354.71' width='311.12' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='345.46' width='323.57' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='336.22' width='307.36' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='326.97' width='302.84' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='317.73' width='127.78' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='308.48' width='242.17' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='299.24' width='297.05' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='289.99' width='299.25' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='280.74' width='296.23' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='271.50' width='332.87' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='262.25' width='69.72' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='253.01' width='40.38' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='243.76' width='234.79' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='234.52' width='218.22' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='225.27' width='41.47' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='216.03' width='325.33' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='206.78' width='292.11' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='197.53' width='273.42' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='188.29' width='269.14' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='179.04' width='255.36' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='169.80' width='123.99' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='160.55' width='313.09' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='151.31' width='29.67' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='142.06' width='316.18' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='132.82' width='236.68' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='123.57' width='152.93' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='114.33' width='261.46' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='105.08' width='332.68' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='95.83' width='298.87' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='86.59' width='292.31' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='77.34' width='328.46' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='68.10' width='282.95' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='58.85' width='317.56' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='49.61' width='329.06' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='40.36' width='263.73' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='31.12' width='320.46' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='21.87' width='315.77' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='12.62' width='297.76' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<rect x='7.72' y='3.38' width='324.24' height='8.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='471.88' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='195.42px' lengthAdjust='spacingAndGlyphs'>University of California Press — 31 journals, 60K of 100K articles (59.6%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='462.63' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='229.77px' lengthAdjust='spacingAndGlyphs'>American Association for Cancer Research — 6 journals, 37K of 102K articles (36.5%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='453.39' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='175.42px' lengthAdjust='spacingAndGlyphs'>The Endocrine Society — 5 journals, 73K of 105K articles (69.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='444.14' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='171.09px' lengthAdjust='spacingAndGlyphs'>Portland Press, Ltd. — 6 journals, 107K of 109K articles (98.0%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='434.90' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='128.07px' lengthAdjust='spacingAndGlyphs'>IEE — 53 journals, 76K of 111K articles (68.5%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='425.65' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='281.79px' lengthAdjust='spacingAndGlyphs'>American Society for Biochemistry and Molecular Biology Inc. — 4 journals, 110K of 112K articles (98.2%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='416.40' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='135.40px' lengthAdjust='spacingAndGlyphs'>ASME — 37 journals, 87K of 119K articles (73.0%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='407.16' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='163.08px' lengthAdjust='spacingAndGlyphs'>World Scientific — 86 journals, 117K of 122K articles (95.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='397.91' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='174.43px' lengthAdjust='spacingAndGlyphs'>Consultants Bureau — 20 journals, 120K of 122K articles (97.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='388.67' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='143.07px' lengthAdjust='spacingAndGlyphs'>Hindawi — 194 journals, 60K of 124K articles (48.4%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='379.42' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='166.42px' lengthAdjust='spacingAndGlyphs'>Excerpta Medica — 13 journals, 122K of 124K articles (98.0%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='370.18' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='192.09px' lengthAdjust='spacingAndGlyphs'>Optical Society of America — 12 journals, 124K of 131K articles (94.2%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='360.93' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='199.77px' lengthAdjust='spacingAndGlyphs'>National Academy of Sciences — 1 journals, 124K of 133K articles (93.4%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='351.69' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='170.76px' lengthAdjust='spacingAndGlyphs'>Mary Ann Liebert — 110 journals, 132K of 136K articles (97.1%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='342.44' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='164.41px' lengthAdjust='spacingAndGlyphs'>Haworth Press — 218 journals, 127K of 137K articles (92.3%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='333.19' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='179.08px' lengthAdjust='spacingAndGlyphs'>NRC Research Press — 15 journals, 126K of 139K articles (90.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='323.95' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='194.09px' lengthAdjust='spacingAndGlyphs'>Acoustical Society of America — 2 journals, 56K of 146K articles (38.4%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='314.70' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='172.43px' lengthAdjust='spacingAndGlyphs'>Maney Publishing — 134 journals, 110K of 152K articles (72.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='305.46' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='194.43px' lengthAdjust='spacingAndGlyphs'>Trans Tech Publications Ltd. — 4 journals, 139K of 156K articles (89.2%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='296.21' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='212.43px' lengthAdjust='spacingAndGlyphs'>American Society for Microbiology — 16 journals, 141K of 158K articles (89.8%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='286.97' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='135.07px' lengthAdjust='spacingAndGlyphs'>Brill — 169 journals, 154K of 174K articles (88.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='277.72' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='202.10px' lengthAdjust='spacingAndGlyphs'>Massachusetts Medical Society — 1 journals, 180K of 180K articles (99.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='268.48' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='181.42px' lengthAdjust='spacingAndGlyphs'>Royal College of Nursing — 3 journals, 38K of 183K articles (20.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='259.23' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='179.08px' lengthAdjust='spacingAndGlyphs'>Scientific American, Inc. — 1 journals, 23K of 186K articles (12.1%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='249.99' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='147.41px' lengthAdjust='spacingAndGlyphs'>Emerald — 253 journals, 144K of 204K articles (70.5%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='240.74' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='133.74px' lengthAdjust='spacingAndGlyphs'>APA — 54 journals, 134K of 205K articles (65.5%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='231.49' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='181.09px' lengthAdjust='spacingAndGlyphs'>Public Library of Science — 9 journals, 26K of 210K articles (12.4%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='222.25' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='224.12px' lengthAdjust='spacingAndGlyphs'>Maik Nauka/Interperiodica Publishing — 104 journals, 262K of 269K articles (97.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='213.00' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='262.80px' lengthAdjust='spacingAndGlyphs'>American Association for the Advancement of Science — 6 journals, 236K of 269K articles (87.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='203.76' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='216.12px' lengthAdjust='spacingAndGlyphs'>Institute of Pure and Applied Physics — 5 journals, 228K of 278K articles (82.1%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='194.51' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='172.42px' lengthAdjust='spacingAndGlyphs'>Walter de Gruyter — 260 journals, 228K of 282K articles (80.8%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='185.27' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='133.73px' lengthAdjust='spacingAndGlyphs'>BMJ — 37 journals, 245K of 319K articles (76.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='176.02' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='143.08px' lengthAdjust='spacingAndGlyphs'>Karger — 154 journals, 126K of 338K articles (37.2%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='166.78' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='134.40px' lengthAdjust='spacingAndGlyphs'>RSC — 67 journals, 384K of 408K articles (94.0%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='157.53' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='183.08px' lengthAdjust='spacingAndGlyphs'>British Medical Association — 4 journals, 37K of 415K articles (8.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='148.28' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='132.07px' lengthAdjust='spacingAndGlyphs'>IOP — 74 journals, 402K of 424K articles (94.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='139.04' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='141.74px' lengthAdjust='spacingAndGlyphs'>Thieme — 90 journals, 301K of 424K articles (71.0%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='129.79' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='195.42px' lengthAdjust='spacingAndGlyphs'>University of Chicago Press — 51 journals, 228K of 496K articles (45.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='120.55' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='201.76px' lengthAdjust='spacingAndGlyphs'>American Medical Association — 39 journals, 394K of 502K articles (78.5%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='111.30' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='133.74px' lengthAdjust='spacingAndGlyphs'>APS — 16 journals, 552K of 552K articles (99.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='102.06' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='131.40px' lengthAdjust='spacingAndGlyphs'>AIP — 26 journals, 531K of 592K articles (89.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='92.81' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='199.42px' lengthAdjust='spacingAndGlyphs'>Cambridge University Press — 219 journals, 539K of 614K articles (87.7%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='83.57' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='138.74px' lengthAdjust='spacingAndGlyphs'>IEEE — 309 journals, 892K of 905K articles (98.6%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='74.32' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='137.40px' lengthAdjust='spacingAndGlyphs'>OUP — 239 journals, 895K of 1.1M articles (84.9%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='65.08' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='135.39px' lengthAdjust='spacingAndGlyphs'>SAGE — 589 journals, 1M of 1.1M articles (95.3%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='55.83' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='132.72px' lengthAdjust='spacingAndGlyphs'>ACS — 63 journals, 1.4M of 1.4M articles (98.8%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='46.58' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='183.07px' lengthAdjust='spacingAndGlyphs'>Wolters Kluwer Health — 398 journals, 1.5M of 1.9M articles (79.2%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='37.34' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='169.73px' lengthAdjust='spacingAndGlyphs'>Taylor &amp; Francis — 1.5K journals, 1.8M of 1.9M articles (96.2%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='28.09' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='167.72px' lengthAdjust='spacingAndGlyphs'>Wiley-Blackwell — 1.4K journals, 4.6M of 4.9M articles (94.8%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='18.85' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='168.41px' lengthAdjust='spacingAndGlyphs'>Springer Nature — 2.3K journals, 5.4M of 6.1M articles (89.4%)</text></g>
-<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='9.60' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='144.06px' lengthAdjust='spacingAndGlyphs'>Elsevier — 3.4K journals, 13M of 13M articles (97.3%)</text></g>
-<rect x='7.72' y='1.99' width='333.14' height='473.37' style='stroke-width: 1.07; stroke: #333333;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDQ3NS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='1.99' width='333.14' height='257.37' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='24.38,259.36 24.38,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='57.69,259.36 57.69,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='91.01,259.36 91.01,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='124.32,259.36 124.32,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='157.63,259.36 157.63,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='190.95,259.36 190.95,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='224.26,259.36 224.26,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='257.58,259.36 257.58,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='290.89,259.36 290.89,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='324.20,259.36 324.20,1.99 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='7.72,259.36 7.72,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='41.04,259.36 41.04,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='74.35,259.36 74.35,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='107.66,259.36 107.66,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='140.98,259.36 140.98,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='174.29,259.36 174.29,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='207.61,259.36 207.61,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='240.92,259.36 240.92,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='274.23,259.36 274.23,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='307.55,259.36 307.55,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<polyline points='340.86,259.36 340.86,1.99 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='249.43' width='29.67' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='239.96' width='41.47' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='230.50' width='123.99' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='221.04' width='152.93' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='211.58' width='218.22' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='202.12' width='234.79' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='192.65' width='236.68' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='183.19' width='255.36' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='173.73' width='261.46' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='164.27' width='263.73' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='154.81' width='269.14' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='145.34' width='273.42' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='135.88' width='282.95' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='126.42' width='292.11' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='116.96' width='292.31' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='107.50' width='297.76' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='98.03' width='298.87' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='88.57' width='313.09' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='79.11' width='315.77' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='69.65' width='316.18' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='60.18' width='317.56' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='50.72' width='320.46' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='41.26' width='324.24' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='31.80' width='325.33' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='22.34' width='328.46' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='12.87' width='329.06' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<rect x='7.72' y='3.41' width='332.68' height='8.52' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #EFDADA;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='255.75' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='183.08px' lengthAdjust='spacingAndGlyphs'>British Medical Association — 4 journals, 37K of 415K articles (8.9%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='246.29' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='181.09px' lengthAdjust='spacingAndGlyphs'>Public Library of Science — 9 journals, 26K of 210K articles (12.4%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='236.82' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='143.08px' lengthAdjust='spacingAndGlyphs'>Karger — 154 journals, 126K of 338K articles (37.2%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='227.36' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='195.42px' lengthAdjust='spacingAndGlyphs'>University of Chicago Press — 51 journals, 228K of 496K articles (45.9%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='217.90' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='133.74px' lengthAdjust='spacingAndGlyphs'>APA — 54 journals, 134K of 205K articles (65.5%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='208.44' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='147.41px' lengthAdjust='spacingAndGlyphs'>Emerald — 253 journals, 144K of 204K articles (70.5%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='198.97' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='141.74px' lengthAdjust='spacingAndGlyphs'>Thieme — 90 journals, 301K of 424K articles (71.0%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='189.51' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='133.73px' lengthAdjust='spacingAndGlyphs'>BMJ — 37 journals, 245K of 319K articles (76.7%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='180.05' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='201.76px' lengthAdjust='spacingAndGlyphs'>American Medical Association — 39 journals, 394K of 502K articles (78.5%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='170.59' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='183.07px' lengthAdjust='spacingAndGlyphs'>Wolters Kluwer Health — 398 journals, 1.5M of 1.9M articles (79.2%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='161.13' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='172.42px' lengthAdjust='spacingAndGlyphs'>Walter de Gruyter — 260 journals, 228K of 282K articles (80.8%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='151.66' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='216.12px' lengthAdjust='spacingAndGlyphs'>Institute of Pure and Applied Physics — 5 journals, 228K of 278K articles (82.1%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='142.20' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='137.40px' lengthAdjust='spacingAndGlyphs'>OUP — 239 journals, 895K of 1.1M articles (84.9%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='132.74' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='262.80px' lengthAdjust='spacingAndGlyphs'>American Association for the Advancement of Science — 6 journals, 236K of 269K articles (87.7%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='123.28' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='199.42px' lengthAdjust='spacingAndGlyphs'>Cambridge University Press — 219 journals, 539K of 614K articles (87.7%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='113.82' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='168.41px' lengthAdjust='spacingAndGlyphs'>Springer Nature — 2.3K journals, 5.4M of 6.1M articles (89.4%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='104.35' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='131.40px' lengthAdjust='spacingAndGlyphs'>AIP — 26 journals, 531K of 592K articles (89.7%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='94.89' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='134.40px' lengthAdjust='spacingAndGlyphs'>RSC — 67 journals, 384K of 408K articles (94.0%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='85.43' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='167.72px' lengthAdjust='spacingAndGlyphs'>Wiley-Blackwell — 1.4K journals, 4.6M of 4.9M articles (94.8%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='75.97' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='132.07px' lengthAdjust='spacingAndGlyphs'>IOP — 74 journals, 402K of 424K articles (94.9%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='66.51' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='135.39px' lengthAdjust='spacingAndGlyphs'>SAGE — 589 journals, 1M of 1.1M articles (95.3%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='57.04' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='169.73px' lengthAdjust='spacingAndGlyphs'>Taylor &amp; Francis — 1.5K journals, 1.8M of 1.9M articles (96.2%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='47.58' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='144.06px' lengthAdjust='spacingAndGlyphs'>Elsevier — 3.4K journals, 13M of 13M articles (97.3%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='38.12' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='224.12px' lengthAdjust='spacingAndGlyphs'>Maik Nauka/Interperiodica Publishing — 104 journals, 262K of 269K articles (97.7%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='28.66' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='138.74px' lengthAdjust='spacingAndGlyphs'>IEEE — 309 journals, 892K of 905K articles (98.6%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='19.19' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='132.72px' lengthAdjust='spacingAndGlyphs'>ACS — 63 journals, 1.4M of 1.4M articles (98.8%)</text></g>
+<g clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)'><text x='11.05' y='9.73' style='font-size: 5.69px; font-family: Liberation Sans;' textLength='133.74px' lengthAdjust='spacingAndGlyphs'>APS — 16 journals, 552K of 552K articles (99.9%)</text></g>
+<rect x='7.72' y='1.99' width='333.14' height='257.37' style='stroke-width: 1.07; stroke: #333333;' clip-path='url(#cpNy43MjEwNXwzNDAuODYxfDI1OS4zNjJ8MS45OTI1Mw==)' />
 <defs>
-  <clipPath id='cpMHwzNjB8NTA0fDA='>
-    <rect x='0.00' y='0.00' width='360.00' height='504.00' />
+  <clipPath id='cpMHwzNjB8Mjg4fDA='>
+    <rect x='0.00' y='0.00' width='360.00' height='288.00' />
   </clipPath>
 </defs>
 <defs>
-  <clipPath id='cpMzQwLjg2MXwzNTguMDA3fDQ3NS4zNjJ8MS45OTI1Mw=='>
-    <rect x='340.86' y='1.99' width='17.15' height='473.37' />
+  <clipPath id='cpMzQwLjg2MXwzNTguMDA3fDI1OS4zNjJ8MS45OTI1Mw=='>
+    <rect x='340.86' y='1.99' width='17.15' height='257.37' />
   </clipPath>
 </defs>
-<rect x='340.86' y='1.99' width='17.15' height='473.37' style='stroke-width: 1.07; stroke: #333333; fill: #FEF2E2;' clip-path='url(#cpMzQwLjg2MXwzNTguMDA3fDQ3NS4zNjJ8MS45OTI1Mw==)' />
-<g clip-path='url(#cpMzQwLjg2MXwzNTguMDA3fDQ3NS4zNjJ8MS45OTI1Mw==)'><text transform='translate(346.34,219.92) rotate(90)' style='font-size: 8.80px; fill: #1A1A1A; font-family: Liberation Sans;' textLength='37.52px' lengthAdjust='spacingAndGlyphs'>Publisher</text></g>
+<rect x='340.86' y='1.99' width='17.15' height='257.37' style='stroke-width: 1.07; stroke: #333333; fill: #FEF2E2;' clip-path='url(#cpMzQwLjg2MXwzNTguMDA3fDI1OS4zNjJ8MS45OTI1Mw==)' />
+<g clip-path='url(#cpMzQwLjg2MXwzNTguMDA3fDI1OS4zNjJ8MS45OTI1Mw==)'><text transform='translate(346.34,111.92) rotate(90)' style='font-size: 8.80px; fill: #1A1A1A; font-family: Liberation Sans;' textLength='37.52px' lengthAdjust='spacingAndGlyphs'>Publisher</text></g>
 <defs>
-  <clipPath id='cpMHwzNjB8NTA0fDA='>
-    <rect x='0.00' y='0.00' width='360.00' height='504.00' />
+  <clipPath id='cpMHwzNjB8Mjg4fDA='>
+    <rect x='0.00' y='0.00' width='360.00' height='288.00' />
   </clipPath>
 </defs>
-<polyline points='7.72,478.10 7.72,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='41.04,478.10 41.04,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='74.35,478.10 74.35,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='107.66,478.10 107.66,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='140.98,478.10 140.98,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='174.29,478.10 174.29,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='207.61,478.10 207.61,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='240.92,478.10 240.92,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='274.23,478.10 274.23,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='307.55,478.10 307.55,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<polyline points='340.86,478.10 340.86,475.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8NTA0fDA=)' />
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='1.22' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='13.01px' lengthAdjust='spacingAndGlyphs'>0%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='32.03' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>10%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='65.34' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>20%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='98.66' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>30%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='131.97' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>40%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='165.28' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>50%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='198.60' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>60%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='231.91' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>70%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='265.23' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>80%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='298.54' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>90%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='329.35' y='486.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='23.02px' lengthAdjust='spacingAndGlyphs'>100%</text></g>
-<g clip-path='url(#cpMHwzNjB8NTA0fDA=)'><text x='125.38' y='499.52' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='97.82px' lengthAdjust='spacingAndGlyphs'>Sci-Hub’s Coverage</text></g>
+<polyline points='7.72,262.10 7.72,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='41.04,262.10 41.04,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='74.35,262.10 74.35,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='107.66,262.10 107.66,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='140.98,262.10 140.98,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='174.29,262.10 174.29,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='207.61,262.10 207.61,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='240.92,262.10 240.92,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='274.23,262.10 274.23,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='307.55,262.10 307.55,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<polyline points='340.86,262.10 340.86,259.36 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' clip-path='url(#cpMHwzNjB8Mjg4fDA=)' />
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='1.22' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='13.01px' lengthAdjust='spacingAndGlyphs'>0%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='32.03' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>10%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='65.34' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>20%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='98.66' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>30%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='131.97' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>40%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='165.28' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>50%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='198.60' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>60%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='231.91' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>70%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='265.23' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>80%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='298.54' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='18.01px' lengthAdjust='spacingAndGlyphs'>90%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='329.35' y='270.48' style='font-size: 8.80px; fill: #4D4D4D; font-family: Liberation Sans;' textLength='23.02px' lengthAdjust='spacingAndGlyphs'>100%</text></g>
+<g clip-path='url(#cpMHwzNjB8Mjg4fDA=)'><text x='125.38' y='283.52' style='font-size: 11.00px; font-family: Liberation Sans;' textLength='97.82px' lengthAdjust='spacingAndGlyphs'>Sci-Hub’s Coverage</text></g>
 </svg>
