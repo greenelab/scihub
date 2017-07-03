@@ -5,7 +5,9 @@ import github from './github.svg';
 
 import styles from './root.scss';
 
-export default ({}, {location}) => <div>
+import History from 'history';
+
+export default ({}, {}) => <div>
   <nav className="navbar navbar-default">
     <div className="container">
       <div className="navbar-header">
@@ -21,6 +23,12 @@ export default ({}, {location}) => <div>
 
       <div className="collapse navbar-collapse navbar-right">
         <ul className="nav navbar-nav">
+          <li>
+            <Link to="/">Journals</Link>
+          </li>
+          <li>
+            <Link to="/publishers">Publishers</Link>
+          </li>
           <li>
             <a href="https://github.com/greenelab/scihub" target="_blank">
               <img className={styles.github} src={github} />

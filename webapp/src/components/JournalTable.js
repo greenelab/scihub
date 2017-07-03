@@ -16,6 +16,13 @@ export default class JournalTable extends FetchDataTable {
     ];
   }
 
+  render () {
+    return <div>
+      <h2 className="section-title">Journal Coverage Table</h2>
+      {super.render()}
+    </div>
+  }
+
   rowDefinition() {
     return <RowDefinition>
       <ColumnDefinition id="active" title=" " width="20px" customComponent={ActiveJournalCell} />

@@ -7,6 +7,13 @@ import {NumberCell, PercentCell, rowDataSelector, TableLayout} from "./Table";
 import {FetchDataTable} from "./Table";
 
 export default class PublishersTable extends FetchDataTable {
+  render () {
+    return <div>
+      <h2 className="section-title">Publisher Coverage Table</h2>
+      {super.render()}
+    </div>
+  }
+
   sortProperties() {
     return [
       { id: 'crossref', sortAscending: false },

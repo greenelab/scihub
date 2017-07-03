@@ -24,7 +24,7 @@ module.exports = {
     filename: '[name].js',
   },
 
-  devtool: 'source-map',
+  devtool: 'eval',
 
   plugins: [
     new CleanWebpackPlugin(['docs'], {root: path.resolve('..')}),
