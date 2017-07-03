@@ -5,7 +5,7 @@ var config = require('./webpack.config');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const extractStyles = new ExtractTextPlugin({
-  filename: 'styles-[hash].css',
+  filename: 'styles.css',
   disable: false,
   allChunks: true
 });
@@ -20,7 +20,7 @@ module.exports = {
     //where you want your compiled bundle to be stored
     path: path.resolve('../docs/'),
     //naming convention webpack should use for your files
-    filename: '[name]-[hash].js',
+    filename: '[name].js',
   },
 
   plugins: config.plugins.concat([
@@ -30,6 +30,7 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({
       compressor: {warnings: false},
       sourceMap: false,
+      beautify: true,
     }),
     new webpack.DefinePlugin({
       'process.env': {NODE_ENV: JSON.stringify('production')},
