@@ -1,7 +1,8 @@
 # Sci-Hub's remarkable coverage of the scholarly literature
 
-This is a working draft of the manuscript for this study.
-It's written in markdown and currently uses the [referencing format](https://github.com/greenelab/deep-review/blob/master/CONTRIBUTING.md#markdown) from the Deep Review.
+This is a working draft of the manuscript for [this study](https://github.com/greenelab/scihub).
+It's written in markdown and currently uses the `manubot-rootstock` [referencing format](https://github.com/greenelab/manubot-rootstock/blob/master/CONTRIBUTING.md#markdown).
+See the [Deep Review](https://github.com/greenelab/deep-review) for an example of how the build process will eventually work.
 
 ## Abstract
 
@@ -38,7 +39,7 @@ This study is not an endorsement of using Sci-Hub and its authors and publishers
 It is a strong possibility that Sci-Hub users — especially those not using privacy-protecting services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
 
 Sci-Hub is currently served at the domains `sci-hub.cc`, `sci-hub.io`, and `scihub22266oqcxt.onion` (a Tor Hidden Service [@url:http://www.dtic.mil/docs/citations/ADA465464]).
-Elbakyan recently described the technical scope of Sci-Hub [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/]:
+Elbakyan recently described the project's technical scope [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/]:
 
 > Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository. But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.
 
@@ -70,7 +71,7 @@ Shortly after, Sci-Hub and LibGen have resurface at alternative domains outside 
 + **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664 @doi:10.1038/nature.2016.19841].
 + **Ⓕ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
 Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
-+ **Ⓖ** The court finds that Alexandra Elbakyan Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
++ **Ⓖ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
 The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
 The statutory damages, which the defendants do not intend to pay, now bear interest.
 
