@@ -31,7 +31,7 @@ However starting in 2011, the website Sci-Hub appears to provide broad access to
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
 The website began operating on September 5, 2011.
 The site was created and is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@doi:10.1126/science.aaf5675 @doi:10.1038/nature.2015.18876].
-Elbakyan is motivated by providing universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:http://www.leafscience.org/alexandra-elbakyan/].
+Elbakyan is motivated by providing universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/ @url:http://www.leafscience.org/alexandra-elbakyan/].
 
 **Warning & disclaimer: use of Sci-Hub may constitute copyright infringement in many jurisdictions.
 Users of Sci-Hub do so at their own risk.
@@ -60,15 +60,17 @@ The light green period indicates when Sci-Hub used LibGen as its database for st
 The light blue period indicates the public availability of Sci-Hub request logs [@doi:10.5061/dryad.q447c/1].
 The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@doi:10.1002/asi.23445].
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
-The enclosed letters refer to the following events:
+The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
 + **Ⓐ** Certain LibGen domains go down, allegedly due to the death of a contributor [@url:https://redd.it/2raea8].
-+ **Ⓑ** Elsevier files a complaint against Sci-Hub and LibGen in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
-@url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/]
++ **Ⓑ** Elsevier files a complaint against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` — in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
+@url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/].
+The complaint seeks a "prayer for relief" that includes domain names seizure, damages, and "an order disgorging Defendants' profits."
 + **Ⓒ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
-Shortly after, Sci-Hub and LibGen have resurface at alternative domains outside of U.S. court jurisdiction including Sci-Hub's Tor Hidden Service [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
+Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction including on the dark web [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
 + **Ⓓ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and its creator, Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science].
-+ **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread & global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664 @doi:10.1038/nature.2016.19841].
++ **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread, global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
+These findings sparked debate amongst scholars, with a large contingent of scientists supporting Sci-Hub's mission [@doi:10.1038/nature.2016.19841 @doi:10.1126/science.aaf5704].
 + **Ⓕ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
 Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
 + **Ⓖ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
@@ -76,7 +78,7 @@ The court makes the injunction permanent and orders the defendants to pay Elsevi
 The statutory damages, which the defendants do not intend to pay, now bear interest.
 
 Past research sheds some light on Sci-Hub's reach.
-From the Spring of 2013 to the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+From the Spring of 2013 till the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 Whenever a user requested an article, Sci-Hub would check LibGen for a copy.
 If not in LibGen, Sci-Hub would then fetch the article for the user and upload it to LibGen.
 Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs.
@@ -87,9 +89,9 @@ Later, Bohannon analyzed six months of Sci-Hub's server request logs starting in
 He found a global pattern of usage.
 Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher to Sci-Hub downloads for several journals [@url:https://hdl.handle.net/10760/30981].
 They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
-Greshake also analyzed the logs to identify per capita Sci-Hub usage by country [@doi:10.15200/winn.146485.57797].
+Greshake also analyzed the logs to identify per capita Sci-Hub usage [@doi:10.15200/winn.146485.57797].
 Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to the literature.
-In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of top 20 requested journals relating to Chemistry [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
+In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of top 20 requested journals specializing in Chemistry [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
 
 On March 19, 2017, Sci-Hub released the list of DOIs for articles in its database.
 Greshake retrieved metadata for 77% of Sci-Hub DOIs [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
@@ -134,7 +136,7 @@ For most years since 1850, annual coverage is between 60–80%.
 However, there's a dropoff in coverage, starting in 2010, for recently published articles.
 For example, coverage for 2016 articles was XX.
 One factor is likely that it takes some time for an article to be uploaded to LibGen following its publication.
-Another, albeit purely speculative, factor could be that some journals are just deploying anti-piracy measures, making recent articles less accessible.
+Another factor could be that some journals are now deploying more aggressive anti-piracy measures [@url:http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html @doi:10.1038/535011f], making recent articles less accessible.
 
 ![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage-by-year.svg)
 
