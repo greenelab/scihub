@@ -10,9 +10,9 @@ The website Sci-Hub provides access to scholarly literature via full text PDF do
 The site enables users to access scholarly articles that would otherwise be paywalled.
 Since its creation in 2011, Sci-Hub has grown rapidly in popularity.
 However, until now, the extent of Sci-Hub's coverage of scholarly literature was unclear.
-As of March 2017, we find that Sci-Hub provides access to 68.9% of all 81.6 million scholarly articles.
+As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles.
 If only considering articles in closed access journals, Sci-Hub's coverage increases to 85.2%.
-Furthermore, Sci-Hub provides access to 77.0% of the 5.2 million articles published by currently inactive journals.
+Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by currently inactive journals.
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
@@ -235,11 +235,12 @@ In addition, Figure XXB shows that Sci-Hub visitors are many times more frequent
 
 ## Discussion
 
-Sci-Hub provides access to 69% of all scholarly literature.
-However, it delivers access to scholarly literature at a much higher rate.
+Sci-Hub's database contains 69% of all scholarly literature.
 Coverage for the 50 million articles attributed to subscription journals — where other routes to access may not exist — was 85.2%.
 Furthermore, coverage of the most cited journals exceeded 90%.
 Journals with very low (including zero) coverage tended to be obscure, less cited venues.
+Importantly, Sci-Hub delivers access to scholarly literature at a much higher rate than its database coverage.
+Since Sci-Hub can retrieve, in realtime, requested articles that are not in its database, our coverage figures are a lower bound.
 In terms of articles actually requested by users, we infer that access is provided 99% of the time.
 
 We find strong evidence that Sci-Hub is primarily used to circumvent paywalls.
