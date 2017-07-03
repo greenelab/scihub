@@ -9,20 +9,17 @@
   width: 28px;
   margin-top: -6px;
   margin-bottom: -4px; }
-
-.section-title {
-  text-align: center;
-  margin-bottom: 30px; }
-.journal-table__heading--15d {
-  cursor: pointer; }
-
-.journal-table__logo--2bG {
-  height: 16px; }
-.table__select--wPX {
+.journal-table__select--2Nt {
   margin-left: 20px;
   margin-right: 20px;
   display: inline-block;
   width: auto; }
 
-.table__filter--3Pt {
+.journal-table__filter--1dc {
   margin-bottom: 20px; }
+
+.journal-table__heading--15d {
+  cursor: pointer; }
+
+.journal-table__logo--2bG {
+  height: 16px; }

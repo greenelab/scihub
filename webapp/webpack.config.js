@@ -32,16 +32,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       // Required
       inject: false,
-      template: require('html-webpack-template'),
+      template: 'index.html',
       minify: {
         removeComments: true,
         collapseWhitespace: true,
         preserveLineBreaks: true
       },
       appMountId: 'app-container',
-      links: ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'],
-      mobile: true,
-      title: 'Sci-Hub',
       window: {
         env: env
       }
