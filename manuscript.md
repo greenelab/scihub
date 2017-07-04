@@ -51,7 +51,7 @@ Since its inception, Sci-Hub has experienced sustained growth, with spikes in in
 Here we investigate the extent Sci-Hub provides access to scholarly literature.
 If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
 
-![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/80d1829463bf33f84c3a6fdfa4e3ae9e2b7d0d11/explore/trends/google-trends.svg)
+![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/explore/trends/google-trends.svg)
 
 **Figure 1: The history of Sci-Hub.**
 Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
@@ -121,7 +121,7 @@ Sci-Hub's offerings included 56,246,220 articles from the corpus of scholarly li
 Each article in Crossref's database is assigned a type.
 Figure XX shows coverage by article type:
 
-![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage-by-type.svg)
+![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-type.svg)
 
 The literature consists primarily of journal articles, for which Sci-Hub had 77.8% coverage.
 Sci-Hub's coverage was also strong for the 5 million proceedings articles at 79.7%.
@@ -137,7 +137,7 @@ For example, coverage for 2016 articles was XX.
 One factor is likely that it takes some time for an article to be uploaded to LibGen following its publication.
 Another factor could be that some journals are now deploying more aggressive anti-piracy measures [@url:http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html @doi:10.1038/535011f], making recent articles less accessible.
 
-![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage-by-year.svg)
+![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-year.svg)
 
 **Figure 2: Coverage of articles by year published.**
 Sci-Hub's article coverage is shows for each year since 1850.
@@ -172,7 +172,7 @@ The complete journal coverage results are available in our [Sci-Hub Stats Browse
 In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure XX).
 As a result, relatively few journals had coverage between 5–75%.
 
-![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage-distributions.svg)
+![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-distributions.svg)
 
 At the extremes, 2,342 journals had zero coverage, whereas 2,067 had perfect coverage.
 Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access.
@@ -186,7 +186,7 @@ Strikingly, coverage was substantially higher for articles from subscription jou
 Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%.
 Accordingly, no major disciplines were vastly uncovered.
 
-![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage.svg)
+![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage.svg)
 
 We evaluated whether journal coverage varied by journal impact.
 We assessed journal impact using the 2015 CiteScore, which measures the average number of citations articles published in 2012–2014 received during 2015.
@@ -211,7 +211,7 @@ In total, 4,879 publishers were represented in the journal catalog.
 The coverage distribution amongst publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure XX).
 Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 publishers.
 
-![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage-by-publisher.svg)
+![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-publisher.svg)
 
 ### Sci-Hub Request Logs
 
@@ -237,7 +237,7 @@ Figure XXB shows that articles from highly cited journals were on average much m
 Articles in the least cited closed access journals averaged almost zero visitors compared to approximately 15 visitors for the most cited journals.
 In addition, Figure XXB shows that Sci-Hub visitors are many times more frequent for articles in closed versus open access journals, even after accounting for journal impact.
 
-![Sci-Hub Coverage & Visitors versus Journal's 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/citescore.svg)
+![Sci-Hub Coverage & Visitors versus Journal's 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/citescore.svg)
 
 ## Discussion
 
