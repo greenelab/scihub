@@ -7,7 +7,7 @@ See the [Deep Review](https://github.com/greenelab/deep-review) for an example o
 ## Abstract
 
 The website Sci-Hub provides access to scholarly literature via full text PDF downloads.
-The site enables users to access scholarly articles that would otherwise be paywalled.
+The site enables users to access articles that would otherwise be paywalled.
 Since its creation in 2011, Sci-Hub has grown rapidly in popularity.
 However, until now, the extent of Sci-Hub's coverage of scholarly literature was unclear.
 As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed-access journals.
@@ -44,7 +44,7 @@ Elbakyan recently described the project's technical scope [@url:https://engineur
 
 As noted, Sci-Hub does not restrict itself to only openly licensed content.
 Instead, it retrieves and distributes scholarly literature without regard to copyright regimes.
-One method Sci-Hub uses to bypass paywalls is through leaked authentication credentials for networks with institutional access to literature [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+One method Sci-Hub uses to bypass paywalls is through leaked authentication credentials for networks with subscription access to literature [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
 Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure 1).
@@ -139,6 +139,9 @@ Another factor could be that some journals are now deploying more aggressive ant
 
 ![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/ddba3aaee5485ee99ed3c660605d673cbd0ec1d1/figure/coverage-by-year.svg)
 
+**Figure 2: Coverage of articles by year published.**
+Sci-Hub's article coverage is shows for each year since 1850.
+
 ### Coverage by Journal
 
 We defined a comprehensive set of scholarly publishing venues, referred to as "journals", based on the Scopus database.
@@ -148,7 +151,10 @@ Accordingly, our catalog of journals consisted of 22,193 publishing venues encom
 Of these journals, 4,345 were inactive (19.6%, i.e. no longer publishing articles), and 2,650 were open access (11.9%).
 Only two journals were inactive and also open access.
 
-We calculated Sci-Hub's coverage for each of the 22,193 journals. The following table shows coverage for the ten journals with the most articles.
+We calculated Sci-Hub's coverage for each of the 22,193 journals (examples in Table 1).
+The complete journal coverage results are available in our [Sci-Hub Stats Browser](https://greenelab.github.io/scihub/#/).
+
+**Table 1: Coverage for the the ten journals with the most articles.**
 
 | Journal | Sci-Hub | Crossref | Coverage |
 |-------|--------|----------|----------|
@@ -163,7 +169,6 @@ We calculated Sci-Hub's coverage for each of the 22,193 journals. The following 
 | New England Journal of Medicine | 180,321 | 180,467 | 99.92% |
 | PLoS ONE | 4,731 | 177,260 | 2.67% |
 
-The complete journal coverage results are available in our [Sci-Hub Stats Browser](https://greenelab.github.io/scihub/#/).
 In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure XX).
 As a result, relatively few journals had coverage between 5–75%.
 
@@ -265,23 +270,23 @@ In the words of Alexandra Elbakyan [@url:https://engineuring.wordpress.com/2016/
 
 ### Digital Object Identifiers
 
-We used DOIs (Digital Object Identifiers) to uniquely identify scientific articles.
-LibGen scimag and Sci-Hub also uniquely identify documents by their DOIs, making DOIs the natural primary key for our analyses.
+We used DOIs (Digital Object Identifiers) to uniquely identify articles.
+LibGen scimag and Sci-Hub also uniquely identify articles by their DOIs, making DOIs the natural primary key for our analyses.
 The DOI initiative began in 1997, and the first DOIs were registered in 2000 [@10.1000/182 @10.1016/j.serrev.2007.05.006].
 Note that DOIs can be registered retroactively.
-For example, Antony van Leewenhoeck's discovery of protists and bacteria — published in 1677 by _Philosophical Transactions of the Royal Society of London_ — has a DOI [@doi:10.1098/rstl.1677.0003].
-While this letter was published long before the DOI system existed, the _Royal Society_ retroactively assigned a DOI in 2006.
+For example, Antony van Leewenhoeck's discovery of protists and bacteria — published in 1677 by _Philosophical Transactions of the Royal Society of London_ [@doi:10.1098/rstl.1677.0003] — has a DOI (`10.1098/rstl.1677.0003`).
+While this article was published long before the DOI system existed, the _Royal Society_ retroactively assigned a DOI in 2006.
 
-Not all scientific publications have DOIs.
-By evaluating the presence of DOIs in other databases of scientific literature (such as PubMed, Web of Science, and Scopus), researchers estimate around 90% of newly published articles in the sciences have DOIs [@doi:10.1016/j.joi.2015.11.008 @doi:10.1007/s11192-016-2225-6].
-The prevalence of DOIs varies by discipline and country of publication, with DOI assignment in newly published Arts & Humanities around 60% [@doi:10.1016/j.joi.2015.11.008].
+Not all scholarly articles have DOIs.
+By evaluating the presence of DOIs in other databases of scholarly literature (such as PubMed, Web of Science, and Scopus), researchers estimate around 90% of newly published articles in the sciences have DOIs [@doi:10.1016/j.joi.2015.11.008 @doi:10.1007/s11192-016-2225-6].
+The prevalence of DOIs varies by discipline and country of publication, with DOI assignment in newly published Arts & Humanities articles around 60% [@doi:10.1016/j.joi.2015.11.008].
 Indeed, DOI registration is almost entirely lacking for publishers from many Eastern European countries [@doi:10.1007/s11192-016-2225-6].
 In addition, the prevalence of DOI assignment is likely lower for older articles [@doi:10.1007/s11192-016-2225-6].
-The incomplete and non-random assignment of DOIs to scholarly publications is a limitation of this study.
-However, DOIs are presumably the least imperfect and most widespread identifier for scholarly content. 
+The incomplete and non-random assignment of DOIs to scholarly articles is a limitation of this study.
+However, DOIs are presumably the least imperfect and most widespread identifier for scholarly articles. 
 
 An often overlooked aspect of the DOI system is that DOIs are case-insensitive within the ASCII character range [@10.1000/182 @10.3403/30177056].
-In other words, `10.7717/peerj.705` refers to the same study as `10.7717/PeerJ.705`.
+In other words, `10.7717/peerj.705` refers to the same article as `10.7717/PeerJ.705`.
 Accordingly, DOIs make a poor standard identifier unless they're consistently cased.
 While the DOI handbook states that "all DOI names are converted to upper case upon registration" [@10.1000/182], we lowercased DOIs in accordance with Crossref's behavior.
 Given the danger of incongruous DOIs, we lowercased DOIs for each input resource at the earliest opportunity in its processing pipeline.
@@ -289,14 +294,14 @@ Consistent casing [considerably influenced](https://github.com/greenelab/scihub/
 
 ### Crossref
 
-To catalog all scholarly publications, we relied on the Crossref database.
+To catalog all scholarly articles, we relied on the Crossref database.
 [Crossref](https://www.crossref.org/) is a DOI Registration Agency (an entity capable of assigning DOIs) for scholarly publishing [@doi:10.6087/kcse.2014.1.13].
 There are presently 10 Registration Agencies.
-We [estimate](https://github.com/greenelab/crossref/issues/3) that Crossref has registered 67% of all DOIs.
+We [estimate](https://github.com/greenelab/crossref/issues/3) that Crossref has registered 67% of all DOIs in existence.
 While several Registration Agencies assign DOIs to scholarly content, Crossref is the preeminent registrar amongst journal publications.
 In March 2015, of the 1,464,818 valid DOI links on the English Wikipedia, 99.9% were registered with Crossref [@doi:10.1007/978-3-319-49304-6_40].
 This percentage was slightly lower for other languages — 99.8% on the Chinese Wikipedia and 98.0% on the Japanese Wikipedia.
-Hence, the overwhelming majority of DOI-referenced scholarly content is registered with Crossref.
+Hence, the overwhelming majority of DOI-referenced scholarly articles are registered with Crossref.
 Since Crossref has the most comprehensive and featureful programmatic access, there was a strong incentive to focus solely on Crossref-registered DOIs.
 Given Crossref's preeminence, the omission of other Registration Agencies is unlikely to severely influence our findings. 
 
@@ -310,12 +315,13 @@ First, a DOI table with columns for work type and date issued.
 Date issued refers to the earliest known publication date, i.e. the date of print or online publication, whichever occurred first.
 Second, a mapping of DOI to ISSN for associating articles with their journal of publication.
 
-We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly publications.
+We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly articles (i.e. publications).
 The following types were included: `book-chapter`, `book-part`, `book-section`, `journal-article`, `proceedings-article`, `reference-entry`, `report`, `standard`.
-Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded since they're generally containers for individual publications rather than scholarly publications themselves.
+Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded since they're generally containers for individual articles rather than scholarly articles themselves.
 Since we couldn't locate definitions for the Crossref types, we used our best judgment and evaluated sample works of a given type in the case of uncertainty.
 After filtering by type, 81,609,016 DOIs remained.
 For the purposes of this study, these DOIs represent the entirety of the scholarly literature.
+The year of publication was available for 77,201,782 of these DOIs.
 
 ### Scopus
 
@@ -324,26 +330,33 @@ Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to
 Scopus uses "title" to refer to all of the following: peer-reviewed journals, trade journals, book series, and conference proceedings.
 For this study, we refer to all of these types as journals.
 From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including title name, ISSNs, subject areas, open access status, and active status.
-Furthermore, we tidied the Scopus Journal Metrics, which evaluate titles based on the number of citations their articles receive.
+Furthermore, we tidied the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive.
 Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,295 of which were included in our journal catalog.
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
 See [`dhimmel/journalmetrics`](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
 
 ### LibGen scimag
 
+Library Genesis (LibGen) is a shadow library of primarily pirated content.
+Compared to Sci-Hub, the operations of LibGen are more opaque, as the contributors maintain a low profile and do not contact journalists [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+LibGen consists of several collections, including distinct databases for scientific books / textbooks, fiction books, and comics [@doi:10.1002/asi.23445].
+In 2012, LibGen added the "scimag" database for scholarly literature.
+Since the spring of 2013, Sci-Hub has uploaded articles that it downloads to LibGen scimag [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+At the end of 2014, Sci-Hub forked LibGen scimag and began managing its own distinct article repository.
+
 We downloaded the LibGen scimag metadata database from April 7, 2017 as a SQL dump.
 We [imported](https://github.com/greenelab/scihub/issues/2) the SQL dump into MySQL, and then exported the scimag table to a TSV file.
-Each row of this table corresponds to a publication in LibGen, as identified by its DOI.
-The `TimeAdded` field represents indicates when the publication was uploaded to LibGen.
-After removing records missing date added, 64,195,940 DOIs remained.
+Each row of this table corresponds to an article in LibGen, identified by its DOI.
+The `TimeAdded` field indicates when the publication was uploaded to LibGen.
+After removing records missing `TimeAdded`, 64,195,940 DOIs remained.
 56,205,763 (87.6%) of the DOIs were in our Crossref-derived catalog of scholarly literature.
 The 12.4% of LibGen scimag DOIs missing from our Crossref catalog, likely consist of incorrect DOIs, DOIs whose metadata availability postdates our Crossref export, DOIs from other Registration Agencies, and DOIs for excluded work types.
 
 Next, we explored the cumulative size of LibGen scimag over time according to the `TimeAdded` field.
 However, when we [compared](https://github.com/greenelab/scihub/issues/8#issuecomment-296710357) our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 [@doi:10.1002/asi.23445], we noticed a major discrepancy.
-The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs added on or before January 5, 2014.
+The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs as of January 5, 2014.
 We hypothesize that the discrepancy arose since `DateAdded` may indicate the date modified rather than created.
-Specifically, when a document in the database is changed, the database record for that DOI is entirely replaced.
+Specifically, when an article in the database is changed, the database record for that DOI is entirely replaced.
 Hence, the `DateAdded` value is effectively overwritten upon every update to a record.
 Unfortunately, many research questions require the date first added.
 For example, lag-time analyses (the time from study publication to LibGen upload) may be unreliable.
@@ -361,30 +374,27 @@ While we agree this is most likely the case, confirmation is needed that the bul
 
 On March 19, 2017, Sci-Hub [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
 
-> If you like the list of all DOI collected on Sci-Hub, here it is … 62,835,101 DOI in alphabetical order
+> If you like the list of all DOI collected on Sci-Hub, here it is: `sci-hub.cc/downloads/doi.7z` … 62,835,101 DOI in alphabetical order
 
 The Tweet included a download link for a file with the 62,835,101 DOIs that Sci-Hub claims to provide access to.
-Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly texts.
+Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles.
 99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag DOIs (after filtering).
-Based on existing descriptions of Sci-Hub's infrastructure, these corpuses should be identical.
-Essentially, Sci-Hub is a layer on top of the LibGen scimag database.
-On Twitter, the Sci-Hub account [commented](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
-Therefore, we proceeded under the assumption that the LibGen scimag and Sci-Hub corpurses are synonymous.
-
-TODO: https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/
-
-> Sci-Hub stores papers in its own repository, and additionaly the papers downloaded by Sci-Hub are also stored in LibGen.
+Hence, the LibGen scimag and Sci-Hub repositories have stayed largely in sync since their split. 
+On Twitter, the Sci-Hub account confirmed this finding, [commenting](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
+Therefore, the LibGen scimag and Sci-Hub DOI catalogs can presumably be used interchangeably for research purposes.
 
 ### Sci-Hub request logs
 
 The 2016 study titled "Who's downloading pirated papers? Everyone" analyzed a dataset of Sci-Hub request logs [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
 Alexandra Elbakyan worked with journalist John Bohannon to produce a dataset of download requests received by Sci-Hub from September 1, 2015 through February 29, 2016 [@doi:10.5061/dryad.q447c/1].
-In November 2015, Sci-Hub's domain name [was suspended](https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/) as the result legal action by Elsevier [@doi:10.1038/nature.2015.18876].
-According to Bohannon, this resulted in "an 18-day gap in the data starting November 4, 2015 when the domain sci-hub.org went down and the server logs were improperly configured."
-Of the 10,552,418 distinct DOIs in the request logs, 10,293,836 (97.5%) were part of the Crossref-derived catalog of scholarly texts.
+In November 2015, Sci-Hub's domain name was suspended as the result legal action by Elsevier [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
+According to Bohannon, this resulted in "an 18-day gap in the data starting November 4, 2015 when the domain `sci-hub.org` went down and the server logs were improperly configured."
+We show this downtime in Figure 1.
+
+Of the 10,552,418 distinct DOIs in the request logs, 10,293,836 (97.5%) were part of the Crossref-derived catalog of scholarly articles.
 Bohannon notes [@doi:10.5061/dryad.q447c/2]: "some DOIs are invalid, due to typos from the Sci-Hub users or … because a website listed the wrong DOI."
 
-We summarized the requests for each text using the following metrics:
+We summarized the requests for each article using the following metrics:
 
 1. downloads: total number of requests
 2. visitors: number of IP addresses that requested the text
@@ -394,4 +404,4 @@ We summarized the requests for each text using the following metrics:
 
 Next, we calculated journal-level request metrics based on articles published from January 1, 2014 up until the start of the Sci-Hub request log records on September 1, 2015.
 For each journal, we calculated the average values for the five request log metrics described above.
-Interestingly, the journal [_Medicine - Programa de Formación Médica Continuada Acreditado_](http://www.sciencedirect.com/science/journal/03045412) received the most visitors per articles, averaging 33.4 visitors for each of its 326 articles.
+Interestingly, the journal [_Medicine - Programa de Formación Médica Continuada Acreditado_](http://www.sciencedirect.com/science/journal/03045412) received the most visitors per article, averaging 33.4 visitors for each of its 326 articles.
