@@ -9,9 +9,9 @@ See the [Deep Review](https://github.com/greenelab/deep-review) for an example o
 The website Sci-Hub provides access to scholarly literature via full text PDF downloads.
 The site enables users to access articles that would otherwise be paywalled.
 Since its creation in 2011, Sci-Hub has grown rapidly in popularity.
-However, until now, the extent of Sci-Hub's coverage of scholarly literature was unclear.
-As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed-access journals.
-Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by currently inactive journals.
+However, until now, the extent of Sci-Hub's coverage was unclear.
+As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals.
+Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals.
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
@@ -24,8 +24,8 @@ For the first time, the overwhelming majority of scholarly literature is availab
 As of 2014, an estimated 76% of scholarly literature on the web was paywalled [@doi:10.1371/journal.pone.0093949].
 The open access movement strives to increase the accessibility of scholarly literature [@doi:10.12688/f1000research.8460.3].
 After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], the gratis availability of recent articles is nearing 50% [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
-Nonetheless, a wealth of scholarly literature remains inaccessible.
-However starting in 2011, the website Sci-Hub appears to provide broad access to scholarly literature.
+Nonetheless, a wealth of scholarly literature remains inaccessible through traditional methods.
+But the website Sci-Hub, now in its fifth year of existence, appears to have opened the floodgates, providing broad access, without charge, to scholarly literature.
 
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
 The website began operating on September 5, 2011.
@@ -44,8 +44,8 @@ Elbakyan recently described the project's technical scope [@url:https://engineur
 
 As noted, Sci-Hub does not restrict itself to only openly licensed content.
 Instead, it retrieves and distributes scholarly literature without regard to copyright regimes.
-One method Sci-Hub uses to bypass paywalls is through leaked authentication credentials for networks with subscription access to literature [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
-
+One method Sci-Hub uses to bypass paywalls is by obtaining leaked authentication credentials for educational institutions [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+These credentials enable Sci-Hub to use institutional networks as proxies and gain subscription journal access.
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
 Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure 1).
 Here we investigate the extent Sci-Hub provides access to scholarly literature.
@@ -69,7 +69,7 @@ The complaint seeks a "prayer for relief" that includes domain names seizure, da
 Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction including on the dark web [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
 + **Ⓓ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and its creator, Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science].
 + **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread, global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
-These findings sparked debate amongst scholars, with a large contingent of scientists supporting Sci-Hub's mission [@doi:10.1038/nature.2016.19841 @doi:10.1126/science.aaf5704].
+These findings spark debate amongst scholars, with a large contingent of scientists supporting Sci-Hub's mission [@doi:10.1038/nature.2016.19841 @doi:10.1126/science.aaf5704].
 + **Ⓕ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
 Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
 + **Ⓖ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
@@ -89,15 +89,16 @@ He found a global pattern of usage.
 Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher to Sci-Hub downloads for several journals [@url:https://hdl.handle.net/10760/30981].
 They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
 Greshake also analyzed the logs to identify per capita Sci-Hub usage [@doi:10.15200/winn.146485.57797].
-Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to the literature.
-In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of top 20 requested journals specializing in Chemistry [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
+Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to scholarly literature.
+In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of top 20 requested journals specializing in chemistry [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
 
+Since 2015, Sci-Hub has operated its own repository, distinct from LibGen.
 On March 19, 2017, Sci-Hub released the list of DOIs for articles in its database.
 Greshake retrieved metadata for 77% of Sci-Hub DOIs [@doi:10.12688/f1000research.11366.1 @doi:10.5281/zenodo.472493].
 He found that 95% articles in Sci-Hub were published after 1950.
 Sci-Hub requests were even more skewed towards recent articles with only 5% targeting articles published before 1983.
 Greshake's study did not incorporate a catalog of all scholarly literature.
-This study analyzes Sci-Hub's catalog in the context of the all scholarly literature and thus assesses coverage.
+This study analyzes Sci-Hub's catalog in the context of all scholarly literature and thus assesses coverage.
 In other words, what percent of articles in a given domain does Sci-Hub possess?
 
 ***
@@ -118,23 +119,29 @@ We refer to these texts as "articles", although a diverse compilation of text ty
 
 To assess the articles available from Sci-Hub, we relied on a list of DOIs released by Sci-Hub on March 19, 2017.
 Sci-Hub's offerings included 56,246,220 articles from the corpus of scholarly literature, equating to 68.9% of all articles.
+
+### Coverage by article type
+
 Each article in Crossref's database is assigned a type.
-Figure XX shows coverage by article type:
-
-![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-type.svg)
-
-The literature consists primarily of journal articles, for which Sci-Hub had 77.8% coverage.
+Figure 2 shows coverage by article type.
+The literature consisted primarily of journal articles, for which Sci-Hub had 77.8% coverage.
 Sci-Hub's coverage was also strong for the 5 million proceedings articles at 79.7%.
 Overall coverage suffered from the 10 million book chapters where coverage was poor (14.2%).
 The remaining Crossref types were uncommon, and hence contributed little to overall coverage.
+
+![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-type.svg)
+
+**Figure 2: Coverage by article type.**
+Coverage is plotted for the Crossref work types included by this study.
+We refer to all of these types as "articles".
 
 ### Coverage by year
 
 Next, we investigated coverage based on the year an article was published.
 For most years since 1850, annual coverage is between 60–80%.
 However, there's a dropoff in coverage, starting in 2010, for recently published articles.
-For example, coverage for 2016 articles was XX.
-One factor is likely that it takes some time for an article to be uploaded to LibGen following its publication.
+For example, 2016 coverage was 56.0% and 2017 coverage (for part of the year) was 45.3%.
+One factor is likely that it takes some time for an article to get added to Sci-Hub's database following its publication.
 Another factor could be that some journals are now deploying more aggressive anti-piracy measures [@url:http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html @doi:10.1038/535011f], making recent articles less accessible.
 
 ![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-year.svg)
@@ -146,7 +153,7 @@ Sci-Hub's article coverage is shows for each year since 1850.
 
 We defined a comprehensive set of scholarly publishing venues, referred to as "journals", based on the Scopus database.
 In reality, these include conferences with proceedings as well as book series.
-For inclusion in this analysis, each required an ISSN and at least one article as part of the scholarly literature.
+For inclusion in this analysis, each required an ISSN and at least one article as part of the Crossref-derived catalog of scholarly literature.
 Accordingly, our catalog of journals consisted of 22,193 publishing venues encompassing 57,074,208 articles.
 Of these journals, 4,345 were inactive (19.6%, i.e. no longer publishing articles), and 2,650 were open access (11.9%).
 Only two journals were inactive and also open access.
@@ -169,33 +176,37 @@ The complete journal coverage results are available in our [Sci-Hub Stats Browse
 | New England Journal of Medicine | 180,321 | 180,467 | 99.92% |
 | PLoS ONE | 4,731 | 177,260 | 2.67% |
 
-In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure XX).
+In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure 4).
 As a result, relatively few journals had coverage between 5–75%.
-
-![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-distributions.svg)
-
 At the extremes, 2,342 journals had zero coverage, whereas 2,067 had perfect coverage.
 Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access.
 Of perfect-coverage journals, 80.3% were inactive, and 1.9% were open access.
-Hence, inactive subscription journals make up the bulk of perfect-coverage journals.
+Hence, inactive closed-access journals make up the bulk of perfect-coverage journals.
 
-Next we explored article coverage according to journal attributes (Figure XX).
+![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-distributions.svg)
+
+**Figure 4: the distributions of journal & publisher coverages.**
+TODO: how many percentage points per bar
+
+Next we explored article coverage according to journal attributes (Figure 5).
 Sci-Hub covered 83.4% of the 57,074,208 articles that were attributable to a journal.
 Articles from inactive journals had slightly lower coverage than active journals (77.0% versus 84.3%).
-Strikingly, coverage was substantially higher for articles from subscription journals than open access journals (85.2% versus 49.1%).
+Strikingly, coverage was substantially higher for articles from closed- rather than open-access journals (85.2% versus 49.1%).
 Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%.
 Accordingly, no major disciplines were vastly uncovered.
 
 ![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage.svg)
 
-We evaluated whether journal coverage varied by journal impact.
+**Figure 5: Coverage by journal attributes.**
+
+We also evaluated whether journal coverage varied by journal impact.
 We assessed journal impact using the 2015 CiteScore, which measures the average number of citations articles published in 2012–2014 received during 2015.
-Highly-cited journals tended to have higher coverage in Sci-Hub (Figure XXA).
+Highly-cited journals tended to have higher coverage in Sci-Hub (Figure 7A).
 The 1,730 least cited journals (lowest decile) had 40.9% coverage on average, whereas the 1,729 most cited journals (top decile) averaged 90.3% coverage.
 
 ### Coverage by Publisher
 
-Next, we evaluated coverage by publisher (Figure XX).
+Next, we evaluated coverage by publisher (Figure 6, full table [online](https://greenelab.github.io/scihub/#/publishers)).
 The largest publisher was Elsevier, with 13,185,971 articles from 3,356 journals.
 Sci-Hub covered 97.3% of Elsevier articles.
 For the eight publishers who reached the million article milestone, the following coverage was observed:
@@ -208,10 +219,12 @@ For the eight publishers who reached the million article milestone, the followin
 95.3% of SAGE, and
 84.9% of Oxford University Press.
 In total, 4,879 publishers were represented in the journal catalog.
-The coverage distribution amongst publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure XX).
+The coverage distribution amongst publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure 4).
 Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 publishers.
 
 ![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-publisher.svg)
+
+**Figure 6: Coverage by publisher.**
 
 ### Sci-Hub Request Logs
 
@@ -233,16 +246,20 @@ Of these inaccessible articles, 14,154 [were](https://github.com/greenelab/scihu
 We computed journal-level metrics based on average article requests.
 The "visitors" metric assesses the average number of IP addresses that requested each article published by a journal during the 20 months proceeding September 2015 (the log's start date).
 In aggregate, articles from closed access journals average 1.30 visitors, whereas articles from open access journals averaged 0.27 visitors.
-Figure XXB shows that articles from highly cited journals were on average much more frequently visited.
+Figure 7B shows that articles from highly cited journals were on average much more frequently visited.
 Articles in the least cited closed access journals averaged almost zero visitors compared to approximately 15 visitors for the most cited journals.
-In addition, Figure XXB shows that Sci-Hub visitors are many times more frequent for articles in closed versus open access journals, even after accounting for journal impact.
+In addition, Figure 7B shows that Sci-Hub visitors are many times more frequent for articles in closed versus open access journals, even after accounting for journal impact.
 
 ![Sci-Hub Coverage & Visitors versus Journal's 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/citescore.svg)
+
+**Figure 7: Relation to journal impact.**
+**A.**
+**B.**
 
 ## Discussion
 
 Sci-Hub's database contains 69% of all scholarly literature.
-Coverage for the 50 million articles attributed to subscription journals — where other routes to access may not exist — was 85.2%.
+Coverage for the 50 million articles attributed to closed access journals — where other routes to access may not exist — was 85.2%.
 Furthermore, coverage of the most cited journals exceeded 90%.
 Journals with very low (including zero) coverage tended to be obscure, less cited venues.
 Importantly, Sci-Hub delivers access to scholarly literature at a much higher rate than its database coverage.
@@ -251,15 +268,15 @@ In terms of articles actually requested by users, we infer that access is provid
 
 We find strong evidence that Sci-Hub is primarily used to circumvent paywalls.
 Particularly, users requested articles from closed access journals much more frequently than open access journals.
-Accordingly, many users likely only use Sci-Hub once other access methods have failed.
+Accordingly, many users likely only resort to Sci-Hub once other access methods have failed.
 
 The largest and most prominent publishers are highly covered by Sci-Hub.
 Publishers have taken note.
 Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered, Docket Number `1:17-cv-00726-LMB-JFA`) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/].
 The widespread gratis access to previously paywalled content calls into question the sustainability of the subscription publishing model.
-As distributed and censorship-resistant file storage protocols mature, Sci-Hub alternatives may evolve that no longer rely on a centralized service.
+As distributed and censorship-resistant file storage protocols mature, Sci-Hub alternatives may emerge that no longer rely on a centralized service.
 As such, Sci-Hub's corpus of gratis scholarly literature will be extremely difficult to suppress.
-We can also expect biblioleaks to progress despite publisher's best efforts, as articles must only leak once to be perpetually available.
+We can also expect biblioleaks to progress despite publisher's best efforts, as articles must only leak once to be perpetually available [@doi:10.2196/jmir.3331].
 In essence, scholarly publishers have already lost the access battle.
 Publishers will be forced to adapt, and adapt quickly, to open access publishing models.
 In the words of Alexandra Elbakyan [@url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/]:
@@ -267,6 +284,17 @@ In the words of Alexandra Elbakyan [@url:https://engineuring.wordpress.com/2016/
 > The effect of long-term operation of Sci-Hub will be that publishers change their publishing models to support Open Access, because closed access will make no sense anymore.
 
 ## Methods
+
+This project was performed entirely in the open, via the GitHub repository [`greenelab/scihub`](https://github.com/greenelab/scihub).
+Several authors of this study became involved after we mentioned their usernames in GitHub discussions.
+This project's fully transparent and online model enabled us to assemble a geographically scattered team of individuals with the right expertise and knowledge.
+
+We managed our computational environment using [Conda](https://conda.io/docs/), allowing us to specify and install dependencies for both Python and R.
+The analyses were performed by a sequence of [Jupyter](http://jupyter.org/) notebooks.
+In general, data integration and manipulation was performed in Python 3, relying heavily on [Pandas](https://pandas.pydata.org/), whereas plotting was performed with [ggplot2](http://ggplot2.org/) in R.
+Tabular data was saved in TSV (Tab Separated Values) format and xz compressed when large.
+We used Git Large File Storage ([Git LFS](https://git-lfs.github.com/)) to track large files, enabling us to make nearly all of the datasets generated and consumed by the analyses available.
+The Sci-Hub Stats Browser webapp is built using React and hosted via GitHub Pages.
 
 ### Digital Object Identifiers
 
@@ -298,7 +326,7 @@ To catalog all scholarly articles, we relied on the Crossref database.
 [Crossref](https://www.crossref.org/) is a DOI Registration Agency (an entity capable of assigning DOIs) for scholarly publishing [@doi:10.6087/kcse.2014.1.13].
 There are presently 10 Registration Agencies.
 We [estimate](https://github.com/greenelab/crossref/issues/3) that Crossref has registered 67% of all DOIs in existence.
-While several Registration Agencies assign DOIs to scholarly content, Crossref is the preeminent registrar amongst journal publications.
+While several Registration Agencies assign DOIs to scholarly content, Crossref is the preeminent registrar for scholarly publications.
 In March 2015, of the 1,464,818 valid DOI links on the English Wikipedia, 99.9% were registered with Crossref [@doi:10.1007/978-3-319-49304-6_40].
 This percentage was slightly lower for other languages — 99.8% on the Chinese Wikipedia and 98.0% on the Japanese Wikipedia.
 Hence, the overwhelming majority of DOI-referenced scholarly articles are registered with Crossref.
@@ -329,7 +357,7 @@ Prior to June 2017, the Crossref API had an [issue](https://github.com/CrossRef/
 Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to catalog scholarly journals.
 Scopus uses "title" to refer to all of the following: peer-reviewed journals, trade journals, book series, and conference proceedings.
 For this study, we refer to all of these types as journals.
-From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including title name, ISSNs, subject areas, open access status, and active status.
+From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including their name, ISSNs, subject areas, open access status, and active status.
 Furthermore, we tidied the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive.
 Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,295 of which were included in our journal catalog.
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
@@ -341,7 +369,7 @@ Library Genesis (LibGen) is a shadow library of primarily pirated content.
 Compared to Sci-Hub, the operations of LibGen are more opaque, as the contributors maintain a low profile and do not contact journalists [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 LibGen consists of several collections, including distinct databases for scientific books / textbooks, fiction books, and comics [@doi:10.1002/asi.23445].
 In 2012, LibGen added the "scimag" database for scholarly literature.
-Since the spring of 2013, Sci-Hub has uploaded articles that it downloads to LibGen scimag [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
+Since the spring of 2013, Sci-Hub has uploaded articles that it obtains to LibGen scimag [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 At the end of 2014, Sci-Hub forked LibGen scimag and began managing its own distinct article repository.
 
 We downloaded the LibGen scimag metadata database from April 7, 2017 as a SQL dump.
@@ -355,7 +383,7 @@ The 12.4% of LibGen scimag DOIs missing from our Crossref catalog, likely consis
 Next, we explored the cumulative size of LibGen scimag over time according to the `TimeAdded` field.
 However, when we [compared](https://github.com/greenelab/scihub/issues/8#issuecomment-296710357) our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 [@doi:10.1002/asi.23445], we noticed a major discrepancy.
 The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs as of January 5, 2014.
-We hypothesize that the discrepancy arose since `DateAdded` may indicate the date modified rather than created.
+We hypothesize that the discrepancy arose since `DateAdded` indicates the date modified rather than created.
 Specifically, when an article in the database is changed, the database record for that DOI is entirely replaced.
 Hence, the `DateAdded` value is effectively overwritten upon every update to a record.
 Unfortunately, many research questions require the date first added.
