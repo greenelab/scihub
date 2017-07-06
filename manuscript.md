@@ -3,6 +3,7 @@
 This is a working draft of the manuscript for [this study](https://github.com/greenelab/scihub).
 It's written in markdown and currently uses the `manubot-rootstock` [referencing format](https://github.com/greenelab/manubot-rootstock/blob/master/CONTRIBUTING.md#markdown).
 See the [Deep Review](https://github.com/greenelab/deep-review) for an example of how the build process will eventually work.
+Comment with additional references [here](https://github.com/greenelab/scihub/issues/3) or via pull request review.
 
 ## Abstract
 
@@ -51,7 +52,7 @@ Since its inception, Sci-Hub has experienced sustained growth, with spikes in in
 Here we investigate the extent Sci-Hub provides access to scholarly literature.
 If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
 
-![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/explore/trends/google-trends.svg)
+![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/trends/google-trends.svg)
 
 **Figure 1: The history of Sci-Hub.**
 Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
@@ -61,20 +62,23 @@ The first pink dotted line represents the collection date of the LibGen metadata
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
 The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
-+ **Ⓐ** Certain LibGen domains go down, allegedly due to the death of a contributor [@url:https://redd.it/2raea8].
-+ **Ⓑ** Elsevier files a complaint against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` — in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
++ **Ⓐ** Created by Alexandra Elbakyan, the Sci-Hub website goes live on September 5, 2011.
++ **Ⓑ** Certain LibGen domains go down, allegedly due to the death of a contributor [@url:https://redd.it/2raea8].
++ **Ⓒ** Elsevier files a complaint against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` — in the New York Southern District Court [@url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/
 @url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/].
 The complaint seeks a "prayer for relief" that includes domain names seizure, damages, and "an order disgorging Defendants' profits."
-+ **Ⓒ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
++ **Ⓓ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
 Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction including on the dark web [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
-+ **Ⓓ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science], culminating in the _New York Times_ asking "[Should All Research Papers Be Free?](https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html)".
-+ **Ⓔ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread, global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
++ **Ⓔ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science], culminating in the _New York Times_ asking "[Should All Research Papers Be Free?](https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html)".
++ **Ⓕ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread, global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
 These findings spark debate amongst scholars, with a large contingent of scientists supporting Sci-Hub's mission [@doi:10.1038/nature.2016.19841 @doi:10.1126/science.aaf5704].
-+ **Ⓕ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
++ **Ⓖ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
 Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
-+ **Ⓖ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
++ **Ⓗ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
 The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
 The statutory damages, which the defendants do not intend to pay, now bear interest.
++ **Ⓘ** The American Chemical Society files suit against Sci-Hub in the Eastern District of Virginia.
+Their prayer for relief requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/].
 
 Past research sheds some light on Sci-Hub's reach.
 From the Spring of 2013 till the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
@@ -101,16 +105,6 @@ Greshake's study did not incorporate a catalog of all scholarly literature.
 This study analyzes Sci-Hub's catalog in the context of all scholarly literature and thus assesses coverage.
 In other words, what percent of articles in a given domain does Sci-Hub possess?
 
-***
-
-Notes which will eventually be incorporated or removed:
-
-+ Consider noting historical problems related to access to scholarly literature.
-+ Consider adding history of LibGen
-+ Comment with additional references [here](https://github.com/greenelab/scihub/issues/3).
-
-***
-
 ## Results
 
 To define the extent of the scholarly literature, we relied on DOIs from the Crossref database, as downloaded on March 21, 2017.
@@ -127,7 +121,7 @@ Sci-Hub's coverage was also strong for the 5 million proceedings articles at 79.
 Overall coverage suffered from the 10 million book chapters where coverage was poor (14.2%).
 The remaining Crossref types were uncommon, and hence contributed little to overall coverage.
 
-![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-type.svg)
+![Sci-Hub coverage by Crossref type](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-type.svg)
 
 **Figure 2: Coverage by article type.**
 Coverage is plotted for the Crossref work types included by this study.
@@ -142,7 +136,7 @@ For example, 2016 coverage was 56.0% and 2017 coverage (for part of the year) wa
 One factor is likely that it takes some time for an article to get added to Sci-Hub's database following its publication.
 Another factor could be that some journals are now deploying more aggressive anti-piracy measures [@url:http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html @doi:10.1038/535011f], making recent articles less accessible.
 
-![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-year.svg)
+![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-year.svg)
 
 **Figure 2: Coverage of articles by year published.**
 Sci-Hub's article coverage is shows for each year since 1850.
@@ -181,7 +175,7 @@ Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access.
 Of perfect-coverage journals, 80.3% were inactive, and 1.9% were open access.
 Hence, inactive closed-access journals make up the bulk of perfect-coverage journals.
 
-![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-distributions.svg)
+![Sci-Hub journal/publisher coverage distributions](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-distributions.svg)
 
 **Figure 4: the distributions of journal & publisher coverages.**
 The histograms show the distribution of Sci-Hub's coverage for journals and publishers. 
@@ -194,7 +188,7 @@ Strikingly, coverage was substantially higher for articles from closed- rather t
 Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%.
 Accordingly, no disciplines had coverage below 75%. See Figure S1 for coverage according to a journal's country of publication.
 
-![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage.svg)
+![Sci-Hub coverage by journal attribute](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage.svg)
 
 **Figure 5: Coverage by journal attributes.**
 Coverage was assessed for all articles from journals with the specified Scopus attributes.
@@ -222,7 +216,7 @@ In total, 4,879 publishers were represented in the journal catalog.
 The coverage distribution amongst publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure 4).
 Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 publishers.
 
-![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/coverage-by-publisher.svg)
+![Sci-Hub coverage by publisher](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-publisher.svg)
 
 **Figure 6: Coverage by publisher.**
 Article coverage is shown for all Scopus publishers with at least 200,000 articles.
@@ -251,7 +245,7 @@ Figure 7B shows that articles from highly cited journals were on average much mo
 Articles in the least cited closed access journals averaged almost zero visitors compared to approximately 15 visitors for the most cited journals.
 In addition, Figure 7B shows that Sci-Hub visitors are many times more frequent for articles in closed versus open access journals, even after accounting for journal impact.
 
-![Sci-Hub Coverage & Visitors versus Journal's 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/bff9347400c188990ff68824fc64db369f4af87b/figure/citescore.svg)
+![Sci-Hub Coverage & Visitors versus Journal's 2015 CiteScore](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/citescore.svg)
 
 **Figure 7: Relation to journal impact.**
 **A)**
