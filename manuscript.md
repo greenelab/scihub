@@ -1,4 +1,4 @@
-# Sci-Hub's remarkable coverage of the scholarly literature
+# Sci-Hub provides access to nearly all scholarly literature
 
 This is a working draft of the manuscript for [this study](https://github.com/greenelab/scihub).
 It's written in markdown and currently uses the `manubot-rootstock` [referencing format](https://github.com/greenelab/manubot-rootstock/blob/master/CONTRIBUTING.md#markdown).
@@ -29,8 +29,7 @@ Nonetheless, a wealth of scholarly literature remains inaccessible through tradi
 But the website Sci-Hub, now in its fifth year of existence, appears to have opened the floodgates, providing broad access, without charge, to scholarly literature.
 
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
-The website began operating on September 5, 2011.
-The site was created and is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@doi:10.1126/science.aaf5675 @doi:10.1038/nature.2015.18876].
+The website, started in 2011, is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@doi:10.1126/science.aaf5675 @doi:10.1038/nature.2015.18876].
 Elbakyan describes herself as motivated to provide universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/ @url:http://www.leafscience.org/alexandra-elbakyan/].
 
 **Readers should note that, in many jurisdictions, use of Sci-Hub may constitute copyright infringement.
@@ -78,7 +77,7 @@ Written by Richard Van Noorden, the story profiles Alexandra and includes an est
 The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
 The statutory damages, which the defendants do not intend to pay, now bear interest.
 + **Ⓘ** The American Chemical Society files suit against Sci-Hub in the Eastern District of Virginia.
-Their prayer for relief requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/].
+Their prayer for relief requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/ @url:https://torrentfreak.com/images/ACS-v-Sci-Hub.pdf].
 
 Past research sheds some light on Sci-Hub's reach.
 From the Spring of 2013 till the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
@@ -108,8 +107,9 @@ In other words, what percent of articles in a given domain does Sci-Hub possess?
 ## Results
 
 To define the extent of the scholarly literature, we relied on DOIs from the Crossref database, as downloaded on March 21, 2017.
-We define the scholarly literature as 81,609,016 texts identified by their DOIs.
+We define the "scholarly literature" as 81,609,016 texts identified by their DOIs.
 We refer to these texts as "articles", although a diverse compilation of text types are encompassed, including book chapters, front matters, and standards. To assess the articles available from Sci-Hub, we relied on a list of DOIs released by Sci-Hub on March 19, 2017.
+All DOIs were lowercased to be congruent across datasets (see Methods).
 Sci-Hub's offerings included 56,246,220 articles from the corpus of scholarly literature, equating to 68.9% of all articles.
 
 ### Coverage by article type
@@ -141,7 +141,7 @@ Another factor could be that some journals are now deploying more aggressive ant
 **Figure 2: Coverage of articles by year published.**
 Sci-Hub's article coverage is shows for each year since 1850.
 
-### Coverage by Journal
+### Coverage by journal
 
 We defined a comprehensive set of scholarly publishing venues, referred to as "journals", based on the Scopus database.
 In reality, these include conferences with proceedings as well as book series.
@@ -198,7 +198,7 @@ We assessed journal impact using the 2015 CiteScore, which measures the average 
 Highly-cited journals tended to have higher coverage in Sci-Hub (Figure 7A).
 The 1,730 least cited journals (lowest decile) had 40.9% coverage on average, whereas the 1,729 most cited journals (top decile) averaged 90.3% coverage.
 
-### Coverage by Publisher
+### Coverage by publisher
 
 Next, we evaluated coverage by publisher (Figure 6, full table [online](https://greenelab.github.io/scihub/#/publishers)).
 The largest publisher was Elsevier, with 13,185,971 articles from 3,356 journals.
@@ -221,14 +221,12 @@ Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 pub
 **Figure 6: Coverage by publisher.**
 Article coverage is shown for all Scopus publishers with at least 200,000 articles.
 
-### Sci-Hub Request Logs
+### Sci-Hub request logs
 
 Sci-Hub released article request records from its server logs covering 165 days from September 2015 through February 2016 [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664 @doi:10.5061/dryad.q447c/1].
 We filtered for valid requests by restricting to DOIs in our literature catalog and omitting requests that occurred before the article's publication date.
 Accordingly, we identified 26,984,851 valid requests for 10,116,937 distinct articles.
 Hence on average, Sci-Hub received approximately 164,000 valid requests per day in late 2014 / early 2015.
-
-### Sci-Hub request fulfillment rate
 
 The logs do not indicate whether a request was fulfilled.
 However, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub's database were available in the past, at the time of request.
@@ -279,7 +277,7 @@ We find that these addresses have received 1,037 donations totaling 92.63 bitcoi
 Using the U.S. dollar value at the time of transaction confirmation, Sci-Hub has received an equivalent of $60,358 in bitcoins.
 However, since the price of bitcoins has risen, the 67.42 donated bitcoins that remain unspent are now worth approximately $175,000.
 
-![Number of bitcoin donations per month to Sci-Hub](https://cdn.rawgit.com/greenelab/scihub/f06f36602d8856a1739c4b354216059aefa79635/explore/bitcoin/monthly-donations-count.svg)
+![Number of bitcoin donations per month to Sci-Hub](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/bitcoin/monthly-donations-count.svg)
 
 **Figure 8: Number of bitcoin donations per month.**
 The number of bitcoin donations to Sci-Hub is shown for each month from June 2015 to June 2017.
@@ -288,7 +286,7 @@ Each donation corresponds to an incoming transaction to a known Sci-Hub address.
 
 The largest and most prominent publishers are highly covered by Sci-Hub.
 Publishers have taken note.
-Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered, Docket Number `1:17-cv-00726-LMB-JFA`) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/].
+Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
 The widespread gratis access to previously paywalled content calls into question the sustainability of the subscription publishing model.
 As distributed and censorship-resistant file storage protocols mature [@url:https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf @url:https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700], Sci-Hub alternatives may emerge that no longer rely on a centralized service. As such, Sci-Hub's corpus of gratis scholarly literature will be extremely difficult to suppress.
 
@@ -345,7 +343,7 @@ While the DOI handbook states that "all DOI names are converted to upper case up
 Given the danger of incongruous DOIs, we lowercased DOIs for each input resource at the earliest opportunity in its processing pipeline.
 Consistent casing [considerably influenced](https://github.com/greenelab/scihub/issues/9) our findings as different resources used different casings of the same DOI.
 
-### Crossref
+### Crossref-derived catalog of scholarly articles
 
 To catalog all scholarly articles, we relied on the Crossref database.
 [Crossref](https://www.crossref.org/) is a DOI Registration Agency (an entity capable of assigning DOIs) for scholarly publishing [@doi:10.6087/kcse.2014.1.13].
@@ -376,7 +374,7 @@ After filtering by type, 81,609,016 DOIs remained.
 For the purposes of this study, these DOIs represent the entirety of the scholarly literature.
 The year of publication was available for 77,201,782 of these DOIs.
 
-### Scopus
+### Scopus-derived catalog of journals
 
 Prior to June 2017, the Crossref API had an [issue](https://github.com/CrossRef/rest-api-doc/issues/179) that prevented exhaustively downloading journal metadata.
 Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to catalog scholarly journals.
@@ -388,7 +386,7 @@ Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,295 of which w
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
 See [`dhimmel/journalmetrics`](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
 
-### LibGen scimag
+### LibGen scimag's catalog of articles
 
 Library Genesis (LibGen) is a shadow library of primarily pirated content.
 Compared to Sci-Hub, the operations of LibGen are more opaque, as the contributors maintain a low profile and do not contact journalists [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
@@ -424,7 +422,7 @@ It is likely that such massive collections of articles result from biblioleaks [
 
 While we agree this is most likely the case, confirmation is needed that the bulk addition of articles does not just correspond to bulk updates rather than bulk initial uploads.
 
-### Sci-Hub DOIs
+### Sci-Hub's catalog of articles
 
 On March 19, 2017, Sci-Hub [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
 
@@ -462,26 +460,26 @@ Interestingly, the journal [_Medicine - Programa de Formación Médica Continuad
 
 ## Supplementary Information
 
-![Coverage by country of publication](https://cdn.rawgit.com/greenelab/scihub/f06f36602d8856a1739c4b354216059aefa79635/figure/coverage-by-country.svg)
+![Coverage by country of publication](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-country.svg)
 
 **Figure S1: Coverage by country of publication.**
 Scopus assigns each journal a country of publication.
 Sci-Hub's coverage is shown for countries with at least 100,000 articles.
 
-![Bitcoin donations per month to Sci-Hub](https://cdn.rawgit.com/greenelab/scihub/f06f36602d8856a1739c4b354216059aefa79635/explore/bitcoin/monthly-donations-faceted.svg)
+![Bitcoin donations per month to Sci-Hub](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/bitcoin/monthly-donations-faceted.svg)
 
 **Figure S2: bitcoin donations to Sci-Hub per month.**
 For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. 
 Donations to USD refers to the United States dollar value at time of transaction confirmation.
 
-![LibGen cumulative size over time](https://cdn.rawgit.com/greenelab/scihub/f06f36602d8856a1739c4b354216059aefa79635/figure/libgen-cumulative-works.svg)
+![LibGen cumulative size over time](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-cumulative-works.svg)
 
 **Figure S3: Number of articles in LibGen scimag over time.**
 The figure shows the cumulative number of articles versus the LibGen scimag `DateAdded` field.
 When comparing this plot to Figure 1 of Cabanac 2015 [@doi:10.1002/asi.23445], we noticed a major discrepancy.
 We hypothesize that the `DateAdded` field is replaced upon modification, making it impossible to assess date of first upload.
 
-![LibGen cumulative size over time](https://cdn.rawgit.com/greenelab/scihub/f06f36602d8856a1739c4b354216059aefa79635/figure/libgen-monthly-lagtimes.svg)
+![LibGen cumulative size over time](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg)
 
 **Figure S4: Lag-time from publication to LibGen upload.**
 For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag's coverage.
