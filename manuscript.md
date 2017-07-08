@@ -22,16 +22,21 @@ For the first time, the overwhelming majority of scholarly literature is availab
 
 ## Introduction
 
-As of 2014, an estimated 76% of scholarly literature on the web was paywalled [@doi:10.1371/journal.pone.0093949].
+As of 2014, paywalls on the web limited access to an estimated 76% of scholarly literature [@doi:10.1371/journal.pone.0093949].
 The open access movement strives to increase the accessibility of scholarly literature [@doi:10.12688/f1000research.8460.3].
-After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], the gratis availability of recent articles is nearing 50% [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
-Nonetheless, a wealth of scholarly literature remains inaccessible through traditional methods.
-But the website Sci-Hub, now in its fifth year of existence, appears to have opened the floodgates, providing broad access, without charge, to scholarly literature.
+After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], nearly 50% of newly published articles are available without paywalls [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
+Literature that is free to read is comprised of two categories.
+The first category includes articles that are articles are [openly licensed](http://opendefinition.org/) to freely allow reuse [@url:http://blog.dhimmel.com/biorxiv-licenses/], a group colloquially termed “free as in libre.”
+The remainder of free to read articles can be accessed without price barriers, but permission barriers may remain. This set of articles is termed “free as in gratis” [@url:https://dash.harvard.edu/handle/1/4322580].
+In this work, we refer to availability as “libre” or “gratis” to denote these categories.
 
+The website Sci-Hub, now in its fifth year of existence provides gratis access to scholarly literature, despite the continued presence of paywalls.
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
 The website, started in 2011, is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@doi:10.1126/science.aaf5675 @doi:10.1038/nature.2015.18876].
 Elbakyan describes herself as motivated to provide universal access to knowledge [@url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/ @url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/ @url:http://www.leafscience.org/alexandra-elbakyan/].
 
+Sci-Hub does not restrict itself to only openly licensed content.
+Instead, it retrieves and distributes scholarly literature without regard to copyright regimes.
 **Readers should note that, in many jurisdictions, use of Sci-Hub may constitute copyright infringement.
 Users of Sci-Hub do so at their own risk.
 This study is not an endorsement of using Sci-Hub, and its authors and publishers accept no responsibility on behalf of readers.
@@ -39,16 +44,12 @@ It is a strong possibility that Sci-Hub users — especially those not using pri
 
 Sci-Hub is currently served at the domains `sci-hub.cc`, `sci-hub.io`, and `scihub22266oqcxt.onion` (a Tor Hidden Service [@url:http://www.dtic.mil/docs/citations/ADA465464]).
 Elbakyan recently described the project's technical scope [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/]:
-
 > Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository. But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.
-
-As noted, Sci-Hub does not restrict itself to only openly licensed content.
-Instead, it retrieves and distributes scholarly literature without regard to copyright regimes.
 One method Sci-Hub uses to bypass paywalls is by obtaining leaked authentication credentials for educational institutions [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 These credentials enable Sci-Hub to use institutional networks as proxies and gain subscription journal access.
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
 Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure 1).
-Here we investigate the extent Sci-Hub provides access to scholarly literature.
+Here we investigate the extent to which Sci-Hub provides access to scholarly literature.
 If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
 
 ![Google Trends Search interest for Sci-Hub and LibGen](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/trends/google-trends.svg)
