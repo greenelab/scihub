@@ -12510,7 +12510,6 @@ object-assign
                     id: "title_name",
                     title: "Journal",
                     width: "70%",
-                    customComponent: b,
                     customHeadingComponent: (0, m.CreateTooltipHeader)("The journal's name, as extracted from Scopus.")
                 }), f.default.createElement(h.ColumnDefinition, {
                     id: "open_access",
