@@ -23,7 +23,7 @@ export default ({}, {}) => <div>
       <div className="collapse navbar-collapse navbar-right">
         <ul className="nav navbar-nav">
           <li>
-            <Link to="/">Journals</Link>
+            <Link to="/journals">Journals</Link>
           </li>
           <li>
             <Link to="/publishers">Publishers</Link>

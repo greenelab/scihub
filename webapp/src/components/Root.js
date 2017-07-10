@@ -15,6 +15,7 @@ import Journal from './Journal';
 import Navbar from './Navbar';
 import JournalTable from './JournalTable';
 import PublishersTable from "./PublisherTable";
+import Home from "./Home";
 
 
 export default class Root extends React.Component {
@@ -29,9 +30,9 @@ export default class Root extends React.Component {
           <Navbar />
 
           <Switch>
-            <Route exact path="/" component={JournalTable}/>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/journals" component={JournalTable}/>
             <Route exact path="/publishers" component={PublishersTable}/>
-            <Route path="/journal/:journalId" component={Journal}/>
           </Switch>
         </div>
       </div>
@@ -39,4 +40,6 @@ export default class Root extends React.Component {
   }
 };
 
+
+// <Route path="/journal/:journalId" component={Journal}/>
 
