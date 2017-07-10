@@ -23,7 +23,7 @@ export default class PublishersTable extends FetchDataTable {
   rowDefinition() {
     return <RowDefinition>
       <ColumnDefinition id="category" title="Publisher" width="70%" />
-      <ColumnDefinition id="titles" title="Titles" customComponent={NumberCell}  />
+      <ColumnDefinition id="journals" title="Journals" customComponent={NumberCell}  />
       <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}  />
       <ColumnDefinition id="crossref" title="Crossref" customComponent={NumberCell} />
       <ColumnDefinition id="coverage" title="Coverage" customComponent={PercentCell} />
