@@ -10,8 +10,7 @@
   margin-top: -6px;
   margin-bottom: -4px; }
 
-.section-title {
-  text-align: center;
+.section-description {
   margin-bottom: 30px; }
 .journal-table__heading--15d {
   cursor: pointer; }
@@ -26,3 +25,14 @@
 
 .table__filter--3Pt {
   margin-bottom: 20px; }
+
+.table__header--3Z- {
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap; }
+  .table__header--3Z-:hover, .table__header--3Z-:active, .table__header--3Z-:focus {
+    color: #333;
+    text-decoration: none; }
+
+.table__headerCaret--17F {
+  margin-left: 8px; }

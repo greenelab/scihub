@@ -116,3 +116,15 @@ export class FetchDataTable extends React.Component {
     throw new Error('not implemented');
   }
 }
+
+
+export const TooltipHeading = ({title, tooltip, icon}) =>
+  <a className={styles.header} title={tooltip} href="javascript:void(0)">
+    {title}
+    {icon && <span className={styles.headerCaret}>{icon}</span>}
+  </a>;
+
+// Higher order component used to create a custom table header with the given tooltip
+export const CreateTooltipHeader = (tooltip) => (props) => <TooltipHeading {...props} tooltip={tooltip} />;
+
+

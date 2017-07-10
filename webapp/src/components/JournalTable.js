@@ -6,7 +6,10 @@ import { connect } from 'react-redux';
 import {Link} from 'react-router-dom';
 
 import styles from './journal-table.scss';
-import {NumberCell, PercentCell, rowDataSelector, TableLayout} from "./Table";
+import {
+  CreateTooltipHeader, NumberCell, PercentCell, rowDataSelector,
+  TableLayout
+} from "./Table";
 import {FetchDataTable} from "./Table";
 
 export default class JournalTable extends FetchDataTable {
@@ -19,6 +22,8 @@ export default class JournalTable extends FetchDataTable {
   render () {
     return <div>
       <h2 className="section-title">Journal Coverage Table</h2>
+      <p className="section-description">The following table shows Sci-Hub's article coverage, as of March 2017, for each journal.</p>
+
       {super.render()}
     </div>
   }
@@ -26,11 +31,15 @@ export default class JournalTable extends FetchDataTable {
   rowDefinition() {
     return <RowDefinition>
       <ColumnDefinition id="active" title=" " width="20px" customComponent={ActiveJournalCell} />
-      <ColumnDefinition id="title_name" title="Journal" width="70%" customComponent={JournalCell} />
+      <ColumnDefinition id="title_name" title="Journal" width="70%" customComponent={JournalCell}
+                        customHeadingComponent={CreateTooltipHeader('The journal\'s name, as extracted from Scopus.')} />
       <ColumnDefinition id="open_access" title=" " width="20px" customComponent={OpenAccessJournalCell} />
-      <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}  />
-      <ColumnDefinition id="crossref" title="Crossref" customComponent={NumberCell} />
-      <ColumnDefinition id="coverage" title="Coverage" customComponent={PercentCell} />
+      <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}
+                        customHeadingComponent={CreateTooltipHeader('The total number of the journal\'s articles which are in Sci-Hub\'s database.')} />
+      <ColumnDefinition id="crossref" title="Crossref" customComponent={NumberCell}
+                        customHeadingComponent={CreateTooltipHeader('The total number of articles published by the journal, as extracted from Crossref.')} />
+      <ColumnDefinition id="coverage" title="Coverage" customComponent={PercentCell}
+                        customHeadingComponent={CreateTooltipHeader('The number of articles in Sci-Hub divided by the total number of articles.')} />
     </RowDefinition>;
   }
 

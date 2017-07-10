@@ -8,3 +8,19 @@
 .filter {
   margin-bottom: 20px;
 }
+
+// table header styles
+.header {
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+  &:hover, &:active, &:focus {
+    color: #333;
+    text-decoration: none;
+  }
+}
+
+
+.headerCaret {
+  margin-left: 8px;
+}
