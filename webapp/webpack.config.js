@@ -4,7 +4,6 @@ var webpack = require('webpack');
 var BundleTracker = require('webpack-bundle-tracker');
 var StatsPlugin = require('stats-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var AppCachePlugin = require('appcache-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const env = require('./env');
@@ -28,7 +27,6 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(['docs'], {root: path.resolve('..')}),
-    new AppCachePlugin({}),
     new HtmlWebpackPlugin({
       // Required
       inject: false,
