@@ -20,6 +20,21 @@ export function fetchJournalData() {
   });
 }
 
+export function fetchPublishersData() {
+  return new Promise((resolve, reject) => {
+    d3.tsv(env.publishers_data, function(data) {
+      data = data.filter((x) => x.facet === 'Publisher');
+      for (let journal of data) {
+        journal.titles = parseFloat(journal.titles);
+        journal.crossref = parseFloat(journal.crossref);
+        journal.scihub = parseFloat(journal.scihub);
+        journal.coverage = parseFloat(journal.coverage);
+      }
+      resolve(data);
+    });
+  });
+}
+
 
 export const asyncMemoize = (fn) => {
   let value;
@@ -36,4 +51,5 @@ export const asyncMemoize = (fn) => {
 };
 
 export const fetchJournalDataMemoized = asyncMemoize(fetchJournalData);
+export const fetchPublishersDataMemoized = asyncMemoize(fetchPublishersData);
 

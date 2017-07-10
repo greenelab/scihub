@@ -20,3 +20,15 @@
   margin-top: -6px;
   margin-bottom: -4px;
 }
+
+
+
+:global {
+  .section-title {
+  }
+
+  .section-description {
+    margin-bottom: 30px;
+  }
+
+}

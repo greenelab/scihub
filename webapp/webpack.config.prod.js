@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var config = require('./webpack.config');
+var AppCachePlugin = require('appcache-webpack-plugin');
 
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -23,9 +24,10 @@ module.exports = {
     filename: '[name].js',
   },
 
-  plugins: config.plugins.concat([
+  plugins: [
     // css files from the extract-text-plugin loader
     extractStyles,
+    new AppCachePlugin({}),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {warnings: false},
@@ -35,7 +37,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env': {NODE_ENV: JSON.stringify('production')},
     }),
-  ]),
+  ].concat(config.plugins),
 
   module: {
     loaders: [
