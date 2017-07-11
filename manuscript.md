@@ -25,10 +25,10 @@ For the first time, the overwhelming majority of scholarly literature is availab
 As of 2014, paywalls on the web limited access to an estimated 76% of scholarly literature [@doi:10.1371/journal.pone.0093949].
 The open access movement strives to increase the accessibility of scholarly literature [@doi:10.12688/f1000research.8460.3].
 After decades of effort by the open access community [@url:http://digitalcommons.unl.edu/library_talks/123], nearly 50% of newly published articles are available without paywalls [@url:http://digitalcommons.unl.edu/scholcom/8 @doi:10.1038/500386a].
-Literature that is free to read is comprised of two categories.
-The first category includes articles that are articles are [openly licensed](http://opendefinition.org/) to freely allow reuse [@url:http://blog.dhimmel.com/biorxiv-licenses/], a group colloquially termed “free as in libre.”
-The remainder of free to read articles can be accessed without price barriers, but permission barriers may remain. This set of articles is termed “free as in gratis” [@url:https://dash.harvard.edu/handle/1/4322580].
-In this work, we refer to availability as “libre” or “gratis” to denote these categories.
+Literature that is free to read is comprised of two categories [@url:https://dash.harvard.edu/handle/1/4322580].
+The first category includes articles that are articles are [openly licensed](http://opendefinition.org/) to freely allow reuse, a group colloquially termed "free as in libre".
+The remainder of free to read articles can be accessed without price barriers, but permission barriers may remain (usually due to copyright) [@url:http://blog.dhimmel.com/biorxiv-licenses/]. This set of articles is termed "free as in gratis".
+In this work, we refer to availability as "libre" or "gratis" to denote these categories.
 
 The website Sci-Hub, now in its fifth year of existence provides gratis access to scholarly literature, despite the continued presence of paywalls.
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
@@ -44,7 +44,10 @@ It is a strong possibility that Sci-Hub users — especially those not using pri
 
 Sci-Hub is currently served at the domains `sci-hub.cc`, `sci-hub.io`, and `scihub22266oqcxt.onion` (a Tor Hidden Service [@url:http://www.dtic.mil/docs/citations/ADA465464]).
 Elbakyan recently described the project's technical scope [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/]:
-> Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository. But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.
+
+> Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository.
+But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.
+
 One method Sci-Hub uses to bypass paywalls is by obtaining leaked authentication credentials for educational institutions [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 These credentials enable Sci-Hub to use institutional networks as proxies and gain subscription journal access.
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
@@ -69,21 +72,21 @@ The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 The complaint seeks a "prayer for relief" that includes domain names seizure, damages, and "an order disgorging Defendants' profits."
 + **Ⓓ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/ @url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/].
 Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction including on the dark web [@url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/ @doi:10.1038/nature.2015.18876].
-+ **Ⓔ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science], culminating in the _New York Times_ asking "[Should All Research Papers Be Free?](https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html)".
++ **Ⓔ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and Alexandra Elbakyan [@url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science], culminating in the _New York Times_ asking "Should all research papers be free?" [@url:https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html].
 + **Ⓕ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread, global usage of Sci-Hub [@doi:10.1126/science.352.6285.508 @doi:10.1126/science.aaf5664].
 These findings spark debate amongst scholars, with a large contingent of scientists supporting Sci-Hub's mission [@doi:10.1038/nature.2016.19841 @doi:10.1126/science.aaf5704].
 + **Ⓖ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@doi:10.1038/540507a].
 Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
-+ **Ⓗ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.courtlistener.com/docket/4355308/87/elsevier-inc-v-sci-hub/].
++ **Ⓗ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@doi:10.1038/nature.2017.22196 @url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/ @url:https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html].
 The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
 The statutory damages, which the defendants do not intend to pay, now bear interest.
 + **Ⓘ** The American Chemical Society files suit against Sci-Hub in the Eastern District of Virginia.
-Their prayer for relief requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/ @url:https://torrentfreak.com/images/ACS-v-Sci-Hub.pdf].
+Their prayer for relief requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/ @url:https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html].
 
 Past research sheds some light on Sci-Hub's reach.
 From the Spring of 2013 till the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/].
 Whenever a user requested an article, Sci-Hub would check LibGen for a copy.
-If not in LibGen, Sci-Hub would then fetch the article for the user and upload it to LibGen.
+If the article was not in LibGen, Sci-Hub would fetch the article for the user and also upload it to LibGen.
 Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs.
 Accordingly, he estimated LibGen contained 36% of all scholarly articles [@doi:10.1002/asi.23445].
 Coverage was higher for several prominent publishers: 77% for Elsevier, 73% for Wiley, and 53% for Springer (prior to its merger with Macmillan / Nature [@doi:10.1038/nature.2015.16731]).
@@ -134,7 +137,7 @@ Next, we investigated coverage based on the year an article was published.
 For most years since 1850, annual coverage is between 60–80%.
 However, there's a dropoff in coverage, starting in 2010, for recently published articles.
 For example, 2016 coverage was 56.0% and 2017 coverage (for part of the year) was 45.3%.
-One factor is likely that it takes some time for an article to get added to Sci-Hub's database following its publication.
+One factor is that it takes some time for Sci-Hub to retrieve articles following their publication, especially since many are not downloaded until requested by a user. 
 Another factor could be that some journals are now deploying more aggressive anti-piracy measures [@url:http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html @doi:10.1038/535011f], making recent articles less accessible.
 
 ![Sci-Hub coverage by year](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-year.svg)
@@ -229,8 +232,10 @@ We filtered for valid requests by restricting to DOIs in our literature catalog 
 Accordingly, we identified 26,984,851 valid requests for 10,116,937 distinct articles.
 Hence on average, Sci-Hub received approximately 164,000 valid requests per day in late 2014 / early 2015.
 
-The logs do not indicate whether a request was fulfilled.
-However, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub's database were available in the past, at the time of request.
+The logs do not indicate whether requests were fulfilled.
+However, if a requested article wasn't in Sci-Hub's database, Sci-Hub would have attempted to retrieve it and store it for future use.
+Therefore, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub's database were available in the past, at the time of request.
+
 Accordingly, we estimate that Sci-Hub fulfilled 99.3% of valid requests during this period.
 The estimated fulfillment rates were nearly 100% for all article types besides book chapters.
 Users that requested book chapters received access 82.1% of the time.
@@ -268,7 +273,7 @@ In terms of articles actually requested by users, we infer that access is provid
 
 We find strong evidence that Sci-Hub is primarily used to circumvent paywalls.
 Particularly, users requested articles from closed access journals much more frequently than open access journals.
-Accordingly, many users likely only resort to Sci-Hub once other access methods have failed.
+Accordingly, many users likely only resort to Sci-Hub when access via the publisher is cumbersome or costly.
 
 Judging from donations, many users seem to appreciate Sci-Hub's service.
 In the past, Sci-Hub accepted donations through centralized and regulated payment processors, such as PayPal, Yandex, WebMoney, and QiQi [@url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/ @url:https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/].
@@ -294,31 +299,29 @@ As distributed and censorship-resistant file storage protocols mature [@url:http
 In addition, adoption of pirate sites may accelerate if Universities continue canceling journal subscriptions [@doi:10.1038/nature.2016.21223 @doi:10.1126/science.aal0552], leaving researchers with few alternative access options.
 We can also expect biblioleaks — bulk releases of closed access corpuses — to progress despite publisher's best efforts, as articles must only leak once to be perpetually available [@doi:10.2196/jmir.3331].
 In essence, scholarly publishers have already lost the access battle.
-Publishers will be forced to adapt, and adapt quickly, to open access publishing models.
+Publishers will be forced to adapt quickly to open access publishing models.
 In the words of Alexandra Elbakyan [@url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/]:
 
 > The effect of long-term operation of Sci-Hub will be that publishers change their publishing models to support Open Access, because closed access will make no sense anymore.
 
-While Sci-Hub is poised to fundamentally disrupt scholarly publishing, we hope it leads to more than just gratis access to literature.
-Gratis refers to access without charge.
-However, equally important is libre access, where articles are [openly licensed](http://opendefinition.org/) to freely allow reuse [@url:http://blog.dhimmel.com/biorxiv-licenses/].
-Gratis removes price barriers, whereas libre removes permission barriers [@url:https://dash.harvard.edu/handle/1/4322580].
-Libre access allows building applications on top existing literature without fear of legal consequences.
-This will be especially important to enable integrative, computational approaches that bolster our understanding and usage of the literature.
-We urge journals that must now transition to gratis access models, to use this opportunity to also adopt libre practices and apply open licenses to their articles.
+Sci-Hub is poised to fundamentally disrupt scholarly publishing.
+The transition to gratis availability of scholarly articles is inevitable.
+However, we urge the community to take this opportunity to fully liberate scholarly articles.
+Only libre access, enabled by [open licensing](http://opendefinition.org/), allows building applications on top of scholarly literature without fear of legal consequences [@url:http://blog.dhimmel.com/biorxiv-licenses/].
+Were all articles libre, there would be no such thing as a "pirate website" for accessing scholarly literature.
 
 ## Methods
 
 This project was performed entirely in the open, via the GitHub repository [`greenelab/scihub`](https://github.com/greenelab/scihub).
 Several authors of this study became involved after we mentioned their usernames in GitHub discussions.
-This project's fully transparent and online model enabled us to assemble a geographically scattered team of individuals with the right expertise and knowledge.
+This project's fully transparent and online model enabled us to assemble an international team of individuals with complementary expertise and knowledge.
 
 We managed our computational environment using [Conda](https://conda.io/docs/), allowing us to specify and install dependencies for both Python and R.
 The analyses were performed by a sequence of [Jupyter](http://jupyter.org/) notebooks.
 In general, data integration and manipulation was performed in Python 3, relying heavily on [Pandas](https://pandas.pydata.org/), whereas plotting was performed with [ggplot2](http://ggplot2.org/) in R.
 Tabular data was saved in TSV (Tab Separated Values) format and xz compressed when large.
 We used Git Large File Storage ([Git LFS](https://git-lfs.github.com/)) to track large files, enabling us to make nearly all of the datasets generated and consumed by the analyses available.
-The Sci-Hub Stats Browser webapp is built using React and hosted via GitHub Pages.
+The Sci-Hub Stats Browser is a single-page application built using React and hosted via GitHub Pages.
 
 ### Digital Object Identifiers
 
@@ -368,12 +371,11 @@ Date issued refers to the earliest known publication date, i.e. the date of prin
 Second, a mapping of DOI to ISSN for associating articles with their journal of publication.
 
 We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly articles (i.e. publications).
-The following types were included: `book-chapter`, `book-part`, `book-section`, `journal-article`, `proceedings-article`, `reference-entry`, `report`, `standard`.
-Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded since they're generally containers for individual articles rather than scholarly articles themselves.
 Since we couldn't locate definitions for the Crossref types, we used our best judgment and evaluated sample works of a given type in the case of uncertainty.
-After filtering by type, 81,609,016 DOIs remained.
+We included the following types: `book-chapter`, `book-part`, `book-section`, `journal-article`, `proceedings-article`, `reference-entry`, `report`, and `standard`.
+Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded since they're generally containers for individual articles rather than scholarly articles themselves.
+After filtering by type, 81,609,016 DOIs remained (77,201,782 of which had their year of publication  available).
 For the purposes of this study, these DOIs represent the entirety of the scholarly literature.
-The year of publication was available for 77,201,782 of these DOIs.
 
 ### Scopus-derived catalog of journals
 
@@ -407,7 +409,7 @@ The 12.4% of LibGen scimag DOIs missing from our Crossref catalog, likely consis
 Next, we explored the cumulative size of LibGen scimag over time according to the `TimeAdded` field (Figure S3).
 However, when we [compared](https://github.com/greenelab/scihub/issues/8#issuecomment-296710357) our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 [@doi:10.1002/asi.23445], we noticed a major discrepancy.
 The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs as of January 5, 2014.
-We hypothesize that the discrepancy arose since `DateAdded` indicates the date modified rather than created.
+We hypothesize that the discrepancy arose because `DateAdded` indicates the date modified rather than created.
 Specifically, when an article in the database is changed, the database record for that DOI is entirely replaced.
 Hence, the `DateAdded` value is effectively overwritten upon every update to a record.
 Unfortunately, many research questions require the date first added.
