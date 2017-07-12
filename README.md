@@ -2,6 +2,8 @@
 
 This project is investigating the coverage of the Sci-Hub/LibGen for academic articles.
 It's based on using DOIs to uniquely identify articles.
+The repository hosting the manuscript for this study is [`greenelab/scihub-manuscript`](https://github.com/greenelab/scihub-manuscript).
+The latest manuscript version is available at https://greenelab.github.io/scihub-manuscript/.
 
 ## Environment
 
