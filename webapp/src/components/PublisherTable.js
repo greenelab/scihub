@@ -2,12 +2,14 @@
 import React from 'react';
 import {fetchPublishersDataMemoized} from "../utils/data";
 import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
-
+import { connect } from 'react-redux';
+import tableStyles from './table.scss';
 import {
   CreateTooltipHeader, NumberCell, PercentCell, rowDataSelector,
   TableLayout
 } from "./Table";
 import {FetchDataTable, TooltipHeading} from "./Table";
+import {format} from "../utils/helpers";
 
 export default class PublishersTable extends FetchDataTable {
   render () {
@@ -29,6 +31,8 @@ export default class PublishersTable extends FetchDataTable {
     return <RowDefinition>
       <ColumnDefinition id="category" title="Publisher" width="70%"
                         customHeadingComponent={CreateTooltipHeader('The publisher as extracted from Scopus.')} />
+      <ColumnDefinition id="crossref_open_access_percent" title="OpenAccess" customComponent={PercentCell}
+                        customHeadingComponent={OpenAccessHeadingComponent} />
       <ColumnDefinition id="journals" title="Journals" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('The number of journals from the publisher.')} />
       <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}
@@ -46,3 +50,11 @@ export default class PublishersTable extends FetchDataTable {
   }
 }
 
+const OpenAccessHeadingComponent = ({icon}) =>
+  <div className="text-center">
+    <a className={tableStyles.header} href="javascript:void(0)" title="Proportion of publisher's articles that are in Open Access Journals.">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
+           className="open-access-logo" />
+      {icon && <span className={tableStyles.headerCaret}>{icon}</span>}
+    </a>
+  </div>;

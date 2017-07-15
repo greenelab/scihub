@@ -63,6 +63,6 @@ let ActiveJournalCell = ({value}) => <div className="text-center">{value
 
 let OpenAccessJournalCell = ({value}) => <div className="text-center">
   {value && <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
-                 className={styles.logo} title="The articles of this journal are free to read."/>}
+                 className="open-access-logo" title="The articles of this journal are free to read."/>}
 </div>;
 

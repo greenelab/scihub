@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Griddle, {plugins} from 'griddle-react';
-import {format} from "../utils/helpers";
+import {format, isString} from "../utils/helpers";
 import Loading from "./Loading";
 
 import styles from './table.scss';

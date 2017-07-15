@@ -38,3 +38,7 @@ export const format = {
   percent: (x) => `${format.number(x*100)}%`,
 };
 
+
+// thanks to https://stackoverflow.com/a/35316222/763705
+export function isString(value) {return typeof value === 'string';}
+

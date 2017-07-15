@@ -27,8 +27,12 @@ export function fetchPublishersData() {
       for (let journal of data) {
         journal.titles = parseFloat(journal.titles);
         journal.crossref = parseFloat(journal.crossref);
+        journal.crossref_open_access = parseFloat(journal.crossref_open_access);
         journal.scihub = parseFloat(journal.scihub);
         journal.coverage = parseFloat(journal.coverage);
+
+        // calculated fields
+        journal.crossref_open_access_percent = journal.crossref_open_access/journal.crossref;
       }
       resolve(data);
     });
