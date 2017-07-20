@@ -12411,8 +12411,11 @@ object-assign
         return r(t), u.default.createElement("div", null, u.default.createElement("div", {
             className: "jumbotron"
         }, u.default.createElement("p", {
-            className: "text-center"
-        }, 'Sci-Hub is a pirate website that provides access to full texts from the scholarly literature, including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub. The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from publicly available data. This webapp is a companion to the study, "Sci-Hub provides access to nearly all scholarly literature."')), u.default.createElement("div", {
+            className: ""
+        }, 'Sci-Hub is a pirate website that provides access to full texts from the scholarly literature, including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub. The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from publicly available data. This webapp is a companion to the study, "Sci-Hub provides access to nearly all scholarly literature", published ', u.default.createElement("a", {
+            href: "https://peerj.com/preprints/3100/",
+            target: "_blank"
+        }, "here"), ".")), u.default.createElement("div", {
             className: "row"
         }, u.default.createElement("div", {
             className: "col-sm-6 text-center"
