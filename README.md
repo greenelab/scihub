@@ -1,9 +1,16 @@
-# DOI Coverage of Sci-Hub
+# Analyses for the Sci-Hub Coverage Study
 
-This project is investigating the coverage of the Sci-Hub/LibGen for academic articles.
+This project investigates the coverage of scholarly literature in the Sci-Hub and LibGen scimag repositories.
 It's based on using DOIs to uniquely identify articles.
-The repository hosting the manuscript for this study is [`greenelab/scihub-manuscript`](https://github.com/greenelab/scihub-manuscript).
-The latest manuscript version is available at https://greenelab.github.io/scihub-manuscript/.
+For more information, see the corresponding study:
+
+> Himmelstein DS, Romero AR, McLaughlin SR, Greshake Tzovaras B, Greene CS. (2017) [**Sci-Hub provides access to nearly all scholarly literature**](https://doi.org/b9s5). _PeerJ Preprints_ DOI: 10.7287/peerj.preprints.3100
+
+The manuscript for this study is continuously built at [`greenelab/scihub-manuscript`](https://github.com/greenelab/scihub-manuscript) with the latest version available at https://greenelab.github.io/scihub-manuscript/..
+
+## Repository structure
+
+The [`webapp`](webapp) directory creates the [Sci-Hub Stats Browser](https://greenelab.github.io/scihub/#/), which is exported to `docs` and hosted via GitHub Pages.
 
 ## Environment
 
