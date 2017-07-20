@@ -31,3 +31,10 @@
 }
 
 
+.percent {
+  white-space: nowrap;
+  >sup {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}

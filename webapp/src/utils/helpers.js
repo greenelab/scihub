@@ -36,6 +36,14 @@ export const format = {
   },
 
   percent: (x) => `${format.number(x*100)}%`,
+
+  digits (number, places = 2) {
+    if (places === 0) return '';
+
+    return number === 0 || number/Math.pow(10, places - 1) < 1
+          ? '0' + format.digits(number, places - 1)
+          : number;
+  }
 };
 
 

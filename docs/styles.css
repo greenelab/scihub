@@ -39,3 +39,9 @@
 
 .table__headerIcon--aWF {
   color: darkgrey; }
+
+.table__percent--2_N {
+  white-space: nowrap; }
+  .table__percent--2_N > sup {
+    margin-left: 1px;
+    margin-right: 1px; }

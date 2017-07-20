@@ -35,7 +35,16 @@ export const LocalTable =(props) => <Table {...props} plugins={[plugins.LocalPlu
 
 export const NumberCell = ({value}) => <span>{format.number(value, 0)}</span>;
 
-export const PercentCell = ({value}) => <span>{format.percent(value)}</span>;
+export const PercentCell = ({value}) => {
+  let percent = Math.floor(value*100);
+  let decimals = Math.floor(value*10000) - Math.floor(value * 100) * 100;
+
+  return <span className={styles.percent}>
+    {percent}
+    <sup>{format.digits(decimals, 2)}</sup>
+    %
+  </span>;
+};
 
 export const TableLayout = ({ Table, Pagination, Filter }) => (
   <div>

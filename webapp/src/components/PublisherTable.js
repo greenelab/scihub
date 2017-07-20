@@ -31,8 +31,6 @@ export default class PublishersTable extends FetchDataTable {
     return <RowDefinition>
       <ColumnDefinition id="category" title="Publisher" width="70%"
                         customHeadingComponent={CreateTooltipHeader('The publisher as extracted from Scopus.')} />
-      <ColumnDefinition id="crossref_open_access_percent" title="OpenAccess" customComponent={PercentCell}
-                        customHeadingComponent={OpenAccessHeadingComponent} />
       <ColumnDefinition id="journals" title="Journals" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('The number of journals from the publisher.')} />
       <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}
@@ -41,6 +39,11 @@ export default class PublishersTable extends FetchDataTable {
                         customHeadingComponent={CreateTooltipHeader('The total number of articles in journals from the publisher, as extracted from Crossref.')} />
       <ColumnDefinition id="coverage" title="Coverage" customComponent={PercentCell}
                         customHeadingComponent={CreateTooltipHeader('The number of articles in Sci-Hub divided by the total number of articles.')} />
+      <ColumnDefinition id="crossref_open_access_percent" title="OpenAccess" customComponent={PercentCell}
+                        customHeadingComponent={OpenAccessHeadingComponent} />
+      <ColumnDefinition id="crossref_open_active_percent" title="Active"
+                        customComponent={PercentCell}
+                        customHeadingComponent={ActiveHeadingComponent} />
     </RowDefinition>;
   }
 
@@ -52,9 +55,19 @@ export default class PublishersTable extends FetchDataTable {
 
 const OpenAccessHeadingComponent = ({icon}) =>
   <div className="text-center">
-    <a className={tableStyles.header} href="javascript:void(0)" title="Proportion of publisher's articles that are in Open Access Journals.">
+    <a className={tableStyles.header} href="javascript:void(0)"
+       title="The percent of the publisher's articles that are in open access journals. Note that open access articles in hybrid journals do not count towards this measure.">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
            className="open-access-logo" />
+      {icon && <span className={tableStyles.headerCaret}>{icon}</span>}
+    </a>
+  </div>;
+
+const ActiveHeadingComponent = ({icon}) =>
+  <div className="text-center">
+    <a className={tableStyles.header} href="javascript:void(0)"
+       title="The percent of the publisher's articles that are in active journals (journals that still publish new articles).">
+      <i className="glyphicon glyphicon-ok text-success"/>
       {icon && <span className={tableStyles.headerCaret}>{icon}</span>}
     </a>
   </div>;

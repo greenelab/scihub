@@ -26,13 +26,16 @@ export function fetchPublishersData() {
       data = data.filter((x) => x.facet === 'Publisher');
       for (let journal of data) {
         journal.titles = parseFloat(journal.titles);
+        journal.journals = parseFloat(journal.journals);
         journal.crossref = parseFloat(journal.crossref);
         journal.crossref_open_access = parseFloat(journal.crossref_open_access);
+        journal.crossref_active = parseFloat(journal.crossref_active);
         journal.scihub = parseFloat(journal.scihub);
         journal.coverage = parseFloat(journal.coverage);
 
         // calculated fields
         journal.crossref_open_access_percent = journal.crossref_open_access/journal.crossref;
+        journal.crossref_open_active_percent = journal.crossref_active/journal.crossref;
       }
       resolve(data);
     });
