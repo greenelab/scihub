@@ -20,3 +20,12 @@ This docker container must be manually closed by the user when no longer needed.
 3. Run [`3.read-mysql.ipynb`](3.read-mysql.ipynb) to export the scimag mysql table to a tsv (see [`tsv`](tsv) directory).
 
 4. Run [`4.analyze-tsv.ipynb`](3.read-mysql.ipynb)
+
+To generate SHA-256 hashes for the ignored files, change directories to either [`sql`](sql) or [`tsv`](tsv) and run:
+
+```sh
+shasum --algorithm 256 *.xz *.rar *.sql > checksums-sha256.txt
+```
+
+Due to large file size, `sql/scimag_dbbackup-2017-04-07.rar` and `tsv/libgen-scimag-2017-04-07.tsv.xz` are not tracked in this repository.
+Instead, they are [available on figshare](https://doi.org/10.6084/m9.figshare.5231245 "A user-friendly extract of the LibGen scimag metadata SQL dump on 2017-04-07").

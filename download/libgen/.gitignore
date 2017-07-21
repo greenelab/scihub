@@ -1,5 +1,6 @@
 # Large files
-sql/
+sql/*
+!sql/checksums-sha256.txt
 mysql.db/
 # Critical file that exceeds the GitHub LFS 2 GB limit
 tsv/libgen-scimag-2017-04-07.tsv.xz
