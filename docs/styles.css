@@ -12,11 +12,11 @@
 
 .section-description {
   margin-bottom: 30px; }
+
+.open-access-logo {
+  height: 16px; }
 .journal-table__heading--15d {
   cursor: pointer; }
-
-.journal-table__logo--2bG {
-  height: 16px; }
 .table__select--wPX {
   margin-left: 20px;
   margin-right: 20px;
@@ -36,3 +36,12 @@
 
 .table__headerCaret--17F {
   margin-left: 8px; }
+
+.table__headerIcon--aWF {
+  color: darkgrey; }
+
+.table__percent--2_N {
+  white-space: nowrap; }
+  .table__percent--2_N > sup {
+    margin-left: 1px;
+    margin-right: 1px; }

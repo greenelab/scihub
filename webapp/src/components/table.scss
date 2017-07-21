@@ -24,3 +24,17 @@
 .headerCaret {
   margin-left: 8px;
 }
+
+
+.headerIcon {
+  color: darkgrey;
+}
+
+
+.percent {
+  white-space: nowrap;
+  >sup {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}

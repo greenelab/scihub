@@ -7,8 +7,12 @@ import {Link} from 'react-router-dom';
 export default function Home({}) {
   return <div>
     <div className="jumbotron">
-      <p className="text-center">
-        Sci-Hub is a pirate website that provides access to full texts from the scholarly literature, including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub. The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from publicly available data. This webapp is a companion to the study, "Sci-Hub provides access to nearly all scholarly literature."
+      <p className="">
+        Sci-Hub is a pirate website that provides access to full texts from the scholarly literature,
+        including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub.
+        The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from
+        publicly available data. This webapp is a companion to the study, <a href="https://peerj.com/preprints/3100/" target="_blank">"Sci-Hub provides access to
+        nearly all scholarly literature"</a>.
       </p>
     </div>
 

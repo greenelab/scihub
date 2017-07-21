@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Griddle, {plugins} from 'griddle-react';
-import {format} from "../utils/helpers";
+import {format, isString} from "../utils/helpers";
 import Loading from "./Loading";
 
 import styles from './table.scss';
@@ -35,7 +35,16 @@ export const LocalTable =(props) => <Table {...props} plugins={[plugins.LocalPlu
 
 export const NumberCell = ({value}) => <span>{format.number(value, 0)}</span>;
 
-export const PercentCell = ({value}) => <span>{format.percent(value)}</span>;
+export const PercentCell = ({value}) => {
+  let percent = Math.floor(value*100);
+  let decimals = Math.floor(value*10000) - Math.floor(value * 100) * 100;
+
+  return <span className={styles.percent}>
+    {percent}
+    <sup>{format.digits(decimals, 2)}</sup>
+    %
+  </span>;
+};
 
 export const TableLayout = ({ Table, Pagination, Filter }) => (
   <div>
@@ -120,7 +129,7 @@ export class FetchDataTable extends React.Component {
 
 export const TooltipHeading = ({title, tooltip, icon}) =>
   <a className={styles.header} title={tooltip} href="javascript:void(0)">
-    {title}
+    {title} <i className={`glyphicon glyphicon-question-sign ${styles.headerIcon}`} />
     {icon && <span className={styles.headerCaret}>{icon}</span>}
   </a>;
 
