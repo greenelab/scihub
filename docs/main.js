@@ -12412,10 +12412,10 @@ object-assign
             className: "jumbotron"
         }, u.default.createElement("p", {
             className: ""
-        }, 'Sci-Hub is a pirate website that provides access to full texts from the scholarly literature, including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub. The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from publicly available data. This webapp is a companion to the study, "Sci-Hub provides access to nearly all scholarly literature", published ', u.default.createElement("a", {
+        }, "Sci-Hub is a pirate website that provides access to full texts from the scholarly literature, including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub. The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from publicly available data. This webapp is a companion to the study, ", u.default.createElement("a", {
             href: "https://peerj.com/preprints/3100/",
             target: "_blank"
-        }, "here"), ".")), u.default.createElement("div", {
+        }, '"Sci-Hub provides access to nearly all scholarly literature"'), ".")), u.default.createElement("div", {
             className: "row"
         }, u.default.createElement("div", {
             className: "col-sm-6 text-center"
