@@ -148,7 +148,6 @@ Publisher	Accademia Nazionale dei Lincei	2	520	0	822	822	0.6326034063260341
 Publisher	Accounting Association of Australia and New Zealand	1	1082	0	1091	1091	0.9917506874427131
 Publisher	Acoustical Society of America	2	56174	0	146304	146452	0.38356594652172726
 Publisher	Acoustical Society of Japan	1	2	1071	1071	1071	0.0018674136321195146
-Publisher	ACS	63	1393600	0	1312982	1410862	0.9877649266902079
 Publisher	ACT Publishing Group Limited	1	0	0	170	170	0.0
 Publisher	Acta Medica Belgica	2	2421	0	2450	2450	0.9881632653061224
 Publisher	ACTA Press	3	0	0	37	37	0.0
@@ -193,7 +192,6 @@ Publisher	Agroinform	1	0	0	0	117	0.0
 Publisher	Ahmet Yesevi Universitesi	1	0	0	78	78	0.0
 Publisher	Aim Shams University	1	396	403	403	403	0.9826302729528535
 Publisher	Ain Shams University	1	767	0	789	789	0.9721166032953105
-Publisher	AIP	26	530951	10416	542596	591833	0.8971297646464459
 Publisher	AIP Publishing LLC	1	9	0	0	318	0.02830188679245283
 Publisher	Air & Waste Management Association	1	3019	0	3042	3042	0.9924391847468771
 Publisher	Air Pollution Control Association	1	3739	0	0	3741	0.9994653835872761
@@ -287,6 +285,7 @@ Publisher	American Board of Family Medicine.	1	2127	2214	2214	2214	0.96070460704
 Publisher	American Bryological & Lichenological Society	1	6588	0	10446	10446	0.6306720275703619
 Publisher	American Business Communication Association	1	2020	0	2023	2023	0.9985170538803757
 Publisher	American Ceramic Society	2	29886	0	30007	30007	0.9959676075582364
+Publisher	American Chemical Society	63	1393600	0	1312982	1410862	0.9877649266902079
 Publisher	American College Counseling Association	1	375	0	380	380	0.9868421052631579
 Publisher	American College of Allergy, Asthma, & Immunology	1	6375	0	6401	6401	0.9959381346664584
 Publisher	American College of Chest Physicians	1	4023	0	0	6748	0.5961766449318316
@@ -328,6 +327,7 @@ Publisher	American Institute of Biological Sciences	1	15093	0	15251	15251	0.9896
 Publisher	American Institute of Chemical Engineers	2	16982	0	16323	17021	0.9977087127665825
 Publisher	American Institute of Industrial Engineers	1	712	0	0	712	1.0
 Publisher	American Institute of Mathematical Sciences	14	855	0	8441	8441	0.10129131619476366
+Publisher	American Institute of Physics	26	530951	10416	542596	591833	0.8971297646464459
 Publisher	American Intra-Ocular Implant Society	1	1122	0	0	1122	1.0
 Publisher	American Journal of Health Promotion Inc.	1	2749	0	2825	2825	0.9730973451327434
 Publisher	American Journal of Science	1	8932	0	11547	11547	0.7735342513206893
@@ -359,6 +359,7 @@ Publisher	American Pharmaceutical Association	2	5559	0	0	5787	0.9606013478486263
 Publisher	American Pharmacists Association	2	10125	0	0	10127	0.9998025081465389
 Publisher	American Philosophical Society	1	1080	0	0	1080	1.0
 Publisher	American Philosophical Society. Library	1	0	0	8	8	0.0
+Publisher	American Physical Society	16	551629	3628	349141	552397	0.9986096955631547
 Publisher	American Physical Therapy Association	3	3937	0	5608	6855	0.574325309992706
 Publisher	American Physiological Society	15	41507	965	55287	60506	0.6859980828347602
 Publisher	American Phytopathological Society	3	11417	0	32591	32591	0.3503114356724249
@@ -368,6 +369,7 @@ Publisher	American Political Science Association	1	407	0	0	407	1.0
 Publisher	American Protestant Health Association	1	140	0	0	140	1.0
 Publisher	American Psychiatric Association	1	20885	0	24421	24421	0.8552065844969493
 Publisher	American Psychiatric Publishing, Inc.	5	56748	0	63702	63702	0.8908354525760572
+Publisher	American Psychological Association	54	134349	0	184445	205103	0.6550318620400482
 Publisher	American Psychological Association Inc.	3	275	0	411	411	0.6690997566909975
 Publisher	American Public Health Association	2	36296	0	19401	37712	0.9624522698345355
 Publisher	American Real Estate Society	1	41	0	41	41	1.0
@@ -407,6 +409,7 @@ Publisher	American Society of Agronomy, Inc.	3	539	0	24743	25769	0.0209166052233
 Publisher	American Society of Andrology	1	1955	0	0	1958	0.998467824310521
 Publisher	American Society of Animal Science	1	1198	0	20705	20705	0.0578604201883603
 Publisher	American Society of Brewing Chemists	1	37	0	2762	2762	0.013396089790007242
+Publisher	American Society of Civil Engineers	35	71546	0	68136	72496	0.9868958287353785
 Publisher	American Society of Clinical Hypnosis	1	3201	0	3213	3213	0.996265172735761
 Publisher	American Society of Clinical Oncology	3	18590	0	55526	55526	0.33479811259590103
 Publisher	American Society of Comparative Law	1	3697	0	5191	5191	0.7121941822384897
@@ -426,6 +429,7 @@ Publisher	American Society of Law, Medicine & Ethics	1	2577	0	2979	2979	0.865055
 Publisher	American Society of Limnology and Oceanography	2	1053	0	1167	1167	0.9023136246786633
 Publisher	American Society of Limnonogy and Oceanography	1	9210	0	10292	10292	0.8948698017877963
 Publisher	American Society of Mammalogists	2	14187	0	14564	14564	0.9741142543257347
+Publisher	American Society of Mechanical Engineers	37	86588	0	101235	118602	0.7300720055311041
 Publisher	American Society of Nephrology	1	3347	0	3367	3367	0.994059994059994
 Publisher	American Society of Neuoradiology	1	4538	0	4588	4588	0.9891020052310375
 Publisher	American Society of Parasitology	1	17573	0	17648	17648	0.9957502266545785
@@ -471,14 +475,12 @@ Publisher	Anthropological Society of Nippon	1	0	0	0	2649	0.0
 Publisher	Antioch Review, Inc.	1	6218	0	0	6503	0.9561740735045363
 Publisher	Antiquity Publications Ltd.	1	8775	0	12137	12137	0.72299579797314
 Publisher	AOAC International	1	1130	0	1324	1324	0.8534743202416919
-Publisher	APA	54	134349	0	184445	205103	0.6550318620400482
 Publisher	Aple Editores SA	1	0	0	0	293	0.0
 Publisher	Apollo Books	2	842	61	61	903	0.9324473975636767
 Publisher	Appalachian State University	1	6802	0	0	6815	0.998092443140132
 Publisher	Appleton & Lange	1	23054	0	23180	23180	0.9945642795513373
 Publisher	Applied Poultry Science, Inc.	1	1931	0	1954	1954	0.9882292732855681
 Publisher	Applied Probability Trust	2	6449	0	16797	16797	0.3839376079061737
-Publisher	APS	16	551629	3628	349141	552397	0.9986096955631547
 Publisher	ApS Brno s.r.o.	1	1	0	325	325	0.003076923076923077
 Publisher	Arab Society of Nephrology and Renal Transplantation	1	0	0	0	62	0.0
 Publisher	Arachnological Society of Japan	1	2	0	1000	1000	0.002
@@ -506,7 +508,6 @@ Publisher	Ars Brevis	1	477	0	1253	1253	0.38068635275339185
 Publisher	Art Institute of Chicago	1	394	0	0	394	1.0
 Publisher	Artesian Books Ltd.	1	2023	0	2046	2046	0.9887585532746823
 Publisher	Articulo	1	1	166	166	166	0.006024096385542169
-Publisher	ASCE	35	71546	0	68136	72496	0.9868958287353785
 Publisher	ASEAN Federation of Endocrine Societies (AFES)	1	0	203	203	203	0.0
 Publisher	ASERS Publishing	1	5	0	8	8	0.625
 Publisher	Ashgate Publishing Ltd.	2	1323	0	1358	1358	0.9742268041237113
@@ -520,7 +521,6 @@ Publisher	Asian Network for Scientific Information	20	3082	0	18000	29423	0.10474
 Publisher	Asian Pacific Organization for Cancer Prevention	1	71	0	6049	6049	0.011737477268970078
 Publisher	Asian-Australasian Association of Animal Production Societies	1	68	0	5630	5630	0.012078152753108348
 Publisher	Aslib	1	2755	0	0	2818	0.9776437189496097
-Publisher	ASME	37	86588	0	101235	118602	0.7300720055311041
 Publisher	Asoc Espanola Linguistica Aplicada	1	20	0	80	80	0.25
 Publisher	Asociacion Andaluza de Medicos Forenses	1	0	355	355	355	0.0
 Publisher	Asociacion Cavelier Del Derecho, Universidad del Rosario	1	0	36	36	36	0.0
@@ -1988,7 +1988,6 @@ Publisher	ICE Publishing	22	18743	0	21199	21385	0.8764554594341828
 Publisher	ICE Publishing Ltd.	3	354	0	397	397	0.8916876574307305
 Publisher	Icelandic Medical Association and the Medical Society of Reykjavik	1	0	0	114	114	0.0
 Publisher	IEE	53	75712	0	60239	110609	0.68450126119936
-Publisher	IEEE	309	892079	4562	777288	904779	0.9859634231121633
 Publisher	IFAC Secretariat	1	5334	0	5485	5485	0.9724703737465816
 Publisher	Ifjusagi Lapkiado Vallalat	1	12	0	596	596	0.020134228187919462
 Publisher	Igaku-Shoin Ltd.	1	1023	0	0	1027	0.9961051606621227
@@ -2136,6 +2135,7 @@ Publisher	Institute of Developing Economies	1	1500	0	1540	1540	0.974025974025974
 Publisher	Institute of Development Studies, Sussex, University of Sussex	1	1860	0	1954	1954	0.9518935516888434
 Publisher	Institute of Ecology of Vilnius University	1	764	0	0	764	1.0
 Publisher	Institute of Economics, The Ural Branch of Russian Academy of Sciences	1	0	816	816	816	0.0
+Publisher	Institute of Electrical and Electronics Engineers	309	892079	4562	777288	904779	0.9859634231121633
 Publisher	Institute of Energy	1	13	0	0	18	0.7222222222222222
 Publisher	Institute of Environmental Sciences and Technology	1	0	0	0	258	0.0
 Publisher	Institute of Food Technologists	2	22261	0	22313	22313	0.997669520010756
@@ -2385,7 +2385,7 @@ Publisher	Intersentia	1	3	0	346	346	0.008670520231213872
 Publisher	InterVarsity Christian Fellowship	1	2393	0	2499	2499	0.9575830332132853
 Publisher	Investment Analysts Society of Southern Africa	1	31	0	34	34	0.9117647058823529
 Publisher	IODP-MI	1	63	491	491	491	0.12830957230142567
-Publisher	IOP	74	401973	40206	327570	423534	0.9490926348297893
+Publisher	IOP Publishing	74	401973	40206	327570	423534	0.9490926348297893
 Publisher	IOS Press	79	14648	6369	32094	32550	0.4500153609831029
 Publisher	IP Publishing Ltd	1	595	0	611	611	0.9738134206219312
 Publisher	IPC Science & Technology Press	4	2390	0	0	2390	1.0
@@ -3361,11 +3361,10 @@ Publisher	Osterreichische Gesellschaft fur Soziologie	1	547	0	588	588	0.93027210
 Publisher	Other Press	1	926	0	938	938	0.9872068230277186
 Publisher	Ottawa Field-Naturalists' Club	1	0	0	1762	1762	0.0
 Publisher	Oud-Studentenbonden van de Belgische Brouwerijscholen	1	125	0	125	125	1.0
-Publisher	OUP	239	894601	63910	1038899	1053301	0.8493308180662508
 Publisher	Overseas Ministries Study Center	1	314	0	314	314	1.0
 Publisher	Oxford Brookes University	1	136	0	354	354	0.384180790960452
 Publisher	Oxford Literary Review	1	33	0	650	650	0.05076923076923077
-Publisher	Oxford University Press	1	100	0	143	143	0.6993006993006993
+Publisher	Oxford University Press	240	894701	63910	1039042	1053444	0.8493104521929974
 Publisher	Oxfordshire Publishers	1	1092	0	1100	1100	0.9927272727272727
 Publisher	Oxymag	1	1	0	360	360	0.002777777777777778
 Publisher	P J B Publications Ltd.	1	1102	0	1125	1125	0.9795555555555555
@@ -3666,6 +3665,7 @@ Publisher	Royal Netherlands Pharmaceutical Society	1	1060	0	1060	1060	1.0
 Publisher	Royal Photographic Society of Great Britain	1	12	0	0	1879	0.006386375731772219
 Publisher	Royal Scottish Geographical Society	1	6493	0	0	6508	0.9976951444376152
 Publisher	Royal Society for the Promotion of Health	3	14306	0	0	14307	0.9999301041448242
+Publisher	Royal Society of Chemistry	67	383528	596	331730	408089	0.9398145992663365
 Publisher	Royal Society of Edinburgh	1	2712	0	0	2782	0.9748382458662832
 Publisher	Royal Society of Edinburgh Scotland Foundation	1	264	0	271	271	0.974169741697417
 Publisher	Royal Society Of Edinburgh.	1	941	0	0	1040	0.9048076923076923
@@ -3682,7 +3682,6 @@ Publisher	Royal Society of Victoria	1	4	0	39	39	0.10256410256410256
 Publisher	Royal Society Publishing	2	778	450	916	916	0.8493449781659389
 Publisher	Royal Swedish Academy of Sciences	3	19582	0	22002	22002	0.8900099990909918
 Publisher	Royal Zoological Society of New South Wales	1	19	0	696	696	0.027298850574712645
-Publisher	RSC	67	383528	596	331730	408089	0.9398145992663365
 Publisher	Rudolf M. Rohrer	1	0	0	0	144	0.0
 Publisher	Rural Sociological Society	1	984	0	1028	1028	0.9571984435797666
 Publisher	Russell Palmer	1	512	0	0	512	1.0
@@ -3778,7 +3777,6 @@ Publisher	Seminario Matematico de Barcelona	1	240	0	251	251	0.9561752988047809
 Publisher	Seminario Matematico e Fisico di Milano	1	1066	0	0	1066	1.0
 Publisher	Seoul Kjo	1	2	0	1294	1294	0.0015455950540958269
 Publisher	Seoul National University	2	2	581	697	697	0.0028694404591104736
-Publisher	SEPM	1	3409	0	7523	7523	0.45314369267579424
 Publisher	Serbian Biological Society	1	28	1738	1738	1738	0.01611047180667434
 Publisher	Serbian Medical Association	1	24	1852	1852	1852	0.012958963282937365
 Publisher	SERDI Publisher	1	1535	0	1634	1634	0.9394124847001224
@@ -4005,6 +4003,7 @@ Publisher	Society for Psychotherapy Research (SPR - Italia)	1	0	100	100	100	0.0
 Publisher	Society for Qing Studies	1	86	0	342	342	0.25146198830409355
 Publisher	Society for Range Management	1	6558	0	0	7057	0.9292900666005385
 Publisher	Society for Reproduction and Fertility	4	13108	0	13579	13966	0.9385650866389804
+Publisher	Society for Sedimentary Geology	1	3409	0	7523	7523	0.45314369267579424
 Publisher	Society for Song, Yuan, and Conquest Dynasties Studies	1	50	0	0	110	0.45454545454545453
 Publisher	Society for the Experimental Analysis of Behavior, Inc.	2	5122	0	7726	7726	0.6629562516179135
 Publisher	Society for the History of Discoveries	1	426	0	723	723	0.5892116182572614
@@ -4063,6 +4062,7 @@ Publisher	Society of Naval Architects and Marine Engineers	2	146	0	301	301	0.485
 Publisher	Society of Nippon Dental University	1	35	0	0	35	1.0
 Publisher	Society of Nuclear Medicine	1	468	0	478	478	0.9790794979079498
 Publisher	Society of Pediatric Science	1	756	0	790	790	0.9569620253164557
+Publisher	Society of Petroleum Engineers	14	18417	0	4362	18994	0.9696219858902811
 Publisher	Society of Photo-Optical Instrumentation Engineers	2	2366	0	2451	2451	0.9653202774377805
 Publisher	Society Of Physical Therapy Science	1	3302	0	3545	3545	0.9314527503526093
 Publisher	Society of Porphyrins and Phthalocyanines	1	2101	0	2270	2270	0.9255506607929516
@@ -4126,7 +4126,6 @@ Publisher	Spain	1	145	147	147	147	0.9863945578231292
 Publisher	Spandidos Publications	5	13045	0	18710	18710	0.6972207375734901
 Publisher	Spanish Association of Economic History	1	636	0	641	641	0.9921996879875195
 Publisher	Spatial Planning and Sustainable Development	1	0	0	0	107	0.0
-Publisher	SPE	14	18417	0	4362	18994	0.9696219858902811
 Publisher	Special Care Dentistry	1	2277	0	2285	2285	0.9964989059080963
 Publisher	Special Interest Group on Computer Graphics, Association for Computing Machinery	4	7190	0	800	12234	0.5877063920222331
 Publisher	Spejalisci Dermatolodzy	1	119	238	238	238	0.5
