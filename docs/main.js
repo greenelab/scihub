@@ -9611,10 +9611,10 @@ object-assign
         var e = t.value;
         return p.default.createElement("span", null, v.format.number(e, 0));
     }, e.PercentCell = function(t) {
-        var e = t.value, n = Math.floor(100 * e), r = Math.floor(1e4 * e) - 100 * Math.floor(100 * e);
+        var e = t.value;
         return p.default.createElement("span", {
             className: _.default.percent
-        }, n, p.default.createElement("sup", null, v.format.digits(r, 2)), "%");
+        }, v.format.percent(e));
     }, e.TableLayout = function(t) {
         var e = t.Table, n = t.Pagination, r = t.Filter;
         return p.default.createElement("div", null, p.default.createElement(r, null), p.default.createElement("div", {
@@ -9837,7 +9837,7 @@ object-assign
             a.join(n);
         },
         percent: function(t) {
-            return o.number(100 * t) + "%";
+            return o.number(100 * t, 1) + "%";
         },
         digits: function(t) {
             var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 2;

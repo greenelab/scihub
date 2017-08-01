@@ -35,7 +35,7 @@ export const format = {
     return s.join(decPoint);
   },
 
-  percent: (x) => `${format.number(x*100)}%`,
+  percent: (x) => `${format.number(x*100, 1)}%`,
 
   digits (number, places = 2) {
     if (places === 0) return '';
