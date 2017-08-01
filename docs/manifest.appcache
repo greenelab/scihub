@@ -1,6 +1,11 @@
 CACHE MANIFEST
-# 4b43e6ac95e240ca2b31
+# 5cddff676b1970d589d1
 
+glyphicons-halflings-regular.eot
+glyphicons-halflings-regular.woff
+glyphicons-halflings-regular.woff2
+glyphicons-halflings-regular.ttf
+glyphicons-halflings-regular.svg
 main.js
 styles.css
 
