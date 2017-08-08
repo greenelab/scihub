@@ -29,11 +29,13 @@ export default class Root extends React.Component {
         <div className="container">
           <Navbar />
 
-          <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/journals" component={JournalTable}/>
-            <Route exact path="/publishers" component={PublishersTable}/>
-          </Switch>
+          <div className={styles.container}>
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route exact path="/journals" component={JournalTable}/>
+              <Route exact path="/publishers" component={PublishersTable}/>
+            </Switch>
+          </div>
         </div>
       </div>
     </Router>;

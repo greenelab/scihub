@@ -321,7 +321,7 @@
     this.webpackHotUpdate = function(t, e) {
         s(t, e), d && d(t, e);
     };
-    var v, g, y, m, _ = !0, b = "5cddff676b1970d589d1", w = {}, x = [], M = [], E = [], S = "idle", O = 0, C = 0, P = {}, A = {}, T = {}, N = {};
+    var v, g, y, m, _ = !0, b = "016bf9eaed8d9297cfd8", w = {}, x = [], M = [], E = [], S = "idle", O = 0, C = 0, P = {}, A = {}, T = {}, N = {};
     h.m = t, h.c = N, h.i = function(t) {
         return t;
     }, h.d = function(t, e, n) {
@@ -9143,6 +9143,7 @@ object-assign
     }, "values"), i.Arguments = i.Array, r("keys"), r("values"), r("entries");
 }, function(t, e) {
     t.exports = {
+        container: "root__container--e-a",
         loading: "root__loading--1OG",
         app: "root__app--pnh",
         github: "root__github--KBo"
@@ -13140,7 +13141,9 @@ object-assign
                     className: f.default.app
                 }, s.default.createElement("div", {
                     className: "container"
-                }, s.default.createElement(v.default, null), s.default.createElement(p.Switch, null, s.default.createElement(p.Route, {
+                }, s.default.createElement(v.default, null), s.default.createElement("div", {
+                    className: f.default.container
+                }, s.default.createElement(p.Switch, null, s.default.createElement(p.Route, {
                     exact: !0,
                     path: "/",
                     component: w.default
@@ -13152,7 +13155,7 @@ object-assign
                     exact: !0,
                     path: "/publishers",
                     component: _.default
-                })))));
+                }))))));
             }
         } ]), e;
     }(s.default.Component);

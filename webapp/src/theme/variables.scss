@@ -6,13 +6,12 @@
  *
  */
 
-// Custom Colors
-$cyan: #33e0ff;
-$humility: #777;
+@font-face { font-family: 'Avenir'; src: url('./AvenirLTW01-55Roman.woff2'); }
 
 // Bootstrap Variables
-$brand-primary: darken(#428bca, 6.5%);
-$brand-secondary: #e25139;
+$brand-primary: #993333;
+$brand-secondary: #336600;
+
 $brand-success: #5cb85c;
 $brand-warning: #f0ad4e;
 $brand-danger: #d9534f;
@@ -21,4 +20,4 @@ $brand-info: #5bc0de;
 $text-color: #333;
 
 $font-size-base: 14px;
-$font-family-sans-serif: "Helvetica Neue", Helvetica, sans-serif;
+$font-family-sans-serif: 'Avenir', "Helvetica Neue", Helvetica, sans-serif;

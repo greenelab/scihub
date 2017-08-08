@@ -1,5 +1,9 @@
 
 .container {
+  background-color: #fff;
+  padding: 20px 20px 50px 20px;
+  border-radius: 4px;
+  border: 1px solid #e7e7e7;
 }
 
 .loading {
@@ -24,7 +28,28 @@
 
 
 :global {
+  html {
+
+  }
+
+  body {
+
+    &:before {
+      content: ' ';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url('./img/background.jpg');
+      background-size: cover;
+      opacity: 0.7;
+      z-index: -1;
+    }
+  }
+
   .section-title {
+    margin-top: 0;
   }
 
   .section-description {
