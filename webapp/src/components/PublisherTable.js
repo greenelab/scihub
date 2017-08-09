@@ -10,6 +10,8 @@ import {
 } from "./Table";
 import {FetchDataTable, TooltipHeading} from "./Table";
 import {format} from "../utils/helpers";
+import Tooltip from './tooltip';
+
 
 export default class PublishersTable extends FetchDataTable {
   render () {
@@ -55,19 +57,21 @@ export default class PublishersTable extends FetchDataTable {
 
 const OpenAccessHeadingComponent = ({icon}) =>
   <div className="text-center">
-    <a className={tableStyles.header} href="javascript:void(0)"
-       title="The percent of the publisher's articles that are in open access journals. Note that open access articles in hybrid journals do not count towards this measure.">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
-           className="open-access-logo" />
+    <a className={tableStyles.header} href="javascript:void(0)">
+      <Tooltip title="The percent of the publisher's articles that are in open access journals. Note that open access articles in hybrid journals do not count towards this measure">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
+             className="open-access-logo" />
+      </Tooltip>
       {icon && <span className={tableStyles.headerCaret}>{icon}</span>}
     </a>
   </div>;
 
 const ActiveHeadingComponent = ({icon}) =>
   <div className="text-center">
-    <a className={tableStyles.header} href="javascript:void(0)"
-       title="The percent of the publisher's articles that are in active journals (journals that still publish new articles).">
-      <i className="glyphicon glyphicon-ok text-success"/>
+    <a className={tableStyles.header} href="javascript:void(0)">
+      <Tooltip title="The percent of the publisher's articles that are in active journals (journals that still publish new articles)">
+        <i className="glyphicon glyphicon-ok text-success"/>
+      </Tooltip>
       {icon && <span className={tableStyles.headerCaret}>{icon}</span>}
     </a>
   </div>;

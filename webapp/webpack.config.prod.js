@@ -32,7 +32,6 @@ module.exports = {
     new CleanWebpackPlugin(['docs'], {root: path.resolve('..')}),
     // css files from the extract-text-plugin loader
     extractStyles,
-    new AppCachePlugin({}),
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {warnings: false},

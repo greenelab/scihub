@@ -8450,7 +8450,8 @@ body:before {
   margin-left: 8px; }
 
 .table__headerIcon--aWF {
-  color: darkgrey; }
+  color: darkgrey;
+  margin-left: 10px; }
 
 .table__percent--2_N {
   white-space: nowrap; }
