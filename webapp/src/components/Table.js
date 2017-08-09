@@ -5,6 +5,7 @@ import {format, isString} from "../utils/helpers";
 import Loading from "./Loading";
 
 import styles from './table.scss';
+import Tooltip from './tooltip';
 
 function VoidLink(props) {
   return <a >{props.displayName || props.columnName}</a>;
@@ -118,11 +119,15 @@ export class FetchDataTable extends React.Component {
 }
 
 
-export const TooltipHeading = ({title, tooltip, icon}) =>
-  <a className={styles.header} title={tooltip} href="javascript:void(0)">
-    {title} <i className={`glyphicon glyphicon-question-sign ${styles.headerIcon}`} />
+export const TooltipHeading = ({title, tooltip, icon}) =>{
+  return <a className={styles.header} href="javascript:void(0)">
+    {title}
+    <Tooltip title={tooltip}>
+      <i className={`glyphicon glyphicon-question-sign ${styles.headerIcon}`} />
+    </Tooltip>
     {icon && <span className={styles.headerCaret}>{icon}</span>}
   </a>;
+};
 
 // Higher order component used to create a custom table header with the given tooltip
 export const CreateTooltipHeader = (tooltip) => (props) => <TooltipHeading {...props} tooltip={tooltip} />;

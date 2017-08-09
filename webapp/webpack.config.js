@@ -4,17 +4,18 @@ var webpack = require('webpack');
 var BundleTracker = require('webpack-bundle-tracker');
 var StatsPlugin = require('stats-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const env = require('./env');
 
 let devServerPort = 9001;
 
 module.exports = {
+  devtool: 'eval',
+
   //the entry point we created earlier. Note that './' means
   //your current directory. You don't have to specify the extension  now,
   //because you will specify extensions later in the `resolve` section
-  entry: './src/index',
+  entry: [ 'bootstrap-loader', './src/index' ],
 
   output: {
     //where you want your compiled bundle to be stored
@@ -23,10 +24,7 @@ module.exports = {
     filename: '[name].js',
   },
 
-  devtool: 'eval',
-
   plugins: [
-    new CleanWebpackPlugin(['docs'], {root: path.resolve('..')}),
     new HtmlWebpackPlugin({
       // Required
       inject: false,
@@ -41,6 +39,8 @@ module.exports = {
         env: env
       }
     }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.IgnorePlugin(/webpack-stats\.json$/),
   ],
 
   devServer: {

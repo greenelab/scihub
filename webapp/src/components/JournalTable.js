@@ -4,6 +4,7 @@ import {fetchJournalDataMemoized} from "../utils/data";
 import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
 import { connect } from 'react-redux';
 import {Link} from 'react-router-dom';
+import Tooltip from './tooltip';
 
 import styles from './journal-table.scss';
 import {
@@ -57,12 +58,23 @@ JournalCell = connect((state, props) => ({
   rowData: rowDataSelector(state, props)
 }))(JournalCell);
 
-let ActiveJournalCell = ({value}) => <div className="text-center">{value
-  ? <i className="glyphicon glyphicon-ok text-success" title="Active: this journal still publishes articles."/>
-  : <i className="glyphicon glyphicon-remove text-danger" title="Inactive: this journal no longer publishes articles." />}</div>;
+let ActiveJournalCell = ({value}) =>
+  <div className="text-center">
+    {value
+    ? <Tooltip title="Active: this journal still publishes articles.">
+        <i className="glyphicon glyphicon-ok text-success" />
+      </Tooltip>
+    : <Tooltip title="Inactive: this journal no longer publishes articles.">
+        <i className="glyphicon glyphicon-remove text-danger"  />
+      </Tooltip>
+    }
+  </div>;
 
 let OpenAccessJournalCell = ({value}) => <div className="text-center">
-  {value && <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
-                 className="open-access-logo" title="The articles of this journal are free to read."/>}
+  {value && <Tooltip title="The articles of this journal are free to read.">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
+                   className="open-access-logo" />
+    </Tooltip>
+  }
 </div>;
 
