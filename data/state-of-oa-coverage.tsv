@@ -1,0 +1,64 @@
+catalog	oa_color	articles	repository	coverage
+Unpaywall	bronze	14412	Sci-Hub	0.85248
+Unpaywall	closed	44713	Sci-Hub	0.88576
+Unpaywall	gold	12025	Sci-Hub	0.47809
+Unpaywall	gray	8	Sci-Hub	0.75
+Unpaywall	green	9436	Sci-Hub	0.92094
+Unpaywall	hybrid	6728	Sci-Hub	0.72354
+Unpaywall	total	87322	Sci-Hub	0.81542
+Web of Science	bronze	13395	Sci-Hub	0.88406
+Web of Science	closed	66180	Sci-Hub	0.97786
+Web of Science	gold	7632	Sci-Hub	0.56145
+Web of Science	gray	16	Sci-Hub	0.25
+Web of Science	green	11842	Sci-Hub	0.96977
+Web of Science	hybrid	4426	Sci-Hub	0.86127
+Web of Science	total	103491	Sci-Hub	0.92899
+Crossref	bronze	16195	Sci-Hub	0.67274
+Crossref	closed	72154	Sci-Hub	0.84949
+Crossref	gold	3212	Sci-Hub	0.38107
+Crossref	gray	29	Sci-Hub	0.068966
+Crossref	green	4814	Sci-Hub	0.80307
+Crossref	hybrid	3548	Sci-Hub	0.56454
+Crossref	total	99952	Sci-Hub	0.79322
+Unpaywall	bronze	14412	oaDOI	1
+Unpaywall	closed	44713	oaDOI	0
+Unpaywall	gold	12025	oaDOI	1
+Unpaywall	gray	8	oaDOI	0
+Unpaywall	green	9436	oaDOI	1
+Unpaywall	hybrid	6728	oaDOI	1
+Unpaywall	total	87322	oaDOI	0.48786
+Web of Science	bronze	13395	oaDOI	1
+Web of Science	closed	66180	oaDOI	0
+Web of Science	gold	7632	oaDOI	1
+Web of Science	gray	16	oaDOI	0
+Web of Science	green	11842	oaDOI	1
+Web of Science	hybrid	4426	oaDOI	1
+Web of Science	total	103491	oaDOI	0.36037
+Crossref	bronze	16195	oaDOI	1
+Crossref	closed	72154	oaDOI	0
+Crossref	gold	3212	oaDOI	1
+Crossref	gray	29	oaDOI	0
+Crossref	green	4814	oaDOI	1
+Crossref	hybrid	3548	oaDOI	1
+Crossref	total	99952	oaDOI	0.27782
+Unpaywall	bronze	14412	Combined	1
+Unpaywall	closed	44713	Combined	0.88576
+Unpaywall	gold	12025	Combined	1
+Unpaywall	gray	8	Combined	0.75
+Unpaywall	green	9436	Combined	1
+Unpaywall	hybrid	6728	Combined	1
+Unpaywall	total	87322	Combined	0.94148
+Web of Science	bronze	13395	Combined	1
+Web of Science	closed	66180	Combined	0.97786
+Web of Science	gold	7632	Combined	1
+Web of Science	gray	16	Combined	0.25
+Web of Science	green	11842	Combined	1
+Web of Science	hybrid	4426	Combined	1
+Web of Science	total	103491	Combined	0.98573
+Crossref	bronze	16195	Combined	1
+Crossref	closed	72154	Combined	0.84949
+Crossref	gold	3212	Combined	1
+Crossref	gray	29	Combined	0.068966
+Crossref	green	4814	Combined	1
+Crossref	hybrid	3548	Combined	1
+Crossref	total	99952	Combined	0.89108
