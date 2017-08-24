@@ -29,6 +29,15 @@ export function fetchJournalCoverageChart(journalId) {
   });
 }
 
+export function fetchJournalQuantilesChart(journalId) {
+  let path = 'https://raw.githubusercontent.com/arielsvn/scihub/a925dafebcb7ff03370969ae8480188b992cb4af/webapp/src/data/scihub-log-journal-quantiles-12001.tsv';
+  return new Promise((resolve, reject) => {
+    d3.tsv(path, function(data) {
+      resolve(data);
+    });
+  });
+}
+
 
 export function fetchPublishersData() {
   return new Promise((resolve, reject) => {

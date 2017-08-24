@@ -1,0 +1,11 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "description": "Quantile chart",
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "type": "ordinal"
+    },
+    "y": {"field": "quantile", "type": "quantitative"}
+  }
+}

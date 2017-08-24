@@ -1,52 +1,12 @@
 
 import React from 'react';
 import {Link} from 'react-router-dom';
-import VegaLite from 'react-vega-lite';
 
-import spec from './journal-coverage-chart.json';
-import Loading from "./Loading";
-import {fetchJournalCoverageChart} from "../utils/data";
+import coverageSpec from './journal-coverage-chart.json';
+import quantileSpec from './journal-quantile-chart.json';
 
-export class FetchDataChart extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  componentDidMount() {
-    this.fetchData();
-  }
-
-  render () {
-    if (!this.state.data) {
-      return <div ref={(c)=>this.loaderWrapper = c}><Loading /></div>;
-    } else {
-      let spec = {
-        width: this.elementWidth,
-        ...this.props.spec,
-      };
-
-      return <VegaLite renderer="svg" {...this.props}
-                       spec={ spec }
-                       data={this.state.data}
-                       enableHover={true}
-                       onNewView={(view)=>console.log(view)}/>
-    }
-  }
-
-  fetchData() {
-    this.elementWidth = this.loaderWrapper.offsetWidth;
-  }
-}
-
-export class JournalsCoverageChart extends FetchDataChart {
-  async fetchData() {
-    let data = await fetchJournalCoverageChart(this.props.journalId);
-
-    super.fetchData();
-    this.setState({ data: { values: data } });
-  }
-}
+import {fetchJournalCoverageChart, fetchJournalQuantilesChart} from "../utils/data";
+import {FetchDataChart} from "./chart";
 
 export default function ({match: {params: {journalId}}}) {
   return <div>
@@ -58,7 +18,12 @@ export default function ({match: {params: {journalId}}}) {
       <li>a table of the top 100 most downloaded papers</li>
     </ul>
 
-    <JournalsCoverageChart spec={spec} journalId={journalId} />
+    <h3 className="text-center">Yearly coverage chart</h3>
+    <FetchDataChart spec={coverageSpec} fetchData={()=>fetchJournalCoverageChart(journalId)} />
+
+    <h3 className="text-center">Yearly quantile chart</h3>
+    <FetchDataChart spec={quantileSpec} fetchData={()=>fetchJournalQuantilesChart(journalId)} />
+
   </div>;
 }
 
