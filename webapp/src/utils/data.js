@@ -20,6 +20,16 @@ export function fetchJournalData() {
   });
 }
 
+export function fetchJournalCoverageChart(journalId) {
+  let path = 'https://github.com/greenelab/scihub/files/1058944/jounal-year-coverage-12001.txt';
+  return new Promise((resolve, reject) => {
+    d3.tsv(path, function(data) {
+      resolve(data);
+    });
+  });
+}
+
+
 export function fetchPublishersData() {
   return new Promise((resolve, reject) => {
     d3.tsv(env.publishers_data, function(data) {
@@ -59,4 +69,6 @@ export const asyncMemoize = (fn) => {
 
 export const fetchJournalDataMemoized = asyncMemoize(fetchJournalData);
 export const fetchPublishersDataMemoized = asyncMemoize(fetchPublishersData);
+
+
 

@@ -1,0 +1,8 @@
+{
+  "description": "Journal coverage bar chart",
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "a", "type": "ordinal"},
+    "y": {"field": "b", "type": "quantitative"}
+  }
+}

@@ -32,7 +32,7 @@ export default class JournalTable extends FetchDataTable {
   rowDefinition() {
     return <RowDefinition>
       <ColumnDefinition id="active" title=" " width="20px" customComponent={ActiveJournalCell} />
-      <ColumnDefinition id="title_name" title="Journal" width="70%" //customComponent={JournalCell}
+      <ColumnDefinition id="title_name" title="Journal" width="70%" customComponent={JournalCell}
                         customHeadingComponent={CreateTooltipHeader('The journal\'s name, as extracted from Scopus.')} />
       <ColumnDefinition id="open_access" title=" " width="20px" customComponent={OpenAccessJournalCell} />
       <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}
