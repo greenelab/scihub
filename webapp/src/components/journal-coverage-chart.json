@@ -1,8 +1,23 @@
 {
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
   "description": "Journal coverage bar chart",
   "mark": "bar",
   "encoding": {
-    "x": {"field": "a", "type": "ordinal"},
-    "y": {"field": "b", "type": "quantitative"}
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "timeUnit": "year",
+      "axis": {
+        "title": "Year"
+      }
+    },
+    "y": {
+      "field": "coverage",
+      "type": "quantitative",
+      "axis": {
+        "title": "Coverage",
+        "format": ".0%"
+      }
+    }
   }
 }

@@ -21,7 +21,7 @@ export function fetchJournalData() {
 }
 
 export function fetchJournalCoverageChart(journalId) {
-  let path = 'https://github.com/greenelab/scihub/files/1058944/jounal-year-coverage-12001.txt';
+  let path = 'https://raw.githubusercontent.com/arielsvn/scihub/a925dafebcb7ff03370969ae8480188b992cb4af/webapp/src/data/jounal-year-coverage-12001.tsv';
   return new Promise((resolve, reject) => {
     d3.tsv(path, function(data) {
       resolve(data);

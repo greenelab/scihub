@@ -19,21 +19,32 @@ export class FetchDataChart extends React.Component {
 
   render () {
     if (!this.state.data) {
-      return <Loading />
+      return <div ref={(c)=>this.loaderWrapper = c}><Loading /></div>;
     } else {
-      return <VegaLite {...this.props} data={this.state.data}/>
+      let spec = {
+        width: this.elementWidth,
+        ...this.props.spec,
+      };
+
+      return <VegaLite renderer="svg" {...this.props}
+                       spec={ spec }
+                       data={this.state.data}
+                       enableHover={true}
+                       onNewView={(view)=>console.log(view)}/>
     }
   }
 
   fetchData() {
-    throw new Error('not implemented');
+    this.elementWidth = this.loaderWrapper.offsetWidth;
   }
 }
 
 export class JournalsCoverageChart extends FetchDataChart {
   async fetchData() {
     let data = await fetchJournalCoverageChart(this.props.journalId);
-    this.setState({data});
+
+    super.fetchData();
+    this.setState({ data: { values: data } });
   }
 }
 
@@ -47,7 +58,7 @@ export default function ({match: {params: {journalId}}}) {
       <li>a table of the top 100 most downloaded papers</li>
     </ul>
 
-    <JournalsCoverageChart spec={spec} journalId={journalId} width={500} />
+    <JournalsCoverageChart spec={spec} journalId={journalId} />
   </div>;
 }
 
