@@ -82,7 +82,7 @@ export class FetchDataTable extends React.Component {
     } else {
       return <Griddle data={this.state.data}
                       plugins={[plugins.LocalPlugin]}
-                      pageProperties={{pageSize: 20}}
+                      pageProperties={this.pageProperties()}
                       components={{
                         Layout: TableLayout
                       }}
@@ -101,6 +101,10 @@ export class FetchDataTable extends React.Component {
         {this.rowDefinition()}
       </Griddle>
     }
+  }
+
+  pageProperties() {
+    return {pageSize: 20};
   }
 
   sortProperties() {
