@@ -51,7 +51,7 @@ export class TopArticlesTable extends FetchDataTable {
       <ColumnDefinition id="doi" title="DOI" customComponent={DoiCell} />
       <ColumnDefinition id="title" title="Title" width="50%"  />
       <ColumnDefinition id="authors" title="Authors" width="50%" />
-      <ColumnDefinition id="issued" title="Issued" width="20%" customComponent={IssuedYearCell} />
+      <ColumnDefinition id="issued" title="Year" width="20%" customComponent={IssuedYearCell} />
 
       <ColumnDefinition id="downloads" title="Downloads" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('Downloads: total number of times the article was accessed')} />

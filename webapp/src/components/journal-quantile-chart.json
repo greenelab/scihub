@@ -5,8 +5,16 @@
   "encoding": {
     "x": {
       "field": "quantile",
-      "type": "quantitative"
+      "type": "quantitative",
+      "axis": {
+        "title": ""
+      }
     },
     "y": {"field": "visitors", "type": "quantitative"}
+  },
+  "config": {
+    "mark": {
+      "color": "#990000"
+    }
   }
 }

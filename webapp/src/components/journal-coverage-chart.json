@@ -8,7 +8,7 @@
       "type": "temporal",
       "timeUnit": "year",
       "axis": {
-        "title": "Year"
+        "title": ""
       }
     },
     "y": {
@@ -18,6 +18,11 @@
         "title": "Coverage",
         "format": ".0%"
       }
+    }
+  },
+  "config": {
+    "mark": {
+      "color": "#990000"
     }
   }
 }
