@@ -33,7 +33,6 @@ export const LocalTable =(props) => <Table {...props} plugins={[plugins.LocalPlu
 
 
 
-
 export const NumberCell = ({value}) => <span>{format.number(value, 0)}</span>;
 
 export const PercentCell = ({value}) => <span className={styles.percent}>{format.percent(value)}</span>;

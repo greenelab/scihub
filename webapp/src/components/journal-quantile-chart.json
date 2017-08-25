@@ -4,8 +4,9 @@
   "mark": "line",
   "encoding": {
     "x": {
-      "type": "ordinal"
+      "field": "quantile",
+      "type": "quantitative"
     },
-    "y": {"field": "quantile", "type": "quantitative"}
+    "y": {"field": "visitors", "type": "quantitative"}
   }
 }
