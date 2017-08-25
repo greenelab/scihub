@@ -8427,8 +8427,6 @@ body:before {
 
 .open-access-logo {
   height: 16px; }
-.journal-table__heading--15d {
-  cursor: pointer; }
 .table__select--wPX {
   margin-left: 20px;
   margin-right: 20px;
@@ -8458,3 +8456,5 @@ body:before {
   .table__percent--2_N > sup {
     margin-left: 1px;
     margin-right: 1px; }
+.journal-table__heading--15d {
+  cursor: pointer; }
