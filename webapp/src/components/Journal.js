@@ -48,8 +48,7 @@ export class TopArticlesTable extends FetchDataTable {
 
   rowDefinition() {
     return <RowDefinition>
-      <ColumnDefinition id="doi" title="DOI" customComponent={DoiCell} />
-      <ColumnDefinition id="title" title="Title" width="50%"  />
+      <ColumnDefinition id="title" title="Title" width="50%" customComponent={JournalTitleCell} />
       <ColumnDefinition id="authors" title="Authors" width="50%" />
       <ColumnDefinition id="issued" title="Year" width="20%" customComponent={IssuedYearCell} />
 
@@ -68,13 +67,16 @@ export class TopArticlesTable extends FetchDataTable {
   }
 }
 
-export let DoiCell = ({value}) =>
-  <span>
-    <form method="post" action="https://dx.doi.org" target="_blank">
-      <input type="hidden" name="hdl" value={value} />
-      <input type="image" src="http://www.doi.org/img/Logo_TM.png" alt="Submit" title={value} />
-    </form>
-  </span>;
+export let JournalTitleCell = ({value, rowData}) =>
+  <form method="post" action="https://dx.doi.org" target="_blank">
+    <button type="submit" name="hdl" value={rowData.doi} className="btn-link text-left">
+      {value}
+    </button>
+  </form>;
+JournalTitleCell = connect((state, props) => ({
+  // rowData will be available into JournalCell
+  rowData: rowDataSelector(state, props)
+}))(JournalTitleCell);
 
 
 const formatYear = d3.time.format("%Y");
