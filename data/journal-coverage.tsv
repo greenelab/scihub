@@ -1197,9 +1197,6 @@ scopus_id	title_name	active	open_access	scihub	crossref	coverage
 14182	NeuroSignals	1	1	370	825	0.44848
 14183	Aphasiology	1	0	2261	2279	0.9921
 14184	Applied Neuropsychology	1	0	941	982	0.95825
-14184	Applied Neuropsychology	1	0	941	982	0.95825
-14184	Applied Neuropsychology:Adult	1	0	941	982	0.95825
-14184	Applied Neuropsychology:Adult	1	0	941	982	0.95825
 14186	Krankenhaushygiene und Infektionsverhutung	1	0	1222	1244	0.98232
 14188	Statistica Neerlandica	1	0	2071	2140	0.96776
 14189	Statistica Sinica	1	0	33	596	0.055369
@@ -2023,7 +2020,6 @@ scopus_id	title_name	active	open_access	scihub	crossref	coverage
 15739	Pediatric Infectious Disease Journal	1	0	11090	13991	0.79265
 15741	Pediatric Neurology	1	0	6655	6679	0.99641
 15744	Pediatric Pathology and Molecular Medicine	0	0	364	423	0.86052
-15745	SIGIR Forum (ACM Special Interest Group on Information Retrieval)	1	0	402	909	0.44224
 15745	SIGIR Forum (ACM Special Interest Group on Information Retrieval)	1	0	402	909	0.44224
 15746	Pediatric Physical Therapy	1	0	2509	2816	0.89098
 15747	Pediatric Pulmonology	1	0	6353	6873	0.92434
@@ -12590,7 +12586,6 @@ scopus_id	title_name	active	open_access	scihub	crossref	coverage
 3300148002	Journal for Nurse Practitioners	1	0	2677	2754	0.97204
 3300148003	Neuron Glia Biology	0	0	236	236	1
 3400148107	ECS Transactions	1	0	6909	7345	0.94064
-3400148107	ECS Transactions	1	0	6909	7345	0.94064
 3500148001	Indian journal of medical ethics	1	0	0	305	0
 3500148004	Cellular and Molecular Immunology	1	0	768	775	0.99097
 3500148005	Joint Commission Journal on Quality and Patient Safety	1	0	1236	1250	0.9888
@@ -18522,7 +18517,6 @@ scopus_id	title_name	active	open_access	scihub	crossref	coverage
 19700201404	Open Drug Safety Journal	0	0	0	12	0
 19700201405	International Journal of Micro Air Vehicles	1	0	153	170	0.9
 19700201406	Advances in Power Electronics	1	1	0	90	0
-19700201406	Advances in Power Electronics	1	1	0	90	0
 19700201407	Journal of Combustion	1	1	56	124	0.45161
 19700201409	Computational Methods in Applied Mathematics	1	0	259	463	0.5594
 19700201410	Milestones in Drug Therapy	1	0	34	84	0.40476
@@ -20993,7 +20987,6 @@ scopus_id	title_name	active	open_access	scihub	crossref	coverage
 21100332242	Journal of Low Power Electronics and Applications	1	1	11	116	0.094828
 21100332243	PhytoKeys	1	1	184	403	0.45658
 21100332402	Catalysts	1	1	133	579	0.22971
-21100332403	Journal of Information Security and Applications	1	0	148	150	0.98667
 21100332403	Journal of Information Security and Applications	1	0	148	150	0.98667
 21100332407	Journal of Biomimetics, Biomaterials and Biomedical Engineering	1	0	145	147	0.98639
 21100332423	APSIPA Transactions on Signal and Information Processing	1	1	63	73	0.86301
