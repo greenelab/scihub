@@ -21,16 +21,20 @@ export function fetchJournalData() {
 }
 
 export function fetchJournalCoverageChart(journalId) {
-  let path = 'https://raw.githubusercontent.com/arielsvn/scihub/a925dafebcb7ff03370969ae8480188b992cb4af/webapp/src/data/jounal-year-coverage-12001.tsv';
+  let path = `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/master/journals/${journalId}/yearly-coverage-${journalId}.tsv`;
   return new Promise((resolve, reject) => {
     d3.tsv(path, function(data) {
+      for (let row of data) {
+        row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
+      }
+
       resolve(data);
     });
   });
 }
 
 export function fetchJournalQuantilesChart(journalId) {
-  let path = 'https://raw.githubusercontent.com/arielsvn/scihub/a925dafebcb7ff03370969ae8480188b992cb4af/webapp/src/data/scihub-log-journal-quantiles-12001.tsv';
+  let path = `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/master/journals/${journalId}/access-quantiles-${journalId}.tsv`;
   return new Promise((resolve, reject) => {
     d3.tsv(path, function(data) {
       resolve(data);
@@ -39,7 +43,7 @@ export function fetchJournalQuantilesChart(journalId) {
 }
 
 export function fetchJournalTopArticles(journalId) {
-  let path = 'https://raw.githubusercontent.com/arielsvn/scihub/a925dafebcb7ff03370969ae8480188b992cb4af/webapp/src/data/scihub-log-journal-top-articles-12001.tsv';
+  let path = `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/master/journals/${journalId}/top-articles-${journalId}.tsv`;
   return new Promise((resolve, reject) => {
     d3.tsv(path, function(data) {
       resolve(data);

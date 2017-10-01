@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import coverageSpec from './journal-coverage-chart.json';
 import quantileSpec from './journal-quantile-chart.json';
 
-import * as d3 from "d3";
+import * as d3 from 'd3';
 
 import {
   fetchJournalCoverageChart, fetchJournalQuantilesChart,

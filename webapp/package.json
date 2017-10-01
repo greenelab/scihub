@@ -34,6 +34,7 @@
     "react": "^15.5.4",
     "react-bootstrap": "^0.31.2",
     "react-dom": "^15.4.2",
+    "react-redux": "^5.0.6",
     "react-router-dom": "^4.1.1",
     "react-vega-lite": "0.0.1",
     "resolve-url-loader": "^2.1.0",
