@@ -11,14 +11,14 @@ import * as d3 from 'd3';
 
 import {
   fetchJournalCoverageChart, fetchJournalQuantilesChart,
-  fetchJournalTopArticles
+  fetchJournalTopArticles, fetchJournalInfo
 } from "../utils/data";
 import {FetchDataChart} from "./chart";
 import {CreateTooltipHeader, FetchDataTable, NumberCell, rowDataSelector} from "./Table";
 
 export default function ({match: {params: {journalId}}}) {
   return <div>
-    <h2><Link to="/journals" className="btn btn-link">{'<<'} Back</Link> Journal: {journalId}</h2>
+    <JournalInfo journalId={journalId} />
 
     <h3 className="text-center">Yearly coverage chart</h3>
     <FetchDataChart spec={coverageSpec} fetchData={()=>fetchJournalCoverageChart(journalId)} />
@@ -31,6 +31,35 @@ export default function ({match: {params: {journalId}}}) {
     <TopArticlesTable journalId={journalId} />
 
   </div>;
+}
+
+
+class JournalInfo extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  async componentDidMount() {
+    let data = await fetchJournalInfo(this.props.journalId);
+    this.setState({data});
+  }
+
+  render() {
+    let {journalId} = this.props;
+    let {data} = this.state;
+
+    if (!this.state.data) {
+      return <div>
+        <h2><Link to="/journals" className="btn btn-link">{'<<'} Back</Link> Journal: {journalId}</h2>
+      </div>;
+    } else {
+      return <div>
+        <h2><Link to="/journals" className="btn btn-link">{'<<'} Back</Link> Journal: {data.title_name}</h2>
+      </div>
+    }
+  }
 }
 
 
