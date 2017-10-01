@@ -49,7 +49,7 @@ export class TopArticlesTable extends FetchDataTable {
   rowDefinition() {
     return <RowDefinition>
       <ColumnDefinition id="title" title="Title" width="50%" customComponent={JournalTitleCell} />
-      <ColumnDefinition id="authors" title="Authors" width="50%" />
+      <ColumnDefinition id="authors" title="Authors" width="50%" customComponent={AuthorsCell}/>
       <ColumnDefinition id="issued" title="Year" width="20%" customComponent={IssuedYearCell} />
 
       <ColumnDefinition id="downloads" title="Downloads" customComponent={NumberCell}
@@ -81,5 +81,39 @@ JournalTitleCell = connect((state, props) => ({
 
 const formatYear = d3.time.format("%Y");
 export const IssuedYearCell = ({value}) => <span>{value ? formatYear(new Date(value)) : ''}</span>;
+
+
+class AuthorsCell extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      collapsed: true,
+    };
+
+    this._authors = props.value.split(',');
+  }
+
+  render() {
+    if (this._authors.length < 10) {
+      return <span>{this.props.value}</span>;
+    } else {
+      if (this.state.collapsed) {
+        return <span>
+          {this._authors.slice(0, 6).join(',')}
+          <br/>
+          <a href="javascript:void(0)" onClick={()=>this.setState({collapsed: false})}>Show All</a>
+        </span>;
+      } else {
+        return <span>
+          {this.props.value}
+          <br/>
+          <a href="javascript:void(0)" onClick={()=>this.setState({collapsed: true})}>Show Less</a>
+        </span>
+      }
+    }
+  }
+}
+
 
 

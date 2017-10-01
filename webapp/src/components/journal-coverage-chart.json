@@ -10,6 +10,7 @@
     "x": {
       "field": "year",
       "type": "ordinal",
+      "timeUnit": "year",
       "axis": {
         "title": ""
       }
