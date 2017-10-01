@@ -2,11 +2,14 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
   "description": "Journal coverage bar chart",
   "mark": "bar",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
   "encoding": {
     "x": {
       "field": "year",
-      "type": "temporal",
-      "timeUnit": "year",
+      "type": "ordinal",
       "axis": {
         "title": ""
       }

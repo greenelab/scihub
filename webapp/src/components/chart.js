@@ -1,8 +1,9 @@
 
 import React from 'react';
 import Loading from "./Loading";
-import VegaLite from 'react-vega-lite';
+import VegaLite from '../vega';
 
+import styles from './chart.scss';
 
 export class FetchDataChart extends React.Component {
   constructor(props) {
@@ -25,11 +26,10 @@ export class FetchDataChart extends React.Component {
         ...this.props.spec,
       };
 
-      return <VegaLite renderer="svg" {...this.props}
+      return <VegaLite className={styles.vegaChart} renderer="svg" {...this.props}
                        spec={ spec }
                        data={this.state.data}
-                       enableHover={true}
-                       onNewView={(view)=>console.log(view)}/>
+                       enableHover={true} />
     }
   }
 }

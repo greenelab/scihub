@@ -25,6 +25,7 @@ export function fetchJournalCoverageChart(journalId) {
   return new Promise((resolve, reject) => {
     d3.tsv(path, function(data) {
       for (let row of data) {
+        row.year = parseInt(row.year);
         row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
       }
 

@@ -2,6 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
   "description": "Quantile chart",
   "mark": "line",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
   "encoding": {
     "x": {
       "field": "quantile",
