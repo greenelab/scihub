@@ -6,14 +6,15 @@ import {format} from "./helpers";
 export function fetchTsv({url, forEach}) {
   return new Promise((resolve, reject) => {
     d3.tsv(url, function(data) {
-      if (forEach) {
-        for (let row of data) {
-          forEach(row);
+        if (forEach) {
+          for (let row of data) {
+            forEach(row);
+          }
         }
-      }
 
-      resolve(data);
-    });
+        resolve(data);
+      })
+      .on('error', (e)=>reject(e));
   });
 }
 

@@ -321,7 +321,7 @@
     this.webpackHotUpdate = function(t, e) {
         s(t, e), p && p(t, e);
     };
-    var v, g, m, y, b = !0, _ = "3e7cb7975df615676520", x = {}, w = [], S = [], E = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
+    var v, g, m, y, b = !0, _ = "b3699c80e852deb688e6", x = {}, w = [], S = [], E = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
     h.m = t, h.c = A, h.i = function(t) {
         return t;
     }, h.d = function(t, e, n) {
@@ -15932,7 +15932,9 @@ object-assign
         }, {
             key: "render",
             value: function() {
-                return this.state.data ? d.default.createElement(p.default, {
+                return this.state.error ? d.default.createElement("div", {
+                    className: "no-data"
+                }, "No data available.") : this.state.data ? d.default.createElement(p.default, {
                     data: this.state.data,
                     plugins: [ h.plugins.LocalPlugin ],
                     pageProperties: this.pageProperties(),
@@ -16069,6 +16071,8 @@ object-assign
                     }
                 }
                 t(e);
+            }).on("error", function(t) {
+                return r(t);
             });
         });
     }
@@ -36723,7 +36727,7 @@ object-assign
                     width: "50%",
                     customComponent: j
                 }), d.default.createElement(p.ColumnDefinition, {
-                    id: "issued",
+                    id: "year",
                     title: "Year",
                     width: "20%",
                     customComponent: D
@@ -36755,18 +36759,24 @@ object-assign
                     return regeneratorRuntime.wrap(function(t) {
                         for (;;) switch (t.prev = t.next) {
                           case 0:
-                            return t.next = 2, (0, w.fetchJournalTopArticles)(this.props.journalId);
+                            return t.prev = 0, t.next = 3, (0, w.fetchJournalTopArticles)(this.props.journalId);
 
-                          case 2:
+                          case 3:
                             e = t.sent, this.setState({
                                 data: e
+                            }), t.next = 10;
+                            break;
+
+                          case 7:
+                            t.prev = 7, t.t0 = t.catch(0), this.setState({
+                                error: !0
                             });
 
-                          case 4:
+                          case 10:
                           case "end":
                             return t.stop();
                         }
-                    }, t, this);
+                    }, t, this, [ [ 0, 7 ] ]);
                 }));
                 return t;
             }()
@@ -37225,20 +37235,26 @@ object-assign
                     return regeneratorRuntime.wrap(function(t) {
                         for (;;) switch (t.prev = t.next) {
                           case 0:
-                            return t.next = 2, this.props.fetchData();
+                            return t.prev = 0, t.next = 3, this.props.fetchData();
 
-                          case 2:
+                          case 3:
                             e = t.sent, this.elementWidth = this.loaderWrapper.offsetWidth, this.setState({
                                 data: {
                                     values: e
                                 }
+                            }), t.next = 11;
+                            break;
+
+                          case 8:
+                            t.prev = 8, t.t0 = t.catch(0), this.setState({
+                                error: !0
                             });
 
-                          case 5:
+                          case 11:
                           case "end":
                             return t.stop();
                         }
-                    }, t, this);
+                    }, t, this, [ [ 0, 8 ] ]);
                 }));
                 return t;
             }()
@@ -37246,6 +37262,9 @@ object-assign
             key: "render",
             value: function() {
                 var t = this;
+                if (this.state.error) return f.default.createElement("div", {
+                    className: "no-data"
+                }, "No data available.");
                 if (this.state.data) {
                     var e = c({
                         width: this.elementWidth

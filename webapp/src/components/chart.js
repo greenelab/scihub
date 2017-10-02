@@ -12,13 +12,19 @@ export class FetchDataChart extends React.Component {
   }
 
   async componentDidMount() {
-    let data = await this.props.fetchData();
-    this.elementWidth = this.loaderWrapper.offsetWidth;
-    this.setState({ data: { values: data } });
+    try {
+      let data = await this.props.fetchData();
+      this.elementWidth = this.loaderWrapper.offsetWidth;
+      this.setState({ data: { values: data } });
+    } catch (e) {
+      this.setState({error: true})
+    }
   }
 
   render () {
-    if (!this.state.data) {
+    if (this.state.error) {
+      return <div className="no-data">No data available.</div>;
+    } else if (!this.state.data) {
       return <div ref={(c)=>this.loaderWrapper = c}><Loading /></div>;
     } else {
       let spec = {

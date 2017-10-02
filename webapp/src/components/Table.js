@@ -76,7 +76,9 @@ export class FetchDataTable extends React.Component {
   }
 
   render () {
-    if (!this.state.data) {
+    if (this.state.error) {
+      return <div className="no-data">No data available.</div>;
+    } else if (!this.state.data) {
       return <Loading />
     } else {
       return <Griddle data={this.state.data}

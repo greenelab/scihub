@@ -8427,6 +8427,12 @@ body:before {
 
 .open-access-logo {
   height: 16px; }
+
+.no-data {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  text-align: center; }
 .chart__vegaChart--g-V svg {
   margin-left: auto;
   display: block; }

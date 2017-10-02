@@ -166,7 +166,7 @@ export class TopArticlesTable extends FetchDataTable {
     return <RowDefinition>
       <ColumnDefinition id="title" title="Title" width="50%" customComponent={JournalTitleCell} />
       <ColumnDefinition id="authors" title="Authors" width="50%" customComponent={AuthorsCell}/>
-      <ColumnDefinition id="issued" title="Year" width="20%" customComponent={IssuedYearCell} />
+      <ColumnDefinition id="year" title="Year" width="20%" customComponent={IssuedYearCell} />
 
       <ColumnDefinition id="downloads" title="Downloads" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('Downloads: total number of times the article was accessed')} />
@@ -178,8 +178,12 @@ export class TopArticlesTable extends FetchDataTable {
   }
 
   async fetchData() {
-    let data = await fetchJournalTopArticles(this.props.journalId);
-    this.setState({data});
+    try {
+      let data = await fetchJournalTopArticles(this.props.journalId);
+      this.setState({data});
+    } catch (e) {
+      this.setState({error: true});
+    }
   }
 }
 
