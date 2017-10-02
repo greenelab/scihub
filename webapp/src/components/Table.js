@@ -121,13 +121,15 @@ export class FetchDataTable extends React.Component {
   }
 }
 
+export const TableHeaderTip = ({tooltip}) => <Tooltip title={tooltip}>
+  <i className={`glyphicon glyphicon-question-sign ${styles.headerIcon}`} />
+</Tooltip>;
+
 
 export const TooltipHeading = ({title, tooltip, icon}) =>{
   return <a className={styles.header} href="javascript:void(0)">
     {title}
-    <Tooltip title={tooltip}>
-      <i className={`glyphicon glyphicon-question-sign ${styles.headerIcon}`} />
-    </Tooltip>
+    <TableHeaderTip tooltip={tooltip} />
     {icon && <span className={styles.headerCaret}>{icon}</span>}
   </a>;
 };

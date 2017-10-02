@@ -1,0 +1,14 @@
+
+.active {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.openAccess {
+  margin-left: 10px;
+  :global {
+    .open-access-logo {
+      height: 20px;
+    }
+  }
+}

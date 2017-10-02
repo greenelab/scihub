@@ -29,9 +29,11 @@ export const fetchJournalData = () => fetchTsv({
   }
 });
 
-
-export const fetchJournalInfo = (journalId) => fetchTsv({
-  url: `https://github.com/greenelab/scihub-browser-data/blob/master/journals/${journalId}/info-${journalId}.json?raw=true`,
+export const fetchJournalInfo = (journalId) => new Promise((resolve, reject) => {
+  let url = `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/master/journals/${journalId}/info-${journalId}.json`;
+  d3.json(url, function(data) {
+    resolve(data);
+  });
 });
 
 export const fetchJournalCoverageChart = (journalId) => fetchTsv({

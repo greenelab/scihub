@@ -14,11 +14,18 @@ import {
   fetchJournalTopArticles, fetchJournalInfo
 } from "../utils/data";
 import {FetchDataChart} from "./chart";
-import {CreateTooltipHeader, FetchDataTable, NumberCell, rowDataSelector} from "./Table";
+import {
+  CreateTooltipHeader, FetchDataTable, NumberCell, rowDataSelector,
+  TableHeaderTip
+} from "./Table";
+
+import JournalTable, {OpenAccessJournalCell, ActiveJournalCell} from './JournalTable';
+
+import styles from './journal.scss';
 
 export default function ({match: {params: {journalId}}}) {
   return <div>
-    <JournalInfo journalId={journalId} />
+    <JournalInfoLoader journalId={journalId} />
 
     <h3 className="text-center">Yearly coverage chart</h3>
     <FetchDataChart spec={coverageSpec} fetchData={()=>fetchJournalCoverageChart(journalId)} />
@@ -34,7 +41,7 @@ export default function ({match: {params: {journalId}}}) {
 }
 
 
-class JournalInfo extends React.Component {
+class JournalInfoLoader extends React.Component {
 
   constructor(props) {
     super(props);
@@ -52,14 +59,87 @@ class JournalInfo extends React.Component {
 
     if (!this.state.data) {
       return <div>
-        <h2><Link to="/journals" className="btn btn-link">{'<<'} Back</Link> Journal: {journalId}</h2>
+        <h2><Link to="/journals" className="btn btn-link">{'<<'} </Link> Journal: {journalId}</h2>
       </div>;
     } else {
-      return <div>
-        <h2><Link to="/journals" className="btn btn-link">{'<<'} Back</Link> Journal: {data.title_name}</h2>
-      </div>
+      return <JournalInfo data={data} />
     }
   }
+}
+
+function JournalInfoHeader({data, className = ''}) {
+  let title = data.homepage
+    ? <a href={data.homepage} target="_blank">{data.title_name}</a>
+    : <span>{data.title_name}</span>;
+
+  return <h2 className={className}>
+    <Link to="/journals" className="btn btn-link">{'<<'} </Link>
+    {title}
+
+    <ActiveJournalCell value={data.active === 1} className={styles.active} />
+    <OpenAccessJournalCell value={data.open_access === 1} className={styles.openAccess} />
+  </h2>
+}
+
+function JournalInfo({data}) {
+  return <div>
+    <JournalInfoHeader className="visible-xs" data={data}/>
+
+    <div className="table-responsive pull-right">
+      <table className="table table-hover table-bordered">
+        <thead className="griddle-table-heading">
+        <tr>
+          <th className="griddle-table-heading-cell">Sci-Hub <TableHeaderTip tooltip={JournalTable.Tooltips.scihub}/></th>
+          <th className="griddle-table-heading-cell">Crossref <TableHeaderTip tooltip={JournalTable.Tooltips.crossref}/></th>
+          <th className="griddle-table-heading-cell">Coverage <TableHeaderTip tooltip={JournalTable.Tooltips.coverage}/></th>
+        </tr>
+        </thead>
+        <tbody className="griddle-table-body">
+        <tr className="griddle-row">
+          <td className="griddle-cell"><span>457,650</span></td>
+          <td className="griddle-cell"><span>458,580</span></td>
+          <td className="griddle-cell"><span>99.8%</span></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <JournalInfoHeader className="hidden-xs" data={data}/>
+
+    <div className="clearfix"></div>
+
+    {data.access_logs && <div>
+      <h3 className="text-center">Access Logs</h3>
+
+      <div className="table-responsive">
+        <table className="table table-hover table-bordered text-center">
+          <thead className="griddle-table-heading">
+          <tr>
+            <th className="griddle-table-heading-cell text-center">Visitors</th>
+            <th className="griddle-table-heading-cell text-center">Downloads</th>
+            <th className="griddle-table-heading-cell text-center">Countries</th>
+            <th className="griddle-table-heading-cell text-center">Days</th>
+            <th className="griddle-table-heading-cell text-center">Months</th>
+            <th className="griddle-table-heading-cell text-center">Articles Requested</th>
+            <th className="griddle-table-heading-cell text-center">Articles</th>
+          </tr>
+          </thead>
+          <tbody className="griddle-table-body">
+          <tr className="griddle-row">
+            <td className="griddle-cell"><NumberCell value={data.access_logs.visitors}/></td>
+            <td className="griddle-cell"><NumberCell value={data.access_logs.downloads}/></td>
+            <td className="griddle-cell"><NumberCell value={data.access_logs.countries}/></td>
+            <td className="griddle-cell"><NumberCell value={data.access_logs.days}/></td>
+            <td className="griddle-cell"><NumberCell value={data.access_logs.months}/></td>
+            <td className="griddle-cell"><NumberCell value={data.access_logs.n_articles_requested}/></td>
+            <td className="griddle-cell"><NumberCell value={data.access_logs.n_articles}/></td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>}
+
+  </div>;
 }
 
 
