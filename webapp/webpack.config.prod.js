@@ -60,6 +60,10 @@ module.exports = {
       },
       {test: /\.(jpe?g|png|gif|svg|ico)$/, loader: 'url-loader?limit=10000&name=[name].[ext]'},
       {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+      {
         test: /\.scss$/,
         use: extractStyles.extract({
           fallback: 'style-loader',

@@ -8427,6 +8427,9 @@ body:before {
 
 .open-access-logo {
   height: 16px; }
+.chart__vegaChart--g-V svg {
+  margin-left: auto;
+  display: block; }
 .table__select--wPX {
   margin-left: 20px;
   margin-right: 20px;
@@ -8458,3 +8461,11 @@ body:before {
     margin-right: 1px; }
 .journal-table__heading--15d {
   cursor: pointer; }
+.journal__active--2sP {
+  margin-left: 10px;
+  font-size: 20px; }
+
+.journal__openAccess--3uK {
+  margin-left: 10px; }
+  .journal__openAccess--3uK .open-access-logo {
+    height: 20px; }
