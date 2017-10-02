@@ -28,7 +28,14 @@ export default function ({match: {params: {journalId}}}) {
     <JournalInfoLoader journalId={journalId} />
 
     <h3 className="text-center">Yearly coverage chart</h3>
-    <FetchDataChart spec={coverageSpec} fetchData={()=>fetchJournalCoverageChart(journalId)} />
+    <FetchDataChart spec={coverageSpec} fetchData={()=>fetchJournalCoverageChart(journalId)}
+                    tooltip={ {
+                      showAllFields: false,
+                      fields: [
+                        {field: 'tooltip_coverage', title: 'Coverage'},
+                        {field: 'year', title: 'Year', formatType: 'time', format: '%Y'},
+                      ]
+                    } }/>
 
     <h3 className="text-center">Article access distribution</h3>
     <FetchDataChart spec={quantileSpec} fetchData={()=>fetchJournalQuantilesChart(journalId)} />
@@ -106,7 +113,7 @@ function JournalInfo({data}) {
 
     <JournalInfoHeader className="hidden-xs" data={data}/>
 
-    <div className="clearfix"></div>
+    <div className="clearfix" />
 
     {data.access_logs && <div>
       <h3 className="text-center">Access Logs</h3>

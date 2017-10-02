@@ -1,7 +1,7 @@
-
 /* Helper functions used to fetch and pre-process data */
 
 import d3 from 'd3';
+import {format} from "./helpers";
 
 export function fetchTsv({url, forEach}) {
   return new Promise((resolve, reject) => {
@@ -40,6 +40,8 @@ export const fetchJournalCoverageChart = (journalId) => fetchTsv({
   url:`https://media.githubusercontent.com/media/greenelab/scihub-browser-data/master/journals/${journalId}/yearly-coverage-${journalId}.tsv`,
   forEach: (row) => {
     row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
+
+    row.tooltip_coverage = format.percent(row.coverage)
   }
 });
 

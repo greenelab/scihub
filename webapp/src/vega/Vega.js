@@ -3,9 +3,9 @@
 import React, {PropTypes} from 'react';
 import * as vega from 'vega';
 
-export function capitalize(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
+import {vega as vegaTooltip} from 'vega-tooltip';
+
+import 'vega-tooltip/build/vega-tooltip.css';
 
 export default class Vega extends React.Component {
   static propTypes = {
@@ -21,16 +21,12 @@ export default class Vega extends React.Component {
     updateOptions: PropTypes.object,
   };
 
-  static listenerName(signalName) {
-    return `onSignal${capitalize(signalName)}`;
-  }
-
   componentDidMount() {
     this.createVis(this.props.spec);
   }
 
   componentWillUnmount() {
-    this.clearListeners(this.props.spec);
+    this.clearListeners();
   }
 
   createVis(spec) {
@@ -42,34 +38,23 @@ export default class Vega extends React.Component {
         vis.renderer(props.renderer);
       }
 
-      vis.initialize(this.element);
+      vis
+        .initialize(this.element)
+        .hover()
+        .run();
 
-      // Attach listeners onto the signals
-      if (spec.signals) {
-        spec.signals.forEach(signal => {
-          vis.onSignal(signal.name, (...args) => {
-            const listener = this.props[Vega.listenerName(signal.name)];
-            if (listener) {
-              listener.apply(this, args);
-            }
-          });
-        });
+      if (this.props.tooltip) {
+        vegaTooltip(vis, this.props.tooltip);
       }
-
-      vis.run();
     } else {
-      this.clearListeners(this.props.spec);
+      this.clearListeners();
       this.vis = null;
     }
     return this;
   }
 
   // Remove listeners from the signals
-  clearListeners(spec) {
-    const vis = this.vis;
-    if (vis && spec && spec.signals) {
-      spec.signals.forEach(signal => vis.offSignal(signal.name));
-    }
+  clearListeners() {
     return this;
   }
 
