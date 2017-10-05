@@ -8,7 +8,7 @@ import styles from './table.scss';
 import Tooltip from './tooltip';
 
 
-export const NumberCell = ({value}) => <span>{format.number(value, 0)}</span>;
+export const NumberCell = ({value, decimals = 0}) => <span>{format.number(value, decimals)}</span>;
 
 export const PercentCell = ({value}) => <span className={styles.percent}>{format.percent(value)}</span>;
 

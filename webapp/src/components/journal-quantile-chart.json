@@ -15,7 +15,11 @@
         "format": ".0%"
       }
     },
-    "y": {"field": "visitors", "type": "quantitative"}
+    "y": {
+      "field": "visitors",
+      "type": "quantitative",
+      "scale": {"type": "sqrt"}
+    }
   },
   "config": {
     "mark": {

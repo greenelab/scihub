@@ -37238,7 +37238,7 @@ object-assign
                             return t.prev = 0, t.next = 3, this.props.fetchData();
 
                           case 3:
-                            e = t.sent, this.elementWidth = this.loaderWrapper.offsetWidth, this.setState({
+                            e = t.sent, this.elementWidth = this._wrapper.offsetWidth, this.setState({
                                 data: {
                                     values: e
                                 }
@@ -37280,7 +37280,7 @@ object-assign
                 }
                 return f.default.createElement("div", {
                     ref: function(e) {
-                        return t.loaderWrapper = e;
+                        return t._wrapper = e;
                     }
                 }, f.default.createElement(h.default, null));
             }

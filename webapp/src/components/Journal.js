@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
+import { RowDefinition, ColumnDefinition } from 'griddle-react';
 import { connect } from 'react-redux';
 
 import coverageSpec from './journal-coverage-chart.json';
@@ -15,8 +15,8 @@ import {
 } from "../utils/data";
 import {Chart} from "./chart";
 import {
-  CreateTooltipHeader, FetchDataTable, NumberCell, PercentCell, rowDataSelector,
-  TableHeaderTip
+  CreateTooltipHeader, FetchDataTable, NumberCell,
+  TableHeaderTip, PercentCell, rowDataSelector,
 } from "./Table";
 
 import JournalTable, {OpenAccessJournalCell, ActiveJournalCell} from './JournalTable';
@@ -54,29 +54,33 @@ export default class JournalDetails extends React.Component {
       return <div>
         <JournalInfoHeader data={this.state.info}/>
 
-        <h3 className="text-center">Overall coverage</h3>
+        <h3 className="">Overall coverage</h3>
         <JournalOverallCoverage data={this.state.info} />
 
-        <h3 className="text-center">Yearly coverage</h3>
+        <h3 className="">Yearly coverage</h3>
         <Chart spec={coverageSpec} data={this.state.coverage}
                tooltip={ {
                           showAllFields: false,
                           fields: [
-                            {field: 'tooltip_coverage', title: 'Coverage'},
+                            {field: 'scihub', title: 'Sci-Hub', formatType: "number", format: ',d'},
+                            {field: 'crossref', title: 'Crossref', formatType: "number", format: ',d'},
+                            {field: 'coverage', title: 'Coverage', formatType: "number", format: ',.1%'},
                             {field: 'year', title: 'Year', formatType: 'time', format: '%Y'},
                           ]
                         } }/>
 
         {this.state.info.access_logs && <div>
-          <h3 className="text-center">Access logs summary</h3>
+          <h3 className="">Access logs summary</h3>
+          <p className="section-description">Averages for how often articles published from January 2014 to October 2015 were accessed via Sci-Hub during September 2015 through February 2016.</p>
           <JournalAccessLogs data={this.state.info.access_logs}/>
         </div>}
 
-        <h3 className="text-center">Access logs visitor distribution</h3>
+        <h3 className="">Access logs visitor distribution</h3>
+        <p className="section-description">Visitor percentiles are plotted for articles published from January 2014 to October 2015. Visitors refers to the number of unique IP addressed that accessed the article via Sci-Hub from September 2015 to February 2016.</p>
         <Chart spec={quantileSpec} data={this.state.quantiles} />
 
-        <h3 className="text-center">Access logs top articles</h3>
-        <p className="text-center section-description">The following table shows the 100 most visited articles in Sci-Hub's access logs from September 2015 through February 2016.</p>
+        <h3 className="">Access logs top articles</h3>
+        <p className="section-description">The following table shows the 100 most visited articles in Sci-Hub's access logs from September 2015 through February 2016.</p>
         <TopArticlesTable journalId={this.journalId} data={this.state.articles} />
 
       </div>;
@@ -84,7 +88,6 @@ export default class JournalDetails extends React.Component {
   }
 
 }
-
 
 function JournalInfoHeader({data, className = ''}) {
   let title = data.homepage
@@ -121,15 +124,20 @@ function JournalOverallCoverage({data}) {
   </div>
 }
 
-
 function JournalAccessLogs({data}) {
   return <div className="table-responsive">
       <table className="table table-hover table-bordered">
         <thead className="griddle-table-heading">
         <tr>
-          <th className="griddle-table-heading-cell">Visitors</th>
-          <th className="griddle-table-heading-cell">Downloads</th>
-          <th className="griddle-table-heading-cell">Countries</th>
+          <th className="griddle-table-heading-cell">
+            Downloads <TableHeaderTip tooltip="Downloads: total number of times the article was accessed"/>
+          </th>
+          <th className="griddle-table-heading-cell">
+            Visitors <TableHeaderTip tooltip="Visitors: number of IP addresses that accessed the article"/>
+          </th>
+          <th className="griddle-table-heading-cell">
+            Countries <TableHeaderTip tooltip="Countries: number of countries (geolocation by IP address) from which the article was accessed"/>
+          </th>
           <th className="griddle-table-heading-cell">Days</th>
           <th className="griddle-table-heading-cell">Months</th>
           <th className="griddle-table-heading-cell">Articles Requested</th>
@@ -138,11 +146,11 @@ function JournalAccessLogs({data}) {
         </thead>
         <tbody className="griddle-table-body">
         <tr className="griddle-row">
-          <td className="griddle-cell"><NumberCell value={data.visitors}/></td>
-          <td className="griddle-cell"><NumberCell value={data.downloads}/></td>
-          <td className="griddle-cell"><NumberCell value={data.countries}/></td>
-          <td className="griddle-cell"><NumberCell value={data.days}/></td>
-          <td className="griddle-cell"><NumberCell value={data.months}/></td>
+          <td className="griddle-cell"><NumberCell value={data.downloads} decimals={1}/></td>
+          <td className="griddle-cell"><NumberCell value={data.visitors} decimals={1}/></td>
+          <td className="griddle-cell"><NumberCell value={data.countries} decimals={1}/></td>
+          <td className="griddle-cell"><NumberCell value={data.days} decimals={1}/></td>
+          <td className="griddle-cell"><NumberCell value={data.months} decimals={1}/></td>
           <td className="griddle-cell"><NumberCell value={data.n_articles_requested}/></td>
           <td className="griddle-cell"><NumberCell value={data.n_articles}/></td>
         </tr>
@@ -150,8 +158,6 @@ function JournalAccessLogs({data}) {
       </table>
   </div>;
 }
-
-
 
 export class TopArticlesTable extends FetchDataTable {
   sortProperties() {
@@ -191,10 +197,8 @@ JournalTitleCell = connect((state, props) => ({
   rowData: rowDataSelector(state, props)
 }))(JournalTitleCell);
 
-
 const formatYear = d3.time.format("%Y");
 export const IssuedYearCell = ({value}) => <span>{value ? formatYear(new Date(value)) : ''}</span>;
-
 
 class AuthorsCell extends React.Component {
   constructor(props) {
@@ -227,6 +231,3 @@ class AuthorsCell extends React.Component {
     }
   }
 }
-
-
-
