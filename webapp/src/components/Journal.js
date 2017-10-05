@@ -13,66 +13,78 @@ import {
   fetchJournalCoverageChart, fetchJournalQuantilesChart,
   fetchJournalTopArticles, fetchJournalInfo
 } from "../utils/data";
-import {FetchDataChart} from "./chart";
+import {Chart} from "./chart";
 import {
-  CreateTooltipHeader, FetchDataTable, NumberCell, rowDataSelector,
+  CreateTooltipHeader, FetchDataTable, NumberCell, PercentCell, rowDataSelector,
   TableHeaderTip
 } from "./Table";
 
 import JournalTable, {OpenAccessJournalCell, ActiveJournalCell} from './JournalTable';
 
 import styles from './journal.scss';
-
-export default function ({match: {params: {journalId}}}) {
-  return <div>
-    <JournalInfoLoader journalId={journalId} />
-
-    <h3 className="text-center">Yearly coverage chart</h3>
-    <FetchDataChart spec={coverageSpec} fetchData={()=>fetchJournalCoverageChart(journalId)}
-                    tooltip={ {
-                      showAllFields: false,
-                      fields: [
-                        {field: 'tooltip_coverage', title: 'Coverage'},
-                        {field: 'year', title: 'Year', formatType: 'time', format: '%Y'},
-                      ]
-                    } }/>
-
-    <h3 className="text-center">Article access distribution</h3>
-    <FetchDataChart spec={quantileSpec} fetchData={()=>fetchJournalQuantilesChart(journalId)} />
-
-    <h3 className="text-center">Top Articles</h3>
-    <p className="text-center section-description">The following table shows the 100 most visited articles in Sci-Hub's access logs from September 2015 through February 2016.</p>
-    <TopArticlesTable journalId={journalId} />
-
-  </div>;
-}
+import Loading from "./Loading";
 
 
-class JournalInfoLoader extends React.Component {
-
+export default class JournalDetails extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {ready: false};
+    this.journalId = this.props.match.params.journalId;
   }
 
   async componentDidMount() {
-    let data = await fetchJournalInfo(this.props.journalId);
-    this.setState({data});
+    let [info, coverage, quantiles, articles] = await Promise.all([
+      fetchJournalInfo(this.journalId),
+      fetchJournalCoverageChart(this.journalId),
+      fetchJournalQuantilesChart(this.journalId),
+      fetchJournalTopArticles(this.journalId)
+    ]);
+
+    this.setState({ready: true, info, coverage, quantiles, articles});
   }
 
   render() {
-    let {journalId} = this.props;
-    let {data} = this.state;
-
-    if (!this.state.data) {
+    if (!this.state.ready) {
       return <div>
-        <h2><Link to="/journals" className="btn btn-link">{'<<'} </Link> Journal: {journalId}</h2>
+        <h2><Link to="/journals" className="btn btn-link">{'<<'} </Link> Journal: {this.journalId}</h2>
+
+        <Loading />
       </div>;
     } else {
-      return <JournalInfo data={data} />
+      return <div>
+        <JournalInfoHeader data={this.state.info}/>
+
+        <h3 className="text-center">Overall coverage</h3>
+        <JournalOverallCoverage data={this.state.info} />
+
+        <h3 className="text-center">Yearly coverage</h3>
+        <Chart spec={coverageSpec} data={this.state.coverage}
+               tooltip={ {
+                          showAllFields: false,
+                          fields: [
+                            {field: 'tooltip_coverage', title: 'Coverage'},
+                            {field: 'year', title: 'Year', formatType: 'time', format: '%Y'},
+                          ]
+                        } }/>
+
+        {this.state.info.access_logs && <div>
+          <h3 className="text-center">Access logs summary</h3>
+          <JournalAccessLogs data={this.state.info.access_logs}/>
+        </div>}
+
+        <h3 className="text-center">Access logs visitor distribution</h3>
+        <Chart spec={quantileSpec} data={this.state.quantiles} />
+
+        <h3 className="text-center">Access logs top articles</h3>
+        <p className="text-center section-description">The following table shows the 100 most visited articles in Sci-Hub's access logs from September 2015 through February 2016.</p>
+        <TopArticlesTable journalId={this.journalId} data={this.state.articles} />
+
+      </div>;
     }
   }
+
 }
+
 
 function JournalInfoHeader({data, className = ''}) {
   let title = data.homepage
@@ -88,64 +100,54 @@ function JournalInfoHeader({data, className = ''}) {
   </h2>
 }
 
-function JournalInfo({data}) {
-  return <div>
-    <JournalInfoHeader className="visible-xs" data={data}/>
+function JournalOverallCoverage({data}) {
+  return <div className="table-responsive">
+    <table className="table table-hover table-bordered">
+      <thead className="griddle-table-heading">
+      <tr>
+        <th className="griddle-table-heading-cell">Sci-Hub <TableHeaderTip tooltip={JournalTable.Tooltips.scihub}/></th>
+        <th className="griddle-table-heading-cell">Crossref <TableHeaderTip tooltip={JournalTable.Tooltips.crossref}/></th>
+        <th className="griddle-table-heading-cell">Coverage <TableHeaderTip tooltip={JournalTable.Tooltips.coverage}/></th>
+      </tr>
+      </thead>
+      <tbody className="griddle-table-body">
+      <tr className="griddle-row">
+        <td className="griddle-cell"><NumberCell value={data.scihub}/></td>
+        <td className="griddle-cell"><NumberCell value={data.crossref}/></td>
+        <td className="griddle-cell"><PercentCell value={data.coverage}/></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+}
 
-    <div className="table-responsive pull-right">
+
+function JournalAccessLogs({data}) {
+  return <div className="table-responsive">
       <table className="table table-hover table-bordered">
         <thead className="griddle-table-heading">
         <tr>
-          <th className="griddle-table-heading-cell">Sci-Hub <TableHeaderTip tooltip={JournalTable.Tooltips.scihub}/></th>
-          <th className="griddle-table-heading-cell">Crossref <TableHeaderTip tooltip={JournalTable.Tooltips.crossref}/></th>
-          <th className="griddle-table-heading-cell">Coverage <TableHeaderTip tooltip={JournalTable.Tooltips.coverage}/></th>
+          <th className="griddle-table-heading-cell">Visitors</th>
+          <th className="griddle-table-heading-cell">Downloads</th>
+          <th className="griddle-table-heading-cell">Countries</th>
+          <th className="griddle-table-heading-cell">Days</th>
+          <th className="griddle-table-heading-cell">Months</th>
+          <th className="griddle-table-heading-cell">Articles Requested</th>
+          <th className="griddle-table-heading-cell">Articles</th>
         </tr>
         </thead>
         <tbody className="griddle-table-body">
         <tr className="griddle-row">
-          <td className="griddle-cell"><span>457,650</span></td>
-          <td className="griddle-cell"><span>458,580</span></td>
-          <td className="griddle-cell"><span>99.8%</span></td>
+          <td className="griddle-cell"><NumberCell value={data.visitors}/></td>
+          <td className="griddle-cell"><NumberCell value={data.downloads}/></td>
+          <td className="griddle-cell"><NumberCell value={data.countries}/></td>
+          <td className="griddle-cell"><NumberCell value={data.days}/></td>
+          <td className="griddle-cell"><NumberCell value={data.months}/></td>
+          <td className="griddle-cell"><NumberCell value={data.n_articles_requested}/></td>
+          <td className="griddle-cell"><NumberCell value={data.n_articles}/></td>
         </tr>
         </tbody>
       </table>
-    </div>
-
-    <JournalInfoHeader className="hidden-xs" data={data}/>
-
-    <div className="clearfix" />
-
-    {data.access_logs && <div>
-      <h3 className="text-center">Access Logs</h3>
-
-      <div className="table-responsive">
-        <table className="table table-hover table-bordered text-center">
-          <thead className="griddle-table-heading">
-          <tr>
-            <th className="griddle-table-heading-cell text-center">Visitors</th>
-            <th className="griddle-table-heading-cell text-center">Downloads</th>
-            <th className="griddle-table-heading-cell text-center">Countries</th>
-            <th className="griddle-table-heading-cell text-center">Days</th>
-            <th className="griddle-table-heading-cell text-center">Months</th>
-            <th className="griddle-table-heading-cell text-center">Articles Requested</th>
-            <th className="griddle-table-heading-cell text-center">Articles</th>
-          </tr>
-          </thead>
-          <tbody className="griddle-table-body">
-          <tr className="griddle-row">
-            <td className="griddle-cell"><NumberCell value={data.access_logs.visitors}/></td>
-            <td className="griddle-cell"><NumberCell value={data.access_logs.downloads}/></td>
-            <td className="griddle-cell"><NumberCell value={data.access_logs.countries}/></td>
-            <td className="griddle-cell"><NumberCell value={data.access_logs.days}/></td>
-            <td className="griddle-cell"><NumberCell value={data.access_logs.months}/></td>
-            <td className="griddle-cell"><NumberCell value={data.access_logs.n_articles_requested}/></td>
-            <td className="griddle-cell"><NumberCell value={data.access_logs.n_articles}/></td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>}
-
   </div>;
 }
 
@@ -175,15 +177,6 @@ export class TopArticlesTable extends FetchDataTable {
       <ColumnDefinition id="countries" title="Countries" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('Countries: number of countries (geolocation by IP address) from which the article was accessed')} />
     </RowDefinition>;
-  }
-
-  async fetchData() {
-    try {
-      let data = await fetchJournalTopArticles(this.props.journalId);
-      this.setState({data});
-    } catch (e) {
-      this.setState({error: true});
-    }
   }
 }
 
