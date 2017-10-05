@@ -9,12 +9,19 @@ export class FetchDataChart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+
+    this._updateDimensions = () => this.updateDimensions();
+  }
+
+  componentWillUnmount () {
+    window.removeEventListener("resize", this._updateDimensions);
   }
 
   async componentDidMount() {
+    window.addEventListener("resize", this._updateDimensions);
+
     try {
       let data = await this.props.fetchData();
-      this.elementWidth = this.loaderWrapper.offsetWidth;
       this.setState({ data: { values: data } });
     } catch (e) {
       this.setState({error: true})
@@ -28,15 +35,27 @@ export class FetchDataChart extends React.Component {
       return <div ref={(c)=>this.loaderWrapper = c}><Loading /></div>;
     } else {
       let spec = {
-        width: this.elementWidth,
+        width: this.state.width || this.loaderWrapper.offsetWidth,
         ...this.props.spec,
       };
 
-      return <VegaLite className={styles.vegaChart} renderer="svg" {...this.props}
-                       spec={ spec }
-                       data={this.state.data}
-                       enableHover={true} />
+      return <div ref={(c)=>this.loaderWrapper = c}>
+          <VegaLite
+                         className={styles.vegaChart} renderer="svg" {...this.props}
+                         spec={ spec }
+                         data={this.state.data}
+                         enableHover={true} />
+        </div>;
     }
+  }
+
+  updateDimensions() {
+    // when the window is resized, re-render the graphs with the correct width
+    setTimeout(()=> {
+      if (this.loaderWrapper) {
+        this.setState({width: this.loaderWrapper.offsetWidth});
+      }
+    }, 0);
   }
 }
 

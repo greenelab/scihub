@@ -29,6 +29,13 @@ export default class Vega extends React.Component {
     this.clearListeners();
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.spec !== prevProps.spec) {
+      this.clearView();
+      this.createVis(this.props.spec);
+    }
+  }
+
   createVis(spec) {
     if (spec) {
       const props = this.props;
@@ -55,6 +62,14 @@ export default class Vega extends React.Component {
 
   // Remove listeners from the signals
   clearListeners() {
+    return this;
+  }
+
+  clearView() {
+    if (this.view) {
+      this.view.finalize();
+      this.view = null;
+    }
     return this;
   }
 
