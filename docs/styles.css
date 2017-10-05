@@ -8423,12 +8423,20 @@ body:before {
   margin-top: 0; }
 
 .section-description {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  max-width: 700px; }
 
 .open-access-logo {
   height: 16px; }
-.journal-table__heading--15d {
-  cursor: pointer; }
+
+.no-data {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  text-align: center; }
+.chart__vegaChart--g-V svg {
+  margin-left: auto;
+  display: block; }
 .table__select--wPX {
   margin-left: 20px;
   margin-right: 20px;
@@ -8458,3 +8466,16 @@ body:before {
   .table__percent--2_N > sup {
     margin-left: 1px;
     margin-right: 1px; }
+.journal-table__heading--15d {
+  cursor: pointer; }
+.journal__active--2sP {
+  margin-left: 10px;
+  font-size: 20px; }
+
+.journal__section--130 {
+  margin-bottom: 40px; }
+
+.journal__openAccess--3uK {
+  margin-left: 10px; }
+  .journal__openAccess--3uK .open-access-logo {
+    height: 20px; }

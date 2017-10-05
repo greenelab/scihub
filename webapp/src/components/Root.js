@@ -32,7 +32,10 @@ export default class Root extends React.Component {
           <div className={styles.container}>
             <Switch>
               <Route exact path="/" component={Home}/>
+
               <Route exact path="/journals" component={JournalTable}/>
+              <Route path="/journal/:journalId" component={Journal}/>
+
               <Route exact path="/publishers" component={PublishersTable}/>
             </Switch>
           </div>

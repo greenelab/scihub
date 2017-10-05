@@ -14,6 +14,13 @@ import {
 import {FetchDataTable} from "./Table";
 
 export default class JournalTable extends FetchDataTable {
+  static Tooltips = {
+    title_name: 'The journal\'s name, as extracted from Scopus.',
+    scihub: 'The total number of the journal\'s articles which are in Sci-Hub\'s database.',
+    crossref: 'The total number of articles published by the journal, as extracted from Crossref.',
+    coverage: 'The number of articles in Sci-Hub divided by the total number of articles.'
+  };
+
   sortProperties() {
     return [
       { id: 'crossref', sortAscending: false },
@@ -32,15 +39,15 @@ export default class JournalTable extends FetchDataTable {
   rowDefinition() {
     return <RowDefinition>
       <ColumnDefinition id="active" title=" " width="20px" customComponent={ActiveJournalCell} />
-      <ColumnDefinition id="title_name" title="Journal" width="70%" //customComponent={JournalCell}
-                        customHeadingComponent={CreateTooltipHeader('The journal\'s name, as extracted from Scopus.')} />
+      <ColumnDefinition id="title_name" title="Journal" width="70%" customComponent={JournalCell}
+                        customHeadingComponent={CreateTooltipHeader(JournalTable.Tooltips.title_name)} />
       <ColumnDefinition id="open_access" title=" " width="20px" customComponent={OpenAccessJournalCell} />
       <ColumnDefinition id="scihub" title="Sci-Hub" customComponent={NumberCell}
-                        customHeadingComponent={CreateTooltipHeader('The total number of the journal\'s articles which are in Sci-Hub\'s database.')} />
+                        customHeadingComponent={CreateTooltipHeader(JournalTable.Tooltips.scihub)} />
       <ColumnDefinition id="crossref" title="Crossref" customComponent={NumberCell}
-                        customHeadingComponent={CreateTooltipHeader('The total number of articles published by the journal, as extracted from Crossref.')} />
+                        customHeadingComponent={CreateTooltipHeader(JournalTable.Tooltips.crossref)} />
       <ColumnDefinition id="coverage" title="Coverage" customComponent={PercentCell}
-                        customHeadingComponent={CreateTooltipHeader('The number of articles in Sci-Hub divided by the total number of articles.')} />
+                        customHeadingComponent={CreateTooltipHeader(JournalTable.Tooltips.coverage)} />
     </RowDefinition>;
   }
 
@@ -58,8 +65,8 @@ JournalCell = connect((state, props) => ({
   rowData: rowDataSelector(state, props)
 }))(JournalCell);
 
-let ActiveJournalCell = ({value}) =>
-  <div className="text-center">
+export let ActiveJournalCell = ({value, className}) =>
+  <span className={className}>
     {value
     ? <Tooltip title="Active: this journal still publishes articles.">
         <i className="glyphicon glyphicon-ok text-success" />
@@ -68,13 +75,13 @@ let ActiveJournalCell = ({value}) =>
         <i className="glyphicon glyphicon-remove text-danger"  />
       </Tooltip>
     }
-  </div>;
+  </span>;
 
-let OpenAccessJournalCell = ({value}) => <div className="text-center">
+export let OpenAccessJournalCell = ({value, className}) => <span className={className}>
   {value && <Tooltip title="The articles of this journal are free to read.">
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
                    className="open-access-logo" />
     </Tooltip>
   }
-</div>;
+</span>;
 
