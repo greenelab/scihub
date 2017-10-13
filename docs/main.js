@@ -321,7 +321,7 @@
     this.webpackHotUpdate = function(t, e) {
         s(t, e), p && p(t, e);
     };
-    var v, g, m, y, b = !0, _ = "c4577e8a6b3938dc3280", x = {}, w = [], S = [], E = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
+    var v, g, m, y, b = !0, _ = "bb32c576f842ee448b6f", x = {}, w = [], S = [], E = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
     h.m = t, h.c = A, h.i = function(t) {
         return t;
     }, h.d = function(t, e, n) {
@@ -16091,7 +16091,7 @@ object-assign
         return t && t.__esModule ? t : {
             default: t
         };
-    }(a), c = n(276), s = e.fetchJournalData = function() {
+    }(a), c = (n(276), e.fetchJournalData = function() {
         return i({
             url: env.journals_data,
             forEach: function(t) {
@@ -16099,7 +16099,7 @@ object-assign
                 t.open_access = "1" === t.open_access, t.active = "1" === t.active;
             }
         });
-    }, l = (e.fetchJournalInfo = function(t) {
+    }), s = (e.fetchJournalInfo = function(t) {
         return new Promise(function(e, n) {
             var r = "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/" + t + "/info-" + t + ".json";
             u.default.json(r, function(t) {
@@ -16110,7 +16110,7 @@ object-assign
         return i({
             url: "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/" + t + "/yearly-coverage-" + t + ".tsv",
             forEach: function(t) {
-                t.coverage = parseFloat(t.scihub) / parseFloat(t.crossref), t.tooltip_coverage = c.format.percent(t.coverage);
+                t.coverage = parseFloat(t.scihub) / parseFloat(t.crossref);
             }
         });
     }, e.fetchJournalQuantilesChart = function(t) {
@@ -16119,7 +16119,10 @@ object-assign
         });
     }, e.fetchJournalTopArticles = function(t) {
         return i({
-            url: "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/" + t + "/top-articles-" + t + ".tsv"
+            url: "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/" + t + "/top-articles-" + t + ".tsv",
+            forEach: function(t) {
+                t.downloads = parseFloat(t.downloads), t.visitors = parseFloat(t.visitors), t.countries = parseFloat(t.countries);
+            }
         });
     }, e.asyncMemoize = function(t) {
         var e = void 0, n = !1;
@@ -16152,7 +16155,7 @@ object-assign
             };
         }();
     });
-    e.fetchJournalDataMemoized = l(s), e.fetchPublishersDataMemoized = l(o);
+    e.fetchJournalDataMemoized = s(c), e.fetchPublishersDataMemoized = s(o);
 }, function(t, e, n) {
     "use strict";
     function r(t) {
