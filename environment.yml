@@ -28,4 +28,5 @@ dependencies:
 - requests=2.12.4
 - seaborn=0.7.1
 - tqdm=4.11.2
+- xlrd=1.1.0
 - xz=5.2.2
