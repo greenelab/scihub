@@ -321,7 +321,7 @@
     this.webpackHotUpdate = function(t, e) {
         s(t, e), p && p(t, e);
     };
-    var v, g, m, y, b = !0, _ = "bb32c576f842ee448b6f", x = {}, w = [], S = [], E = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
+    var v, g, m, y, b = !0, _ = "fc56ff3689f2c37b6a00", x = {}, w = [], S = [], E = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
     h.m = t, h.c = A, h.i = function(t) {
         return t;
     }, h.d = function(t, e, n) {
@@ -65237,6 +65237,9 @@ object-assign
             y: {
                 field: "coverage",
                 type: "quantitative",
+                scale: {
+                    domain: [ 0, 1 ]
+                },
                 axis: {
                     title: "Coverage",
                     format: ".0%"
