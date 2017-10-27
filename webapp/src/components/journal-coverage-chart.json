@@ -18,6 +18,9 @@
     "y": {
       "field": "coverage",
       "type": "quantitative",
+      "scale": {
+        "domain": [0, 1]
+      },
       "axis": {
         "title": "Coverage",
         "format": ".0%"
