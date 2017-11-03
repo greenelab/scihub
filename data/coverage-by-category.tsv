@@ -119,8 +119,7 @@ Publisher	Academia de Ciencias Medicas de Bilbao	1	453	0	453	453	1.0
 Publisher	Academia Romana	1	13	0	225	225	0.057777777777777775
 Publisher	Academia Sinica	2	530	1289	1885	1885	0.28116710875331563
 Publisher	Academic Educational Forum on International Relations	1	0	0	96	96	0.0
-Publisher	Academic Journals	13	380	0	0	18057	0.021044470288530764
-Publisher	Academic Journals Inc.	21	3	0	0	5138	5.838847800700662e-4
+Publisher	Academic Journals	34	383	0	0	23195	0.016512179348997628
 Publisher	Academic Mexicana de Cirugia	1	312	0	317	317	0.9842271293375394
 Publisher	Academic Mind	1	0	0	67	67	0.0
 Publisher	Academic Press	1	0	314	314	314	0.0
@@ -174,7 +173,6 @@ Publisher	African Journals online	2	0	622	622	622	0.0
 Publisher	African Networks on Ethnomedicines	1	11	0	0	1197	0.0091896407685881365
 Publisher	African Scholarly Science Communications Trust (ASSCAT)	1	2	0	434	434	0.004608294930875576
 Publisher	African Studies Center of Boston University	2	1085	0	757	1085	1.0
-Publisher	African Studies Center, Michigan State University	1	31	0	420	420	0.07380952380952381
 Publisher	Africana Pub. Co.	1	5482	0	5482	5482	1.0
 Publisher	Agencja Wydawnicza ARIES	1	2990	0	3024	3024	0.9887566137566137
 Publisher	Agora University	1	0	0	722	722	0.0
@@ -186,9 +184,8 @@ Publisher	Agricultural University of Iceland	1	0	5	5	5	0.0
 Publisher	Agroinform	1	0	0	0	117	0.0
 Publisher	Ahmet Yesevi Universitesi	1	0	0	78	78	0.0
 Publisher	AIMS Press	1	0	0	97	97	0.0
-Publisher	Ain Shams University	2	1163	1192	1192	1192	0.9756711409395973
-Publisher	Air Pollution Control Association	1	3739	0	0	3741	0.9994653835872761
-Publisher	Air Pollution Control Association(APCA)	1	433	0	0	435	0.9954022988505747
+Publisher	Ain Shams University	3	1360	1192	1391	1391	0.9777138749101366
+Publisher	Air Pollution Control Association	2	4172	0	0	4176	0.9990421455938697
 Publisher	Akademi Doktorlar Yayinevi	1	144	0	196	196	0.7346938775510204
 Publisher	Akademia Gorniczo-Hutnicza im. S. Staszica w Krakowie.	1	11	396	396	396	0.027777777777777776
 Publisher	Akademia Medyczna we Wroclawiu/Wroclaw Medical University	2	1	0	458	458	0.002183406113537118
@@ -276,7 +273,6 @@ Publisher	American Folklore Society	1	8134	0	8838	8838	0.9203439692238063
 Publisher	American Foundry Society	1	342	0	361	361	0.9473684210526315
 Publisher	American Geophysical Union	2	21453	0	26391	26391	0.8128907582130271
 Publisher	American Helicopter Society	1	136	0	146	146	0.9315068493150684
-Publisher	American Indian Culture and Research Center, University of California	1	0	0	1373	1373	0.0
 Publisher	American Industrial Hygiene Association	3	584	0	0	8284	0.07049734427812651
 Publisher	American Institute of Aeronautics and Astronautics	8	57125	0	59413	59723	0.9564991711735847
 Publisher	American Institute of Chemical Engineers	1	698	0	0	698	1.0
@@ -300,8 +296,7 @@ Publisher	American Nuclear Society	3	7	0	3012	3012	0.0023240371845949536
 Publisher	American Occupational Therapy Association	2	34	0	7089	7089	0.004796163069544364
 Publisher	American Optometric Association	1	2313	0	0	2315	0.9991360691144708
 Publisher	American Oriental Society	1	14748	0	14880	14880	0.9911290322580645
-Publisher	American Ornithologists' Union	1	23253	0	23298	23298	0.9980685037342261
-Publisher	American Ornithologists's Union	1	464	0	0	487	0.9527720739219713
+Publisher	American Ornithologists' Union	2	23717	0	23298	23785	0.9971410552869455
 Publisher	American Orthopsychiatric Association	1	8328	0	9257	9257	0.8996435130171762
 Publisher	American Osteopathic Association	1	16	0	954	954	0.016771488469601678
 Publisher	American Paraplegia Society	1	3	0	0	275	0.01090909090909091
@@ -371,10 +366,10 @@ Publisher	American Society of Plant Taxonomists	1	2601	0	2621	2621	0.99236932468
 Publisher	American Society of Transportation and Logistics	1	211	0	226	226	0.9336283185840708
 Publisher	American Society of Tropical Medicine and Hygiene	1	3449	0	3593	3593	0.9599220706930142
 Publisher	American Sociological Association	2	1428	0	0	1428	1.0
-Publisher	American Speech And Hearing Association	1	326	0	0	2716	0.12002945508100148
-Publisher	American Speech-Language-Hearing Association	5	4477	0	11611	11611	0.38558263715442254
+Publisher	American Speech-Language-Hearing Association	6	4803	0	11611	14327	0.3352411530676345
 Publisher	American Telephone and Telegraph Co.	1	4448	0	0	4450	0.9995505617977528
 Publisher	American Thoracic Society	5	26760	0	21314	27344	0.978642480983031
+Publisher	American University	1	121	0	0	121	1.0
 Publisher	American Vacuum Society	1	544	594	594	594	0.9158249158249159
 Publisher	American Veterinary Medical Association	2	10450	0	10786	10786	0.9688485073243093
 Publisher	American Water Works Association	1	0	0	205	205	0.0
@@ -555,13 +550,13 @@ Publisher	Astronomical Observatory	1	121	353	353	353	0.34277620396600567
 Publisher	Astronomical Society of Korea	1	0	519	519	519	0.0
 Publisher	AT & T	1	118	0	0	118	1.0
 Publisher	Ataturk Universitesi	1	0	0	111	111	0.0
-Publisher	Ateneo de Manila University	1	38	0	207	207	0.18357487922705315
-Publisher	Ateneo de Manila University Press	2	0	56	56	65	0.0
+Publisher	Ateneo de Manila University	3	38	56	263	272	0.13970588235294118
 Publisher	Athabasca University	1	0	1036	1036	1036	0.0
 Publisher	Atlantic Geoscience Society	1	15	0	43	43	0.3488372093023256
 Publisher	Atlantis Press	2	774	0	1193	1193	0.6487845766974015
 Publisher	Atlas- Clusium	1	0	0	21	21	0.0
 Publisher	Atomic Energy Society of Japan/Nihon Genshiroku Gakkai	2	0	0	542	4320	0.0
+Publisher	Auckland University of Technology	2	1	11	231	231	0.004329004329004329
 Publisher	Audio Engineering Society	1	0	0	197	197	0.0
 Publisher	Auerbach Publications	1	472	0	0	474	0.9957805907172996
 Publisher	Augustin Verlag	1	10	0	0	10	1.0
@@ -575,8 +570,7 @@ Publisher	Australian Agricultural Economics Society	1	731	0	0	731	1.0
 Publisher	Australian and New Zealand College of Mental Health Nurses	1	90	0	0	90	1.0
 Publisher	Australian College of Midwives	2	741	0	0	741	1.0
 Publisher	Australian Council on the Ageing	1	702	0	0	702	1.0
-Publisher	Australian Group for the Scientific Study of Dental Deficiency	1	328	0	0	347	0.9452449567723343
-Publisher	Australian Group for the Scientific Study of Mental Deficiency	1	78	0	0	79	0.9873417721518988
+Publisher	Australian Group for the Scientific Study of Mental Deficiency	2	406	0	0	426	0.9530516431924883
 Publisher	Australian Health Promotion Association	1	99	0	251	251	0.3944223107569721
 Publisher	Australian Institute of International Affairs	1	1422	0	0	1427	0.9964961457603364
 Publisher	Australian Institute of Political Science	2	3819	0	0	3819	1.0
@@ -645,8 +639,7 @@ Publisher	Bio-medical Electronics	2	588	0	0	588	1.0
 Publisher	Biochemical Society	1	1	0	0	200	0.005
 Publisher	Biocommunications Association	1	0	0	0	7	0.0
 Publisher	Bioline International	1	0	0	246	246	0.0
-Publisher	BioLink Communications	1	1220	0	0	1290	0.9457364341085271
-Publisher	Biolink Communications, Inc.	1	158	0	0	187	0.8449197860962567
+Publisher	BioLink Communications	2	1378	0	0	1477	0.932972241029113
 Publisher	Biological Society of Washington	2	518	0	476	533	0.9718574108818011
 Publisher	Biologicheskie Membrany	1	0	0	211	211	0.0
 Publisher	Biology and Medicine Journal	1	1	229	0	229	0.004366812227074236
@@ -739,8 +732,7 @@ Publisher	California Folklore Society	1	4080	0	4080	4080	1.0
 Publisher	California State University	1	0	0	344	344	0.0
 Publisher	Calvin College Press	1	630	0	0	646	0.9752321981424149
 Publisher	Cambridge International Science Publishing	1	0	0	0	102	0.0
-Publisher	Cambridge University Press	356	949865	1148	1098379	1121898	0.8466589654317951
-Publisher	Cambrige University Press	1	15770	0	16016	16016	0.9846403596403597
+Publisher	Cambridge University Press	357	965635	1148	1114395	1137914	0.8486010366336999
 Publisher	Camel Publishing House	1	1	0	119	119	0.008403361344537815
 Publisher	Canadian Anaesthetists Society	1	3383	0	0	3383	1.0
 Publisher	Canadian Association of Medical Radiation Technologists	1	261	0	0	261	1.0
@@ -798,7 +790,6 @@ Publisher	Centaurus-Verlagsgesellschaft	1	0	0	0	115	0.0
 Publisher	Center for Academic Publications Japan	1	3222	0	3256	3256	0.9895577395577395
 Publisher	Center for Black Music Research	1	369	0	372	372	0.9919354838709677
 Publisher	Center for Constitutional Studies	1	0	0	40	40	0.0
-Publisher	Center for European Studies, Harvard University	1	261	0	552	552	0.47282608695652173
 Publisher	Center for Foreign Policy and Peace Research, Ihsan Dogramaci Peace Foundation	1	0	0	55	55	0.0
 Publisher	Center for International Studies (CIS-IUL) of the Lisbon University Institute (ISCTE)	1	0	184	184	184	0.0
 Publisher	Center for the Study of Film and History	1	24	0	498	498	0.04819277108433735
@@ -813,7 +804,6 @@ Publisher	Central Missouri State University	1	63	0	70	70	0.9
 Publisher	Centre d'etudes mongoles et siberiennes	1	0	0	133	133	0.0
 Publisher	Centre d'etudes Superieures de Civilisation Medievale	1	7	0	938	938	0.007462686567164179
 Publisher	Centre de recherche de l'Universite de Paris 8	1	5	0	718	718	0.006963788300835654
-Publisher	Centre de Recherches Archeologiques et Historiques Anciennes et Medievales, Universite de Caen	1	0	96	96	96	0.0
 Publisher	Centre de Visio per Computador	1	1	61	61	61	0.01639344262295082
 Publisher	Centre for Addiction and Mental Health	1	0	457	457	457	0.0
 Publisher	Centre For Agricultural Publishing And Documentation	1	598	0	0	598	1.0
@@ -856,8 +846,7 @@ Publisher	Ceska Geologicka Sluzba/Czech Geological Survey	1	13	446	446	446	0.029
 Publisher	Cevre Koruma ve Arastirma Vakfi	1	4	0	331	331	0.012084592145015106
 Publisher	Changchun Institute of Applied Chemistry	1	0	0	917	917	0.0
 Publisher	Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences	1	0	0	193	193	0.0
-Publisher	Charles University	2	0	140	140	140	0.0
-Publisher	Charles University in Prague	1	0	0	46	46	0.0
+Publisher	Charles University	3	0	140	186	186	0.0
 Publisher	Chelonian Research Foundation	1	471	0	473	473	0.9957716701902748
 Publisher	Chem-Bio Informatics Society	1	0	126	126	126	0.0
 Publisher	Chemic Publishing Co.	1	24	0	6265	6265	0.003830806065442937
@@ -878,6 +867,7 @@ Publisher	China Institute of Communication	1	1139	0	1173	1173	0.9710144927536232
 Publisher	China Machine Press	2	756	0	11773	11773	0.06421472861632549
 Publisher	China Meteorological Press	1	206	0	206	206	1.0
 Publisher	China National Rice Research Institute	1	459	0	467	467	0.9828693790149893
+Publisher	China Ocean Press	1	1456	0	1459	1459	0.997943797121316
 Publisher	China Ordnance Society	1	232	0	235	235	0.9872340425531915
 Publisher	China Pharmaceutical University	1	44	0	431	431	0.10208816705336426
 Publisher	China University of Geosciences	1	151	0	0	151	1.0
@@ -891,7 +881,6 @@ Publisher	Chinese Institute of Automation Engineers (CIAE)	1	0	203	203	203	0.0
 Publisher	Chinese Institute of Chemical Engineers	1	160	0	0	160	1.0
 Publisher	Chinese Institute of Environmental Engineering (CIEnvE)	1	66	0	68	68	0.9705882352941176
 Publisher	Chinese Institute of Industrial Engineers	1	864	0	0	864	1.0
-Publisher	Chinese Ocean Press	1	1456	0	1459	1459	0.997943797121316
 Publisher	Chinese Physical Society	1	0	0	1546	1546	0.0
 Publisher	Chinese Physiology Society/Chung-kuo Sheng Li Hsueh Hui	1	6	0	380	380	0.015789473684210527
 Publisher	Chinese Society of Nonferrous Metal	1	1955	0	2009	2009	0.9731209556993529
@@ -901,8 +890,7 @@ Publisher	Chongqing University of Posts and Telecommunications	1	78	0	82	82	0.95
 Publisher	Chroma Inc.	1	2	0	0	72	0.027777777777777776
 Publisher	Chulalongkorn University	2	4	379	614	614	0.006514657980456026
 Publisher	Churchill	1	85	0	0	85	1.0
-Publisher	CIC edizioni internazionali	1	0	0	220	220	0.0
-Publisher	CIC Edizioni Internazionali s.r.l.	6	0	237	390	390	0.0
+Publisher	CIC Edizioni Internazionali	7	0	237	610	610	0.0
 Publisher	Cidade-Editora Cientifica	1	0	0	0	402	0.0
 Publisher	CIG Media Group, LP	1	112	0	0	113	0.9911504424778761
 Publisher	CILIP Information Literacy Group	1	0	277	277	277	0.0
@@ -920,8 +908,7 @@ Publisher	Co-Action Publishing	3	1155	96	709	1660	0.6957831325301205
 Publisher	Coastal Education & Research Foundation, Inc.	1	3402	0	3547	3547	0.9591203834226106
 Publisher	Cogent OA	4	437	578	703	703	0.6216216216216216
 Publisher	Cogitatio Press	3	0	420	420	420	0.0
-Publisher	Cognizant Communication Corp.	9	1556	0	2397	2536	0.613564668769716
-Publisher	Cognizant Communication Corporation	1	690	0	750	750	0.92
+Publisher	Cognizant Communication Corporation	10	2246	0	3147	3286	0.6835057821059038
 Publisher	Cold Spring Harbor Laboratory Press	8	20252	0	32782	32782	0.6177780489292904
 Publisher	Colegio Brasileiro de Ciencias do Esporte (CBCE)	1	181	442	442	442	0.4095022624434389
 Publisher	Colegio Brasileiro de Cirurgia Digestiva	1	2	128	128	128	0.015625
@@ -955,8 +942,7 @@ Publisher	Compuscript Ltd.	1	138	171	171	171	0.8070175438596491
 Publisher	Computational Mechanics Publications	1	54	0	0	54	1.0
 Publisher	ComSIS Consortium	1	9	568	568	568	0.01584507042253521
 Publisher	Conseil Superieur de la Peche	1	157	0	0	676	0.23224852071005916
-Publisher	Consejo Superior De Investigaciones Cientificas	18	13	12132	12654	12654	0.0010273431326062905
-Publisher	Consejo Superior de Investigaciones Cientificas. Instituto Arias Montano de Estudios Hebraicos	1	0	250	250	250	0.0
+Publisher	Consejo Superior De Investigaciones Cientificas	19	13	12382	12904	12904	0.0010074395536267824
 Publisher	Conservatoire et Jardin Botaniques de la Ville de Geneve	1	282	0	306	306	0.9215686274509803
 Publisher	Consolidated Medieval Studies Research Group	1	0	0	30	30	0.0
 Publisher	Consortium of Multiple Sclerosis Centers (CMSC)	1	1	0	571	571	0.0017513134851138354
@@ -979,7 +965,6 @@ Publisher	Council of Forensic Medicine of Turkey	1	1	0	0	159	0.00628930817610062
 Publisher	Council on Foreign Relations, Inc.	1	13913	0	13913	13913	1.0
 Publisher	Council on Social Work Education	1	827	0	0	830	0.9963855421686747
 Publisher	Creative Age Publications Inc.	1	576	0	0	576	1.0
-Publisher	CRHQ, Universite de Caen	1	0	0	0	1131	0.0
 Publisher	Croatian Academy of Sciences and Arts	2	0	70	70	70	0.0
 Publisher	Croatian Association of Researchers in Children's Literature	1	0	0	113	113	0.0
 Publisher	Croatian Conservation Institute	1	0	0	52	52	0.0
@@ -990,8 +975,7 @@ Publisher	Crop Science Society of Japan	1	0	0	6175	6175	0.0
 Publisher	CSIC Consejo Superior de Investigaciones Cientificas	10	31	5309	6176	6176	0.005019430051813471
 Publisher	CSIRO	31	32653	55	63602	85262	0.38297248481152213
 Publisher	Cukurova Univ Tip Fakultesi Psikiyatri Anabilim Dali	1	231	394	394	394	0.5862944162436549
-Publisher	Cumhuriyet University Faculty of Dentistry	1	1	192	192	192	0.005208333333333333
-Publisher	Cumhuriyet University Faculty of Medicine Department of Psychiatry	1	14	0	381	381	0.03674540682414698
+Publisher	Cumhuriyet University	2	15	192	573	573	0.02617801047120419
 Publisher	Current Controlled Trials Ltd.	1	137	0	0	137	1.0
 Publisher	Current Medicine Group	5	2220	0	2268	2268	0.9788359788359788
 Publisher	Current Patents, Ltd.	1	541	0	0	860	0.6290697674418605
@@ -1016,8 +1000,7 @@ Publisher	De Boeck & Larcier	14	107	0	6378	6616	0.016172914147521162
 Publisher	De Boeck Universite	2	6	0	446	682	0.008797653958944282
 Publisher	De la Salle University	3	0	0	130	1128	0.0
 Publisher	Deepak Ranjan Jena	1	0	0	46	46	0.0
-Publisher	Defence Scientific Information & Documentation Centre	1	0	0	2042	2042	0.0
-Publisher	Defence Scientific Information & Documentation Centre (DESIDOC)	1	0	0	527	527	0.0
+Publisher	Defence Scientific Information & Documentation Centre	2	0	0	2569	2569	0.0
 Publisher	Delachaux et Niestle	1	2	0	398	398	0.005025125628140704
 Publisher	Demetrios A. Spandidos Ed. & Pub.	3	17783	0	24809	24809	0.7167963239147084
 Publisher	Democratic Nursing Organisation of South Africa	1	1	0	1277	1277	7.830853563038371e-4
@@ -1036,10 +1019,8 @@ Publisher	Department of English, Universidad de La Rioja	1	0	0	0	18	0.0
 Publisher	Department of Logic, University of Lodz	1	0	5	5	5	0.0
 Publisher	Department of Mathematics, Hokkaido University	1	50	0	1321	1321	0.03785011355034065
 Publisher	Department of Pharmacy, Stamford University Bangladesh	1	0	0	0	92	0.0
-Publisher	Department of Slavic Languages and Literatures, Faculty of Arts, University of Maribor	1	0	0	232	232	0.0
 Publisher	Department of Veterans Affairs	1	743	1609	1609	1609	0.4617775015537601
 Publisher	Depaul University, Department of Philosophy	1	0	0	199	199	0.0
-Publisher	Dept. of Agricultural Economics, Michigan State University	1	717	0	0	726	0.987603305785124
 Publisher	Dept. of Agricultural Economics, University of Illinois at Urbana-Champaign	1	317	0	0	317	1.0
 Publisher	Der Gesellschaft	1	496	0	0	496	1.0
 Publisher	Deri ve Zuhrevi Hastaliklar Dernegi	1	220	413	413	413	0.5326876513317191
@@ -1202,7 +1183,6 @@ Publisher	Endocrinology Research Centre (Moscow)	1	0	713	713	713	0.0
 Publisher	Engg Journals Publications	1	0	0	0	188	0.0
 Publisher	Engineering and Technology Publishing	1	10	0	789	789	0.012674271229404309
 Publisher	Engineering Institute of Canada	1	636	0	0	637	0.9984301412872841
-Publisher	English Language Institute, American University	1	121	0	0	121	1.0
 Publisher	English Linguistic Society of Japan	1	0	0	0	616	0.0
 Publisher	Entomological Society of America	2	23282	0	23517	23517	0.9900072288131989
 Publisher	Entomological Society of Canada	2	199	0	0	410	0.4853658536585366
@@ -1231,8 +1211,7 @@ Publisher	Esmon Publicidad S.A.	1	0	0	136	136	0.0
 Publisher	Essential Oil Resource Consultants	1	564	0	0	564	1.0
 Publisher	Estonian Academy of Sciences	1	147	203	203	203	0.7241379310344828
 Publisher	Estonian Academy Publishers	7	853	1205	1053	1533	0.5564253098499674
-Publisher	Estonian Association Applied Linguists	1	1	226	226	226	0.004424778761061947
-Publisher	Estonian Association for Applied Linguistics	1	0	127	127	127	0.0
+Publisher	Estonian Association for Applied Linguistics	2	1	353	353	353	0.0028328611898017
 Publisher	Estonian Naturalist's Society	1	30	62	62	62	0.4838709677419355
 Publisher	Estuarine Research Federation	1	1975	0	0	1975	1.0
 Publisher	EtH Zurich	1	2	879	879	879	0.0022753128555176336
@@ -1274,32 +1253,23 @@ Publisher	Faculdade de Economia, Administracao e Contabilidade de Ribeirao Preto
 Publisher	Faculdade de Medicina : Hospital Sao Lucas da PUCRS	1	0	193	193	193	0.0
 Publisher	Faculdade de Medicina da Universidade de Sao Paulo	1	15	1074	1074	1074	0.013966480446927373
 Publisher	Facultad de Artes, Universidad de Chile	1	0	841	841	841	0.0
-Publisher	Facultad de Ciencias Forestales, Universidad Austral de Chile	1	6	932	932	932	0.006437768240343348
-Publisher	Facultad de Ciencias Naturales y Oceanograficas, Universidad de Concepcion	2	5	1031	1031	1031	0.004849660523763337
 Publisher	Facultad de Ciencias Politicas y Sociales, UNAM	1	187	189	189	189	0.9894179894179894
 Publisher	Facultad de Comunicaciones de la Pontificia Universidad Catolica de Chile	1	0	0	71	71	0.0
 Publisher	Facultad de Derecho, Universidad Catolica de Chile	1	0	495	495	495	0.0
 Publisher	Facultad de Enfermeria de la Universidad de Antioquia	1	0	0	85	85	0.0
-Publisher	Facultad de Filosofia y Humanidades, Intituto de Ciencias Sociales, Universidad Austral de Chile	1	0	0	303	303	0.0
 Publisher	Facultad de Medicina Veterinaria, Universidad Nacional Mayor de San Marcos	1	0	862	862	862	0.0
 Publisher	Facultad Latinoamericana de Ciencias Sociales Sede Mexico	1	0	112	112	112	0.0
 Publisher	Faculty of 1000 Ltd	1	33	0	241	241	0.13692946058091288
-Publisher	Faculty of Agriculture, Ain-Shams University	1	197	0	199	199	0.9899497487437185
 Publisher	Faculty of Arts, Department of Philosophy Novi Sad	1	0	0	97	97	0.0
-Publisher	Faculty of Arts, Masaryk University	1	0	0	90	90	0.0
 Publisher	Faculty of Biotechnology and Food Sciences, Slovak University of Agriculture	1	16	0	424	424	0.03773584905660377
 Publisher	Faculty of Economics and Management CULS Prague	1	0	55	55	55	0.0
 Publisher	Faculty of Education, Eskisehir Osmangazi University	1	0	58	58	58	0.0
 Publisher	Faculty of Electrical Engineering Banja Luka	1	0	51	51	51	0.0
 Publisher	Faculty of Engineering Universitas Indonesia	1	0	379	379	379	0.0
 Publisher	Faculty of Family Planning and Reproductive Health Care	1	1991	0	2270	2270	0.8770925110132158
-Publisher	Faculty of General Dental Practice (FGDP)	1	271	0	293	293	0.9249146757679181
-Publisher	Faculty of General Dental Practitioners	1	492	0	0	687	0.7161572052401747
-Publisher	Faculty of Law, Masaryk University	1	0	0	26	26	0.0
+Publisher	Faculty of General Dental Practitioners	2	763	0	293	980	0.7785714285714286
 Publisher	Faculty of Mechanical Engineering, Belgrade University	1	2	163	163	163	0.012269938650306749
-Publisher	Faculty of Mechanical Engineering, Universiti Malaysia Pahang	1	3	187	187	187	0.016042780748663103
 Publisher	Faculty of Medicine Universitas Indonesia	1	0	1097	1097	1097	0.0
-Publisher	Faculty of Medicine, University of Ostrava	1	0	70	70	70	0.0
 Publisher	Faculty of Psychology, Lomonosov Moscow State University	1	1	359	359	359	0.002785515320334262
 Publisher	Faculty of Science and Technology, Universiti Kebangsaan Malaysia	1	0	0	207	207	0.0
 Publisher	Faculty of Social Sciences, Charles University	1	11	31	31	31	0.3548387096774194
@@ -1412,18 +1382,17 @@ Publisher	Geofizicki Zavod	1	8	31	31	31	0.25806451612903225
 Publisher	Geografski institut Antona Melika ZRC SAZU	1	15	0	77	77	0.19480519480519481
 Publisher	Geographical Society of Ireland	1	958	0	1029	1029	0.9310009718172984
 Publisher	Geologica Belgica	1	0	24	24	24	0.0
-Publisher	Geologica Society of America	1	310	0	343	343	0.9037900874635568
 Publisher	Geological Association of Canada	1	5	0	117	117	0.042735042735042736
 Publisher	Geological Publishing House	1	4033	0	0	4199	0.9604667778042391
 Publisher	Geological Society	9	20124	0	22605	22605	0.8902455209024552
-Publisher	Geological Society of America	8	24105	0	33179	33458	0.7204554964433021
+Publisher	Geological Society of America	9	24415	0	33522	33801	0.7223159078133783
+Publisher	Geological Society of Australia	1	928	0	0	928	1.0
 Publisher	Geological Society of China	1	32	0	32	32	1.0
 Publisher	Geological Society of Finland	1	0	12	12	12	0.0
 Publisher	Geological Society of India	1	1432	0	1482	1482	0.9662618083670715
 Publisher	Geological Society of Japan	1	0	0	0	7684	0.0
 Publisher	Geological Society of Korea	1	817	0	826	826	0.9891041162227603
 Publisher	Geological Society of Poland	1	0	0	65	65	0.0
-Publisher	Geological Sociey of Australia	1	928	0	0	928	1.0
 Publisher	Geologischen Gesellschaft	1	108	0	0	108	1.0
 Publisher	Geologists' Association	1	6188	0	6267	6267	0.9873942875378969
 Publisher	GEOMATE International Society	1	0	0	633	633	0.0
@@ -1464,7 +1433,7 @@ Publisher	Gustav Fischer Verlag	6	4674	0	0	4676	0.9995722840034217
 Publisher	Gutersloher Verlagshaus Mohn	1	188	0	243	243	0.7736625514403292
 Publisher	H E C Press	1	378	0	391	391	0.9667519181585678
 Publisher	HACCP Consulting	1	5	455	455	455	0.01098901098901099
-Publisher	Hacettepe University	4	0	0	658	658	0.0
+Publisher	Hacettepe Universitesi	4	0	0	658	658	0.0
 Publisher	Haerbin Gongcheng Daxue/Harbin Engineering University	1	760	0	770	770	0.987012987012987
 Publisher	Hall Associates	1	215	0	0	215	1.0
 Publisher	Hamad Medical Corporation, State of Qatar	1	2	48	48	48	0.041666666666666664
@@ -1482,6 +1451,7 @@ Publisher	Harper and Row	2	913	0	0	914	0.9989059080962801
 Publisher	Harrassowitz Verlag	2	121	0	156	156	0.7756410256410257
 Publisher	Hart Publishing	1	93	0	0	102	0.9117647058823529
 Publisher	Harvard Law Review Association	1	19370	0	19370	19370	1.0
+Publisher	Harvard University	2	300	0	552	1392	0.21551724137931033
 Publisher	Harvard University Press	5	2372	296	2942	3961	0.598838677101742
 Publisher	Harvey Whitney Books Company	1	19	0	0	167	0.11377245508982035
 Publisher	Harwood Academic Publishers	2	65	0	0	303	0.2145214521452145
@@ -1514,7 +1484,6 @@ Publisher	Heyden And Son	1	657	0	0	657	1.0
 Publisher	HFSP Publishing	1	138	0	0	153	0.9019607843137255
 Publisher	Higher Education Academy	3	253	263	0	608	0.4161184210526316
 Publisher	Higher Education Press	5	3272	0	3335	3335	0.9811094452773613
-Publisher	Higher School of Economics, National Research University	2	0	0	317	317	0.0
 Publisher	Hikari Ltd.	1	9	616	0	616	0.01461038961038961
 Publisher	Hindawi	223	63655	130263	142379	152050	0.41864518250575466
 Publisher	Hippiatrika Verlag GmbH	1	0	0	1374	1374	0.0
@@ -1565,8 +1534,7 @@ Publisher	IATSS - International Association of Traffic and Safety Sciences	1	190
 Publisher	IBM Corp.	2	5381	0	4502	6391	0.8419652636520106
 Publisher	Ibn Sina Trust	1	149	675	675	675	0.22074074074074074
 Publisher	IBP - International Business Press Publishers	1	160	0	0	164	0.975609756097561
-Publisher	ICE Publishing	20	15347	0	17112	17298	0.8872123944964736
-Publisher	ICE Publishing Ltd.	2	224	0	247	247	0.9068825910931174
+Publisher	ICE Publishing	22	15571	0	17359	17545	0.8874893131946423
 Publisher	Icelandic Medical Association and the Medical Society of Reykjavik	1	0	114	114	114	0.0
 Publisher	ID Design Press	1	2	0	458	458	0.004366812227074236
 Publisher	IFAC Secretariat	1	5334	0	5485	5485	0.9724703737465816
@@ -1784,7 +1752,7 @@ Publisher	Instytut Sportu/Institute of Sport	1	18	371	371	371	0.0485175202156334
 Publisher	Intangible Capital	1	1	277	277	277	0.0036101083032490976
 Publisher	InTech	2	85	420	420	420	0.20238095238095238
 Publisher	Intellect Ltd.	4	435	0	491	491	0.8859470468431772
-Publisher	Intellect Publishers	29	6115	0	6603	6739	0.9074046594450215
+Publisher	Intellect Publishers	32	6861	0	7419	7555	0.9081403044341496
 Publisher	Intelligent Networks and Systems Society	1	0	0	193	193	0.0
 Publisher	Inter-Research	1	29	226	226	226	0.12831858407079647
 Publisher	Inter-Research Science Center	2	274	1548	1548	1548	0.17700258397932817
@@ -1881,14 +1849,13 @@ Publisher	IOS Press	76	12835	0	24549	24878	0.5159176782699574
 Publisher	IPC Science & Technology Press	4	2390	0	0	2390	1.0
 Publisher	IPEC Inc.	1	128	2092	2092	2092	0.06118546845124283
 Publisher	IPrA Research Center	1	1	0	599	599	0.001669449081803005
-Publisher	Iranian Society of Opthalmology	1	103	0	118	118	0.8728813559322034
+Publisher	Iranian Society of Ophthalmology	1	103	0	118	118	0.8728813559322034
 Publisher	Iranian Statistical Society	1	0	0	12	12	0.0
 Publisher	Irish University Press for the Catholic Record Society of Ireland	1	308	0	308	308	1.0
 Publisher	ISCE Publishing	1	8	0	238	238	0.03361344537815126
 Publisher	ISCTE-IUL	1	0	0	159	159	0.0
 Publisher	ISEKI Food Association	1	0	100	100	100	0.0
-Publisher	Isfahan University of Medical Sciences	1	0	316	316	316	0.0
-Publisher	Isfahan University of Medical Sciences(IUMS)	3	33	568	576	576	0.057291666666666664
+Publisher	Isfahan University of Medical Sciences	4	33	884	892	892	0.03699551569506727
 Publisher	Isfahan University of Technology	1	0	81	81	81	0.0
 Publisher	Isis Medical Media Ltd.	3	0	0	0	60	0.0
 Publisher	Islamic Azad University of Research and Technology	1	1790	0	1813	1813	0.9873138444567016
@@ -1900,7 +1867,6 @@ Publisher	Istituti Editoriali e Poligrafici Internazionali	2	3618	0	3698	3698	0.
 Publisher	Istituto di Geologia Applicata	1	187	0	0	187	1.0
 Publisher	Istituto di Urologia	1	0	327	327	327	0.0
 Publisher	Istituto Superiore di Sanita	1	2	71	71	71	0.028169014084507043
-Publisher	Itellect Publishers	3	746	0	816	816	0.9142156862745098
 Publisher	IU School of Dentistry	1	1529	0	1548	1548	0.9877260981912145
 Publisher	Iuliu Hatieganu Medical Publishing House	1	102	0	376	376	0.2712765957446808
 Publisher	Ivanovo State University	1	0	0	72	72	0.0
@@ -2011,7 +1977,7 @@ Publisher	Jardin Botanique National de Belgique/Nationale Plantentuin van Belgie
 Publisher	Jaypee Brothers Medical Publishers (P) Ltd	10	654	0	2582	2642	0.24753974261922787
 Publisher	JBC Pub. Co.	1	4239	0	0	4345	0.9756041426927503
 Publisher	JCDR Research and Publications (Pvt) Limited	1	1	3	3	3	0.3333333333333333
-Publisher	JEMS Communication	2	0	0	1059	1144	0.0
+Publisher	JEMS Communications	2	0	0	1059	1144	0.0
 Publisher	Jems Pub. Co.	1	540	0	0	540	1.0
 Publisher	Jeoloji Mühendisligi	1	0	0	25	25	0.0
 Publisher	Jinko Chino Gakkai	1	0	0	967	967	0.0
@@ -2094,11 +2060,9 @@ Publisher	Korea Health Personnel Licensing Examination Institute	1	2	211	211	211
 Publisher	Korea Information Processing Society (KIPS)	1	2	0	343	343	0.0058309037900874635
 Publisher	Korea Institute for Defense Analyses	1	410	0	749	749	0.5473965287049399
 Publisher	Korea Institute of Applied Superconductivity and Cryogenics	1	4	0	250	250	0.016
-Publisher	Korea Ocean Research & Development Institute and Korean Society of Oceanography	1	426	0	447	447	0.9530201342281879
-Publisher	Korea Ocean Research and Development Institute	1	0	658	658	658	0.0
+Publisher	Korea Ocean Research and Development Institute	2	426	658	1105	1105	0.38552036199095024
 Publisher	Korea Soc of Automotive Engineers, Inc	1	1002	0	1002	1002	1.0
 Publisher	Korea Society of Internet Information	1	7	0	1611	1611	0.004345127250155183
-Publisher	Koreal Association of Medical Journal Editors	1	4	0	429	429	0.009324009324009324
 Publisher	Korean Academy of Child Health Nursing	1	0	0	163	163	0.0
 Publisher	Korean Academy of Family Medicine	1	2	0	546	546	0.003663003663003663
 Publisher	Korean Academy of Medical Sciences	1	30	5295	5295	5295	0.0056657223796034
@@ -2110,7 +2074,7 @@ Publisher	Korean Association for the Study of Intestinal Diseases	1	2	0	386	386	
 Publisher	Korean Association for the Study of the Liver	2	5	276	276	556	0.008992805755395683
 Publisher	Korean Association of Anatomists	1	0	216	216	216	0.0
 Publisher	Korean Association of Immunologists	1	5	0	578	578	0.00865051903114187
-Publisher	Korean Association of Medical Journal Edirors	2	1	0	513	513	0.001949317738791423
+Publisher	Korean Association of Medical Journal Edirors	3	5	0	942	942	0.005307855626326964
 Publisher	Korean Audiological Society	2	2	0	67	163	0.012269938650306749
 Publisher	Korean Biodiversity Information Facility	1	220	257	257	257	0.8560311284046692
 Publisher	Korean Breast Cancer Society	1	5	0	712	712	0.007022471910112359
@@ -2267,9 +2231,8 @@ Publisher	Lithuanian Physical Society	1	1	708	708	708	0.0014124293785310734
 Publisher	Liverpool University Press	11	17844	0	17805	23592	0.7563580874872838
 Publisher	Ljubljana University Press, Faculy of Arts	1	1	263	263	263	0.0038022813688212928
 Publisher	LM Sante	1	522	0	0	523	0.9980879541108987
-Publisher	Lodz University Press	1	55	0	131	131	0.4198473282442748
-Publisher	Logo Tip Yayinciligi	1	0	0	193	193	0.0
-Publisher	Logos Tip Yayinciligi	2	3	0	1071	1198	0.0025041736227045075
+Publisher	Lodz University	1	55	0	131	131	0.4198473282442748
+Publisher	Logos Tip Yayinciligi	3	3	0	1264	1391	0.002156721782890007
 Publisher	Logos Yayincilik	1	1	0	0	142	0.007042253521126761
 Publisher	Logos Yayincilik Ticaret A.S.	1	214	0	440	440	0.4863636363636364
 Publisher	London Chemical Society	1	20	0	501	501	0.03992015968063872
@@ -2311,7 +2274,7 @@ Publisher	Marshfield Clinic	1	1370	1392	1392	1392	0.9841954022988506
 Publisher	Martin Media	1	1	0	427	427	0.00234192037470726
 Publisher	Maruzen Co., Ltd/Maruzen Kabushikikaisha	6	11794	7016	25772	28954	0.40733577398632315
 Publisher	Mary Ann Liebert	119	133117	223	115922	137067	0.9711819766975275
-Publisher	Masaryk University	3	246	394	394	394	0.6243654822335025
+Publisher	Masaryk University	5	246	394	510	510	0.4823529411764706
 Publisher	Masarykova Universita	2	0	0	88	88	0.0
 Publisher	MasiMax Resources, Inc.	1	0	0	0	45	0.0
 Publisher	Massachusetts Eye and Ear Infirmary	1	35	85	85	85	0.4117647058823529
@@ -2384,6 +2347,7 @@ Publisher	Mezhdunarodnyi Fond Okhrany Zdorov'ya Materi i Rebenka	1	0	0	1	1	0.0
 Publisher	Mi-tec Medical and Scientific Pub	1	152	0	0	152	1.0
 Publisher	Michigan Academy of Science	1	0	0	0	43	0.0
 Publisher	Michigan Law Review Association	1	17243	0	17243	17243	1.0
+Publisher	Michigan State University	2	748	0	420	1146	0.6527050610820244
 Publisher	Michigan State University Press	7	727	0	2183	2183	0.33302794319743473
 Publisher	Microbiology Research Foundation	1	2	0	2778	2778	7.199424046076314e-4
 Publisher	Micropaleontology Press	1	1700	0	1703	1703	0.9982384028185555
@@ -2480,8 +2444,7 @@ Publisher	National Defence Medical Center	1	1	0	172	172	0.005813953488372093
 Publisher	National documentation centre	1	0	0	252	252	0.0
 Publisher	National Engineering Research Center for Magnesium Alloys of China, Chongqing University	1	202	203	203	203	0.9950738916256158
 Publisher	National Head Start Association (NHSA)	1	358	0	0	386	0.927461139896373
-Publisher	National Hellenic Research Foundation, Institute of Historical Research, Department of Byzantine Research	1	0	0	438	438	0.0
-Publisher	National Hellenic Research Foundation, Institute of Historical Research, Department of Neohellenic Research	1	0	171	171	171	0.0
+Publisher	National Hellenic Research Foundation, Institute of Historical Research	2	0	171	609	609	0.0
 Publisher	National Herbarium Nederland/Leiden Branch	2	605	203	675	675	0.8962962962962963
 Publisher	National Herbarium of New South Wales	1	1	0	643	643	0.0015552099533437014
 Publisher	National Institute for Pharmaceutical Research and Development	1	0	0	0	45	0.0
@@ -2502,6 +2465,7 @@ Publisher	National Research Center Kurchatov Institute	1	0	0	187	187	0.0
 Publisher	National Research Council	1	574	0	584	584	0.9828767123287672
 Publisher	National Research Council Canada	4	5079	0	1702	5445	0.9327823691460055
 Publisher	National Research Ogarev Mordovia State University	1	0	213	213	213	0.0
+Publisher	National Research University	2	0	0	317	317	0.0
 Publisher	National Research University Higher School of Economics	7	0	901	1319	1319	0.0
 Publisher	National Science Foundation of Sri Lanka	2	0	0	840	840	0.0
 Publisher	National Shellfisheries Association, Inc.	1	1368	0	1374	1374	0.9956331877729258
@@ -2584,8 +2548,7 @@ Publisher	Nippon Yakuri Gakkai	1	5739	0	5847	5847	0.9815289892252437
 Publisher	Nippon-Shinzobyo-Gakkai/Japanese College of Cardiology	1	1501	0	1521	1521	0.9868507560815253
 Publisher	Niu Terra	1	0	0	0	89	0.0
 Publisher	Nizhny Novgorod State Medical Academy of the Ministry of Health of the Russian Federation	1	0	202	202	202	0.0
-Publisher	Nomos Verlagsgesellschaft mbH and Co., KG	1	0	0	388	388	0.0
-Publisher	Nomos Verlagsgesellschaft mbH und Co	1	0	0	327	327	0.0
+Publisher	Nomos Verlagsgesellschaft	2	0	0	715	715	0.0
 Publisher	Noncommercial Partnership Editorial Board Polis	1	0	0	799	799	0.0
 Publisher	Nonferrous Metals Society of China/Zhongguo Youse Jinshu Xuehui	1	5177	0	5194	5194	0.996726992683866
 Publisher	Nordic Council for Wildlife Research	1	580	596	596	596	0.9731543624161074
@@ -2639,8 +2602,7 @@ Publisher	Ohio State University Press	2	7697	0	8342	8342	0.9226804123711341
 Publisher	Oil & Colour Chemists' Association	2	459	0	0	459	1.0
 Publisher	OilGasScientificResearchProject Institute of State Oil Company of Azerbaijan Republic (SOCAR)	1	0	0	310	310	0.0
 Publisher	Okajimas Folia Anatomica Yaponika Henshubu	1	0	0	2277	2277	0.0
-Publisher	Old City Publishing	4	1216	0	1864	1864	0.6523605150214592
-Publisher	Old City Publishing, Inc.	1	12	0	0	30	0.4
+Publisher	Old City Publishing	5	1228	0	1864	1894	0.648363252375924
 Publisher	Oleffe	1	0	0	1834	1834	0.0
 Publisher	Oliver and Boyd Ltd.	1	6530	0	0	6530	1.0
 Publisher	Oman Medical Specialty Board	1	284	814	814	814	0.3488943488943489
@@ -2686,7 +2648,6 @@ Publisher	Oxford Brookes University	1	136	0	354	354	0.384180790960452
 Publisher	Oxford University Press	316	1567250	71136	1748720	1774511	0.8832010621517703
 Publisher	P N G Publications	1	1244	0	1303	1303	0.9547198772064467
 Publisher	Pacific Coast Entomological Society	1	380	0	410	410	0.926829268292683
-Publisher	Pacific Media Centre, Auckland University of Technology	1	0	0	220	220	0.0
 Publisher	Pacific Northwest Fungi Project	1	0	90	90	90	0.0
 Publisher	Pacini Editore SpA	1	36	0	36	36	1.0
 Publisher	PagePress	27	1820	7531	8027	8064	0.22569444444444445
@@ -2706,7 +2667,6 @@ Publisher	Parthenon Publishing Group	4	413	0	0	1352	0.30547337278106507
 Publisher	Pasteur Institute of Iran	1	0	0	24	24	0.0
 Publisher	Pavilion	2	806	0	0	832	0.96875
 Publisher	PC Technology Center	1	7	1785	1785	1785	0.00392156862745098
-Publisher	Peabody Museum of Archaeology and Ethnology, Harvard University	1	39	0	0	840	0.04642857142857143
 Publisher	Peabody Museum of Natural History	1	135	0	138	138	0.9782608695652174
 Publisher	PeerJ	1	25	3103	3103	3103	0.008056719303899453
 Publisher	Peeters Publishers	29	95	0	13508	14506	0.006549014201020268
@@ -2773,9 +2733,7 @@ Publisher	Polymer Society of Korea	2	2137	0	2809	2809	0.7607689569241723
 Publisher	Pomorski Uniwersytet Medyczny w Szczecinie	1	0	0	83	83	0.0
 Publisher	Pontifica Universidad Catolica del Peru/Departamento de Humanidades, Peru	1	0	0	9	9	0.0
 Publisher	Pontifical Institute of Mediaeval Studies	1	1059	0	1059	1059	1.0
-Publisher	Pontificia Universidad Catolica de Chile	7	10	1824	1888	2051	0.0048756704046806435
-Publisher	Pontificia Universidad Catolica de Chile, Departamento de Ingenieria y Gestion de la Construccion	1	0	166	166	166	0.0
-Publisher	Pontificia Universidad Catolica de Chile, Facultad de Filosofia, Instituto de Estetica	1	0	322	322	322	0.0
+Publisher	Pontificia Universidad Catolica de Chile	9	10	2312	2376	2539	0.003938558487593541
 Publisher	Pontificia Universidad Católica de Valparaíso	4	231	1119	2082	2082	0.11095100864553314
 Publisher	Pontificia Universidad Catolica del Peru	1	0	30	30	30	0.0
 Publisher	Pontificia Universidad Javeriana	12	161	834	1179	1179	0.13655640373197625
@@ -2814,7 +2772,6 @@ Publisher	Princeton University Press	1	5141	0	5847	5847	0.879254318453908
 Publisher	Pro Pharma Communications International	1	0	0	253	253	0.0
 Publisher	Pro-Fono Produtos Especializados para Fonoaudiologia Ltda.	1	0	0	0	319	0.0
 Publisher	Procter & Gamble Co.	1	11	0	987	987	0.011144883485309016
-Publisher	Production Engineering Institute (PEI), University of Maribor	1	26	0	117	117	0.2222222222222222
 Publisher	Professional Books	1	207	0	0	207	1.0
 Publisher	Professional Engineering Publishing Ltd.	2	7443	0	0	7723	0.9637446588113427
 Publisher	Professional Medical Publications	1	282	1315	1315	1315	0.21444866920152092
@@ -2909,8 +2866,7 @@ Publisher	Royal Scottish Geographical Society	1	6493	0	0	6508	0.9976951444376152
 Publisher	Royal Society for the Promotion of Health	3	14306	0	0	14307	0.9999301041448242
 Publisher	Royal Society of Chemistry	66	382382	0	330478	406837	0.939889931348427
 Publisher	Royal Society Of Edinburgh.	2	3653	0	0	3822	0.95578231292517
-Publisher	Royal Society of Medicine	3	236	0	4813	5030	0.04691848906560636
-Publisher	Royal Society of Medicine Press	1	194	0	0	194	1.0
+Publisher	Royal Society of Medicine	4	430	0	4813	5224	0.08231240428790199
 Publisher	Royal Society of Queensland	1	0	0	0	23	0.0
 Publisher	Royal Society of Tasmania	1	0	0	0	28	0.0
 Publisher	Royal Society of Victoria	1	4	0	39	39	0.10256410256410256
@@ -2948,7 +2904,6 @@ Publisher	Schattauer GmbH	10	732	0	8031	8031	0.09114680612626073
 Publisher	Scholars Press	1	0	0	0	3285	0.0
 Publisher	School Of Biological Anthropology	1	0	44	44	44	0.0
 Publisher	School of Economics and Business in Sarajevo	1	69	116	116	116	0.5948275862068966
-Publisher	School of Engineering, Auckland University of Technology	1	1	11	11	11	0.09090909090909091
 Publisher	School of Humanities and Communication Arts, University of Western Sydney	1	1	43	43	43	0.023255813953488372
 Publisher	School of Management Sciences	1	0	0	10	10	0.0
 Publisher	School of Social Work	1	0	0	127	127	0.0
@@ -2993,7 +2948,7 @@ Publisher	Sejong University	1	2	0	840	840	0.002380952380952381
 Publisher	Sekiyu Gakkai	1	27	0	0	2238	0.012064343163538873
 Publisher	Seminario Matematico e Fisico di Milano	1	1066	0	0	1066	1.0
 Publisher	Seoul Kjo	1	2	0	1294	1294	0.0015455950540958269
-Publisher	Seoul National University	2	2	581	697	697	0.0028694404591104736
+Publisher	Seoul National University	3	3	581	1217	1217	0.0024650780608052587
 Publisher	SEPM Society for Sedimentary Geology	1	3409	0	7523	7523	0.45314369267579424
 Publisher	Serbian Biological Society	1	28	1738	1738	1738	0.01611047180667434
 Publisher	Serbian Medical Association	1	24	1852	1852	1852	0.012958963282937365
@@ -3322,8 +3277,7 @@ Publisher	Sweet & Maxwell Ltd	1	0	0	35	35	0.0
 Publisher	Swets & Zeitlinger	9	2722	0	1524	4909	0.5544917498472194
 Publisher	Swiss Forestry Society	1	7	0	966	966	0.007246376811594203
 Publisher	Sykepleiernes Samarbeid i Norden	1	513	0	0	514	0.9980544747081712
-Publisher	Symposium Journals	1	263	0	276	276	0.9528985507246377
-Publisher	Symposium Journals Ltd.,	3	1912	0	1960	1960	0.9755102040816327
+Publisher	Symposium Journals	4	2175	0	2236	2236	0.9727191413237924
 Publisher	Syndicat des Pharmaciens Gerants	1	439	0	0	439	1.0
 Publisher	Systematic and Applied Acarology Society	1	368	0	924	924	0.39826839826839827
 Publisher	Szegedi Tudomanyegyetern/University of Szeged	2	0	980	1107	1107	0.0
@@ -3345,7 +3299,7 @@ Publisher	Tartu University Press	4	31	495	495	495	0.06262626262626263
 Publisher	Tata Energy Research Institute	1	0	0	0	6	0.0
 Publisher	Taylor & Francis	2710	3000211	78101	2924219	3241697	0.925506301174971
 Publisher	Taylor and Francis Ltd.	1	0	0	1036	1036	0.0
-Publisher	Taylor's University College	1	0	0	8	8	0.0
+Publisher	Taylor's University	1	0	0	8	8	0.0
 Publisher	Teachers College Record	1	441	0	699	699	0.630901287553648
 Publisher	Teaduste Akadeemia Kirjastus/Estonian Academy Publishers	2	0	246	246	246	0.0
 Publisher	Teagasc	1	10	34	34	34	0.29411764705882354
@@ -3360,8 +3314,7 @@ Publisher	Techno Press	7	165	0	4283	4283	0.03852439878589774
 Publisher	Technology Education Program, Virginia Polytechnic Institute and State University	1	0	321	321	321	0.0
 Publisher	Technosdar Ltd	1	21	56	56	56	0.375
 Publisher	Tehran University of Medical Sciences	4	169	288	390	458	0.36899563318777295
-Publisher	Telecommunication Society of Australia	1	0	0	0	214	0.0
-Publisher	Telecommunications Association Inc.	1	0	0	157	157	0.0
+Publisher	Telecommunications Association	2	0	0	157	371	0.0
 Publisher	Telos Press	1	2269	0	2438	2438	0.9306808859721083
 Publisher	Tercer Mundo Editores	2	184	106	294	294	0.6258503401360545
 Publisher	Termedia Publishing House Ltd.	17	860	4997	6570	6570	0.1308980213089802
@@ -3378,7 +3331,6 @@ Publisher	The Asian Association of Teachers of English as a Foreign Language	1	0
 Publisher	The Association for the Study of Literature and Environment (ASLE)	1	2493	0	2558	2558	0.9745895230648944
 Publisher	The Australasian Medical Journal Pty. Ltd	1	421	738	738	738	0.5704607046070461
 Publisher	The Austrian Academy of Sciences Press	1	0	0	239	239	0.0
-Publisher	The Automotive Engineering Centre (AEC), Universiti Malaysia Pahang	1	1	295	295	295	0.003389830508474576
 Publisher	The British Micropalaeontological Society	1	579	0	735	735	0.7877551020408163
 Publisher	The British Psychological Society	2	3809	0	0	3811	0.9994752033586985
 Publisher	The Clay Minerals Society	1	809	0	4201	4201	0.19257319685789098
@@ -3419,7 +3371,6 @@ Publisher	The Korean Society of Community Nutrition	1	17	763	763	763	0.022280471
 Publisher	The Korean Society of Genetics	1	772	0	792	792	0.9747474747474747
 Publisher	The Korean Society of Phycology	1	7	526	526	526	0.013307984790874524
 Publisher	The Korean Society of Precision Engineering	1	318	0	318	318	1.0
-Publisher	The Korean Society of Wood Science and Technology, Seoul National University	1	1	0	520	520	0.0019230769230769232
 Publisher	The Korean Space Science Society	1	1	651	651	651	0.0015360983102918587
 Publisher	The Lietuvos Istorijos Institutas	1	0	0	110	110	0.0
 Publisher	The Metallurgical Industry Press	1	2509	0	2511	2511	0.9992035045798486
@@ -3452,8 +3403,7 @@ Publisher	The University of Jordan	1	0	0	109	109	0.0
 Publisher	Thieme	101	311523	1668	390337	435459	0.7153899678270514
 Publisher	thinkBiotech	1	158	0	1058	1058	0.14933837429111532
 Publisher	Thomas Land Publishers Inc.	2	603	0	2141	2141	0.28164409154600656
-Publisher	Thomas Telford Ltd.	3	326	0	501	887	0.36753100338218714
-Publisher	Thomas Telford Services Ltd	7	5129	0	6206	6206	0.8264582661940058
+Publisher	Thomas Telford Ltd.	10	5455	0	6707	7093	0.7690680953052305
 Publisher	Thracian University, Faculty of Veterinary Medicine	1	0	70	70	70	0.0
 Publisher	Tianjin Daxue/Tianjin University	1	700	0	736	736	0.9510869565217391
 Publisher	Tijdschrift Voor Geneeskunde A.S.B.L.	1	0	0	5502	5502	0.0
@@ -3475,8 +3425,8 @@ Publisher	Torrey Botanical Society	1	883	0	891	891	0.9910213243546577
 Publisher	Touch Briefings	3	0	0	1173	1173	0.0
 Publisher	Touch Digital Media	1	0	0	492	492	0.0
 Publisher	Trakya Universitesi	1	171	0	0	183	0.9344262295081968
-Publisher	Trans Tech Publications	1	145	0	147	147	0.9863945578231292
-Publisher	Trans Tech Publications Ltd	6	139106	0	20901	166334	0.8363052653095578
+Publisher	Trans Tech Publications	2	145	0	618	618	0.23462783171521034
+Publisher	Trans Tech Publications Ltd.	5	139106	0	20430	165863	0.838680115517023
 Publisher	Transaction Periodicals Consortium	4	2109	0	1807	2213	0.9530049706281066
 Publisher	Transaction Publishers	3	924	0	283	924	1.0
 Publisher	Transport and Telecommunication Institute	1	60	151	151	151	0.3973509933774834
@@ -3484,7 +3434,7 @@ Publisher	Tree-Ring Society	1	215	0	221	221	0.9728506787330317
 Publisher	Trent University	1	0	0	1986	1986	0.0
 Publisher	Trentham Books	1	250	0	0	252	0.9920634920634921
 Publisher	Triangle Journals Ltd.	1	7	0	0	7	1.0
-Publisher	Tsinghua University Press	5	3781	362	3837	3837	0.9854052645295804
+Publisher	Tsinghua University	5	3781	362	3837	3837	0.9854052645295804
 Publisher	Tsvetnaya Metallurgiya	1	0	0	0	253	0.0
 Publisher	Tuberculosis Association of India	1	245	0	266	266	0.9210526315789473
 Publisher	Tufts University	1	1120	0	1150	1150	0.9739130434782609
@@ -3540,7 +3490,7 @@ Publisher	Univ Feder Uberlandia	1	0	0	86	86	0.0
 Publisher	UNIVALI (Universidade do Vale do Itajai)	1	1	0	348	348	0.0028735632183908046
 Publisher	Univerisity Department of Psychiatry University Hospital Center Sestre milosrdnice	1	0	0	6	6	0.0
 Publisher	Universidad Alberto Hurtado/School of Economics and Bussines	1	0	70	70	70	0.0
-Publisher	Universidad Austral de Chile	4	0	1652	1874	1874	0.0
+Publisher	Universidad Austral de Chile	6	6	2584	3109	3109	0.0019298809906722419
 Publisher	Universidad Autonoma Chapingo	2	7	165	707	707	0.009900990099009901
 Publisher	Universidad Autonoma de Baja California	1	69	213	213	213	0.323943661971831
 Publisher	Universidad Autonoma de Madrid	3	0	134	189	189	0.0
@@ -3559,7 +3509,7 @@ Publisher	Universidad de Caldas	1	0	0	20	20	0.0
 Publisher	Universidad de Castilla la Mancha	2	0	158	158	158	0.0
 Publisher	Universidad de Chile	5	2	1108	1108	1334	0.0014992503748125937
 Publisher	Universidad de Chile, Facultad de Ciencias Sociales	1	0	0	139	139	0.0
-Publisher	Universidad de Concepcion	4	0	739	933	933	0.0
+Publisher	Universidad de Concepcion	6	5	1770	1964	1964	0.0025458248472505093
 Publisher	Universidad de Concepcion, Facultad de Medicina, Departmento de Enfermeria	1	0	377	377	377	0.0
 Publisher	Universidad de Cordoba	3	0	42	211	211	0.0
 Publisher	Universidad de Costa Rica	1	0	488	488	488	0.0
@@ -3616,10 +3566,7 @@ Publisher	Universidade de Coimbra - Faculdade de Letras	1	0	0	222	222	0.0
 Publisher	Universidade de Coimbra, Instituto de Historia Economica e social	1	0	0	172	172	0.0
 Publisher	Universidade de Lisboa	1	0	0	856	856	0.0
 Publisher	Universidade de Minas Gerais	1	0	0	540	540	0.0
-Publisher	Universidade De Sao Paulo	21	162	7119	8805	11875	0.013642105263157895
-Publisher	Universidade de Sao Paulo, Faculdade de Educacao	1	3	628	628	628	0.004777070063694267
-Publisher	Universidade de Sao Paulo, Faculdade de Saude Publica	1	0	186	186	186	0.0
-Publisher	Universidade de Sao Paulo, Institudo de Estudos Avancados	1	0	1796	1796	1796	0.0
+Publisher	Universidade de Sao Paulo	24	165	9729	11415	14485	0.011391094235415948
 Publisher	Universidade de Sao Paulo. Faculdade de Medicina Veterinari	1	2	1604	1604	1604	0.0012468827930174563
 Publisher	Universidade Do Estado de Santa Catarina	1	0	238	238	238	0.0
 Publisher	Universidade do Estado do Rio de Janeiro	1	0	0	248	248	0.0
@@ -3670,7 +3617,7 @@ Publisher	Universitatea din Bucuresti	1	0	43	43	43	0.0
 Publisher	Universite catholique de Louvain	2	411	0	1344	1344	0.30580357142857145
 Publisher	Universite de Bordeaux	1	0	0	907	907	0.0
 Publisher	Universite de Bordeaux III	2	1	0	2600	2940	3.401360544217687e-4
-Publisher	Universite de Caen, Laboratoire de Psychopedagogie	1	2	0	341	341	0.005865102639296188
+Publisher	Universite de Caen	3	2	96	437	1568	0.0012755102040816326
 Publisher	Universite de Lille	1	2	0	2919	2919	6.851661527920521e-4
 Publisher	Universite de Lille I	1	1	1159	1159	1159	8.628127696289905e-4
 Publisher	Universite de Toulouse-Le Mirail	1	0	80	80	80	0.0
@@ -3685,6 +3632,7 @@ Publisher	Universitet of Nis	1	17	1397	1397	1397	0.012168933428775949
 Publisher	Universitetsforlaget AS	3	0	13	63	63	0.0
 Publisher	Universitetsforlaget AS/Scandinavian University Press	2	0	0	82	82	0.0
 Publisher	Universiti Kebangsaan Malaysia	5	0	102	503	503	0.0
+Publisher	Universiti Malaysia Pahang	2	4	482	482	482	0.008298755186721992
 Publisher	Universiti Putra Malaysia	1	0	0	8	8	0.0
 Publisher	Universiti Sains Malaysia	5	0	70	143	143	0.0
 Publisher	Universities Federation for Animal Welfare	1	258	0	308	308	0.8376623376623377
@@ -3712,6 +3660,7 @@ Publisher	University Of Brawijaya	1	0	0	230	230	0.0
 Publisher	University of British Columbia	1	11713	0	11726	11726	0.9988913525498891
 Publisher	University of Bucharest	1	5	85	85	85	0.058823529411764705
 Publisher	University of Calgary Press	1	554	0	582	582	0.9518900343642611
+Publisher	University of California	1	0	0	1373	1373	0.0
 Publisher	University of California eScholarship Repository	1	0	36	36	36	0.0
 Publisher	University of California Press	27	66680	2093	102854	105175	0.633990967435227
 Publisher	University of Cape Town	1	0	0	31	31	0.0
@@ -3738,6 +3687,7 @@ Publisher	University of London	1	134	0	0	134	1.0
 Publisher	University of Lueneburg, Department of Economics and Social Sciences, Research Institute on Professions	1	0	90	90	90	0.0
 Publisher	University of Malaya	3	123	335	89	345	0.3565217391304348
 Publisher	University of Manitoba	1	26	0	184	184	0.14130434782608695
+Publisher	University of Maribor	2	26	0	349	349	0.07449856733524356
 Publisher	University of Massachusetts	1	313	0	439	439	0.7129840546697038
 Publisher	University of Medicine	1	212	264	264	264	0.803030303030303
 Publisher	University of Miami	1	1084	0	0	1084	1.0
@@ -3760,6 +3710,7 @@ Publisher	University of Notre Dame, Law School	1	884	0	892	892	0.991031390134529
 Publisher	University of Novi Sad	2	206	277	752	752	0.27393617021276595
 Publisher	University of Occupational and Environmental Health	1	0	0	207	207	0.0
 Publisher	University of Oklahoma	1	28406	0	28759	28759	0.9877255815570778
+Publisher	University of Ostrava	1	0	70	70	70	0.0
 Publisher	University of Pennsylvania Law Review	1	2795	0	2795	2795	1.0
 Publisher	University of Pennsylvania Press	3	5192	0	5977	5977	0.8686632089677095
 Publisher	University of Pittsburgh Press	3	1127	0	319	1677	0.6720333929636255
@@ -3839,7 +3790,7 @@ Publisher	Veleuciliste u Dubrovniku Collegium Ragusinum	1	12	131	131	131	0.09160
 Publisher	Verlag Barbara Budrich	1	0	0	61	61	0.0
 Publisher	Verlag C.H. Beck oHG	1	0	0	320	320	0.0
 Publisher	Verlag der Osterreichischen Akademie der Wissenschaften	5	112	0	805	896	0.125
-Publisher	Verlag Eugen Ulmer GmbH	2	2	0	84	168	0.011904761904761904
+Publisher	Verlag Eugen Ulmer	2	2	0	84	168	0.011904761904761904
 Publisher	Verlag Gehlen	1	64	0	0	236	0.2711864406779661
 Publisher	Verlag Hans Huber AG	10	1642	0	15354	15354	0.10694281620424645
 Publisher	Verlag Klett-Cotta	3	0	0	55	92	0.0
@@ -3880,8 +3831,7 @@ Publisher	W. Kohlhammer GmbH	1	7	0	0	7	1.0
 Publisher	Wageningen Academic Publishers	5	430	0	1669	1669	0.2576393049730378
 Publisher	Wageningen Pers	1	20	0	225	225	0.08888888888888889
 Publisher	Walsh Medical Media	1	59	0	301	301	0.19601328903654486
-Publisher	Walter de Gruyter	370	327349	26382	407244	443502	0.7381003918809836
-Publisher	Walter de Gruyter & Co. KG	1	90	0	161	161	0.5590062111801242
+Publisher	Walter de Gruyter	371	327439	26382	407405	443663	0.738035400743357
 Publisher	Warburg Institute, University of London	1	1282	0	0	1282	1.0
 Publisher	Warsaw University	2	59	166	194	194	0.30412371134020616
 Publisher	Warsaw University of Technology	1	31	177	177	177	0.1751412429378531
@@ -3891,8 +3841,7 @@ Publisher	Water Research Commission	1	222	1220	1220	1220	0.1819672131147541
 Publisher	Water Science and Engineering	1	102	112	112	112	0.9107142857142857
 Publisher	Waterbird Society	2	2308	0	1469	2359	0.9783806697753286
 Publisher	Waxmann Verlag GMBH	1	268	0	0	268	1.0
-Publisher	Wayne State University	1	0	0	243	243	0.0
-Publisher	Wayne State University Press	7	1136	0	2608	2608	0.43558282208588955
+Publisher	Wayne State University Press	8	1136	0	2851	2851	0.3984566818660119
 Publisher	West African College of Physicians	1	1	0	0	522	0.0019157088122605363
 Publisher	West Chester State College	1	84	0	776	776	0.10824742268041238
 Publisher	West Virginia State Medical Association	1	0	0	23	23	0.0
@@ -3908,8 +3857,7 @@ Publisher	White Horse Press	3	1388	0	1563	1563	0.8880358285348688
 Publisher	Whiting & Birch Ltd.	2	0	0	0	345	0.0
 Publisher	Whiting and Birch	2	0	0	0	188	0.0
 Publisher	Whurr Publishers Ltd.	4	1258	0	379	1283	0.9805144193296961
-Publisher	Wichtig Publishing	10	767	0	4951	5190	0.14778420038535645
-Publisher	Wichtig Publishing s.r.l.	1	111	0	247	247	0.4493927125506073
+Publisher	Wichtig Publishing	11	878	0	5198	5437	0.16148611366562443
 Publisher	Widner University	1	33	0	232	232	0.14224137931034483
 Publisher	Wilding & Son	1	56	0	0	56	1.0
 Publisher	Wildlife Disease Association	1	5760	0	5803	5803	0.9925900396346717
@@ -3920,16 +3868,14 @@ Publisher	Wilson Ornithological Society	2	2018	0	1467	2043	0.9877630934899657
 Publisher	Wissenschaftliche Gesellschaft fur Technische Logistik	1	0	0	39	39	0.0
 Publisher	Wistar Institute of Anatomy and Biology	1	2575	0	0	2582	0.9972889233152595
 Publisher	WIT Press	5	3	0	1047	1140	0.002631578947368421
-Publisher	Wold Scientific	5	961	0	845	1002	0.9590818363273453
 Publisher	Wolters Kluwer Health	426	1481291	84234	1803229	1864435	0.7944986014529871
 Publisher	Wolters-Noordhoff	1	396	0	0	396	1.0
 Publisher	Women's Health and Action Research Centre	1	377	0	377	377	1.0
 Publisher	WordPerfect Pub. Corp.	1	647	0	0	647	1.0
 Publisher	World Association for Laser Therapy	1	1	0	887	887	0.0011273957158962795
-Publisher	World Health Organization	1	1005	0	2284	2284	0.44001751313485116
-Publisher	World Health Organization Regional Office for the Western Pacific	1	1	234	234	234	0.004273504273504274
+Publisher	World Health Organization	2	1006	234	2518	2518	0.3995234312946783
 Publisher	World Informations Syndicate	1	0	0	345	345	0.0
-Publisher	World Scientific	102	125050	891	129093	130833	0.9557986134996522
+Publisher	World Scientific	107	126011	891	129938	131835	0.9558235673379604
 Publisher	World Wide Web Publications (P) India	1	1	0	0	1595	6.269592476489029e-4
 Publisher	Worldwide Center of Mathematics	1	1	0	188	188	0.005319148936170213
 Publisher	WormBook	1	6	0	200	200	0.03
@@ -3967,9 +3913,8 @@ Publisher	Zaklad Narodowy imienia Ossolinskich	1	210	369	369	369	0.5691056910569
 Publisher	Zalozba Z R C	1	0	0	389	389	0.0
 Publisher	Zalozba Z R C (Scientific Research Centre Publishing)	1	0	0	278	278	0.0
 Publisher	Zdravstveni Centar Rijeka	1	0	0	0	49	0.0
-Publisher	Zheijang University Press	1	499	0	0	499	1.0
 Publisher	Zhejiang Daxue	1	11	0	0	847	0.012987012987012988
-Publisher	Zhejiang University Press	2	3412	0	3463	3463	0.9852728847819809
+Publisher	Zhejiang University Press	3	3911	0	3463	3962	0.9871277132761231
 Publisher	Zhongguo Dianzi Xuehui	1	262	0	383	383	0.6840731070496083
 Publisher	Zhongguo Kexue Zazhishe/Science in China Press	13	29810	0	12013	31065	0.9596008369547723
 Publisher	Zhongguo Kexueyan Ganguang Huaxue Yanjiusuo	1	0	0	1382	1382	0.0
