@@ -48,5 +48,3 @@ export default class Root extends React.Component {
 };
 
 
-// <Route path="/journal/:journalId" component={Journal}/>
-

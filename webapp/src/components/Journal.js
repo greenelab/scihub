@@ -36,10 +36,10 @@ export default class JournalDetails extends React.Component {
 
   async componentDidMount() {
     let [info, coverage, quantiles, articles] = await Promise.all([
-      fetchJournalInfo(this.journalId).catch(()=>false),
-      fetchJournalCoverageChart(this.journalId).catch(()=>false),
-      fetchJournalQuantilesChart(this.journalId).catch(()=>false),
-      fetchJournalTopArticles(this.journalId).catch(()=>false)
+      fetchJournalInfo(this.journalId),
+      fetchJournalCoverageChart(this.journalId),
+      fetchJournalQuantilesChart(this.journalId),
+      fetchJournalTopArticles(this.journalId)
     ]);
 
     this.setState({ready: true, info, coverage, quantiles, articles});

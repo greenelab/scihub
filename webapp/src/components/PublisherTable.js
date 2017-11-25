@@ -64,7 +64,7 @@ PublisherCell = connect((state, props) => ({
   rowData: rowDataSelector(state, props)
 }))(PublisherCell);
 
-const OpenAccessHeadingComponent = ({icon}) =>
+export const OpenAccessHeadingComponent = ({icon}) =>
   <div className="text-center">
     <a className={tableStyles.header} href="javascript:void(0)">
       <Tooltip title="The percent of the publisher's articles that are in open access journals. Note that open access articles in hybrid journals do not count towards this measure">
@@ -75,7 +75,7 @@ const OpenAccessHeadingComponent = ({icon}) =>
     </a>
   </div>;
 
-const ActiveHeadingComponent = ({icon}) =>
+export const ActiveHeadingComponent = ({icon}) =>
   <div className="text-center">
     <a className={tableStyles.header} href="javascript:void(0)">
       <Tooltip title="The percent of the publisher's articles that are in active journals (journals that still publish new articles)">

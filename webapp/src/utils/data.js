@@ -15,9 +15,16 @@ const ROUTES = {
 
   journal: {
     info: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/info-${journalId}.json`,
-    coverageChart: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/yearly-coverage-${journalId}.tsv`,
-    quantilesChart: (journalId) =>`https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/access-quantiles-${journalId}.tsv`,
+    yearlyCoverage: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/yearly-coverage-${journalId}.tsv`,
+    accessQuantiles: (journalId) =>`https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/access-quantiles-${journalId}.tsv`,
     topArticles: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/top-articles-${journalId}.tsv`,
+  },
+
+  publisher: {
+    info: (id) => `https://raw.githubusercontent.com/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/publishers/${id}/info.json`,
+    topArticles: (id) => `https://raw.githubusercontent.com/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/publishers/${id}/top-articles.tsv`,
+    yearlyCoverage: (id) => `https://raw.githubusercontent.com/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/publishers/${id}/yearly-coverage.tsv`,
+    accessQuantiles: (id) => `https://raw.githubusercontent.com/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/publishers/${id}/access-quantiles.tsv`,
   }
 };
 
@@ -33,7 +40,7 @@ export function fetchTsv({url, forEach}) {
         resolve(data);
       })
       .on('error', (e)=>reject(e));
-  });
+  }).catch(()=>false);
 }
 
 export const fetchJournalData = () => fetchTsv({
@@ -57,14 +64,14 @@ export const fetchJournalInfo = (journalId) => new Promise((resolve, reject) => 
 });
 
 export const fetchJournalCoverageChart = (journalId) => fetchTsv({
-  url: ROUTES.journal.coverageChart(journalId),
+  url: ROUTES.journal.yearlyCoverage(journalId),
   forEach: (row) => {
     row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
   }
 });
 
 export const fetchJournalQuantilesChart = (journalId) => fetchTsv({
-  url: ROUTES.journal.quantilesChart(journalId),
+  url: ROUTES.journal.accessQuantiles(journalId),
 });
 
 export const fetchJournalTopArticles = (journalId) => fetchTsv({
@@ -99,6 +106,33 @@ export function fetchPublishersData() {
 }
 
 export const fetchPublishersDataMemoized = asyncMemoize(fetchPublishersData);
+
+export const fetchPublisherInfo = (slug) => new Promise((resolve, reject) => {
+  d3.json(ROUTES.publisher.info(slug), function(data) {
+    data.crossref_open_access_percent = data.crossref_open_access/data.crossref;
+    data.crossref_open_active_percent = data.crossref_active/data.crossref;
+
+    resolve(data);
+  });
+});
+
+export const fetchPublisherCoverageChart = (slug) => fetchTsv({
+  url: ROUTES.publisher.yearlyCoverage(slug),
+  forEach: (row) => {
+
+  }
+});
+
+export const fetchPublisherQuantilesChart = (slug) => fetchTsv({
+  url: ROUTES.publisher.accessQuantiles(slug),
+});
+
+export const fetchPublisherTopArticles = (slug) => fetchTsv({
+  url: ROUTES.publisher.topArticles(slug),
+});
+
+
+
 
 
 
