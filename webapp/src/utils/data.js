@@ -1,7 +1,25 @@
 /* Helper functions used to fetch and pre-process data */
 
 import d3 from 'd3';
-import {format} from "./helpers";
+import {asyncMemoize} from "./helpers";
+
+// Update these commits hashes when the data is updated on the respecive repositories
+// commit hash to access data on https://github.com/greenelab/scihub
+const SCIHUB_COMMIT = '6ed0f5a3fca9cf8142b8adda70ca16844b792e35';
+// commit hash for urls in https://github.com/greenelab/scihub-browser-data
+const BROWSER_DATA_COMMIT = '7e1e92c59c4c1e03488e047e0b0d178e35fe7488';
+
+const ROUTES = {
+  journals: () => `https://raw.githubusercontent.com/greenelab/scihub/${SCIHUB_COMMIT}/data/journal-coverage.tsv`,
+  publishers: () => `https://raw.githubusercontent.com/greenelab/scihub/${SCIHUB_COMMIT}/data/coverage-by-category.tsv`,
+
+  journal: {
+    info: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/info-${journalId}.json`,
+    coverageChart: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/yearly-coverage-${journalId}.tsv`,
+    quantilesChart: (journalId) =>`https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/access-quantiles-${journalId}.tsv`,
+    topArticles: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/top-articles-${journalId}.tsv`,
+  }
+};
 
 export function fetchTsv({url, forEach}) {
   return new Promise((resolve, reject) => {
@@ -19,7 +37,7 @@ export function fetchTsv({url, forEach}) {
 }
 
 export const fetchJournalData = () => fetchTsv({
-  url: env.journals_data,
+  url: ROUTES.journals(),
   forEach: (journal) => {
     journal.crossref = parseFloat(journal.crossref);
     journal.scihub = parseFloat(journal.scihub);
@@ -30,26 +48,27 @@ export const fetchJournalData = () => fetchTsv({
   }
 });
 
+export const fetchJournalDataMemoized = asyncMemoize(fetchJournalData);
+
 export const fetchJournalInfo = (journalId) => new Promise((resolve, reject) => {
-  let url = `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/${journalId}/info-${journalId}.json`;
-  d3.json(url, function(data) {
+  d3.json(ROUTES.journal.info(journalId), function(data) {
     resolve(data);
   });
 });
 
 export const fetchJournalCoverageChart = (journalId) => fetchTsv({
-  url:`https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/${journalId}/yearly-coverage-${journalId}.tsv`,
+  url: ROUTES.journal.coverageChart(journalId),
   forEach: (row) => {
     row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
   }
 });
 
 export const fetchJournalQuantilesChart = (journalId) => fetchTsv({
-  url: `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/${journalId}/access-quantiles-${journalId}.tsv`,
+  url: ROUTES.journal.quantilesChart(journalId),
 });
 
 export const fetchJournalTopArticles = (journalId) => fetchTsv({
-  url: `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/74e6a70711a9626206968c0fc9accf314aedcb74/journals/${journalId}/top-articles-${journalId}.tsv`,
+  url: ROUTES.journal.topArticles(journalId),
   forEach: (row) => {
     row.downloads = parseFloat(row.downloads);
     row.visitors = parseFloat(row.visitors);
@@ -59,7 +78,7 @@ export const fetchJournalTopArticles = (journalId) => fetchTsv({
 
 export function fetchPublishersData() {
   return new Promise((resolve, reject) => {
-    d3.tsv(env.publishers_data, function(data) {
+    d3.tsv(ROUTES.publishers(), function(data) {
       data = data.filter((x) => x.facet === 'Publisher');
       for (let journal of data) {
         journal.titles = parseFloat(journal.titles);
@@ -79,22 +98,6 @@ export function fetchPublishersData() {
   });
 }
 
-
-export const asyncMemoize = (fn) => {
-  let value;
-  let valueCalculated = false;
-
-  return async (...args) => {
-    if (!valueCalculated) {
-      value = await fn(...args);
-      valueCalculated = true;
-    }
-
-    return value;
-  }
-};
-
-export const fetchJournalDataMemoized = asyncMemoize(fetchJournalData);
 export const fetchPublishersDataMemoized = asyncMemoize(fetchPublishersData);
 
 
