@@ -3,15 +3,16 @@ import React from 'react';
 import {fetchPublishersDataMemoized} from "../utils/data";
 import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
 import { connect } from 'react-redux';
-import tableStyles from './table.scss';
+import {Link} from 'react-router-dom';
 import {
   CreateTooltipHeader, NumberCell, PercentCell, rowDataSelector,
   TableLayout
 } from "./Table";
 import {FetchDataTable, TooltipHeading} from "./Table";
-import {format} from "../utils/helpers";
+import {format, slugify} from "../utils/helpers";
 import Tooltip from './tooltip';
 
+import tableStyles from './table.scss';
 
 export default class PublishersTable extends FetchDataTable {
   render () {
@@ -31,7 +32,7 @@ export default class PublishersTable extends FetchDataTable {
 
   rowDefinition() {
     return <RowDefinition>
-      <ColumnDefinition id="category" title="Publisher" width="70%"
+      <ColumnDefinition id="category" title="Publisher" width="70%" customComponent={PublisherCell}
                         customHeadingComponent={CreateTooltipHeader('The publisher as extracted from Scopus.')} />
       <ColumnDefinition id="journals" title="Journals" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('The number of journals from the publisher.')} />
@@ -54,6 +55,14 @@ export default class PublishersTable extends FetchDataTable {
     this.setState({data});
   }
 }
+
+let PublisherCell = ({value, rowData})=><div>
+  <Link to={`/publisher/${slugify(rowData.category)}`} className="btn-link">{value}</Link>
+</div>;
+PublisherCell = connect((state, props) => ({
+  // rowData will be available into PublisherCell
+  rowData: rowDataSelector(state, props)
+}))(PublisherCell);
 
 const OpenAccessHeadingComponent = ({icon}) =>
   <div className="text-center">

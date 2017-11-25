@@ -1,4 +1,5 @@
 
+import * as d3 from 'd3';
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { RowDefinition, ColumnDefinition } from 'griddle-react';
@@ -7,7 +8,6 @@ import { connect } from 'react-redux';
 import coverageSpec from './journal-coverage-chart.json';
 import quantileSpec from './journal-quantile-chart.json';
 
-import * as d3 from 'd3';
 
 import {
   fetchJournalCoverageChart, fetchJournalQuantilesChart,
@@ -18,13 +18,15 @@ import {
   CreateTooltipHeader, FetchDataTable, NumberCell,
   TableHeaderTip, PercentCell, rowDataSelector,
 } from "./Table";
+import NoData from './NoData';
 
 import JournalTable, {OpenAccessJournalCell, ActiveJournalCell} from './JournalTable';
 
-import styles from './journal.scss';
 import Loading from "./Loading";
 
+import styles from './journal.scss';
 
+// Renders the journals details page
 export default class JournalDetails extends React.Component {
   constructor(props) {
     super(props);
@@ -89,7 +91,7 @@ export default class JournalDetails extends React.Component {
     if (this.state.articles) {
       return <TopArticlesTable journalId={this.journalId} data={this.state.articles} />;
     } else {
-      return this._noData();
+      return <NoData/>;
     }
   }
 
@@ -97,7 +99,7 @@ export default class JournalDetails extends React.Component {
     if (this.state.quantiles) {
       return <Chart spec={quantileSpec} data={this.state.quantiles} />;
     } else {
-      return this._noData();
+      return <NoData/>;
     }
   }
 
@@ -114,14 +116,9 @@ export default class JournalDetails extends React.Component {
                ]
              } }/>;
     } else {
-      return this._noData();
+      return <NoData/>;
     }
   }
-
-  _noData() {
-    return <div className="no-data">No data available.</div>;
-  }
-
 }
 
 function JournalInfoHeader({data, className = ''}) {
