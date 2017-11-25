@@ -119,7 +119,7 @@ export const fetchPublisherInfo = (slug) => new Promise((resolve, reject) => {
 export const fetchPublisherCoverageChart = (slug) => fetchTsv({
   url: ROUTES.publisher.yearlyCoverage(slug),
   forEach: (row) => {
-
+    row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
   }
 });
 
@@ -129,6 +129,11 @@ export const fetchPublisherQuantilesChart = (slug) => fetchTsv({
 
 export const fetchPublisherTopArticles = (slug) => fetchTsv({
   url: ROUTES.publisher.topArticles(slug),
+  forEach: (row) => {
+    row.downloads = parseFloat(row.downloads);
+    row.visitors = parseFloat(row.visitors);
+    row.countries = parseFloat(row.countries);
+  }
 });
 
 

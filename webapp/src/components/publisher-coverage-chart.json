@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "description": "Publisher coverage bar chart",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "timeUnit": "year",
+      "axis": {
+        "title": ""
+      }
+    },
+    "y": {
+      "field": "coverage",
+      "type": "quantitative",
+      "scale": {
+        "domain": [0, 1]
+      },
+      "axis": {
+        "title": "Coverage",
+        "format": ".0%"
+      }
+    },
+    "row": {
+      "field": "open_access",
+      "type": "nominal",
+      "header": {
+        "title": "Open Access"
+      }
+    }
+  },
+  "config": {
+    "mark": {
+      "color": "#efdada"
+    }
+  }
+}
