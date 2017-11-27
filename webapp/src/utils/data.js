@@ -5,13 +5,13 @@ import {asyncMemoize} from "./helpers";
 
 // Update these commits hashes when the data is updated on the respecive repositories
 // commit hash to access data on https://github.com/greenelab/scihub
-const SCIHUB_COMMIT = '6ed0f5a3fca9cf8142b8adda70ca16844b792e35';
+const SCIHUB_COMMIT = '05f9410b0df0db7b2b9cdc12e8d9a5190ed8683f';
 // commit hash for urls in https://github.com/greenelab/scihub-browser-data
 const BROWSER_DATA_COMMIT = '7e1e92c59c4c1e03488e047e0b0d178e35fe7488';
 
 const ROUTES = {
   journals: () => `https://raw.githubusercontent.com/greenelab/scihub/${SCIHUB_COMMIT}/data/journal-coverage.tsv`,
-  publishers: () => `https://raw.githubusercontent.com/greenelab/scihub/${SCIHUB_COMMIT}/data/coverage-by-category.tsv`,
+  publishers: () => `https://raw.githubusercontent.com/greenelab/scihub/${SCIHUB_COMMIT}/data/publisher-coverage.tsv`,
 
   journal: {
     info: (journalId) => `https://media.githubusercontent.com/media/greenelab/scihub-browser-data/${BROWSER_DATA_COMMIT}/journals/${journalId}/info-${journalId}.json`,
@@ -83,27 +83,21 @@ export const fetchJournalTopArticles = (journalId) => fetchTsv({
   }
 });
 
-export function fetchPublishersData() {
-  return new Promise((resolve, reject) => {
-    d3.tsv(ROUTES.publishers(), function(data) {
-      data = data.filter((x) => x.facet === 'Publisher');
-      for (let journal of data) {
-        journal.titles = parseFloat(journal.titles);
-        journal.journals = parseFloat(journal.journals);
-        journal.crossref = parseFloat(journal.crossref);
-        journal.crossref_open_access = parseFloat(journal.crossref_open_access);
-        journal.crossref_active = parseFloat(journal.crossref_active);
-        journal.scihub = parseFloat(journal.scihub);
-        journal.coverage = parseFloat(journal.coverage);
+export const fetchPublishersData = () => fetchTsv({
+  url: ROUTES.publishers(),
+  forEach: (publisher) => {
+    publisher.journals = parseFloat(publisher.journals);
+    publisher.crossref = parseFloat(publisher.crossref);
+    publisher.crossref_open_access = parseFloat(publisher.crossref_open_access);
+    publisher.crossref_active = parseFloat(publisher.crossref_active);
+    publisher.scihub = parseFloat(publisher.scihub);
+    publisher.coverage = parseFloat(publisher.coverage);
 
-        // calculated fields
-        journal.crossref_open_access_percent = journal.crossref_open_access/journal.crossref;
-        journal.crossref_open_active_percent = journal.crossref_active/journal.crossref;
-      }
-      resolve(data);
-    });
-  });
-}
+    // calculated fields
+    publisher.crossref_open_access_percent = publisher.crossref_open_access/publisher.crossref;
+    publisher.crossref_open_active_percent = publisher.crossref_active/publisher.crossref;
+  }
+});
 
 export const fetchPublishersDataMemoized = asyncMemoize(fetchPublishersData);
 

@@ -321,7 +321,7 @@
     this.webpackHotUpdate = function(t, e) {
         s(t, e), p && p(t, e);
     };
-    var v, g, m, y, b = !0, _ = "756d97bb2bea1c398f83", w = {}, x = [], E = [], S = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
+    var v, g, m, y, b = !0, _ = "22af1836e9c05e1e833b", w = {}, x = [], E = [], S = [], M = "idle", O = 0, C = 0, k = {}, T = {}, N = {}, A = {};
     h.m = t, h.c = A, h.i = function(t) {
         return t;
     }, h.d = function(t, e, n) {
@@ -13667,7 +13667,7 @@ object-assign
     function r(t) {
         var e = t.url, n = t.forEach;
         return new Promise(function(t, r) {
-            a.default.tsv(e, function(e) {
+            o.default.tsv(e, function(e) {
                 if (n) {
                     var r = !0, i = !1, o = void 0;
                     try {
@@ -13693,131 +13693,113 @@ object-assign
             return !1;
         });
     }
-    function i() {
-        return new Promise(function(t, e) {
-            a.default.tsv(l.publishers(), function(e) {
-                e = e.filter(function(t) {
-                    return "Publisher" === t.facet;
-                });
-                var n = !0, r = !1, i = void 0;
-                try {
-                    for (var o, a = e[Symbol.iterator](); !(n = (o = a.next()).done); n = !0) {
-                        var u = o.value;
-                        u.titles = parseFloat(u.titles), u.journals = parseFloat(u.journals), u.crossref = parseFloat(u.crossref), 
-                        u.crossref_open_access = parseFloat(u.crossref_open_access), u.crossref_active = parseFloat(u.crossref_active), 
-                        u.scihub = parseFloat(u.scihub), u.coverage = parseFloat(u.coverage), u.crossref_open_access_percent = u.crossref_open_access / u.crossref, 
-                        u.crossref_open_active_percent = u.crossref_active / u.crossref;
-                    }
-                } catch (t) {
-                    r = !0, i = t;
-                } finally {
-                    try {
-                        !n && a.return && a.return();
-                    } finally {
-                        if (r) throw i;
-                    }
-                }
-                t(e);
-            });
-        });
-    }
     Object.defineProperty(e, "__esModule", {
         value: !0
-    }), e.fetchPublisherTopArticles = e.fetchPublisherQuantilesChart = e.fetchPublisherCoverageChart = e.fetchPublisherInfo = e.fetchPublishersDataMemoized = e.fetchJournalTopArticles = e.fetchJournalQuantilesChart = e.fetchJournalCoverageChart = e.fetchJournalInfo = e.fetchJournalDataMemoized = e.fetchJournalData = void 0, 
-    e.fetchTsv = r, e.fetchPublishersData = i;
-    var o = n(228), a = function(t) {
+    }), e.fetchPublisherTopArticles = e.fetchPublisherQuantilesChart = e.fetchPublisherCoverageChart = e.fetchPublisherInfo = e.fetchPublishersDataMemoized = e.fetchPublishersData = e.fetchJournalTopArticles = e.fetchJournalQuantilesChart = e.fetchJournalCoverageChart = e.fetchJournalInfo = e.fetchJournalDataMemoized = e.fetchJournalData = void 0, 
+    e.fetchTsv = r;
+    var i = n(228), o = function(t) {
         return t && t.__esModule ? t : {
             default: t
         };
-    }(o), u = n(277), c = "6ed0f5a3fca9cf8142b8adda70ca16844b792e35", s = "7e1e92c59c4c1e03488e047e0b0d178e35fe7488", l = {
+    }(i), a = n(277), u = "05f9410b0df0db7b2b9cdc12e8d9a5190ed8683f", c = "7e1e92c59c4c1e03488e047e0b0d178e35fe7488", s = {
         journals: function() {
-            return "https://raw.githubusercontent.com/greenelab/scihub/" + c + "/data/journal-coverage.tsv";
+            return "https://raw.githubusercontent.com/greenelab/scihub/" + u + "/data/journal-coverage.tsv";
         },
         publishers: function() {
-            return "https://raw.githubusercontent.com/greenelab/scihub/" + c + "/data/coverage-by-category.tsv";
+            return "https://raw.githubusercontent.com/greenelab/scihub/" + u + "/data/publisher-coverage.tsv";
         },
         journal: {
             info: function(t) {
-                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + s + "/journals/" + t + "/info-" + t + ".json";
+                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + c + "/journals/" + t + "/info-" + t + ".json";
             },
             yearlyCoverage: function(t) {
-                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + s + "/journals/" + t + "/yearly-coverage-" + t + ".tsv";
+                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + c + "/journals/" + t + "/yearly-coverage-" + t + ".tsv";
             },
             accessQuantiles: function(t) {
-                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + s + "/journals/" + t + "/access-quantiles-" + t + ".tsv";
+                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + c + "/journals/" + t + "/access-quantiles-" + t + ".tsv";
             },
             topArticles: function(t) {
-                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + s + "/journals/" + t + "/top-articles-" + t + ".tsv";
+                return "https://media.githubusercontent.com/media/greenelab/scihub-browser-data/" + c + "/journals/" + t + "/top-articles-" + t + ".tsv";
             }
         },
         publisher: {
             info: function(t) {
-                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + s + "/publishers/" + t + "/info.json";
+                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + c + "/publishers/" + t + "/info.json";
             },
             topArticles: function(t) {
-                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + s + "/publishers/" + t + "/top-articles.tsv";
+                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + c + "/publishers/" + t + "/top-articles.tsv";
             },
             yearlyCoverage: function(t) {
-                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + s + "/publishers/" + t + "/yearly-coverage.tsv";
+                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + c + "/publishers/" + t + "/yearly-coverage.tsv";
             },
             accessQuantiles: function(t) {
-                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + s + "/publishers/" + t + "/access-quantiles.tsv";
+                return "https://raw.githubusercontent.com/greenelab/scihub-browser-data/" + c + "/publishers/" + t + "/access-quantiles.tsv";
             }
         }
-    }, f = e.fetchJournalData = function() {
+    }, l = e.fetchJournalData = function() {
         return r({
-            url: l.journals(),
+            url: s.journals(),
             forEach: function(t) {
                 t.crossref = parseFloat(t.crossref), t.scihub = parseFloat(t.scihub), t.coverage = parseFloat(t.coverage), 
                 t.open_access = "1" === t.open_access, t.active = "1" === t.active;
             }
         });
-    };
-    e.fetchJournalDataMemoized = (0, u.asyncMemoize)(f), e.fetchJournalInfo = function(t) {
+    }, f = (e.fetchJournalDataMemoized = (0, a.asyncMemoize)(l), e.fetchJournalInfo = function(t) {
         return new Promise(function(e, n) {
-            a.default.json(l.journal.info(t), function(t) {
+            o.default.json(s.journal.info(t), function(t) {
                 e(t);
             });
         });
     }, e.fetchJournalCoverageChart = function(t) {
         return r({
-            url: l.journal.yearlyCoverage(t),
+            url: s.journal.yearlyCoverage(t),
             forEach: function(t) {
                 t.coverage = parseFloat(t.scihub) / parseFloat(t.crossref);
             }
         });
     }, e.fetchJournalQuantilesChart = function(t) {
         return r({
-            url: l.journal.accessQuantiles(t)
+            url: s.journal.accessQuantiles(t)
         });
     }, e.fetchJournalTopArticles = function(t) {
         return r({
-            url: l.journal.topArticles(t),
+            url: s.journal.topArticles(t),
             forEach: function(t) {
                 t.downloads = parseFloat(t.downloads), t.visitors = parseFloat(t.visitors), t.countries = parseFloat(t.countries);
             }
         });
-    }, e.fetchPublishersDataMemoized = (0, u.asyncMemoize)(i), e.fetchPublisherInfo = function(t) {
+    }, e.fetchPublishersData = function() {
+        return r({
+            url: s.publishers(),
+            forEach: function(t) {
+                t.journals = parseFloat(t.journals), t.crossref = parseFloat(t.crossref), t.crossref_open_access = parseFloat(t.crossref_open_access), 
+                t.crossref_active = parseFloat(t.crossref_active), t.scihub = parseFloat(t.scihub), 
+                t.coverage = parseFloat(t.coverage), t.crossref_open_access_percent = t.crossref_open_access / t.crossref, 
+                t.crossref_open_active_percent = t.crossref_active / t.crossref;
+            }
+        });
+    });
+    e.fetchPublishersDataMemoized = (0, a.asyncMemoize)(f), e.fetchPublisherInfo = function(t) {
         return new Promise(function(e, n) {
-            a.default.json(l.publisher.info(t), function(t) {
+            o.default.json(s.publisher.info(t), function(t) {
                 t.crossref_open_access_percent = t.crossref_open_access / t.crossref, t.crossref_open_active_percent = t.crossref_active / t.crossref, 
                 e(t);
             });
         });
     }, e.fetchPublisherCoverageChart = function(t) {
         return r({
-            url: l.publisher.yearlyCoverage(t),
+            url: s.publisher.yearlyCoverage(t),
             forEach: function(t) {
                 t.coverage = parseFloat(t.scihub) / parseFloat(t.crossref);
             }
         });
     }, e.fetchPublisherQuantilesChart = function(t) {
         return r({
-            url: l.publisher.accessQuantiles(t)
+            url: s.publisher.accessQuantiles(t)
         });
     }, e.fetchPublisherTopArticles = function(t) {
         return r({
-            url: l.publisher.topArticles(t),
+            url: s.publisher.topArticles(t),
             forEach: function(t) {
                 t.downloads = parseFloat(t.downloads), t.visitors = parseFloat(t.visitors), t.countries = parseFloat(t.countries);
             }
@@ -22619,13 +22601,10 @@ object-assign
     function i(t) {
         return "string" == typeof t;
     }
-    function o(t) {
-        return t.toString().toLowerCase().replace(/\s+/g, "-").replace(/[^\w\-]+/g, "").replace(/\-\-+/g, "-").replace(/^-+/, "").replace(/-+$/, "");
-    }
     Object.defineProperty(e, "__esModule", {
         value: !0
-    }), e.isString = i, e.slugify = o;
-    var a = e.format = {
+    }), e.isString = i;
+    var o = e.format = {
         number: function(t) {
             var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 2, n = arguments[2], r = arguments[3];
             r = void 0 === r ? "1000" !== 1e3.toLocaleString() ? 1e3.toLocaleString().charAt(1) : "" : r, 
@@ -22640,11 +22619,11 @@ object-assign
             u.join(n);
         },
         percent: function(t) {
-            return a.number(100 * t, 1) + "%";
+            return o.number(100 * t, 1) + "%";
         },
         digits: function(t) {
             var e = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 2;
-            return 0 === e ? "" : 0 === t || t / Math.pow(10, e - 1) < 1 ? "0" + a.digits(t, e - 1) : t;
+            return 0 === e ? "" : 0 === t || t / Math.pow(10, e - 1) < 1 ? "0" + o.digits(t, e - 1) : t;
         }
     };
     e.asyncMemoize = function(t) {
@@ -26789,7 +26768,8 @@ object-assign
         if ("value" in i) return i.value;
         var a = i.get;
         if (void 0 !== a) return a.call(r);
-    }, l = n(2), f = r(l), d = n(196), h = n(176), p = (r(h), n(13)), v = n(93), g = n(151), m = n(277), y = n(276), b = r(y), _ = n(556), w = r(_), x = function(t) {
+    }, l = n(2), f = r(l), d = n(196), h = n(176), p = (r(h), n(13)), v = n(93), g = n(151), m = (n(277), 
+    n(276)), y = r(m), b = n(556), _ = r(b), w = function(t) {
         function e() {
             return o(this, e), a(this, (e.__proto__ || Object.getPrototypeOf(e)).apply(this, arguments));
         }
@@ -26814,10 +26794,10 @@ object-assign
             key: "rowDefinition",
             value: function() {
                 return f.default.createElement(h.RowDefinition, null, f.default.createElement(h.ColumnDefinition, {
-                    id: "category",
+                    id: "main_publisher",
                     title: "Publisher",
                     width: "70%",
-                    customComponent: E,
+                    customComponent: x,
                     customHeadingComponent: (0, g.CreateTooltipHeader)("The publisher as extracted from Scopus.")
                 }), f.default.createElement(h.ColumnDefinition, {
                     id: "journals",
@@ -26843,12 +26823,12 @@ object-assign
                     id: "crossref_open_access_percent",
                     title: "OpenAccess",
                     customComponent: g.PercentCell,
-                    customHeadingComponent: S
+                    customHeadingComponent: E
                 }), f.default.createElement(h.ColumnDefinition, {
                     id: "crossref_open_active_percent",
                     title: "Active",
                     customComponent: g.PercentCell,
-                    customHeadingComponent: M
+                    customHeadingComponent: S
                 }));
             }
         }, {
@@ -26879,47 +26859,47 @@ object-assign
             }()
         } ]), e;
     }(g.FetchDataTable);
-    e.default = x;
-    var E = function(t) {
+    e.default = w;
+    var x = function(t) {
         var e = t.value, n = t.rowData;
         return f.default.createElement("div", null, f.default.createElement(v.Link, {
-            to: "/publisher/" + (0, m.slugify)(n.category),
+            to: "/publisher/" + n.main_publisher_slug,
             className: "btn-link"
         }, e));
     };
-    E = (0, p.connect)(function(t, e) {
+    x = (0, p.connect)(function(t, e) {
         return {
             rowData: (0, g.rowDataSelector)(t, e)
         };
-    })(E);
-    var S = e.OpenAccessHeadingComponent = function(t) {
+    })(x);
+    var E = e.OpenAccessHeadingComponent = function(t) {
         var e = t.icon, n = t.className, r = void 0 === n ? "text-center" : n;
         return f.default.createElement("div", {
             className: r
         }, f.default.createElement("a", {
-            className: w.default.header,
+            className: _.default.header,
             href: "javascript:void(0)"
-        }, f.default.createElement(b.default, {
+        }, f.default.createElement(y.default, {
             title: "The percent of the publisher's articles that are in open access journals. Note that open access articles in hybrid journals do not count towards this measure"
         }, f.default.createElement("img", {
             src: "https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg",
             className: "open-access-logo"
         })), e && f.default.createElement("span", {
-            className: w.default.headerCaret
+            className: _.default.headerCaret
         }, e)));
-    }, M = e.ActiveHeadingComponent = function(t) {
+    }, S = e.ActiveHeadingComponent = function(t) {
         var e = t.icon, n = t.className, r = void 0 === n ? "text-center" : n;
         return f.default.createElement("div", {
             className: r
         }, f.default.createElement("a", {
-            className: w.default.header,
+            className: _.default.header,
             href: "javascript:void(0)"
-        }, f.default.createElement(b.default, {
+        }, f.default.createElement(y.default, {
             title: "The percent of the publisher's articles that are in active journals (journals that still publish new articles)"
         }, f.default.createElement("i", {
             className: "glyphicon glyphicon-ok text-success"
         })), e && f.default.createElement("span", {
-            className: w.default.headerCaret
+            className: _.default.headerCaret
         }, e)));
     };
 }, function(t, e, n) {
@@ -37654,22 +37634,22 @@ object-assign
                         showAllFields: !1,
                         fields: [ {
                             field: "scihub",
-                            title: "Sci-Hub",
+                            title: "Articles in Sci-Hub",
                             formatType: "number",
                             format: ",d"
                         }, {
                             field: "scihub_journals",
-                            title: "Sci-Hub Journals",
+                            title: "Journals in Sci-Hub",
                             formatType: "number",
                             format: ",d"
                         }, {
                             field: "crossref",
-                            title: "Crossref",
+                            title: "Articles in Crossref",
                             formatType: "number",
                             format: ",d"
                         }, {
                             field: "crossref_journals",
-                            title: "Crossref Journals",
+                            title: "Journals in Crossref",
                             formatType: "number",
                             format: ",d"
                         }, {

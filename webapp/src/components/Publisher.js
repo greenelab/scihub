@@ -105,10 +105,10 @@ export default class PublisherDetails extends React.Component {
                     tooltip={ {
                       showAllFields: false,
                       fields: [
-                        {field: 'scihub', title: 'Sci-Hub', formatType: "number", format: ',d'},
-                        {field: 'scihub_journals', title: 'Sci-Hub Journals', formatType: "number", format: ',d'},
-                        {field: 'crossref', title: 'Crossref', formatType: "number", format: ',d'},
-                        {field: 'crossref_journals', title: 'Crossref Journals', formatType: "number", format: ',d'},
+                        {field: 'scihub', title: 'Articles in Sci-Hub', formatType: "number", format: ',d'},
+                        {field: 'scihub_journals', title: 'Journals in Sci-Hub', formatType: "number", format: ',d'},
+                        {field: 'crossref', title: 'Articles in Crossref', formatType: "number", format: ',d'},
+                        {field: 'crossref_journals', title: 'Journals in Crossref', formatType: "number", format: ',d'},
                         {field: 'coverage', title: 'Coverage', formatType: "number", format: ',.1%'},
                         {field: 'year', title: 'Year', formatType: 'time', format: '%Y'},
                       ]

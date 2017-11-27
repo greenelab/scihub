@@ -32,7 +32,7 @@ export default class PublishersTable extends FetchDataTable {
 
   rowDefinition() {
     return <RowDefinition>
-      <ColumnDefinition id="category" title="Publisher" width="70%" customComponent={PublisherCell}
+      <ColumnDefinition id="main_publisher" title="Publisher" width="70%" customComponent={PublisherCell}
                         customHeadingComponent={CreateTooltipHeader('The publisher as extracted from Scopus.')} />
       <ColumnDefinition id="journals" title="Journals" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('The number of journals from the publisher.')} />
@@ -57,7 +57,7 @@ export default class PublishersTable extends FetchDataTable {
 }
 
 let PublisherCell = ({value, rowData})=><div>
-  <Link to={`/publisher/${slugify(rowData.category)}`} className="btn-link">{value}</Link>
+  <Link to={`/publisher/${rowData.main_publisher_slug}`} className="btn-link">{value}</Link>
 </div>;
 PublisherCell = connect((state, props) => ({
   // rowData will be available into PublisherCell
