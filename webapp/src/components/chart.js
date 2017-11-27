@@ -7,6 +7,10 @@ import styles from './chart.scss';
 
 // Renders a VegaLite chart, expects two properties: spec and data
 export class Chart extends React.Component {
+  static defaultProps = {
+    adjustWidth: 0,
+  };
+
   constructor(props) {
     super(props);
     this.state = {};
@@ -28,10 +32,10 @@ export class Chart extends React.Component {
     if (!this.state.width) {
       return <div ref={(c)=>this._wrapper = c}><Loading /></div>;
     } else {
-      let spec = {
-        width: this.state.width,
-        ...this.props.spec,
-      };
+      let width = this.state.width + this.props.adjustWidth;
+      let spec = this.props.spec.spec
+        ? { ...this.props.spec, spec: { width, ...this.props.spec.spec } }
+        : { width, ...this.props.spec };
       let data = { values: this.props.data };
 
       return <div ref={(c)=>this._wrapper = c}>

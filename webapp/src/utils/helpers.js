@@ -50,3 +50,16 @@ export const format = {
 // thanks to https://stackoverflow.com/a/35316222/763705
 export function isString(value) {return typeof value === 'string';}
 
+export const asyncMemoize = (fn) => {
+  let value;
+  let valueCalculated = false;
+
+  return async (...args) => {
+    if (!valueCalculated) {
+      value = await fn(...args);
+      valueCalculated = true;
+    }
+
+    return value;
+  }
+};

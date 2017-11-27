@@ -3,15 +3,16 @@ import React from 'react';
 import {fetchPublishersDataMemoized} from "../utils/data";
 import Griddle, { plugins, RowDefinition, ColumnDefinition } from 'griddle-react';
 import { connect } from 'react-redux';
-import tableStyles from './table.scss';
+import {Link} from 'react-router-dom';
 import {
   CreateTooltipHeader, NumberCell, PercentCell, rowDataSelector,
   TableLayout
 } from "./Table";
 import {FetchDataTable, TooltipHeading} from "./Table";
-import {format} from "../utils/helpers";
+import {format, slugify} from "../utils/helpers";
 import Tooltip from './tooltip';
 
+import tableStyles from './table.scss';
 
 export default class PublishersTable extends FetchDataTable {
   render () {
@@ -31,7 +32,7 @@ export default class PublishersTable extends FetchDataTable {
 
   rowDefinition() {
     return <RowDefinition>
-      <ColumnDefinition id="category" title="Publisher" width="70%"
+      <ColumnDefinition id="main_publisher" title="Publisher" width="70%" customComponent={PublisherCell}
                         customHeadingComponent={CreateTooltipHeader('The publisher as extracted from Scopus.')} />
       <ColumnDefinition id="journals" title="Journals" customComponent={NumberCell}
                         customHeadingComponent={CreateTooltipHeader('The number of journals from the publisher.')} />
@@ -55,8 +56,16 @@ export default class PublishersTable extends FetchDataTable {
   }
 }
 
-const OpenAccessHeadingComponent = ({icon}) =>
-  <div className="text-center">
+let PublisherCell = ({value, rowData})=><div>
+  <Link to={`/publisher/${rowData.main_publisher_slug}`} className="btn-link">{value}</Link>
+</div>;
+PublisherCell = connect((state, props) => ({
+  // rowData will be available into PublisherCell
+  rowData: rowDataSelector(state, props)
+}))(PublisherCell);
+
+export const OpenAccessHeadingComponent = ({icon, className = 'text-center'}) =>
+  <div className={className}>
     <a className={tableStyles.header} href="javascript:void(0)">
       <Tooltip title="The percent of the publisher's articles that are in open access journals. Note that open access articles in hybrid journals do not count towards this measure">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Open_Access_logo_PLoS_transparent.svg"
@@ -66,8 +75,8 @@ const OpenAccessHeadingComponent = ({icon}) =>
     </a>
   </div>;
 
-const ActiveHeadingComponent = ({icon}) =>
-  <div className="text-center">
+export const ActiveHeadingComponent = ({icon, className = 'text-center'}) =>
+  <div className={className}>
     <a className={tableStyles.header} href="javascript:void(0)">
       <Tooltip title="The percent of the publisher's articles that are in active journals (journals that still publish new articles)">
         <i className="glyphicon glyphicon-ok text-success"/>
