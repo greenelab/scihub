@@ -101,7 +101,7 @@ export default class PublisherDetails extends React.Component {
 
   _coverageChart() {
     if (this.state.coverage) {
-      return <Chart spec={coverageSpec} data={this.state.coverage} adjustWidth={-105}
+      return <Chart spec={coverageSpec} data={this.state.coverage} adjustWidth={-86}
                     tooltip={ {
                       showAllFields: false,
                       fields: [

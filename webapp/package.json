@@ -42,7 +42,7 @@
     "style-loader": "^0.16.1",
     "url-loader": "^0.5.9",
     "vega": "^3.0.4",
-    "vega-lite": "^2.0.0-rc3",
+    "vega-lite": "^2.0.3",
     "vega-tooltip": "^0.4.4",
     "webpack": "^2.3.3",
     "webpack-bundle-tracker": "^0.2.0",

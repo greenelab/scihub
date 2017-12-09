@@ -114,6 +114,7 @@ export const fetchPublisherCoverageChart = (slug) => fetchTsv({
   url: ROUTES.publisher.yearlyCoverage(slug),
   forEach: (row) => {
     row.coverage = parseFloat(row.scihub)/parseFloat(row.crossref);
+    row.open_access = row.open_access === '0' ? 'Toll Access' : 'Open Access';
   }
 });
 
