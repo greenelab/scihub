@@ -26,7 +26,8 @@
       "field": "open_access",
       "type": "nominal",
       "header": {
-        "title": "Open Access"
+        "title": "",
+        "labelAngle": -90
       }
     }
   },
