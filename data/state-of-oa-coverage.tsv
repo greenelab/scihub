@@ -1,197 +1,197 @@
 collection	oadoi_color	venn	repos	n_repos	available	articles	coverage
 Combined	all	100	oaDOI	1	107315	290120	0.3699
-Combined	all	010	Penn	1	244867	290120	0.84402
+Combined	all	010	PennText	1	244867	290120	0.84402
 Combined	all	001	Sci-Hub	1	246050	290120	0.8481
-Combined	all	110	oaDOI, Penn	2	258249	290120	0.89015
+Combined	all	110	oaDOI, PennText	2	258249	290120	0.89015
 Combined	all	101	oaDOI, Sci-Hub	2	272655	290120	0.9398
-Combined	all	011	Penn, Sci-Hub	2	277316	290120	0.95587
-Combined	all	111	oaDOI, Penn, Sci-Hub	3	282593	290120	0.97406
+Combined	all	011	PennText, Sci-Hub	2	277316	290120	0.95587
+Combined	all	111	oaDOI, PennText, Sci-Hub	3	282593	290120	0.97406
 Combined	bronze	100	oaDOI	1	43885	43885	1
-Combined	bronze	010	Penn	1	36077	43885	0.82208
+Combined	bronze	010	PennText	1	36077	43885	0.82208
 Combined	bronze	001	Sci-Hub	1	34920	43885	0.79572
-Combined	bronze	110	oaDOI, Penn	2	43885	43885	1
+Combined	bronze	110	oaDOI, PennText	2	43885	43885	1
 Combined	bronze	101	oaDOI, Sci-Hub	2	43885	43885	1
-Combined	bronze	011	Penn, Sci-Hub	2	40828	43885	0.93034
-Combined	bronze	111	oaDOI, Penn, Sci-Hub	3	43885	43885	1
+Combined	bronze	011	PennText, Sci-Hub	2	40828	43885	0.93034
+Combined	bronze	111	oaDOI, PennText, Sci-Hub	3	43885	43885	1
 Combined	closed	100	oaDOI	1	0	182805	0
-Combined	closed	010	Penn	1	150934	182805	0.82566
+Combined	closed	010	PennText	1	150934	182805	0.82566
 Combined	closed	001	Sci-Hub	1	165340	182805	0.90446
-Combined	closed	110	oaDOI, Penn	2	150934	182805	0.82566
+Combined	closed	110	oaDOI, PennText	2	150934	182805	0.82566
 Combined	closed	101	oaDOI, Sci-Hub	2	165340	182805	0.90446
-Combined	closed	011	Penn, Sci-Hub	2	175278	182805	0.95882
-Combined	closed	111	oaDOI, Penn, Sci-Hub	3	175278	182805	0.95882
+Combined	closed	011	PennText, Sci-Hub	2	175278	182805	0.95882
+Combined	closed	111	oaDOI, PennText, Sci-Hub	3	175278	182805	0.95882
 Combined	closed + green	100	oaDOI	1	25981	208786	0.12444
-Combined	closed + green	010	Penn	1	174375	208786	0.83519
+Combined	closed + green	010	PennText	1	174375	208786	0.83519
 Combined	closed + green	001	Sci-Hub	1	189269	208786	0.90652
-Combined	closed + green	110	oaDOI, Penn	2	176915	208786	0.84735
+Combined	closed + green	110	oaDOI, PennText	2	176915	208786	0.84735
 Combined	closed + green	101	oaDOI, Sci-Hub	2	191321	208786	0.91635
-Combined	closed + green	011	Penn, Sci-Hub	2	200496	208786	0.96029
-Combined	closed + green	111	oaDOI, Penn, Sci-Hub	3	201259	208786	0.96395
+Combined	closed + green	011	PennText, Sci-Hub	2	200496	208786	0.96029
+Combined	closed + green	111	oaDOI, PennText, Sci-Hub	3	201259	208786	0.96395
 Combined	gold	100	oaDOI	1	22786	22786	1
-Combined	gold	010	Penn	1	22018	22786	0.9663
+Combined	gold	010	PennText	1	22018	22786	0.9663
 Combined	gold	001	Sci-Hub	1	11215	22786	0.49219
-Combined	gold	110	oaDOI, Penn	2	22786	22786	1
+Combined	gold	110	oaDOI, PennText	2	22786	22786	1
 Combined	gold	101	oaDOI, Sci-Hub	2	22786	22786	1
-Combined	gold	011	Penn, Sci-Hub	2	22566	22786	0.99034
-Combined	gold	111	oaDOI, Penn, Sci-Hub	3	22786	22786	1
+Combined	gold	011	PennText, Sci-Hub	2	22566	22786	0.99034
+Combined	gold	111	oaDOI, PennText, Sci-Hub	3	22786	22786	1
 Combined	green	100	oaDOI	1	25981	25981	1
-Combined	green	010	Penn	1	23441	25981	0.90224
+Combined	green	010	PennText	1	23441	25981	0.90224
 Combined	green	001	Sci-Hub	1	23929	25981	0.92102
-Combined	green	110	oaDOI, Penn	2	25981	25981	1
+Combined	green	110	oaDOI, PennText	2	25981	25981	1
 Combined	green	101	oaDOI, Sci-Hub	2	25981	25981	1
-Combined	green	011	Penn, Sci-Hub	2	25218	25981	0.97063
-Combined	green	111	oaDOI, Penn, Sci-Hub	3	25981	25981	1
+Combined	green	011	PennText, Sci-Hub	2	25218	25981	0.97063
+Combined	green	111	oaDOI, PennText, Sci-Hub	3	25981	25981	1
 Combined	hybrid	100	oaDOI	1	14663	14663	1
-Combined	hybrid	010	Penn	1	12397	14663	0.84546
+Combined	hybrid	010	PennText	1	12397	14663	0.84546
 Combined	hybrid	001	Sci-Hub	1	10646	14663	0.72605
-Combined	hybrid	110	oaDOI, Penn	2	14663	14663	1
+Combined	hybrid	110	oaDOI, PennText	2	14663	14663	1
 Combined	hybrid	101	oaDOI, Sci-Hub	2	14663	14663	1
-Combined	hybrid	011	Penn, Sci-Hub	2	13426	14663	0.91564
-Combined	hybrid	111	oaDOI, Penn, Sci-Hub	3	14663	14663	1
+Combined	hybrid	011	PennText, Sci-Hub	2	13426	14663	0.91564
+Combined	hybrid	111	oaDOI, PennText, Sci-Hub	3	14663	14663	1
 Crossref	all	100	oaDOI	1	27769	99952	0.27782
-Crossref	all	010	Penn	1	74807	99952	0.74843
+Crossref	all	010	PennText	1	74807	99952	0.74843
 Crossref	all	001	Sci-Hub	1	79284	99952	0.79322
-Crossref	all	110	oaDOI, Penn	2	80690	99952	0.80729
+Crossref	all	110	oaDOI, PennText	2	80690	99952	0.80729
 Crossref	all	101	oaDOI, Sci-Hub	2	89065	99952	0.89108
-Crossref	all	011	Penn, Sci-Hub	2	92011	99952	0.92055
-Crossref	all	111	oaDOI, Penn, Sci-Hub	3	95212	99952	0.95258
+Crossref	all	011	PennText, Sci-Hub	2	92011	99952	0.92055
+Crossref	all	111	oaDOI, PennText, Sci-Hub	3	95212	99952	0.95258
 Crossref	bronze	100	oaDOI	1	16195	16195	1
-Crossref	bronze	010	Penn	1	12427	16195	0.76734
+Crossref	bronze	010	PennText	1	12427	16195	0.76734
 Crossref	bronze	001	Sci-Hub	1	10895	16195	0.67274
-Crossref	bronze	110	oaDOI, Penn	2	16195	16195	1
+Crossref	bronze	110	oaDOI, PennText	2	16195	16195	1
 Crossref	bronze	101	oaDOI, Sci-Hub	2	16195	16195	1
-Crossref	bronze	011	Penn, Sci-Hub	2	14304	16195	0.88324
-Crossref	bronze	111	oaDOI, Penn, Sci-Hub	3	16195	16195	1
+Crossref	bronze	011	PennText, Sci-Hub	2	14304	16195	0.88324
+Crossref	bronze	111	oaDOI, PennText, Sci-Hub	3	16195	16195	1
 Crossref	closed	100	oaDOI	1	0	72183	0
-Crossref	closed	010	Penn	1	52921	72183	0.73315
+Crossref	closed	010	PennText	1	52921	72183	0.73315
 Crossref	closed	001	Sci-Hub	1	61296	72183	0.84918
-Crossref	closed	110	oaDOI, Penn	2	52921	72183	0.73315
+Crossref	closed	110	oaDOI, PennText	2	52921	72183	0.73315
 Crossref	closed	101	oaDOI, Sci-Hub	2	61296	72183	0.84918
-Crossref	closed	011	Penn, Sci-Hub	2	67443	72183	0.93433
-Crossref	closed	111	oaDOI, Penn, Sci-Hub	3	67443	72183	0.93433
+Crossref	closed	011	PennText, Sci-Hub	2	67443	72183	0.93433
+Crossref	closed	111	oaDOI, PennText, Sci-Hub	3	67443	72183	0.93433
 Crossref	closed + green	100	oaDOI	1	4814	76997	0.062522
-Crossref	closed + green	010	Penn	1	56851	76997	0.73835
+Crossref	closed + green	010	PennText	1	56851	76997	0.73835
 Crossref	closed + green	001	Sci-Hub	1	65162	76997	0.84629
-Crossref	closed + green	110	oaDOI, Penn	2	57735	76997	0.74983
+Crossref	closed + green	110	oaDOI, PennText	2	57735	76997	0.74983
 Crossref	closed + green	101	oaDOI, Sci-Hub	2	66110	76997	0.8586
-Crossref	closed + green	011	Penn, Sci-Hub	2	71799	76997	0.93249
-Crossref	closed + green	111	oaDOI, Penn, Sci-Hub	3	72257	76997	0.93844
+Crossref	closed + green	011	PennText, Sci-Hub	2	71799	76997	0.93249
+Crossref	closed + green	111	oaDOI, PennText, Sci-Hub	3	72257	76997	0.93844
 Crossref	gold	100	oaDOI	1	3212	3212	1
-Crossref	gold	010	Penn	1	3033	3212	0.94427
+Crossref	gold	010	PennText	1	3033	3212	0.94427
 Crossref	gold	001	Sci-Hub	1	1224	3212	0.38107
-Crossref	gold	110	oaDOI, Penn	2	3212	3212	1
+Crossref	gold	110	oaDOI, PennText	2	3212	3212	1
 Crossref	gold	101	oaDOI, Sci-Hub	2	3212	3212	1
-Crossref	gold	011	Penn, Sci-Hub	2	3094	3212	0.96326
-Crossref	gold	111	oaDOI, Penn, Sci-Hub	3	3212	3212	1
+Crossref	gold	011	PennText, Sci-Hub	2	3094	3212	0.96326
+Crossref	gold	111	oaDOI, PennText, Sci-Hub	3	3212	3212	1
 Crossref	green	100	oaDOI	1	4814	4814	1
-Crossref	green	010	Penn	1	3930	4814	0.81637
+Crossref	green	010	PennText	1	3930	4814	0.81637
 Crossref	green	001	Sci-Hub	1	3866	4814	0.80307
-Crossref	green	110	oaDOI, Penn	2	4814	4814	1
+Crossref	green	110	oaDOI, PennText	2	4814	4814	1
 Crossref	green	101	oaDOI, Sci-Hub	2	4814	4814	1
-Crossref	green	011	Penn, Sci-Hub	2	4356	4814	0.90486
-Crossref	green	111	oaDOI, Penn, Sci-Hub	3	4814	4814	1
+Crossref	green	011	PennText, Sci-Hub	2	4356	4814	0.90486
+Crossref	green	111	oaDOI, PennText, Sci-Hub	3	4814	4814	1
 Crossref	hybrid	100	oaDOI	1	3548	3548	1
-Crossref	hybrid	010	Penn	1	2496	3548	0.70349
+Crossref	hybrid	010	PennText	1	2496	3548	0.70349
 Crossref	hybrid	001	Sci-Hub	1	2003	3548	0.56454
-Crossref	hybrid	110	oaDOI, Penn	2	3548	3548	1
+Crossref	hybrid	110	oaDOI, PennText	2	3548	3548	1
 Crossref	hybrid	101	oaDOI, Sci-Hub	2	3548	3548	1
-Crossref	hybrid	011	Penn, Sci-Hub	2	2814	3548	0.79312
-Crossref	hybrid	111	oaDOI, Penn, Sci-Hub	3	3548	3548	1
+Crossref	hybrid	011	PennText, Sci-Hub	2	2814	3548	0.79312
+Crossref	hybrid	111	oaDOI, PennText, Sci-Hub	3	3548	3548	1
 Unpaywall	all	100	oaDOI	1	42601	87322	0.48786
-Unpaywall	all	010	Penn	1	75601	87322	0.86577
+Unpaywall	all	010	PennText	1	75601	87322	0.86577
 Unpaywall	all	001	Sci-Hub	1	71204	87322	0.81542
-Unpaywall	all	110	oaDOI, Penn	2	79828	87322	0.91418
+Unpaywall	all	110	oaDOI, PennText	2	79828	87322	0.91418
 Unpaywall	all	101	oaDOI, Sci-Hub	2	82212	87322	0.94148
-Unpaywall	all	011	Penn, Sci-Hub	2	83979	87322	0.96172
-Unpaywall	all	111	oaDOI, Penn, Sci-Hub	3	85291	87322	0.97674
+Unpaywall	all	011	PennText, Sci-Hub	2	83979	87322	0.96172
+Unpaywall	all	111	oaDOI, PennText, Sci-Hub	3	85291	87322	0.97674
 Unpaywall	bronze	100	oaDOI	1	14412	14412	1
-Unpaywall	bronze	010	Penn	1	12359	14412	0.85755
+Unpaywall	bronze	010	PennText	1	12359	14412	0.85755
 Unpaywall	bronze	001	Sci-Hub	1	12286	14412	0.85248
-Unpaywall	bronze	110	oaDOI, Penn	2	14412	14412	1
+Unpaywall	bronze	110	oaDOI, PennText	2	14412	14412	1
 Unpaywall	bronze	101	oaDOI, Sci-Hub	2	14412	14412	1
-Unpaywall	bronze	011	Penn, Sci-Hub	2	13842	14412	0.96045
-Unpaywall	bronze	111	oaDOI, Penn, Sci-Hub	3	14412	14412	1
+Unpaywall	bronze	011	PennText, Sci-Hub	2	13842	14412	0.96045
+Unpaywall	bronze	111	oaDOI, PennText, Sci-Hub	3	14412	14412	1
 Unpaywall	closed	100	oaDOI	1	0	44721	0
-Unpaywall	closed	010	Penn	1	37227	44721	0.83243
+Unpaywall	closed	010	PennText	1	37227	44721	0.83243
 Unpaywall	closed	001	Sci-Hub	1	39611	44721	0.88574
-Unpaywall	closed	110	oaDOI, Penn	2	37227	44721	0.83243
+Unpaywall	closed	110	oaDOI, PennText	2	37227	44721	0.83243
 Unpaywall	closed	101	oaDOI, Sci-Hub	2	39611	44721	0.88574
-Unpaywall	closed	011	Penn, Sci-Hub	2	42690	44721	0.95459
-Unpaywall	closed	111	oaDOI, Penn, Sci-Hub	3	42690	44721	0.95459
+Unpaywall	closed	011	PennText, Sci-Hub	2	42690	44721	0.95459
+Unpaywall	closed	111	oaDOI, PennText, Sci-Hub	3	42690	44721	0.95459
 Unpaywall	closed + green	100	oaDOI	1	9436	54157	0.17423
-Unpaywall	closed + green	010	Penn	1	45742	54157	0.84462
+Unpaywall	closed + green	010	PennText	1	45742	54157	0.84462
 Unpaywall	closed + green	001	Sci-Hub	1	48301	54157	0.89187
-Unpaywall	closed + green	110	oaDOI, Penn	2	46663	54157	0.86162
+Unpaywall	closed + green	110	oaDOI, PennText	2	46663	54157	0.86162
 Unpaywall	closed + green	101	oaDOI, Sci-Hub	2	49047	54157	0.90564
-Unpaywall	closed + green	011	Penn, Sci-Hub	2	51893	54157	0.9582
-Unpaywall	closed + green	111	oaDOI, Penn, Sci-Hub	3	52126	54157	0.9625
+Unpaywall	closed + green	011	PennText, Sci-Hub	2	51893	54157	0.9582
+Unpaywall	closed + green	111	oaDOI, PennText, Sci-Hub	3	52126	54157	0.9625
 Unpaywall	gold	100	oaDOI	1	12025	12025	1
-Unpaywall	gold	010	Penn	1	11642	12025	0.96815
+Unpaywall	gold	010	PennText	1	11642	12025	0.96815
 Unpaywall	gold	001	Sci-Hub	1	5749	12025	0.47809
-Unpaywall	gold	110	oaDOI, Penn	2	12025	12025	1
+Unpaywall	gold	110	oaDOI, PennText	2	12025	12025	1
 Unpaywall	gold	101	oaDOI, Sci-Hub	2	12025	12025	1
-Unpaywall	gold	011	Penn, Sci-Hub	2	11954	12025	0.9941
-Unpaywall	gold	111	oaDOI, Penn, Sci-Hub	3	12025	12025	1
+Unpaywall	gold	011	PennText, Sci-Hub	2	11954	12025	0.9941
+Unpaywall	gold	111	oaDOI, PennText, Sci-Hub	3	12025	12025	1
 Unpaywall	green	100	oaDOI	1	9436	9436	1
-Unpaywall	green	010	Penn	1	8515	9436	0.9024
+Unpaywall	green	010	PennText	1	8515	9436	0.9024
 Unpaywall	green	001	Sci-Hub	1	8690	9436	0.92094
-Unpaywall	green	110	oaDOI, Penn	2	9436	9436	1
+Unpaywall	green	110	oaDOI, PennText	2	9436	9436	1
 Unpaywall	green	101	oaDOI, Sci-Hub	2	9436	9436	1
-Unpaywall	green	011	Penn, Sci-Hub	2	9203	9436	0.97531
-Unpaywall	green	111	oaDOI, Penn, Sci-Hub	3	9436	9436	1
+Unpaywall	green	011	PennText, Sci-Hub	2	9203	9436	0.97531
+Unpaywall	green	111	oaDOI, PennText, Sci-Hub	3	9436	9436	1
 Unpaywall	hybrid	100	oaDOI	1	6728	6728	1
-Unpaywall	hybrid	010	Penn	1	5858	6728	0.87069
+Unpaywall	hybrid	010	PennText	1	5858	6728	0.87069
 Unpaywall	hybrid	001	Sci-Hub	1	4868	6728	0.72354
-Unpaywall	hybrid	110	oaDOI, Penn	2	6728	6728	1
+Unpaywall	hybrid	110	oaDOI, PennText	2	6728	6728	1
 Unpaywall	hybrid	101	oaDOI, Sci-Hub	2	6728	6728	1
-Unpaywall	hybrid	011	Penn, Sci-Hub	2	6290	6728	0.9349
-Unpaywall	hybrid	111	oaDOI, Penn, Sci-Hub	3	6728	6728	1
+Unpaywall	hybrid	011	PennText, Sci-Hub	2	6290	6728	0.9349
+Unpaywall	hybrid	111	oaDOI, PennText, Sci-Hub	3	6728	6728	1
 Web of Science	all	100	oaDOI	1	37295	103491	0.36037
-Web of Science	all	010	Penn	1	95057	103491	0.9185
+Web of Science	all	010	PennText	1	95057	103491	0.9185
 Web of Science	all	001	Sci-Hub	1	96142	103491	0.92899
-Web of Science	all	110	oaDOI, Penn	2	98358	103491	0.9504
+Web of Science	all	110	oaDOI, PennText	2	98358	103491	0.9504
 Web of Science	all	101	oaDOI, Sci-Hub	2	102014	103491	0.98573
-Web of Science	all	011	Penn, Sci-Hub	2	101966	103491	0.98526
-Web of Science	all	111	oaDOI, Penn, Sci-Hub	3	102733	103491	0.99268
+Web of Science	all	011	PennText, Sci-Hub	2	101966	103491	0.98526
+Web of Science	all	111	oaDOI, PennText, Sci-Hub	3	102733	103491	0.99268
 Web of Science	bronze	100	oaDOI	1	13395	13395	1
-Web of Science	bronze	010	Penn	1	11389	13395	0.85024
+Web of Science	bronze	010	PennText	1	11389	13395	0.85024
 Web of Science	bronze	001	Sci-Hub	1	11842	13395	0.88406
-Web of Science	bronze	110	oaDOI, Penn	2	13395	13395	1
+Web of Science	bronze	110	oaDOI, PennText	2	13395	13395	1
 Web of Science	bronze	101	oaDOI, Sci-Hub	2	13395	13395	1
-Web of Science	bronze	011	Penn, Sci-Hub	2	12796	13395	0.95528
-Web of Science	bronze	111	oaDOI, Penn, Sci-Hub	3	13395	13395	1
+Web of Science	bronze	011	PennText, Sci-Hub	2	12796	13395	0.95528
+Web of Science	bronze	111	oaDOI, PennText, Sci-Hub	3	13395	13395	1
 Web of Science	closed	100	oaDOI	1	0	66196	0
-Web of Science	closed	010	Penn	1	61063	66196	0.92246
+Web of Science	closed	010	PennText	1	61063	66196	0.92246
 Web of Science	closed	001	Sci-Hub	1	64719	66196	0.97769
-Web of Science	closed	110	oaDOI, Penn	2	61063	66196	0.92246
+Web of Science	closed	110	oaDOI, PennText	2	61063	66196	0.92246
 Web of Science	closed	101	oaDOI, Sci-Hub	2	64719	66196	0.97769
-Web of Science	closed	011	Penn, Sci-Hub	2	65438	66196	0.98855
-Web of Science	closed	111	oaDOI, Penn, Sci-Hub	3	65438	66196	0.98855
+Web of Science	closed	011	PennText, Sci-Hub	2	65438	66196	0.98855
+Web of Science	closed	111	oaDOI, PennText, Sci-Hub	3	65438	66196	0.98855
 Web of Science	closed + green	100	oaDOI	1	11842	78038	0.15175
-Web of Science	closed + green	010	Penn	1	72167	78038	0.92477
+Web of Science	closed + green	010	PennText	1	72167	78038	0.92477
 Web of Science	closed + green	001	Sci-Hub	1	76203	78038	0.97649
-Web of Science	closed + green	110	oaDOI, Penn	2	72905	78038	0.93422
+Web of Science	closed + green	110	oaDOI, PennText	2	72905	78038	0.93422
 Web of Science	closed + green	101	oaDOI, Sci-Hub	2	76561	78038	0.98107
-Web of Science	closed + green	011	Penn, Sci-Hub	2	77208	78038	0.98936
-Web of Science	closed + green	111	oaDOI, Penn, Sci-Hub	3	77280	78038	0.99029
+Web of Science	closed + green	011	PennText, Sci-Hub	2	77208	78038	0.98936
+Web of Science	closed + green	111	oaDOI, PennText, Sci-Hub	3	77280	78038	0.99029
 Web of Science	gold	100	oaDOI	1	7632	7632	1
-Web of Science	gold	010	Penn	1	7422	7632	0.97248
+Web of Science	gold	010	PennText	1	7422	7632	0.97248
 Web of Science	gold	001	Sci-Hub	1	4285	7632	0.56145
-Web of Science	gold	110	oaDOI, Penn	2	7632	7632	1
+Web of Science	gold	110	oaDOI, PennText	2	7632	7632	1
 Web of Science	gold	101	oaDOI, Sci-Hub	2	7632	7632	1
-Web of Science	gold	011	Penn, Sci-Hub	2	7601	7632	0.99594
-Web of Science	gold	111	oaDOI, Penn, Sci-Hub	3	7632	7632	1
+Web of Science	gold	011	PennText, Sci-Hub	2	7601	7632	0.99594
+Web of Science	gold	111	oaDOI, PennText, Sci-Hub	3	7632	7632	1
 Web of Science	green	100	oaDOI	1	11842	11842	1
-Web of Science	green	010	Penn	1	11104	11842	0.93768
+Web of Science	green	010	PennText	1	11104	11842	0.93768
 Web of Science	green	001	Sci-Hub	1	11484	11842	0.96977
-Web of Science	green	110	oaDOI, Penn	2	11842	11842	1
+Web of Science	green	110	oaDOI, PennText	2	11842	11842	1
 Web of Science	green	101	oaDOI, Sci-Hub	2	11842	11842	1
-Web of Science	green	011	Penn, Sci-Hub	2	11770	11842	0.99392
-Web of Science	green	111	oaDOI, Penn, Sci-Hub	3	11842	11842	1
+Web of Science	green	011	PennText, Sci-Hub	2	11770	11842	0.99392
+Web of Science	green	111	oaDOI, PennText, Sci-Hub	3	11842	11842	1
 Web of Science	hybrid	100	oaDOI	1	4426	4426	1
-Web of Science	hybrid	010	Penn	1	4079	4426	0.9216
+Web of Science	hybrid	010	PennText	1	4079	4426	0.9216
 Web of Science	hybrid	001	Sci-Hub	1	3812	4426	0.86127
-Web of Science	hybrid	110	oaDOI, Penn	2	4426	4426	1
+Web of Science	hybrid	110	oaDOI, PennText	2	4426	4426	1
 Web of Science	hybrid	101	oaDOI, Sci-Hub	2	4426	4426	1
-Web of Science	hybrid	011	Penn, Sci-Hub	2	4361	4426	0.98531
-Web of Science	hybrid	111	oaDOI, Penn, Sci-Hub	3	4426	4426	1
+Web of Science	hybrid	011	PennText, Sci-Hub	2	4361	4426	0.98531
+Web of Science	hybrid	111	oaDOI, PennText, Sci-Hub	3	4426	4426	1
