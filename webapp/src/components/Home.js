@@ -11,7 +11,7 @@ export default function Home({}) {
         Sci-Hub is a pirate website that provides access to full texts from the scholarly literature,
         including paywalled articles. This webapp provides coverage and usage statistics for Sci-Hub.
         The authors are not affiliated with Sci-Hub, and all reported statistics are calculated from
-        publicly available data. This webapp is a companion to the study, <a href="https://peerj.com/preprints/3100/" target="_blank">"Sci-Hub provides access to
+        publicly available data. This webapp is a companion to the study, <a href="https://doi.org/10.7554/eLife.32822" target="_blank">"Sci-Hub provides access to
         nearly all scholarly literature"</a>.
       </p>
     </div>
