@@ -4,9 +4,9 @@ This project investigates the coverage of scholarly literature in the Sci-Hub an
 It's based on using DOIs to uniquely identify articles.
 For more information, see the corresponding study:
 
-> Himmelstein DS, Romero AR, McLaughlin SR, Greshake Tzovaras B, Greene CS. (2017) [**Sci-Hub provides access to nearly all scholarly literature**](https://doi.org/b9s5). _PeerJ Preprints_ DOI: 10.7287/peerj.preprints.3100
+> Himmelstein DS, Romero AR, Levernier JG, Munro TA, McLaughlin SR, Greshake Tzovaras B, Greene CS. (2018) [**Sci-Hub provides access to nearly all scholarly literature**](https://doi.org/ckcj). _eLife_ DOI: 10.7554/eLife.32822
 
-The manuscript for this study is continuously built at [`greenelab/scihub-manuscript`](https://github.com/greenelab/scihub-manuscript) with the latest version available at https://greenelab.github.io/scihub-manuscript/..
+The manuscript for this study is continuously built at [`greenelab/scihub-manuscript`](https://github.com/greenelab/scihub-manuscript) with the latest version available at https://greenelab.github.io/scihub-manuscript/.
 
 ## Repository structure
 
