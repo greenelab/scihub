@@ -1,23 +1,18 @@
-
-.container {
-  background-color: #fff;
-  padding: 20px 20px 50px 20px;
-  border-radius: 4px;
-  border: 1px solid #e7e7e7;
-}
-
 .loading {
   text-align: center;
   margin-top: 20px;
 }
 
-
-
 .app {
   margin-bottom: 50px;
+
+  &__container {
+    background-color: #fff;
+    padding: 20px 20px 50px 20px;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+  }
 }
-
-
 
 .github {
   width: 28px;
@@ -25,48 +20,49 @@
   margin-bottom: -4px;
 }
 
-
-
-:global {
-  html {
-
+body {
+  &:before {
+    content: ' ';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
   }
-
-  body {
-
-    &:before {
-      content: ' ';
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-image: url('./img/background.jpg');
-      background-size: cover;
-      opacity: 0.7;
-      z-index: -1;
-    }
-  }
-
-  .section-title {
-    margin-top: 0;
-  }
-
-  .section-description {
-    margin-bottom: 30px;
-    max-width: 700px;
-  }
-
-  .open-access-logo {
-    height: 16px;
-  }
-
-  .no-data {
-    margin-top: 30px;
-    margin-bottom: 40px;
-    opacity: 0.8;
-    text-align: center;
-  }
-
 }
 
+.section-title {
+  margin-top: 0;
+}
+
+.section-description {
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.open-access-logo {
+  height: 16px;
+}
+
+.no-data {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #33e0ff;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  position: relative;
+  padding-left: 20px;
+}

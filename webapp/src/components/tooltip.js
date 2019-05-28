@@ -1,12 +1,14 @@
-
 import React from 'react';
-import Tooltip from "react-bootstrap/es/Tooltip";
-import OverlayTrigger from "react-bootstrap/es/OverlayTrigger";
+import Tooltip from 'react-bootstrap/Tooltip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
-
-let tooltip = ({children, title}) =>
-  <OverlayTrigger placement="top" overlay={<Tooltip id="tooltip">{title}</Tooltip>}>
+let tooltip = ({ children, title }) => (
+  <OverlayTrigger
+    placement="top"
+    overlay={<Tooltip id="tooltip">{title}</Tooltip>}
+  >
     {children}
-  </OverlayTrigger>;
+  </OverlayTrigger>
+);
 
 export default tooltip;

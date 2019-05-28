@@ -1,11 +1,13 @@
 // borrowed from https://github.com/kristw/react-vega/blob/master/src/Vega.jsx
 
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import * as vega from 'vega';
 
-import {vega as vegaTooltip} from 'vega-tooltip';
+import vegaTooltip from 'vega-tooltip';
 
-import 'vega-tooltip/build/vega-tooltip.css';
+// TODO: check these styles
+// import 'vega-tooltip/build/vega-tooltip.css';
 
 export default class Vega extends React.Component {
   static propTypes = {
@@ -18,7 +20,7 @@ export default class Vega extends React.Component {
     viewport: PropTypes.array,
     renderer: PropTypes.string,
     data: PropTypes.object,
-    updateOptions: PropTypes.object,
+    updateOptions: PropTypes.object
   };
 
   componentDidMount() {
@@ -39,7 +41,7 @@ export default class Vega extends React.Component {
   createVis(spec) {
     if (spec) {
       const props = this.props;
-      let vis = this.vis = new vega.View(vega.parse(spec));
+      let vis = (this.vis = new vega.View(vega.parse(spec)));
 
       if (props.renderer) {
         vis.renderer(props.renderer);
@@ -76,10 +78,13 @@ export default class Vega extends React.Component {
   render() {
     return (
       // Create the container Vega draws inside
-      <div ref={c => { this.element = c; }} className={this.props.className}
-           style={this.props.style} />
+      <div
+        ref={c => {
+          this.element = c;
+        }}
+        className={this.props.className}
+        style={this.props.style}
+      />
     );
   }
-
 }
-
