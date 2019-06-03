@@ -1,7 +1,8 @@
 {
-  "name": "webapp1",
+  "name": "webapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://greenelab.github.io/scihub/",
   "dependencies": {
     "bootstrap-sass": "https://github.com/arielsvn/bootstrap-sass.git",
     "d3": "^5.9.2",
