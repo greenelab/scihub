@@ -26,8 +26,7 @@ $text-color: #333;
 $font-family-sans-serif: 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
 
 // Import Bootstrap and its default variables
-// reference bootstrap https://facebook.github.io/create-react-app/docs/adding-bootstrap#using-a-custom-theme
-@import '~bootstrap/scss/bootstrap.scss';
+@import './custom-bootstrap.scss';
 
 .navbar-brand {
   position: relative;
