@@ -1,6 +1,6 @@
 import React from 'react';
-import Tooltip from 'react-bootstrap/Tooltip';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/es/Tooltip';
+import OverlayTrigger from 'react-bootstrap/es/OverlayTrigger';
 
 let tooltip = ({ children, title }) => (
   <OverlayTrigger
