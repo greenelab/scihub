@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c38c079e.chunk.css",
+    "main.js": "/static/js/main.0298abf9.chunk.js",
+    "main.js.map": "/static/js/main.0298abf9.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.6fac0a81.chunk.js": "/static/js/2.6fac0a81.chunk.js",
+    "static/js/2.6fac0a81.chunk.js.map": "/static/js/2.6fac0a81.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.78996738edb36338b0a9cdfba8659cc7.js": "/precache-manifest.78996738edb36338b0a9cdfba8659cc7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c38c079e.chunk.css.map": "/static/css/main.c38c079e.chunk.css.map",
+    "static/media/main.scss": "/static/media/AvenirLTW01-55Roman.136f310a.woff2",
+    "static/media/root.scss": "/static/media/background.b44c8912.jpg",
+    "static/media/github.svg": "/static/media/github.0255bf2c.svg"
+  }
+}
