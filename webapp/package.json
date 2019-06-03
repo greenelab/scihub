@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://greenelab.github.io/scihub/",
   "dependencies": {
-    "bootstrap-sass": "https://github.com/arielsvn/bootstrap-sass.git",
+    "bootstrap-sass": "^3.4.1",
     "d3": "^5.9.2",
     "d3-fetch": "^1.1.2",
     "griddle-react": "^1.13.1",
