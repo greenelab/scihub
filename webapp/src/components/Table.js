@@ -3,7 +3,7 @@ import Griddle, { plugins, RowDefinition } from 'griddle-react';
 import { format, isString } from '../utils/helpers';
 import Loading from './Loading';
 
-import styles from './table.scss';
+import styles from './table.module.scss';
 import Tooltip from './tooltip';
 
 export const NumberCell = ({ value, decimals = 0 }) => (

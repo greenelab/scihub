@@ -12,7 +12,7 @@ import {FetchDataTable, TooltipHeading} from "./Table";
 import {format, slugify} from "../utils/helpers";
 import Tooltip from './tooltip';
 
-import tableStyles from './table.scss';
+import tableStyles from './table.module.scss';
 
 export default class PublishersTable extends FetchDataTable {
   render () {

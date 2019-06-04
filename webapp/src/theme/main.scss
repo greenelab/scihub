@@ -25,8 +25,9 @@ $text-color: #333;
 // $font-size-base: 14px;
 $font-family-sans-serif: 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
 
-// Import Bootstrap and its default variables
-@import './custom-bootstrap.scss';
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
 .navbar-brand {
   position: relative;

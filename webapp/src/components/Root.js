@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './root.scss';
 
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -10,6 +9,8 @@ import Navbar from './Navbar';
 import JournalTable from './JournalTable';
 import PublishersTable from './PublisherTable';
 import Home from './Home';
+
+import './root.scss';
 
 export default class Root extends React.Component {
   render() {

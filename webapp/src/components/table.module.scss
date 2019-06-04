@@ -14,27 +14,26 @@
   color: #333;
   text-decoration: none;
   white-space: nowrap;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     color: #333;
     text-decoration: none;
   }
 }
 
-
 .headerCaret {
   margin-left: 8px;
 }
-
 
 .headerIcon {
   color: darkgrey;
   margin-left: 10px;
 }
 
-
 .percent {
   white-space: nowrap;
-  >sup {
+  > sup {
     margin-left: 1px;
     margin-right: 1px;
   }
