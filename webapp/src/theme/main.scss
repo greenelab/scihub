@@ -1,0 +1,42 @@
+/**
+ *  Define scss variables here.
+ *
+ *  Available options for Bootstrap:
+ *  http://getbootstrap.com/customize/
+ *
+ */
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./AvenirLTW01-55Roman.woff2');
+}
+
+// Bootstrap Variables
+$brand-primary: #993333;
+$brand-secondary: #336600;
+
+$brand-success: #5cb85c;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$brand-info: #5bc0de;
+
+$text-color: #333;
+
+// $font-size-base: 14px;
+$font-family-sans-serif: 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
+
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+.navbar-brand {
+  position: relative;
+  padding-left: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #33e0ff;
+  background-color: transparent;
+}
