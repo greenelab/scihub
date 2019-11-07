@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/scihub/static/css/main.6e57d0fc.chunk.css",
-    "main.js": "/scihub/static/js/main.3c591535.chunk.js",
-    "main.js.map": "/scihub/static/js/main.3c591535.chunk.js.map",
-    "runtime~main.js": "/scihub/static/js/runtime~main.3ee2660f.js",
-    "runtime~main.js.map": "/scihub/static/js/runtime~main.3ee2660f.js.map",
-    "static/js/2.c54eb224.chunk.js": "/scihub/static/js/2.c54eb224.chunk.js",
-    "static/js/2.c54eb224.chunk.js.map": "/scihub/static/js/2.c54eb224.chunk.js.map",
+    "main.css": "/scihub/static/css/main.13de2a3a.chunk.css",
+    "main.js": "/scihub/static/js/main.bd721d7c.chunk.js",
+    "main.js.map": "/scihub/static/js/main.bd721d7c.chunk.js.map",
+    "runtime-main.js": "/scihub/static/js/runtime-main.7c4a918b.js",
+    "runtime-main.js.map": "/scihub/static/js/runtime-main.7c4a918b.js.map",
+    "static/js/2.8e7a1fed.chunk.js": "/scihub/static/js/2.8e7a1fed.chunk.js",
+    "static/js/2.8e7a1fed.chunk.js.map": "/scihub/static/js/2.8e7a1fed.chunk.js.map",
     "index.html": "/scihub/index.html",
-    "precache-manifest.7630f845f93e5a08a6a46762f106fd3f.js": "/scihub/precache-manifest.7630f845f93e5a08a6a46762f106fd3f.js",
+    "precache-manifest.7e97f00d6c2fd27b2eca668b836ab735.js": "/scihub/precache-manifest.7e97f00d6c2fd27b2eca668b836ab735.js",
     "service-worker.js": "/scihub/service-worker.js",
-    "static/css/main.6e57d0fc.chunk.css.map": "/scihub/static/css/main.6e57d0fc.chunk.css.map",
+    "static/css/main.13de2a3a.chunk.css.map": "/scihub/static/css/main.13de2a3a.chunk.css.map",
     "static/media/main.scss": "/scihub/static/media/glyphicons-halflings-regular.fa277232.woff",
     "static/media/root.scss": "/scihub/static/media/background.b44c8912.jpg",
     "static/media/github.svg": "/scihub/static/media/github.0255bf2c.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c4a918b.js",
+    "static/js/2.8e7a1fed.chunk.js",
+    "static/css/main.13de2a3a.chunk.css",
+    "static/js/main.bd721d7c.chunk.js"
+  ]
 }
