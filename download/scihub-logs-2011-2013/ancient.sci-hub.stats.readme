@@ -1,0 +1,61 @@
+
+
+
+	*************************************
+	*                                   *
+	*      ANCIENT SCI-HUB STATISTICS   *
+	*                                   *
+	*      years                        *
+	*      2011                         *
+	*      2012                         *
+	*      2013                         *
+	*                                   *
+	*      by Alexandra Elbakyan        *
+	*         ringo-ring                *
+	*                                   *
+	*************************************
+
+
+
+    The included file ancient.sci-hub.stats.tab contains raw unprocessed PDF download
+  log from Sci-Hub starting from 22 September 2011 and ending on 14 October 2013.
+  Statistics from 14 October to 18 Jan 2014 were not recorded for technical reasons.
+  Statistics before 22 September were not collected.
+
+    Each PDF download is recorded on separate line in following format:
+    Time-and-Date	DOI	URL	IP-address	User-ID	Country
+
+    Columns are tab-delimited. I do not remember the time zone, and it changes multiple
+  times in this log because the server location was changing. You can assume GMT+3 or
+  close to it. The first three parts of the IP address are unmasked; since these are
+  stats that were collected several years ago, there is no way it can harm the user,
+  but it can be interesting for research purposes.
+
+    The top countries by this log are:
+
+    Country	number of requests
+
+    Russia	1491679
+    Ukraine	447660
+    Iran	433392
+    India	229771
+    Brazil	218905
+    Argentina	122766
+    Belarus	103360
+    Portugal	94395
+    Germany	83887
+    China	82634
+    Egypt	73389
+    Algeria	72117
+    France	69975
+    Spain	67889
+    Peru	65127
+
+    Sci-Hub was not yet well-known in China.
+    Access from US was blocked to keep Sci-Hub in secret.
+
+
+    27 January 2020
+    ringo-ring
+
+
