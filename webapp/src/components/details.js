@@ -136,7 +136,7 @@ export class TopArticlesTable extends FetchDataTable {
 }
 
 export let JournalTitleCell = ({ value, rowData }) => (
-  <form method="post" action="https://dx.doi.org" target="_blank">
+  <form method="post" action="https://doi.org" target="_blank">
     <button
       type="submit"
       name="hdl"
