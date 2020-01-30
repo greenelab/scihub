@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/scihub/static/css/main.13de2a3a.chunk.css",
-    "main.js": "/scihub/static/js/main.bd721d7c.chunk.js",
-    "main.js.map": "/scihub/static/js/main.bd721d7c.chunk.js.map",
-    "runtime-main.js": "/scihub/static/js/runtime-main.7c4a918b.js",
-    "runtime-main.js.map": "/scihub/static/js/runtime-main.7c4a918b.js.map",
-    "static/js/2.8e7a1fed.chunk.js": "/scihub/static/js/2.8e7a1fed.chunk.js",
-    "static/js/2.8e7a1fed.chunk.js.map": "/scihub/static/js/2.8e7a1fed.chunk.js.map",
+    "main.js": "/scihub/static/js/main.d2496d05.chunk.js",
+    "main.js.map": "/scihub/static/js/main.d2496d05.chunk.js.map",
+    "runtime-main.js": "/scihub/static/js/runtime-main.cb740884.js",
+    "runtime-main.js.map": "/scihub/static/js/runtime-main.cb740884.js.map",
+    "static/js/2.6416563c.chunk.js": "/scihub/static/js/2.6416563c.chunk.js",
+    "static/js/2.6416563c.chunk.js.map": "/scihub/static/js/2.6416563c.chunk.js.map",
     "index.html": "/scihub/index.html",
-    "precache-manifest.7e97f00d6c2fd27b2eca668b836ab735.js": "/scihub/precache-manifest.7e97f00d6c2fd27b2eca668b836ab735.js",
+    "precache-manifest.0ea16e8b6c6c4cffc61c3fa87e3c6b77.js": "/scihub/precache-manifest.0ea16e8b6c6c4cffc61c3fa87e3c6b77.js",
     "service-worker.js": "/scihub/service-worker.js",
     "static/css/main.13de2a3a.chunk.css.map": "/scihub/static/css/main.13de2a3a.chunk.css.map",
     "static/media/main.scss": "/scihub/static/media/glyphicons-halflings-regular.fa277232.woff",
@@ -16,9 +16,9 @@
     "static/media/github.svg": "/scihub/static/media/github.0255bf2c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c4a918b.js",
-    "static/js/2.8e7a1fed.chunk.js",
+    "static/js/runtime-main.cb740884.js",
+    "static/js/2.6416563c.chunk.js",
     "static/css/main.13de2a3a.chunk.css",
-    "static/js/main.bd721d7c.chunk.js"
+    "static/js/main.d2496d05.chunk.js"
   ]
 }
